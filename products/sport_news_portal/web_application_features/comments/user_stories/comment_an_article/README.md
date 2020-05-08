@@ -81,7 +81,7 @@
 1. Verify that comment about the article is submitted
 2. Verify comment Edit button
 3. Verify comment Delete button
-4. Verify ‘Edited’ label on the comment
+4. Verify “Edited” label on the comment
 
 <details>
   <summary>Click here to see test scenarios details</summary>
@@ -124,7 +124,7 @@
 |8|Click on Delete button|Confirmation popup "Are you really want to delete this comment?"
 |9|Confirm deleting|The comment is deleted 
 
-### **#4. Verify ‘Edited’ label on the comment**
+### **#4. Verify “Edited” label on the comment**
 
 |#|Steps|Expected Result
 ------|-------|----------
@@ -136,7 +136,7 @@
 |6|Click on Submit button|The comment is posted immediately to the site and submitted for admin
 |7|Observe Edit button|The Edit buttons is placed at the right bottom corner of the comment
 |8|Click on Edit button|Comment is moved to the submission form with ability to change the message and post a comment
-|9|Observe ‘Edited’ label on the comment that was edited|Changed comment has the "Edited" label
+|9|Observe “Edited” label on the comment that was edited|Changed comment has the "Edited" label
 
 </details>
 
