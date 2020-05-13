@@ -9,7 +9,8 @@
 
 When users visit our site they should see the main page by default. The main page is called Home in the navigation menu. This page should contain the most recent news and topics and consist of a few page blocks:<br>
     - Main news - Admin will have the ability to add at least 1 and up to 5 articles to the section. These articles will be rotating on the view page every 3 seconds. This section need to be always present and user can not hide it from the page<br>
-    - Breakdown - Admin can decide if to show this section or hide on the page. Breakdown have to consist of blocks with 2-4 articles. Admin user can add<br>
+    - Breakdown - Admin can decide if to show this section or hide on the page. Breakdown have to consist of blocks with 2-4 articles.<br>
+	Admin user can add:<br>
     - Photo of the day<br>
     - Most popular<br>
 	- Most commentable<br>
