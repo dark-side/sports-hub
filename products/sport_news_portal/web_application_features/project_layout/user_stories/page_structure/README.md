@@ -1,4 +1,4 @@
-### Back to [Page Layout on the portal](/../../) feature
+### Back to [Page Layout on the portal](../../) feature
 
 # Page Structure
 

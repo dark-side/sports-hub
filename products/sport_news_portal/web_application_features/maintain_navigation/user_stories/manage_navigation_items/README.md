@@ -1,4 +1,4 @@
-### Back to [Maintain Navigation on the portal](/../../) feature
+### Back to [Maintain Navigation on the portal](../../) feature
 
 # Allow admin users to manage navigation items on the portal
 

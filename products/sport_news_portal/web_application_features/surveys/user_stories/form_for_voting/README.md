@@ -1,4 +1,4 @@
-### Back to [Surveys on the portal](/../../) feature
+### Back to [Surveys on the portal](../../) feature
 
 # Allow users to see form for voting
 

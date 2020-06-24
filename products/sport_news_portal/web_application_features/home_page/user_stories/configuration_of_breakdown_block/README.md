@@ -1,4 +1,4 @@
-### Back to [Home page of the portal](/../../) feature
+### Back to [Home page of the portal](../../) feature
 
 # Allow admin user to configure Breakdown block
 

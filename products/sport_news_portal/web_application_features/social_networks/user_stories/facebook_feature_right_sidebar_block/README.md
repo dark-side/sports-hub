@@ -1,4 +1,4 @@
-### Back to [Social Networks on the portal](/../../) feature
+### Back to [Social Networks on the portal](../../) feature
 
 # Allow users to view and like the Facebook Feature story on the portal
 

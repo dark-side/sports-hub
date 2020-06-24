@@ -1,4 +1,4 @@
-### Back to [User Management on the portal](/../../) feature
+### Back to [User Management on the portal](../../) feature
 
 # Allow admin user to search users on the portal
 

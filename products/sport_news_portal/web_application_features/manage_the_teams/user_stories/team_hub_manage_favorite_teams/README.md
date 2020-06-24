@@ -1,4 +1,4 @@
-### Back to [Manage teams on the portal](/../../) feature
+### Back to [Manage teams on the portal](../../) feature
 
 # Allow users to manage favorite teams in the personal cabinet
 

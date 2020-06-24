@@ -1,4 +1,4 @@
-### Back to [League and Team Page of the portal](/../../) feature
+### Back to [League and Team Page of the portal](../../) feature
 
 # Allow users to view League/Team Page of the portal
 

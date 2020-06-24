@@ -1,4 +1,4 @@
-### Back to [Global site search on the portal](/../../) feature
+### Back to [Global site search on the portal](../../) feature
 
 # Allow users to use a site search on the portal
 

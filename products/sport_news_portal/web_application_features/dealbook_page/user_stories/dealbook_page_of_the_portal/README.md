@@ -1,4 +1,4 @@
-### Back to [Dealbook Page of the portal](/../../) feature
+### Back to [Dealbook Page of the portal](../../) feature
 
 # Allow users to view a dealbook page on the portal
 

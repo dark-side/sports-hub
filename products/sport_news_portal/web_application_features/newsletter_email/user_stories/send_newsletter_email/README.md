@@ -1,4 +1,4 @@
-### Back to [Newsletter Email](/../../) feature
+### Back to [Newsletter Email](../../) feature
 
 # Allow users to receive newsletter email
 

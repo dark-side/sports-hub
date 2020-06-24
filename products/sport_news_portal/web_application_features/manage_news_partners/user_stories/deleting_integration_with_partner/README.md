@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](/../../) feature
+### Back to [Manage News Partners on the portal](../../) feature
 
 # Allow admin users to delete the integration with the partner on the portal
 

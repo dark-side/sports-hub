@@ -1,4 +1,4 @@
-### Back to [Surveys on the portal](/../../) feature
+### Back to [Surveys on the portal](../../) feature
 
 # Allow admin to edit a created survey
 

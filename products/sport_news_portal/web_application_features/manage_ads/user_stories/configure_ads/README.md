@@ -1,4 +1,4 @@
-### Back to [Manage Advertisements on the portal](/../../) feature
+### Back to [Manage Advertisements on the portal](../../) feature
 
 # Allow admin user to configure Advertisements
 

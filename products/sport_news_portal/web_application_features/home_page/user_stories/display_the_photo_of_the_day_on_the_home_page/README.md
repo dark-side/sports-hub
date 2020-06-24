@@ -1,4 +1,4 @@
-### Back to [Home page of the portal](/../../) feature
+### Back to [Home page of the portal](../../) feature
 
 # Display the Photo of the Day on the Home page
 

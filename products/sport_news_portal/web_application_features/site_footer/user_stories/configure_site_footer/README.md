@@ -1,4 +1,4 @@
-### Back to [Site Footer of the portal](/../../) feature
+### Back to [Site Footer of the portal](../../) feature
 
 # Allow admin users to configure site footer
 

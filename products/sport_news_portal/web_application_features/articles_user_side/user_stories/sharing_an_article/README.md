@@ -1,4 +1,4 @@
-### Back to [Articles User Side on the portal](/../../) feature
+### Back to [Articles User Side on the portal](../../) feature
 
 # Allow users to share an article from the portal
 

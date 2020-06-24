@@ -1,4 +1,4 @@
-### Back to [Manage teams on the portal](/../../) feature
+### Back to [Manage teams on the portal](../../) feature
 
 # Allow admin users to edit the existing Team/Player
 

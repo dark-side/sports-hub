@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](/../../) feature
+### Back to [Log In and Sign Up to the portal](../../) feature
 
 # Allow users to sign up to the portal using an email
 

@@ -1,4 +1,4 @@
-### Back to [Comments block on the portal](/../../) feature
+### Back to [Comments block on the portal](../../) feature
 
 # Allow users to interacting with existing article comments on the portal
 

@@ -1,4 +1,4 @@
-### Back to [Video Page of the portal](/../../) feature
+### Back to [Video Page of the portal](../../) feature
 
 # Allow users to see ATS Video in the sidebar block
 

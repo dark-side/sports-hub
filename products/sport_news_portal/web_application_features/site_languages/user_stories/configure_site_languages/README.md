@@ -1,4 +1,4 @@
-### Back to [Site Languages on the portal](/../../) feature
+### Back to [Site Languages on the portal](../../) feature
 
 # Allow admin user to configure site languages on the portal
 

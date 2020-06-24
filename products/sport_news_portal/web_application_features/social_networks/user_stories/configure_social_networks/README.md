@@ -1,4 +1,4 @@
-### Back to [Social Networks on the portal](/../../) feature
+### Back to [Social Networks on the portal](../../) feature
 
 # Allow admin user to configure social networks on the portal
 

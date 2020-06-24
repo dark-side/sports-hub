@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](/../../) feature
+### Back to [Manage News Partners on the portal](../../) feature
 
 # Allow admin users to view an existing partner's configurations on the portal
 

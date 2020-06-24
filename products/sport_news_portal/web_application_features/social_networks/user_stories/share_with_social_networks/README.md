@@ -1,4 +1,4 @@
-### Back to [Social Networks on the portal](/../../) feature
+### Back to [Social Networks on the portal](../../) feature
 
 # Allow users to share portal news with social networks
 

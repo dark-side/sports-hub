@@ -1,4 +1,4 @@
-### Back to [Maintain Navigation on the portal](/../../) feature
+### Back to [Maintain Navigation on the portal](../../) feature
 
 # Allow users to navigate to the sport subcategory page on the portal
 

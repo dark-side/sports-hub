@@ -1,4 +1,4 @@
-### Back to [Most Popular/Commentable articles on the portal](/../../) feature
+### Back to [Most Popular/Commentable articles on the portal](../../) feature
 
 # Allow admin users to view most commentable articles
 

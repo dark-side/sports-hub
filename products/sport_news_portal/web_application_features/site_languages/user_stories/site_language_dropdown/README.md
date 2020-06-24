@@ -1,4 +1,4 @@
-### Back to [Site Languages on the portal](/../../) feature
+### Back to [Site Languages on the portal](../../) feature
 
 # Allow users to change a site language on the portal
 

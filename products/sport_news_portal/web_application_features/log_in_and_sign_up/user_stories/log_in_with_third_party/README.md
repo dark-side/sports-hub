@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](/../../) feature
+### Back to [Log In and Sign Up to the portal](../../) feature
 
 # Allow users to log in to the portal using a third-party authentication provider
 

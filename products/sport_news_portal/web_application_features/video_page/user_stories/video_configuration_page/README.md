@@ -1,4 +1,4 @@
-### Back to [Video Page of the portal](/../../) feature
+### Back to [Video Page of the portal](../../) feature
 
 # Allow admin users to configure Video page
 

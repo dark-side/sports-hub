@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](/../../) feature
+### Back to [Manage News Partners on the portal](../../) feature
 
 # Allow admin user to configure a new partner on the portal
 

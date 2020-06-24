@@ -1,4 +1,4 @@
-### Back to [Manage Pages on the portal](/../../) feature
+### Back to [Manage Pages on the portal](../../) feature
 
 # Allow admin user to add a new menu item for a portal
 

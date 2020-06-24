@@ -1,4 +1,4 @@
-### Back to [Banners on the portal](/../../) feature
+### Back to [Banners on the portal](../../) feature
 
 # Allow users to view banner on the portal
 

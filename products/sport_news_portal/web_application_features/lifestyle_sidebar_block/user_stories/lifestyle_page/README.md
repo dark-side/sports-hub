@@ -1,4 +1,4 @@
-### Back to [Lifestyle – Sidebar Block](/../../) feature
+### Back to [Lifestyle – Sidebar Block](../../) feature
 
 # Allow users to view Lifestyle page on the portal
 

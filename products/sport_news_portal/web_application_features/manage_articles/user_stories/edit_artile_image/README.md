@@ -1,4 +1,4 @@
-### Back to [Manage Articles of the portal](/../../) feature
+### Back to [Manage Articles of the portal](../../) feature
 
 # Allow admin users to edit the image of the article
 
