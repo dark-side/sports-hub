@@ -32,23 +32,42 @@ Specific goals are:
 
 ## User Personas
 
-**Not authorised website user**
+**Not authorised website user (not logged in to the Sport News site)**
 
-User Type | Available actions
----------- | -----------
-Website user (not authorised, not logged in to the Sport News site) | Website user (not authorised, not logged in to the Sport News site):<br>- View sport news (note: the structure of the news pages and the content of the pages (articles) are defined in the CMS)<br>- Subscribe to receive sport news (note: there are few different subscription types - General news, League news, Team news)<br>- Share the news via the Social Media (when configured in the CMS)<br>-Login/Sign up to the Sport News site (including the Login/Sign up with the Social Networks if enabled in CMS)
+    Available actions
+      - View sport news (note: the structure of the news pages and the content of the pages (articles) are defined in the CMS)
+      - Subscribe to receive sport news (note: there are few different subscription types - General news, League news, Team news)
+      - Share the news via the Social Media (when configured in the CMS)
+      -Login/Sign up to the Sport News site (including the Login/Sign up with the Social Networks if enabled in CMS)
 
-**Authorised website user**
+**Authorised website user (logged in to the Sport News site)**
 
-User Type | Available actions
----------- | -----------
-Authorised website user (logged in to the Sport News site) | - Manage personal info<br>- Manage team subscriptions<br>- Manage surveys<br>- Answer the surveys<br>- Comment an article<br>- Actions available for not authorized user
+    Available actions:
+      - Manage personal info
+      - Manage team subscriptions
+      - Manage surveys
+      - Answer the surveys
+      - Comment an article
+      - Actions available for not authorized user
 
 **Website Admin**
 
-User Type | Available actions
----------- | -----------
-AWebsite Admin | Can configure the following parts of the site via the CMS:<br>- Site footer<br>- Site menu (including nested menu dropdowns)<br>- Site users<br>- Structure of the pages<br>- Articles<br>- Sport Categories (Leagues)<br>- Sport Conferences<br>- Teams<br>- Relations between Categories, Conferences, Teams<br>- Site Languages<br>- Social Networks support<br>- Surways<br>- Banners<br>- Advertises
+    Available actions:
+    Can configure the following parts of the site via the CMS:
+      - Site footer
+      - Site menu (including nested menu dropdowns)
+      - Site users
+      - Structure of the pages
+      - Articles
+      - Sport Categories (Leagues)
+      - Sport Conferences
+      - Teams
+      - Relations between Categories, Conferences, Teams
+      - Site Languages
+      - Social Networks support
+      - Surveys
+      - Banners
+      - Advertises
 
 ## Requirements
 
