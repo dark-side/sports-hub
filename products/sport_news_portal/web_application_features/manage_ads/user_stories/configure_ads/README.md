@@ -22,7 +22,7 @@
     Then I see the following:
       - Table with list of available advertisements that contains the following headers: ads name, status, actions
       - Section with an Advertisements label and the Add Ads button under the header section 
-    When I click on the Add Adds button
+    When I click on the Add Ads button
     Then I see the modal with an input for new ads name and a Cancel/Save buttons
     When I fill in new ads name and click save button
     Then I see new ads is added in the top of the Ads table, Ads preview block is displayed at the right side of the page with a date of Ads creation and a configuration form is opened with:
