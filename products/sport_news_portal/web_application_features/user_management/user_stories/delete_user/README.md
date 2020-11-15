@@ -5,27 +5,31 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to have the ability to delete users
+    I want to be able to delete users
     So that they have not an account to log in to the system
 
 ## Acceptance criteria
 
-    Scenario: A admin user deletes the user
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user deletes the user
+Given I am logged in as an admin user
 
-    When I am on the User Management page
-      And I view Users/Admins list
-      And I click Delete specific user
-    Then I see a confirmation popup
-    When I click Delete anyway
-    Then I see a popup is closed
-      And I see a notification message that the user has been OR has not been deleted
-      And I see deleted user does not show up in the list
+When I am on the <b>Users</b> configuration page
+  And I view the users/admins list
+  And I select a user and then click <b>Delete</b>
+Then I see the confirmation dialog
+
+When I click <b>Delete</b>
+Then I see the confirmation dialog is closed
+  And I see a notification message that the user has been OR has not been deleted
+  And I see deleted user does not show up in the list
+  And the message about action is sent to the user’s email
+</pre>
 
 ## Mockups
 
@@ -34,97 +38,50 @@
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees user management page with actions dropdown:**
+**1. Admin user sees Delete button within actions dropdown:**
 
-![User management page with actions dropdown](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown.png)
+![Admin user sees Delete button within actions dropdown](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin is able to delete active user on Management page
-2. Verify that admin is able to cancel deleting action of an active user on Management page
-3. Verify that admin is able to delete blocked user on Management page
-4. Verify that admin is able to cancel deleting action of blocked user on Management page
-5. Verify that admin is able to delete admin user on Management page
-6. Verify that admin is able to cancel deleting action of admin user on Management page
+1. Verify that admin can delete active user on the Users page
+2. Verify that admin can delete a blocked user on the Users page
+3. Verify that admin can delete active admin on the Users page
+4. Verify that admin is not able to delete himself on the Users page
+5. Verify that admin can cancel deleting users on the Users page
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin is able to delete active user on Management page**
+### **#1. Verify that admin can delete active user on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according active users|Actions available for admins: active users - Block, Make as Admin, Delete
-|6|Click to Delete active user|A confirmation popup is shown
-|7|Click on delete anyway|The popup is closed and the system shows a notification message that the user has been deleted
-|8|Check if deleted user is not shown in the list|Deleted user does not show up in the list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) For an active user, in the <b>Actions column</b>, click <b>Delete</b></br>2) On the confirmation dialog, click <b>Delete</b></br>3) Log out as admin user</br>4) Login as a deleted user|2) The confirmation dialog appears</br>3) The user is removed from the list</br>4) The deleted user cannot log in|
 
-### **#2. Verify that admin is able to cancel deleting action of an active user on Management page**
+### **#2. Verify that admin can delete a blocked user on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according active users|Actions available for admins: active users - Block, Make as Admin, Delete
-|6|Click to Delete active user|A confirmation popup is shown
-|7|Click on Cancel|The popup is closed and the user is not deleted
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is a blocked user on the <b>Users</b> tab|1) For a blocked user, in the <b>Actions column</b>, click <b>Delete</b></br>2) On the confirmation dialog, click <b>Delete</b></br>3) Log out as admin user</br>4) Login as a deleted user|2) The confirmation dialog appears</br>3) The user is removed from the list</br>4) The deleted user cannot log in|
 
-### **#3. Verify that admin is able to delete blocked user on Management page**
+### **#3. Verify that admin can delete active admin on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according blocked users|Actions available for admins: blocked users - Activate, Delete
-|6|Click to Delete active user|A confirmation popup is shown
-|7|Click on delete anyway|The popup is closed and the system shows a notification message that the user has been deleted
-|8|Check if deleted user is not shown in the list|Deleted user does not show up in the list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another active admin on the <b>Admins</b> tab|1) Click on the <b>Admins</b> tab</br>2) For another active admin, in the <b>Actions</b> column, click <b>Delete</b></br>3) On the confirmation dialog, click <b>Delete</b></br>4) Log out as admin user</br>5) Login as deleted admin|3) The confirmation dialog appears</br>4) The admin is removed from the list</br>6) Cannot log in|
 
-### **#4. Verify that admin is able to cancel deleting action of blocked user on Management page**
+### **#4. Verify that admin is not able to delete himself on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according blocked users|Actions available for admins: blocked users - Activate, Delete 
-|6|Click to Delete active users|A confirmation popup is shown
-|7|Click on Cancel|The popup is closed and the user is not deleted
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>|1) Click on the <b>Admins</b> tab</br>2)For the current admin, in the <b>Actions</b> column, click <b>Delete</b></br>3) On the confirmation dialog, click <b>Delete</b>|3) Warning message appears about no possibility to delete the currently logged-in user|
 
-### **#5. Verify that admin is able to delete admin user on Management page**
+### **#5. Verify that admin can cancel deleting users on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according blocked users|Actions available for admins: admin users - Remove from Admin, Delete
-|6|Click to Delete admin user|A confirmation popup is shown
-|7|Click on delete anyway|The popup is closed and the system shows a notification message that the user has been deleted
-|8|Check if deleted user is not shown in the list|Deleted user does not show up in the list
-
-### **#6. Verify that admin is able to cancel deleting action of admin user on Management page**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according blocked users|Actions available for admins: admin users - Remove from Admin, Delete 
-|6|Click to Delete active user|A confirmation popup is shown
-|7|Click on Cancel|The popup is closed and the user is not deleted
-
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>|1) For any admin, in the <b>Actions</b> column, click <b>Delete</b></br>2) On the confirmation dialog, click <b>Cancel</b></br>3) Log out as admin</br>4) Log in as user|2) The confirmation dialog appears</br>3) The user is not removed from the list</br>5) The user can log in|
 </details>

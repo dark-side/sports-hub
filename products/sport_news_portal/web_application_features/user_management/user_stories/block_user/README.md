@@ -5,90 +5,78 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to have the ability to block users
+    I want to be able to block users
     So that they won’t have access to comments
 
 ## Acceptance criteria
 
-    Scenario: An admin user blocks the user
-    Given I am logged in as an admin user
-	
-    When I am on the User Management page
-      And I view Users list
-    Then I see a Block action against active users
-    When I click Block specific user
-    Then I see a confirmation popup
-    When I click Continue anyway
-    Then I see a popup is closed
-      And I see the system shows a notification message that the user has been OR has not been blocked
-      And I see the user’s status is changed to Blocked if the action was successful
-      And I see blocked user do not have the ability to view the comments and comment
+<pre>
+Scenario: An admin user blocks the user
+Given I’m logged in as an admin user
+
+When I am on the <b>Users</b> configuration page
+  And I view the <b>Users</b> tab
+Then I see the <b>Block</b> button on the right of active users
+
+When I select an active user and then click <b>Block</b>
+Then I see a confirmation dialog
+
+When I click <b>Continue</b>
+Then I see the confirmation dialog is closed
+  And I see a notification message that the user has been OR has not been blocked
+  And I see the user’s status is changed to <b>Blocked</b> if the action was successful
+  And blocked user cannot comment
+  And notification about blocking is sent to the user’s email
+</pre>
 
 ## Mockups
 
-1. Admin user sees user management page with actions dropdown
-2. Admin user sees warning popup before user block
+1. Admin user sees actions dropdown against active user
+2. Admin user sees warning popup on user block
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees user management page with actions dropdown:**
+**1. Admin user sees actions dropdown against active user:**
 
-![User management page with actions dropdown](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown.png)
+![Admin user sees actions dropdown against active user](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
-**2. Admin user sees warning popup before user block:**
+**2. Admin user sees warning popup on user block:**
 
-![Warning popup before user block](/products/sport_news_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
+![Admin user sees warning popup on user block](/products/sport_news_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin is able to block active user on Management page
-2. Verify that admin is able to cancel blocking action of an active user on Management page
-3. Verify that admin is not able to block admin user on Management page
+1. Verify that admin can block an active user on the Users page
+2. Verify that admin can cancel blocking an active user on the Users page
+3. Verify that admin is not able to block admin on the Users page
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin is able to block active user on Management page**
+### **#1. Verify that admin can block an active user on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according active users|Actions available for admins: active users - Block, Make as Admin, Delete
-|6|Click on Block active user|A confirmation popup is shown
-|7|Click on Continue anyway|The popup is closed and the system shows a notification message that the user has been blocked
-|8|Check if blocked user haven’t the ability to view the comments and comment|The blocked user will not have the ability to view the comments and comment
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Continue</b></br>3) Log out as admin user</br>4) Login as blocked user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has a Blocked state. Notification about blocking is sent to the user’s email</br>4) The user can log in</br>5) The user cannot write comments|
 
-### **#2. Verify that admin is able to cancel blocking action of an active user on Management page**
+### **#2. Verify that admin can cancel blocking an active user on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according active users|Actions available for admins: active users - Block, Make as Admin, Delete 
-|6|Click on Block active user|A confirmation popup is shown
-|7|Click on Cancel|The popup is closed and the user is not blocked
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Cancel</b></br>3) Log out as admin</br>4) Log in as user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has the <b>Active</b> state</br>4) The user can log in</br>5) The user can see and write comments|
 
-### **#3. Verify that admin is not able to block admin user on Management page**
+### **#3. Verify that admin is not able to block admin on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check if block action is available for admin user|Admin cannot block another admin user
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another active admin on the <b>Admins</b> tab|1) Click the <b>Admins</b> tab</br>2) On the right of another admin, click the actions drop-down button group|2) There is no <b>Block</b> action|
 
 </details>

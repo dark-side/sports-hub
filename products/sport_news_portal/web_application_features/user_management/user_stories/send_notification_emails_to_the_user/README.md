@@ -1,91 +1,51 @@
 ### Back to [User Management on the portal](../../) feature
 
-# Allow admin user to send notification emails to the users on the portal
+# Send notification emails to the users on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As a site user
-    I want to be able to receive notification to my email
+    I want to receive notification in my email
     So that I know if I was blocked, activated, got/lost admin permissions
 
 ## Acceptance criteria
 
-    Scenario: A site user receives notification to my email
-    Given I am logged in as a site user
-	
-    When I am blocked, activated, got/lost admin permissions by the admin user
-    Then I see an email with corresponding message
+<pre>
+Scenario: A site user receives notifications in email
+Given I am logged in as a site user
+
+When I am blocked, activated, got/lost admin permissions by the admin user
+Then I see an email with a corresponding message
+</pre>
 
 ## Mockups
 
-1. User sees user example of the email style and structure
+1. Example of the email style and structure
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees user example of the email style and structure:**
+**1. Example of the email style and structure:**
 
-![Example of the email](/products/sport_news_portal/web_application_features/user_management/images/mail_style_example.png)
+![Example of the email style and structure](/products/sport_news_portal/web_application_features/user_management/images/mail_style_example.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that users receive notification emails if they were blocked
-2. Verify that users receive notification emails if they were activated
-3. Verify that users receive notification emails if they were given admin permissions
-4. Verify that users receive notification emails if they were taken back admin permissions
+1. Verify that notification is sent to the user’s email in case of user changes
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that users receive notification emails if they were blocked**
+### **#1. Verify that notification is sent to the user’s email in case of user changes**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Click on User Management menu item|
-|4|Go to User Management page|
-|5|Block some test user|
-|6|Check the test user’s emails|User received notification emails of being blocked
-
-### **#2. Verify that users receive notification emails if they were activated**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Click on User Management menu item|
-|4|Go to User Management page|
-|5|Activate some test user|
-|6|Check the test user’s emails|User received notification emails of being blocked
-
-### **#3. Verify that users receive notification emails if they were given admin permissions**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Click on User Management menu item|
-|4|Go to User Management page|
-|5|Give admin permissions some test user|
-|6|Check the test user’s emails|User received notification emails of being blocked
-
-### **#4. Verify that users receive notification emails if they were taken back admin permissions**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Click on User Management menu item|
-|4|Go to User Management page|
-|5|Take back admin permissions of some test users|
-|6|Check the test user’s emails|User received notification emails of being taken back admin permissions
-
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab</br>- There is a blocked user on the <b>Users</b> tab</br>- There is another admin on the <b>Admins</b> tab|1) Block the active user</br>2) Make the blocked user active</br>3) Set admin permissions for active user</br>4) Remove admin permissions from another admin</br>5) Delete the active user</br>6) Delete the blocked user</br>7) Delete another admin|1)-4) The email about changes is sent to the users’ emails</br>5)-7) No emails about changes|
 </details>
