@@ -79,7 +79,7 @@ Specific goals are:
 4. [Site Footer of the portal](/products/sport_news_portal/web_application_features/site_footer/)
 5. [Site Languages on the portal](/products/sport_news_portal/web_application_features/site_languages/)
 6. [Home page of the portal](/products/sport_news_portal/web_application_features/home_page/)
-7. [Most Popular/Commentable articles on the portal](/products/sport_news_portal/web_application_features/most_popular_and_commentable/)
+7. [Most Popular/Commented articles on the portal](/products/sport_news_portal/web_application_features/most_popular_and_commented/)
 8. [Social Networks on the portal](/products/sport_news_portal/web_application_features/social_networks/)
 9. [Surveys on the portal](/products/sport_news_portal/web_application_features/surveys/)
 10. [Manage Articles of the portal](/products/sport_news_portal/web_application_features/manage_articles/)
