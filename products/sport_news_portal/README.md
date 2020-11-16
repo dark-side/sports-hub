@@ -90,7 +90,7 @@ Specific goals are:
 15. [League and Team Page of the portal](/products/sport_news_portal/web_application_features/league_and_team_page/)
 16. [Dealbook Page of the portal](/products/sport_news_portal/web_application_features/dealbook_page/)
 17. [Manage teams on the portal](/products/sport_news_portal/web_application_features/manage_the_teams/)
-18. [Manage Advertisements on the portal](/products/sport_news_portal/web_application_features/manage_ads/)
+18. [Manage advertisements on the portal](/products/sport_news_portal/web_application_features/manage_ads/)
 19. [Manage Pages on the portal](/products/sport_news_portal/web_application_features/manage_pages/)
 20. [Lifestyle – Sidebar Block](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/)
 21. [User Management on the portal](/products/sport_news_portal/web_application_features/user_management/)
