@@ -5,7 +5,7 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
@@ -14,85 +14,104 @@
 
 ## Acceptance criteria
 
-    Scenario: A site user updates password
-    Given I'm a site user on the Change Password tab in my profile
+<pre>
+Scenario: A site user updates password
+Given I’m a site user on the Change password tab in my profile
 
-    And I see a form with three fields:
-      - old password
-      - new password
-      - password confirmation
-    When I type new password
-    Then I see my input as bullets
-      And I see an icon that will allow me to see the information I enter
-    When I enter an old, new password, password confirmation and click Change Password
-    Then the system saves the changes and displays a message about success
-    When I enter the wrong old password and click Change Password
-    Then I see a validation message "Password does not match"
-    When I enter a new password and confirmation that do not match and click Change Password
-    Then I see a validation message "Password does not match"
-    When I enter a password with not a valid format
-    Then I see a validation message "Use at least 8 characters and includes numbers and letters"
+And I see a form with three fields:
+  - Old password
+  - New password
+  - Password confirmation
+
+When I enter a new password
+Then I see my input as bullets
+  And I see an icon that allows me to see the information I enter
+
+When I enter an old, new password, confirmation password, and click <b>Change Password</b>
+Then the system saves the changes and displays a message about success
+
+When I enter the wrong old password and click <b>Change Password</b>
+Then I see the error message "Password does not match"
+
+When I enter a new password and confirmation that do not match and click Change Password
+Then I see the error message "Password does not match"
+
+When I enter a password with not a valid format
+Then I see the error message "Use at least 8 characters and includes numbers and letters"
+</pre>
 
 ## Mockups
 
 1. User sees Change Password form
-2. User filled out Change Password form
+2. User sees filled out Change Password form
+3. User sees validation messages on Change Password form
+4. User sees successful update message
+5. User sees error message
 
 <details>
   <summary>Click here to see mockups details</summary>
 
 **1. User sees Change Password form:**
 
-![Change Password Screen](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/change_password_form.png)
+![User sees Change Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/change_password_form.png)
 
-**2. User filled out Change Password form:**
+**2. User sees filled out Change Password form:**
 
-![Change Password Filled Out Form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/change_password_filled_form.png)
+![User sees filled out Change Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/change_password_filled_form.png)
+
+**3. User sees validation messages on Change Password form:**
+
+![User sees validation messages on Change Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/change_password_validation_messages.png)
+
+**4. User sees successful update message:**
+
+![User sees successful update message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/successful_password_update_message.png)
+
+**5. User sees error message:**
+
+![User sees error message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify the content of the Change Password tab on the user profile page
-2. Verify that user can change the password
-3. Verify clicking on the icon that allows seeing entered information
+1. Verify that the user is able to change a password via profile
+2. Verify that the user is not able to change password via profile in case an invalid old password is provided
+3. Verify that the user is not able to change the password to a new with invalid format via profile
+4. Verify that the user is not able to change the password via profile when the new password and confirmation password do not match
+5. Verify that the user is not able to change the password if he is signed-up with social networks
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of the Change Password tab on the user profile page**
+### **#1. Verify that the user is able to change a password via profile**
 
-|#|Steps|Expected Result
+|Preconditions|Steps|Expected result
 ------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your user account|
-|3|Click on a drop-down menu next to user’s avatar at the top of the page|
-|4|Click on ‘View Profile’ link button|User is navigated to the profile page
-|5|Click on Change Password tab|And the systems displays a form with three fields:<br>- old password<br>- new password<br>- password confirmation
-|6|Observe the content of Password tab|
+|- Go to Sport News home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Select the **Change password** tab on the profile page</br>4) Enter the correct information in the fields</br>5) Click **Change password**|5) The changes are saved and the user sees the success message|
 
-### **#2. Verify that user can change the password**
+### **#2. Verify that the user is not able to change password via profile in case an invalid old password is provided**
 
-|#|Steps|Expected Result
+|Preconditions|Steps|Expected result
 ------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your user account|
-|3|Click on a drop-down menu next to user's avatar at the top of the page|
-|4|Click on View Profile link button|User is navigated to the profile page
-|5|Click on Change Password tab |
-|6|Fill in the field with correct information|
-|7|Click on the password confirmation button|The system saves the changes and displays a message about success
+|- Go to Sport News home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **Change password** from the drop-down menu</br>3) Enter invalid data in the **Old password** field on the profile page</br>4) Enter the valid data in the **New password** and **Password confirmation** fields</br>5) Click **Change password**|6) User sees the error message "Password does not match"|
 
-### **#3. Verify clicking on the icon that allows seeing entered information**
+### **#3. Verify that the user is not able to change the password to a new with invalid format via profile**
 
-|#|Steps|Expected Result
+|Preconditions|Steps|Expected result
 ------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your user account|
-|3|Click on a drop-down menu next to the user’s avatar at the top of the page|
-|4|Click on ‘View Profile’ link button|
-|5|Click on Change Password tab|
-|6|Fill in the fields|
-|7|Click on the icon near the new password field|The entered information is shown
+|- Go to Sport News home page</br>- The user is logged in with an email account</br>- Password must contain at least 8 characters (letters and numbers)|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Click on the **Change password** tab on the profile page</br>4) Enter the valid password in the **Old password** field</br>5) Enter the same invalid password in the **New password** and **Password сonfirmation** fields</br>6) Click **Change password**|6) User sees the error message "Password must contain at least 8 characters (letters and numbers)"|
+
+### **#4. Verify that the user is not able to change the password via profile when the new password and confirmation password do not match**
+
+|Preconditions|Steps|Expected result
+------|-------|----------
+|- Go to Sport News home page</br>- The user is logged in with an email account</br>- Password must contain at least 8 characters (letters and numbers)|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Click on the **Change password** tab on the profile page</br>4) Enter the valid password in the **Old password** field</br>5) Enter different passwords in the **New password** and **Password сonfirmation** fields</br>6) Click **Change password**|6) User sees the error message "Passwords do not match"|
+
+### **#5. Verify that the user is not able to change the password if he is signed-up with social networks**
+
+|Preconditions|Steps|Expected result
+------|-------|----------
+|- Go to Sport News home page</br>- User is logged in with social networks account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Examine the available tabs on the profile page|3) The **Change password** tab is not visible|
 
 </details>
