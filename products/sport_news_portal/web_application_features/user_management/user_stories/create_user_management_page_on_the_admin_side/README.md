@@ -5,102 +5,78 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to have a place with the list of users
+    I want to have a place with the list of users
     So that I can review and manage them
 
 ## Acceptance criteria
 
-    Scenario: An admin user visits User Management page and have a place with the list of users
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user visits <b>Users</b> configuration page and have a place with the list of users
+Given I am logged in as an admin user
 
-    When I view the page
-    Then I see a User Management menu item on the left sidebar
-    When I visit User Management page
-    Then I see a two lists: Users and Admin Users
-      And I see the list contains the user’s avatar, name and last name, status (Active/Blocked), and actions:
-      -  Active users - Block, Make as Admin, Delete
-      -  Blocked users - Activate, Delete
-      -  Admin users - Remove from Admin, Delete
+When I view the page
+Then I see the <b>Users</b> management menu item on the left sidebar menu
+
+When I visit the <b>Users</b> page
+Then I see two tabs: Users and Admins
+  And I see the list contains the user’s profile picture, name and last name, status (Active/Blocked), and actions:
+    - Active: block, make as admin, delete
+    - Blocked: activate, delete
+    - Admin users: remove from admin, delete
+</pre>
 
 ## Mockups
 
 1. Admin user sees user management page
 2. Admin user sees management page for admin users
+3. Admin user sees actions dropdown against admin user
 
 <details>
   <summary>Click here to see mockups details</summary>
 
 **1. Admin user sees user management page:**
 
-![User management page](/products/sport_news_portal/web_application_features/user_management/images/user_management_page.png)
+![Admin user sees user management page](/products/sport_news_portal/web_application_features/user_management/images/user_management_page.png)
 
 **2. Admin user sees management page for admin users:**
 
-![Management page for admin users](/products/sport_news_portal/web_application_features/user_management/images/admin_user_management_page.png)
+![Admin user sees management page for admin users](/products/sport_news_portal/web_application_features/user_management/images/admin_user_management_page.png)
+
+**3. Admin user sees actions dropdown against admin user:**
+
+![Admin user sees actions dropdown against admin user](/products/sport_news_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin can view user Management item
-2. Verify that user cannot view user Management item
-3. Verify the lists of user Management page
-4. Verify the content of the lists of user Management page
-5. Verify the actions of the user Management page
+1. Verify the lists of users on the Users page
+2. Verify the content of Users tab on a Users page
+3. Verify the content of Admins tab on a Users page
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin can view user Management item**
+### **#1. Verify the lists of users on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|User Management menu item is situated on the left sidebar
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the tabs on the page|1) There are two tabs: Users and Admins. The Users tab is active by default|
 
-### **#2. Verify that user cannot view user Management item**
+### **#2. Verify the content of Users tab on a Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your user account|
-|3|Observe User Management menu item|User Management menu item is not shown for users
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the content of <b>Users</b> tab|1) There is a table with 3 columns: Name, Status and Actions|
 
-### **#3. Verify the lists of user Management page**
+### **#3. Verify the content of Admins tab on a Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check what lists contain the User Management page|The system shows two lists: Users and Admin Users on the Management page
-
-### **#4. Verify the content of the lists of user Management page**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the content of the lists of user Management page|List contains the user’s avatar, name and last name, status (Active/Blocked), and actions
-
-### **#5. Verify the actions of the user Management page**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the content of the lists of user Management page|List contains the user’s avatar, name and last name, status (Active/Blocked), and actions
-|6|Check what actions are available for admin|Actions available for admins:<br> - active users - Block, Make as Admin, Delete<br> - blocked users - Activate, Delete<br> - admin users - Remove from Admin, Delete
-
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Click <b>Admins</b> tab</br>2) Examine the content of the <b>Admins</b> tab|2) There is a table with 3 columns: Name, Status, and Actions|
 </details>

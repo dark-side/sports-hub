@@ -5,70 +5,68 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to have the ability to remove admin permissions from the users
+    I want to be able to remove admin permissions from the users
 
 ## Acceptance criteria
 
-    Scenario: An admin user removes admin permissions from the user
-    Given I am logged in as an admin user
-	
-    When I am on the User Management page
-      And I view the Admins list
-      And I click Remove from Admin a specific user
-    Then I see a confirmation popup
-    When I click Continue anyway
-    Then I see a popup is closed
-      And I see the system shows a notification message that admin permissions are or not removed from the user
-      And I see the user in Users list if the action was successful
+<pre>
+Scenario: An admin user removes admin permissions from the user
+Given I’m logged in as an admin user
+
+When I am on the <b>Users</b> configuration page
+  And I view the <b>Admins</b> tab
+  And I select <b>Remove from Admin</b> on the right of any user
+Then I see a confirmation dialog
+
+When I click <b>Continue</b>
+Then I see the dialog is closed
+  And I see a notification message that admin permissions are OR not removed from the user
+  And notification about removed admin permissions is sent to the user’s email
+  And I see the user on the <b>Users</b> tab if the action was successful
+</pre>
 
 ## Mockups
 
-1. Admin user sees management page for admin users
+1. Admin user sees Remove from Admin button within actions dropdown against admin users
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees management page for admin users:**
+**1. Admin user sees Remove from Admin button within actions dropdown against admin users:**
 
-![Management page for admin users](/products/sport_news_portal/web_application_features/user_management/images/admin_user_management_page.png)
+![Admin user sees Remove from Admin button within actions dropdown against admin users](/products/sport_news_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin is able to remove user from admin on Management page
-2. Verify that admin is able to cancel action of removing user from admin on Management page
+1. Verify that admin can remove admin permissions for another admin on the Users page
+2. Verify that admin can cancel removing admin permissions for another admin on the Users page
+3. Verify that admins are not able to remove admin permissions for themselves on the Users page
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin is able to remove user from admin on Management page**
+### **#1. Verify that admin can remove admin permissions for another admin on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according admin users|Actions available for admins: admin users - Remove from Admin, Delete 
-|6|Click on remove user from admin|A confirmation popup is shown
-|7|Click on Continue anyway|The popup is closed and the system shows a notification message that the user has been deleted
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another admin on the <b>Admins</b> tab|1) Click the <b>Admins</b> tab</br>2) On the right of another admin, select <b>Remove from Admin</b></br>3) On the confirmation dialog, click <b>Continue</b></br>4) Log out as admin user</br>5) Log in as another admin</br>6) Go through site pages|2) The confirmation dialog appears</br>3) Admin is set with user permissions. Notification about removed admin permissions is sent to the user’s email</br>5) The admin can log in</br>6) Another admin cannot see the admin part of the application|
 
-### **#2. Verify that admin is able to cancel action of removing user from admin on Management page**
+### **#2. Verify that admin can cancel removing admin permissions for another admin on the Users page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log in your admin account|
-|3|Observe User Management menu item|
-|4|Go to User Management page|
-|5|Check the available actions for admin according admin users|Actions available for admins: admin users - Remove from Admin, Delete
-|6|Click on remove user from admin|A confirmation popup is shown
-|7|Click on Cancel|The popup is closed and the user is still having admin permissions
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another admin on the <b>Admins</b> tab|1) Click the <b>Admins</b> tab</br>2) On the right of another admin, select <b>Remove from Admin</b></br>3) On the confirmation dialog, click <b>Cancel</b></br>4) Log out as admin user</br>5) Log in as another admin</br>6) Go through site pages|2) The confirmation dialog appears</br>3) The admin keeps admin permissions</br>5) The user can log in</br>6) Another admin can see the admin part of application and perform actions there|
 
+### **#3. Verify that admins are not able to remove admin permissions for themselves on the Users page**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Click the <b>Admins</b> tab</br>2) On the right of another admin, select <b>Remove from Admin</b></br>|2) The warning dialog appears about no possibility to remove admin permissions for the currently logged-in user|
 </details>
