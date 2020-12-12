@@ -5,124 +5,129 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to configure list of available site languages 
-    So user can select prefered language for the Sport News site
+    I want to configure a list of available site languages 
+    So user can select the preferred language for the Sport News site
 
 ## Acceptance criteria
 
-    Scenario: An admin user configures list of available site languages
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user configures the list of available site languages
+Given I am logged in as an admin user
 
-    When I view Language configuration page
-    Then I see a table with list of languages available for the Sport News site and a language status toggle
-    When I hover over some language 
-    Then I see a Delete language icon
-    When I click on Delete language icon
-    ThenI see the language is deleted from the list
-    When I click on language status toggle
-    Then I see the language is activated/deactivated
-    Note: when language is in deactivated state, it’s not shown in the Site Languages Dropdown in the site Header
-    When I view Language configuration page
-    Then I see a New Language button right to the Languages page title
-    When I click on New Language button
-    Then I see the system opens an Add Language modal with a Select Language multi select input And Add and Cancel buttons for the modal
-    When I select list of the languages I want to make available on the site and click the Add button
-    Then I see the new languages are displayed on the languages table
-    When I click on Cancel button on the Add Language modal
-    Then I see the Add Language modal is closed and no new languages appear on the table
+When I view the <b>Languages</b> configuration page
+Then I see a table with the list of languages available for the Sport News site and a language status toggle
+
+When I hover over some language
+Then I see the <b>Delete</b> icon
+
+When I click on the <b>Delete</b> icon
+Then I see the language is deleted from the list
+
+When I hover over the English language
+Then I do not see the Delete icon
+
+When I switch the language status toggle (<i>present for any language except English</i>)
+Then I see the language is activated or deactivated
+<i>Note: When language is in the deactivated state, it’s not shown in the drop-down list with site languages in the site header</i>
+
+When I view the Language configuration page
+Then in the upper-right corner of the page, I see the <b>New Language</b> button
+
+When I click <b>New Language</b>
+Then I see the <b>Add Language</b> pop-up window with the multi-select input with checkboxes, the <b>Add</b> and <b>Cancel</b> buttons
+
+When I select the list of languages that I want to make available on the site and click <b>Add</b>
+Then I see new languages are displayed in the languages list
+
+When I click the <b>Cancel</b> button in the <b>Add Language</b> pop-up window
+Then I see the pop-up window is closed and no new languages appear in the language list
+</pre>
 
 ## Mockups
 
 1. Admin user sees configaration site languages page
 2. Admin user sees "Add Language" popup
+3. Admin user sees successful saved message
+4. Admin user sees select language drop-down
 
 <details>
   <summary>Click here to see mockups details</summary>
 
 **1. Admin user sees configaration site languages page:**
 
-![Configaration site languages page](/products/sport_news_portal/web_application_features/site_languages/images/configaration_site_languages.png)
+![Admin user sees configaration site languages page](/products/sport_news_portal/web_application_features/site_languages/images/configaration_site_languages.png)
 
 **2. Admin user sees "Add Language" popup:**
 
 !["Add Language" popup](/products/sport_news_portal/web_application_features/site_languages/images/add_language_popup.png)
 
+**3. Admin user sees successful saved message:**
+
+![Admin user sees successful saved message](/products/sport_news_portal/web_application_features/site_languages/images/languages_saved_message.png)
+
+**4. Admin user sees select language drop-down:**
+
+![Admin user sees select language drop-down](/products/sport_news_portal/web_application_features/site_languages/images/admin_selects_language.png)
+
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify content of Language configuration page
-2. Verify deleting the language
-3. Verify the language being activated/deactivated
-4. Verify the New Language button
-5. Verify the Add Language button
-6. Verify the Cancel Language button
+1. Verify content of the Languages configuration page
+2. Verify that it is possible to delete the language
+3. Verify that it is not possible to delete English language
+4. Verify that it is possible to activate/deactivate the language
+5. Verify that it is not possible to deactivate English language
+6. Verify the New Language button functionality
+7. Verify that it is possible to cancel the adding of a new language
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify content of Language configuration page**
+### **#1. Verify content of the Languages configuration page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to the Language configuration page|
-|4|Observe the content of Language configuration page|A table with list of languages available for the Sport News site and a language status toggle are present on the Language configuration page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Examine the content of the <b>Languages</b> configuration page|1) There is a table with the list of languages available for the Sport News site users and the Status toggle is present for each language except English|
 
-### **#2. Verify deleting the language**
+### **#2. Verify that it is possible to delete the language**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to the Language configuration page|
-|4|Hover over some language|Delete language icon appears
-|5|Click on Delete language icon|The language is deleted from the list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Hover over any language except English</br>2) Click <b>Delete</b>|1) The <b>Delete</b> button appears</br>2) The language is deleted from the list. The language is unavailable, the user can not select it|
 
-### **#3. Verify the language being activated/deactivated**
+### **#3. Verify that it is not possible to delete English language**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to the Language configuration page|
-|4|Click on language status toggle|The language is activated/deactivated
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Hover over English language</br>2) Examine the page|2) The <b>Delete</> button is not shown|
 
-### **#4. Verify the New Language button**
+### **#4. Verify that it is possible to activate/deactivate the language**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Language configuration page|
-|4|Click on New Language button|Add Language modal with a Select Language multi select input is opened
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Hover over any language with the <b>Active</b> status</br>2) Switch the status toggle</br>3) Hover over any language with the <b>Inactive</b> status</br>4) Switch the status toggle|2) The language is deactivated and is unavailable for the users to be selected</br>4) The language is activated and is available for the users to be selected|
 
-### **#5. Verify the Add Language button**
+### **#5. Verify that it is not possible to deactivate English language**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Language configuration page|
-|4|Click on New Language button|
-|5|Select list of the languages to make available on the site| 
-|6|Click the Add button|The new languages are displayed on the languages table
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Hover over English language</br>2) Examine the page|2) There is no Status toggle for English language|
 
-### **#6. Verify the Cancel Language button**
+### **#6. Verify the New Language button functionality**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Language configuration page|
-|4|Click on New Language button|
-|5|Select list of the languages to make available on the site|
-|6|Click on Cancel button|The Add Language modal is closed and no new languages appear on the table
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Click <b>+New Language</b></br>2) From the list of languages, select new languages</br>3) Click <b>Add</b>|3) The new languages are displayed in the languages list and are enabled by default|
 
+### **#7. Verify that it is possible to cancel the adding of a new language**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Go to Sport News home page</br>- Log in by admin account</br>- Go to the <b>Languages</b> configuration page|1) Click <b>+New Language</b></br>2) From the list of languages, select new languages</br>3) Click <b>Cancel</b>|3) The Add language pop-up window is closed and no new language appears in the table|
 </details>
