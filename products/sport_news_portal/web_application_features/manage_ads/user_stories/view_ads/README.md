@@ -29,7 +29,7 @@ Then I see it only on the category relevant pages
 
 When there is more than one advertisement configured (site-wide or category specific)
 Then advertisements are rotating each 3 seconds in the banner
-</pre>>
+</pre>
 
 ## Mockups
 
