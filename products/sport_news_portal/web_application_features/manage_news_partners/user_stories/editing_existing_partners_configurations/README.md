@@ -1,11 +1,11 @@
 ### Back to [Manage News Partners on the portal](../../) feature
 
-# Allow admin users to edit the existing partner's configurations on the portal
+# Allow admin user to edit the existing partner's configurations on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
@@ -14,116 +14,76 @@
 
 ## Acceptance criteria
 
-    Scenario: An admin user changes the existing partner's configurations on the News Partners page
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user changes the existing partner's configurations on the News Partners page
+Given I am logged in as an admin user
 
-    When I click the Edit icon or the Plus icon for the needed partner on the News Partners page
-    Then I see edit form with pre populated partners configurations below the row for this partner in the partners' list on the News Partner page
-      And I see the edit form consists of the partner-specific fields (example for Google News):
-        - API Key - text field for API Key provided by Google News after the development account activation 
-        - Default Sources - text field for comma-separated sources names (for example "abc-news, associated-press")
-        - Section for news sources configuration for all categories with the next columns:
-            - Active - checkbox for configuration activation/deactivation
-            - Category - name of the sport category
-            - Sources - text field for comma-separated sources names ( "abc-news, associated-press")
-        - Cancel button for changes discarding  and closing the form
-        - Save button for configuration saving that will be disabled till I make any changes in the form
-    When I click Cancel button 
-    Then I see confirmation popup, where I should confirm that I want to leave the form without saving changes
-    When I click on the Confirm button
-    Then I see that form is closed and no changes were saved
-    When I click Save button 
-    Then I see "Configuration is successfully saved" popup in case of success or "Something went wrong, please try again" in case of fail, both cases have Cross icon on the right top corner 
-    When I click on Cross icon
-    Then I see the form is closed
-    And I see the list of existing partners
+When I click the <b>edit</b> icon or the <b>plus</b> icon for the needed partner on the <b>News Partners</b> page
+Then I see the edit form with pre-filled configurations below the row for the needed partner in the list
+
+When I click <b>Cancel</b>
+Then I see a confirmation popover, where I should confirm that I want to leave the form without saving changes
+
+When I click <b>Yes</b>
+Then I see that form is closed and no changes were saved
+
+When I click <b>Save</b>
+Then the system saves the changes and displays a message about success
+  And I see the list of existing partners
+</pre>
 
 ## Mockups
 
 1. Admin user sees News Partners list
-2. Admin user sees New News Partner form
-3. Admin user sees “Something went wrong” popup
+2. Admin user sees new/edit news partner form
+3. Admin user sees "Something went wrong" message
+4. Admin user sees confirmation popup on form cancel
 
 <details>
   <summary>Click here to see mockups details</summary>
 
 **1. Admin user sees News Partners list:**
 
-![News Partners list](/products/sport_news_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
+![Admin user sees News Partners list](/products/sport_news_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
 
-**2. Admin user sees New News Partner form:**
+**2. Admin user sees new/edit news partner form:**
 
-![New News Partner form](/products/sport_news_portal/web_application_features/manage_news_partners/images/new_news_partners_edit_state.png)
+![Admin user sees new/edit news partner form](/products/sport_news_portal/web_application_features/manage_news_partners/images/new_news_partners_edit_state.png)
 
-**3. Admin user sees “Something went wrong” popup:**
+**3. Admin user sees "Something went wrong" message:**
 
-![Something went wrong popup](/products/sport_news_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+![Admin user sees "Something went wrong" message](/products/sport_news_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+
+**4. Admin user sees confirmation popup on form cancel:**
+
+![Admin user sees confirmation popup on form cancel](/products/sport_news_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify the content of News Partners page
-2. Verify the content of News Partners page
-3. Verify the cancel button on adding new partner
-4. Verify saving changes after editing news partner
-5. Verify saving changes after editing news partner in case of failure
+1. Verify the possibility to edit partner with all valid data
+2. Verify the possibility to cancel of editing partner
+3. Verify that it is not possible to save an edited partner with empty mandatory boxes
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of News Partners page**
+### **#1. Verify the possibility to edit partner with all valid data**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|
-|4|Click on Edit link|The Edit form with pre populated partners configurations appears below the row for this partner in the partners' list on the News Partner page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page</br>- There is some partner added|1) Select a partner, and then click expand (+)</br>2) In the <b>Default sources</b> and <b>API key</b> inputs, enter valid data</br>3) Select and unselect some categories checkboxes</br>4) Click <b>Save</b>|1) The boxes for the selected partner are available for editing</br>4) A notification about successful saving on changes appears and news partner is saved in the previous state and news are loaded from the source according to changed data|
 
-### **#2. Verify the content of News Partners page**
+### **#2. Verify the possibility to cancel of editing partner**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|
-|4|Click on Edit link|The Edit form with pre populated partners configurations appears below the row for this partner in the partners' list on the News Partner page
-|5|Observe the Edit form|The Edit form should contain such elements:<br> - API Key<br> - Default Sources<br> - Section for news sources configuration for all categories with the next columns: category, active, sources<br> - Current Switch has been removed for both new and edit cases<br> - Cancel button<br> - Save button
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page</br>- There is some partner added|1) Select a partner, and then click Expand (+)</br>2) In the <b>Default sources</b> and <b>API key</b> inputs, enter valid data</br>3) Select and unselect some categories check boxes</br>4) Click <b>Cancel</b></br>5) Click <b>Yes</b>|1) The boxes for the selected partner are available for editing</br>4) Popover with warning about missing changes appears</br>5) Changes to the <b>News Partners</b> page are not saved|
 
-### **#3. Verify the cancel button on adding new partner**
+### **#3. Verify that it is not possible to save an edited partner with empty mandatory boxes**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the Edit button|The Edit form with pre populated partners configurations appears
-|5|Make some changes|
-|6|Click Cancel|Confirmation popup to confirm leaving the form without saving changes
-|7|Click on the Confirm button|The form is closed and no changes saved
-
-### **#4. Verify saving changes after editing news partner**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the Edit button|The Edit form with pre populated partners configurations appears
-|5|Make some changes|
-|6|Click Save|"Configuration is successfully saved" popup appears
-|7|Click on Cross icon|The form will be closed and a new element will be added to the list on the News partners page
-
-### **#5. Verify saving changes after editing news partner in case of failure**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the Edit button|The Edit form with pre populated partners configurations appears
-|5|Make some changes|
-|6|On clicking Save imitate some network disconnection for few seconds|"Something went wrong, please try again" pop up appears
-
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page</br>- There is some partner added|1) Select a partner, and then click expand (+)</br>2) In the <b>API key</b> input, delete data</br>3) Click <b>Save</b></br>4) In the <b>API key</b> input, enter valid data</br>5) In the <b>Default sources</b> input, delete data</br>6) Click <b>Save</b>|1) The boxes for the selected partner are available for editing</br>3) Warning message about required boxes appears. The partner is not saved</br>6) Warning message about required boxes appears. The partner is not saved|
 </details>

@@ -5,168 +5,115 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to configure a new integration with partner
+    I want to be able to configure a new integration with a partner
     So that user will see the news from a third-party source
 
 ## Acceptance criteria
 
-    Scenario: An admin user configures a new integration with partner on the News Partners page
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user configures a new integration with a partner on the <b>News Partners</b> page
+Given I am logged in as an admin user
 
-    When I view News Partners page with no partners
-    Then I see the next elements:
-      - Page header in top left corner of the screen
-      - +Add New Partner button in the top-right corner of the screen
-      - The Empty State message that informs about the absence of integrations with partners, with a link for adding the first one
-    When I click on the +Add New Partner button or on the link inside the message
-    Then I see the popup with a drop-down list with the available partners is shown
-    When I select Google News partner and click Add button 
-    Then I see the new element for inactive Google News integration is added to the list on the News partners page
-      And I see the form with partner-specific fields is shown:
-        - API Key - text field for API Key provided by Google News after the development account activation (mandatory field)
-        - Default Sources - text field for comma-separated sources names ( for example "abc-news, associated-press"; mandatory field)
-        - Section for news sources configuration for all categories with the next columns:
-            - Active - checkbox for configuration activation/deactivation
-            - Category - name of the sport category
-            - Sources - text field for comma-separated sources names ( "abc-news, associated-press")
-          And I see checkbox in Active column title
-          When I click on it 
-          Then all categories’ checkboxes are selected/deselected
-        - Cancel button for changes discarding and closing the form
-        - Save button for configuration saving that will be disabled till I make any changes in the form
-    When I click cancel button 
-    Then I see confirmation popup, where I should confirm that I want to leave the form without saving changes
-    When I click on the Confirm button 
-    Then I see that form is closed, changes are not saved and integration with this partner stays inactivated
-    When I click Save button 
-      And I see the fill mandatory fields in (API Key and Default Sources in case of Google News)
-      And I see "Configuration is successfully saved" popup in case of success or "Something went wrong, please try again" in case of fail, 
-	  both cases have Cross icon on the right top corner 
-    When I click on Cross icon or click out of the popup 
-    Then I see the the form is closed and I see the list of existing partners 
-      And I see that integration with newly added partner is activated
-    When mandatory fields are not filled
-    Then I see the unfilled fields are highlighted with red and nothing happens with a form
+When I view the <b>News Partners</b> page with no partners
+Then I see the following:
+  - Page headline in the upper-left corner
+  - <b>+Add New Partner</b> button in the upper-right corner of the page
+  - Empty state message that informs about the absence of integrations with partners, with a link for adding the first one
+
+When I click the <b>+Add New Partner</b> button or the <b>Add New Partner</b> link in the page center
+Then I see a drop-down list with the available partners on the popover
+
+When I select <b>Google News</b> and click <b>Add</b>
+Then I see the new element for inactive <b>Google News</b> integration is added to the list on the <b>News Partners</b> page
+  And I see the form with partner-specific boxes is shown:
+    - Cancel button to discard changes and close the form
+    - Save button to save configuration that will be disabled till I make any changes in the form
+    - API key –⁠ input for API Key provided by Google News after the activation of the development account (mandatory field)
+    - Default sources – input for comma-separated sources names, for example, abc-news, associated-press (mandatory field)
+    - Section for news sources configuration for all categories with the following:
+      - Toggle to configure activation/deactivation
+      - Category – the name of the sport category
+      - A check box on the left of the Category label
+      - Sources – input for comma-separated sources names, for example, abc-news, associated-press
+
+When I select the <b>Category</b> check box
+Then all categories’ checkboxes are selected/deselected
+
+When I click <b>Cancel</b>
+Then I see the confirmation dialog, where I should confirm that I want to leave the form without saving changes
+
+When I click <b>Yes</b>
+Then I see that form is closed, changes are not saved and integration with this partner is inactivated
+
+When I click <b>Save</b>
+Then the system saves the changes and displays a message about success
+
+When mandatory fields are not filled
+Then I see they are highlighted with red and nothing happens with the form
+</pre>
 
 ## Mockups
 
 1. Admin user sees News Partners page with no partners
-2. Admin user sees “Add New News Partner” popup
-3. Admin user sees New News Partner empty form
-4. Admin user sees “Something went wrong” popup
+2. Admin user sees "Add New News Partner" popup
+3. Admin user sees new partner empty form
+4. Admin user sees "Something went wrong" message
+5. Admin user sees confirmation popup on form cancel
 
 <details>
   <summary>Click here to see mockups details</summary>
 
 **1. Admin user sees News Partners page with no partners:**
 
-![Posting in progress](/products/sport_news_portal/web_application_features/manage_news_partners/images/news_partners_page_with_no_partners.png)
+![Admin user sees News Partners page with no partners](/products/sport_news_portal/web_application_features/manage_news_partners/images/news_partners_page_with_no_partners.png)
 
-**2. Admin user sees “Add New News Partner” popup:**
+**2. Admin user sees "Add New News Partner" popup:**
 
-![Add New News Partner popup](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
+![Admin user sees "Add New News Partner" popup](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
 
-**3. Admin user sees New News Partner empty form:**
+**3. Admin user sees new partner empty form:**
 
-![New News Partner empty form](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_empty_form.png)
+![Admin user sees new partner empty form](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_empty_form.png)
 
-**4. Admin user sees “Something went wrong” popup:**
+**4. Admin user sees "Something went wrong" message:**
 
-![Something went wrong popup](/products/sport_news_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+![Admin user sees "Something went wrong" message](/products/sport_news_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+
+**5. Admin user sees confirmation popup on form cancel:**
+
+![Admin user sees confirmation popup on form cancel](/products/sport_news_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify the content of News Partners page
-2. Verify the content of the form with partner-specific fields
-3. Verify the cancel button on adding new partner
-4. Verify saving new added partner
-5. Verify saving new added partner in case of failure
-6. Verify clicking on Cross icon or click out of the popup
+1. Verify the possibility to add a new partner from the predefined list with all valid data
+2. Verify the possibility to cancel of adding a new partner from a predefined list
+3. Verify that it is not possible to save a new partner with empty mandatory fields
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of News Partners page**
+### **#1. Verify the possibility to add a new partner from the predefined list with all valid data**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|
-|4|Observe the News Partners page where no partners are added|The next elements should be present:<br> - Page header in top left corner of the screen<br> - +Add New Partner button in the top-right corner of the screen
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page|1) Click <b>+ Add New Partner</b></br>2) Select the partner from the drop-down list</br>3) Click <b>Add</b></br>4) In the <b>API key</b> and <b>Default sources</b> inputs, enter valid data</br>5) Check some categories</br>6) Click <b>Save</b>|1) The add new news partner form appears with a predefined list of partners</br>3) Partner is added as inactive into the list with all empty boxes</br>6) A notification about the successful saving of changes appears and news partner is saved with inactive state and news are loaded from the source. Partner is not available to be added a second time (not present in the drop-down list)|
 
-### **#2. Verify the content of the form with partner-specific fields**
+### **#2. Verify the possibility to cancel of adding a new partner from a predefined list**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|Select Google News partner from dropdown list -> Click OK|
-|6|Observe the form with partner-specific fields|Form with partner-specific fields contains:<br> - API Key<br> - Default Sources<br> - Section for news sources configuration for all categories with the next columns: category, active - switch for configuration activation/deactivation, sources<br> - Switch for the integration activation/deactivation<br> - Cancel button<br> - Save button
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page|1) Click <b>+ Add New Partner</b></br>2) Click Cancel</br>3) Click <b>+ Add New Partner</b></br>4) Select the partner from the drop-down list</br>5) Click <b>Add</b></br>6) In the <b>API key</b> and <b>Default sources</b> inputs, enter valid data</br>7) Check categories</br>8) Click <b>Cancel</b></br>9) Click <b>Yes</b>|1) The add new news partner form appears with a predefined list of partners in the drop-down list</br>2) The form is closed and the partner is not added</br>3) The add news partner popover appears with a predefined list of partners in the drop-down list</br>5) Partner is added as inactive into the list with all empty fields</br>8) Popover with a warning about missing changes appears</br>9) Changes to news partner are not saved|
 
-### **#3. Verify the cancel button on adding new partner**
+### **#3. Verify that it is not possible to save a new partner with empty mandatory fields**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|Click Cancel|Confirmation popup to confirm leaving the form without saving changes
-|6|Click on the Confirm button|The form is closed and no changes saved
-
-### **#4. Verify saving new added partner**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|Click Save|"Configuration is successfully saved" popup appears
-|6|Click on Cross icon|The form will be closed and a new element will be added to the list on the News partners page
-
-### **#5. Verify saving new added partner in case of failure**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|On clicking Save imitate some network disconnection for few seconds|"Something went wrong, please try again" pop up appears
-
-### **#6. Verify clicking on Cross icon or click out of the popup**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|Fill in the mandatory fields|
-|6|Click on Save|"Configuration is successfully saved" popup appears
-|7|Click on Cross icon or click out of the popup|The form will be closed and I will see the list of existing partners
-
-### **#7. Verify that new partner cannot be saved with empty mandatory fields**
-
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on News Partners on the Left Sidebar|The admin is navigating to News Partner Page
-|4|Click on the +Add New Partner button|The empty configuration form will be shown
-|5|Fill in the mandatory fields|
-|6|Click on Save|Unfilled fields are highlighted with red and nothing happens with a form
-
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>News Partners</b> configuration page|1) Click  <b>+ Add New Partner</b></br>2) Select the partner from the drop-down list</br>3) Click <b>Add</b></br>4) Do not fill in the API key box</br>5) In the Default sources box, enter valid data</br>6) Click <b>Save</b></br>7) In the <b>API key</b> input, enter valid data</br>8) Do not fill in the <b>Default sources</b> input</br>9) Click <b>Save</b>|1) The Add new News Partner popover appears with a predefined list of partners in the drop-down list</br>3) Partner is added as inactive into the list with all empty boxes</br>6) Warning message about required fields appears. The partner is not saved</br>9) Warning message about required fields appears. The partner is not saved|
 </details>
-
