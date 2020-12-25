@@ -1,97 +1,82 @@
 ### Back to [Social Networks on the portal](../../) feature
 
-# Allow users to share portal news with social networks
+# Allow users to share Sport News portal on social networks
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
-    As a site user 
-    I want to be able to click on the Share with Social Networks button 
-    So that I can share the page I am viewing (current page) with the Social Networks
+    As a site user
+    I want to be able to click on the Share social networks icons
+    So that I can share the Sport News portal
 
 ## Acceptance criteria
 
-    Scenario: A site user clicks on the Share with Social Networks button
-    Given I am logged in as a site user
+<pre>
+Scenario: A site user shares portal by clicking on configured social networks icons
+Given I am a site user
 
-    When I view any page on the site 
-    Then I see the following social media buttons at the top of the page in the header: 
-      - Facebook icon
-      - Twitter icon 
-      - Google+ icon
-      - “Share” text
-    When I click the Facebook icon  
-    Then I see a popup window is open and I can share the current page on Facebook
-    When I click the Twitter button 
-    Then I can share the current page on Twitter 
-    When I click the Google+ button
-    Then I see a popup window is opened and I can “+1” the current page in Google+
+When I view any page on the site
+Then I see the Share label and the following social network icons that are configured in the site header (Facebook, Twitter, Google+)
+
+When I click any of these icons
+Then I see a confirmation to share window of the social network is open
+  And the portal is shared
+</pre>
 
 ## Mockups
 
-1. User sees Share icons and Follow icons on the regular page of the portal
+1. User sees Share icons in the site header
 2. User sees sharing in Facebook example
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Share icons and Follow icons on the regular page of the portal:**
+**1. User sees Share icons in the site header:**
 
-![Share icons and Follow icons on the page](/products/sport_news_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
+![User sees Share icons in the site header](/products/sport_news_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
 
 **2. User sees sharing in Facebook example:**
 
-![Sharing in Facebook example](/products/sport_news_portal/web_application_features/social_networks/images/sharing_in_facebook_example.png)
+![User sees sharing in Facebook example](/products/sport_news_portal/web_application_features/social_networks/images/sharing_in_facebook_example.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify social media buttons
-2. Verify sharing the current page on Facebook
-3. Verify sharing the current page on Twitter
-4. Verify ability to ‘+1’ the current page in Google+
+1. Verify social network icons
+2. Verify sharing the portal on Facebook
+3. Verify sharing the portal on Twitter
+4. Verify ability to share the portal in Google+
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify social media buttons**
+### **#1. Verify social network icons**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the user account|
-|3|Observe social media buttons|The following social media buttons at the top of the page in the header:<br> - Facebook icon<br> - Twitter icon<br> - Google+ icon<br> - “Share” text
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sport News site</br>2) Examine the social network icons|2) User sees the configured social network icons in the site header (Facebook, Twitter, Google+)|
 
-### **#2. Verify sharing the current page on Facebook**
+### **#2. Verify sharing the portal on Facebook**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the user account|
-|3|Observe social media buttons|
-|4|Click on the Facebook icon|Then a popup window is opened with the ability to share the current page on Facebook
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sport News site</br>2) Examine the social network icons</br>3) Click Facebook|3) The popup window is opened allowing a user to share the portal on Facebook|
 
-### **#3. Verify sharing the current page on Twitter**
+### **#3. Verify sharing the portal on Twitter**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the user account|
-|3|Observe social media buttons|
-|4|Click on the Twitter button|Then a popup window is opened with the ability to share the current page on Twitter
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sport News site</br>2) Examine the social network icons</br>3) Click Twitter|3) The popup window is opened with the ability to share the portal on Twitter|
 
-### **#4. Verify ability to ‘+1’ the current page in Google+**
+### **#4. Verify ability to share the portal in Google+**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the user account|
-|3|Observe social media buttons|
-|4|Click on the click the Google+ button|Then a popup window is opened with the ability to ‘+1’ the current page in Google+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sport News site</br>2) Examine the social network icons</br>3) Click Google+|3) The popup window is opened allowing a user to share the portal on Google+|
 
 </details>
