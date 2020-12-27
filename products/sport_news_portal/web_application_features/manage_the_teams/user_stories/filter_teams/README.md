@@ -68,7 +68,7 @@ Then I see the table is refreshed with the matching results
 
 **1. Admin user sees filter on the Teams page:**
 
-![Admin user sees filter on the Teams page](/products/sport_news_portal/web_application_features/manage_the_teams/images/teams_page.png)
+![Admin user sees filter on the Teams page](/products/sport_news_portal/web_application_features/manage_the_teams/images/manage_teams_page.png)
 
 **2. Admin user sees filter on the Teams page and Apply and Cancel button being enabled:**
 

@@ -32,7 +32,7 @@ User with admin permission should be able to manage teams, namely:
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to add a new team in the portal**](/products/sport_news_portal/web_application_features/manage_the_teams/user_stories/add_new_team)|<pre>As an admin user<br>I want to to add a new team</pre>
+1 |[**Allow admin users to add a new team in the portal**](/products/sport_news_portal/web_application_features/manage_the_teams/user_stories/add_new_team)|<pre>As an admin user<br>I want to add a new team</pre>
 2 |[**Allow admin users to edit the existing team**](/products/sport_news_portal/web_application_features/manage_the_teams/user_stories/edit_existing_team)|<pre>As an admin user<br>I want to edit the existing team</pre>
 3 |[**Allow admin users to delete the existing team**](/products/sport_news_portal/web_application_features/manage_the_teams/user_stories/delete_team)|<pre>As an admin user<br>I want to delete an existing team</pre>
 4 |[**Allow admin users to filter and search the teams**](/products/sport_news_portal/web_application_features/manage_the_teams/user_stories/filter_teams)|<pre>As an admin user<br>I want to filter the teams page</pre>

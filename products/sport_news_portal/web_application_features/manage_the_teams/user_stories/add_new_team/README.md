@@ -10,7 +10,7 @@
 ## Description
 
     As an admin user
-    I want to to add a new team
+    I want to add a new team
 
 ## Acceptance criteria
 

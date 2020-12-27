@@ -2,7 +2,7 @@
 
 - [Description](#description)
 - [Check list](#check-list)
-- [Prototype of the Feature](#prototype-of-the-feature)
+- [Prototype of the feature](#prototype-of-the-feature)
 - [User stories](#user-stories)
 
 ## Description
@@ -33,6 +33,6 @@ The user should be able to interact with articles according to a role on the sit
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to view an article on the portal**](/products/sport_news_portal/web_application_features/articles_user_side/user_stories/view_an_article)|<pre>As a site user <br>I want to be able to view an article page<br>So that I can read an article content</pre>
-2 |[**Allow users to share an article from the portal**](/products/sport_news_portal/web_application_features/articles_user_side/user_stories/sharing_an_article)|<pre>As a site user<br>I want to be able to click on social network icon<br>So that I can share an article with my social network account</pre>
+2 |[**Allow users to share an article from the portal**](/products/sport_news_portal/web_application_features/articles_user_side/user_stories/sharing_an_article)|<pre>As a site user<br>I want to be able to click on the social network share buttons<br>So that I can share an article on my social network account</pre>
 3 |[**Allow users to view More Articles block on the portal**](/products/sport_news_portal/web_application_features/articles_user_side/user_stories/more_articles_block)|<pre>As a site user<br>I want to be able to see block with articles that are from the same category as the article I view</pre>
 4 |[**Allow users to view league/team page of the portal**](/products/sport_news_portal/web_application_features/articles_user_side/user_stories/league_and_team_page_of_the_portal)|<pre>As a site user<br>I want to able be to open the league or team page<br>So that I can view articles that are related to selected league or team</pre>
