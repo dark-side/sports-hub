@@ -11,7 +11,7 @@
 
     As a site user
     I want to be able to click on the social network share buttons
-    So that I can share an article with my social network account
+    So that I can share an article on my social network account
 
 ## Acceptance criteria
 
