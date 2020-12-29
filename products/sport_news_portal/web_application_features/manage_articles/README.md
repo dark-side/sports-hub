@@ -39,7 +39,7 @@ Also, the admin user should have the ability to unpublish/publish an article and
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow admin users to view the list of existing articles**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/view_articles_list)|<pre>As an admin user<br>I want to be able to view the list of existing articles</pre>
-2 |[**Allow admin users to add the new article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/add_new_article)|<pre>As an admin user<br>I want to be able to add the new article</pre>
+2 |[**Allow admin users to add a new article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/add_new_article)|<pre>As an admin user<br>I want to be able to add a new article</pre>
 3 |[**Allow admin users to edit existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_existing_article)|<pre>As an admin user<br>I want to edit the existing article</pre>
-4 |[**Allow admin users to edit the image of the article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_artile_image)|<pre>As an admin user<br>I want to be able to edit the image of the article</pre>
+4 |[**Allow admin users to edit the image of the article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_article_image)|<pre>As an admin user<br>I want to be able to edit the image of the article</pre>
 5 |[**Allow admin users to delete existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/delete_existing_article)|<pre>As an admin user<br>I want to be able to delete the existing article</pre>

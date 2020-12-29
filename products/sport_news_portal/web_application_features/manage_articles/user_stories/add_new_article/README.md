@@ -1,6 +1,6 @@
 ### Back to [Manage Articles of the portal](../../) feature
 
-# Allow admin users to add the new article
+# Allow admin users to add a new article
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -10,7 +10,7 @@
 ## Description
 
     As an admin user
-    I want to be able to add the new article
+    I want to be able to add a new article
 
 ## Acceptance criteria
 
