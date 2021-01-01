@@ -1,106 +1,86 @@
-### Back to [Manage Articles of the portal](../../) feature
+### Back to [Manage articles on the portal](../../) feature
 
-# Allow admin users to delete existing article
+# Allow admin users to delete an existing article
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to delete the existing article
+    I want to delete an existing article
 
 ## Acceptance criteria
 
-    Scenario: An admin user deletes the existing article on the horizontal ellipsis menu icon
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user deletes an existing article
+Given I am logged in as an admin user
 
-    When I click the Delete button on the overflow menu icon in the top-right corner of the article in the list
-    Then I see confirmation popup with:
-      - The question "Are you sure you want to delete the current Article?"
-      - The button Yes
-      - The button Cancel
-    When I click Cancel button
-    Then I see the pop up disappear and nothing changes
-    When I click Yes button
-    Then I see "The article is successfully deleted" popup in case of success or "Something went wrong, please try again" in case of fail, both cases have Cross icon on the right top corner
-    When I click on Cross icon
-    Then I see the updated list
+When I click any sports category link on the admin side
+Then I see the list of blocks with articles
+
+When I hover over any article
+Then I see the ellipsis (...) button in the upper-right corner
+
+When I click "..." the menu icon for an article
+Then I see the <b>Delete</b> menu item present
+
+When I click <b>Delete</b> menu item
+Then I see confirmation dialog
+
+When I click <b>Cancel</b> on the confirmation dialog
+Then I see the dialog disappears and the article is still present
+
+When I comfirm delete
+Then I see a success message
+  And the article is removed from the list
+</pre>
 
 ## Mockups
 
-1. User sees delete article option
-2. User sees delete article confirmation popup
-3. User sees delete article failure popup
-4. User sees delete article success popup
+1. Admin user sees Delete among actions for the article
+2. Admin user sees a delete confirmation dialog
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees delete article option:**
+**1. Admin user sees Delete among actions for the article:**
 
-![Delete article Screen](/products/sport_news_portal/web_application_features/manage_articles/images/delete_article_option.png)
+![Admin user sees Delete among actions for the article](/products/sport_news_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
-**2. User sees delete article confirmation popup:**
+**2. Admin user sees a delete confirmation dialog:**
 
-![Delete article confirmation popup](/products/sport_news_portal/web_application_features/manage_articles/images/delete_article_confirmation_popup.png)
-
-**3. User sees delete article failure popup:**
-
-![Delete article failure popup](/products/sport_news_portal/web_application_features/manage_articles/images/article_deletion_failure.png)
-
-**4. User sees delete article success popup:**
-
-![Delete article success popup](/products/sport_news_portal/web_application_features/manage_articles/images/article_deleted_popup.png)
+![Admin user sees a delete confirmation dialog](/products/sport_news_portal/web_application_features/manage_articles/images/delete_article_confirmation.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin can delete an existing article
-2. Verify that admin cannot delete an existing article in case of failure
-3. Verify that admin can cancel deleting of an existing article
+1. Verify that admin is able to delete an unpublished article
+2. Verify that admin is able to delete a published article
+3. Verify that admin is able to cancel deleting of any article
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin can delete an existing article**
+### **#1. Verify that admin is able to delete an unpublished article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|Admin is redirected to Create Article page
-|4|Hover over any article|Overflow menu appears
-|5|Click on overflow menu|
-|6|Click on Delete|The confirmation popup with the question "Are you sure you want to delete the current Article?" appears
-|7|Click on Yes button|"The article is successfully deleted" popup is shown in case of success
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Yes</b> button|3) A success message is shown and article is deleted from the list|
 
-### **#2. Verify that admin cannot delete an existing article in case of failure**
+### **#2. Verify that admin is able to delete a published article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|Admin is redirected to Create Article page
-|4|Hover over any article|Overflow menu appears
-|5|Click on overflow menu|
-|6|Click on Delete|The confirmation popup with the question "Are you sure you want to delete the current Article?" appears
-|7|Click on Yes button|"Something went wrong, please try again" popup is shown
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Yes</b> button|3) A success message is shown and article is deleted from the list|
 
-### **#3. Verify that admin can cancel deleting of an existing article**
+### **#3. Verify that admin is able to cancel deleting of any article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|Admin is redirected to Create Article page
-|4|Hover over any article|Overflow menu appears
-|5|Click on overflow menu|
-|6|Click on Delete|The confirmation popup with the question "Are you sure you want to delete the current Article?" appears
-|7|Click on Cancel button|A pop up will disappear and nothing changes
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Cancel</b> button|3) The article is present in the list|
 
 </details>
-

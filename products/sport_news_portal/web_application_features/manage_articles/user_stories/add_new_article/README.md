@@ -1,11 +1,11 @@
-### Back to [Manage Articles of the portal](../../) feature
+### Back to [Manage articles on the portal](../../) feature
 
 # Allow admin users to add a new article
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
@@ -14,143 +14,150 @@
 
 ## Acceptance criteria
 
-    Scenario: An admin user creates a new article
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user creates a new article
+Given I am logged in as an admin user
 
-    When I view New Article page
-    Then I see the next elements:
-      - Preview link in a top-right corner of the screen
-      - Drag-and-drop field for image upload
-      - Three dropdowns fields, where I can select Conference, Team, and Location
-      - Three fields, where I can add details of the article: Alt, Article Headline, Caption
-      - WYSIWYG HTML editor for content where I can format text (create a header, paragraph or list, manage font style and text aligning)
-      - Switch button for turning on or off comments for the article
-      - Block, where I can manage the type and number of articles that will be shown in More Articles block that contains next dropdown fields:
-        - The Category – category of articles that will be shown in More Articles block
-        - The Conference – articles regarding for specific conference that will be shown in More Articles block
-        - The Team – articles regarding specific team that will be shown in More Articles block
-        Stored From
-        - Amount – amount of the articles in More Articles block
-      - Save (disabled until all fields are filled) and Cancel buttons in the top of the page
-    When I click on Preview link
-    Then I see how this article is shown in the new tab
-    When I click on +Add picture inside the form for image upload
-    Then I see the file explorer window where I can select the needed image
-    When I complete the form
-    Then I see Save button is enabled
-    When I click on Save button
-    Then I see viewing articles page
-      And I see that my article is added at the top of the list
-    When I click on the Cancel button
-    Then I see confirmation popup, where I should confirm that I want to leave the form without saving changes
-    When I click on Confirm button I see the page with a list of the articles
-      And I change the state of the Switch button
-    Then the comments block is shown or hidden
+When I click any sports category link on the admin side
+Then I see the <b>+ New Article</b> button in the upper-right corner of the page
+
+When I click the <b>+ New Article</b> button
+Then the new article page appears
+
+When I view the new article page
+Then I see the next elements:
+  - Preview icon in the upper-right corner of the page
+  - Drag-and-drop field for image upload with <b>+ Add picture</b> link (required field)
+  - Three drop-down fields, where I can select <b>Conference</b>, <b>Team</b>, and <b>Location</b>
+  - Three required fields, where I can add details of the article: <b>Alt</b>, <b>Article headline</b>, and <b>Caption</b>
+  - HTML editor for content where I can format text (create a header, paragraph or list, manage font style and text aligning) (required field)
+  - <b>Comments: Show/Hide</b> toggle
+  - <b>Cancel</b> and <b>Save</b> (disabled until all fields are filled) buttons in the upper-right corner of the page
+
+When I click the <b>Preview</b> icon
+Then I see how this article is shown for the users
+
+When I click <b>+ Add picture</b> inside the form for image upload
+Then I see the file explorer window where I can select the needed image
+
+When I complete the form with all required fields
+Then I see the <b>Save</b> button is enabled
+
+When I click <b>Save</b> button
+Then I see the page with a list of the articles
+  And I see that my article is added at the top of the list in Unpublished state
+
+When I click <b>Cancel</b> button
+Then I see the confirmation dialog, where I should confirm that I want to leave the form without saving changes
+
+When I confirm cancelation
+Then I see the page with a list of the articles
+  And article is not saved
+
+When I click <b>Comments: Hide</b> toggle
+Then the toggle changed to <b>Show</b>
+  And comments section is shown for users
+
+When I click <b>Comments: Show</b> toggle
+Then the toggle changed to <b>Hide</b>
+  And comments section is not shown for users
+</pre>
 
 ## Mockups
 
-1. User sees add new article form
-2. User sees add new article filled in form
-3. User sees article is saved popup
-4. User sees cancel article creation popup
+1. Admin user sees a new article form
+2. Admin user sees a filled in form
+3. Admin user sees a cancelation popup
+4. Admin user clicks Preview icon and sees a preview page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees add new article form:**
+**1. Admin user sees a new article form:**
 
-![Add new article form Screen](/products/sport_news_portal/web_application_features/manage_articles/images/add_new_article_form.png)
+![Admin user sees a new article form](/products/sport_news_portal/web_application_features/manage_articles/images/article_empty_form.png)
 
-**2. User sees add new article filled in form:**
+**2. Admin user sees a filled in form:**
 
-![Add new article filled in form Screen](/products/sport_news_portal/web_application_features/manage_articles/images/add_new_article_filled_in_form.png)
+![Admin user sees a filled in form](/products/sport_news_portal/web_application_features/manage_articles/images/article_filled_form.png)
 
-**3. User sees article is saved popup:**
+**3. Admin user sees a cancelation popup:**
 
-![Article is saved popup](/products/sport_news_portal/web_application_features/manage_articles/images/article_saved_popup.png)
+![Admin user sees a cancelation popup](/products/sport_news_portal/web_application_features/manage_articles/images/cancel_popup.png)
 
-**4. User sees cancel article creation popup:**
+**4. Admin user clicks Preview icon and sees a preview page:**
 
-![Cancel article creation popup](/products/sport_news_portal/web_application_features/manage_articles/images/cancel_article_create_popup.png)
+![Admin user clicks Preview icon and sees a preview page](/products/sport_news_portal/web_application_features/manage_articles/images/article_preview_page.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify click on the +New Article button
-2. Verify dropdown fields in More Articles block
-3. Verify Preview button on Create Article page
-4. Verify Save button on Create Article Page
-5. Verify clicking on Cancel button on Create Article Page
-6. Verify switch button functionality on Create Article Page
+1. Verify that admin is able to add a picture to the new article
+2. Verify that admin is not able to upload a picture of invalid format to the new article
+3. Verify that admin is not able to save a new article when required boxes are not filled
+4. Verify that admin is not able to save a new article without uploading a picture
+5. Verify that admin is able to preview new article
+6. Verify that admin is able to save the new article with all required fields filled in
+7. Verify that admin is able to select a conference, team, and location for a new article
+8. Verify that the comments section can be hidden for a new article
+9. Verify that the comments section can be shown for a new article
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify click on the +New Article button**
+### **#1. Verify that admin is able to add a picture to the new article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Observe the elements on Create Article page|The next elements are present:<br>- Preview link in a top-right corner of the screen<br>- Drag-and-drop field for image upload<br>- Three dropdowns fields<br>- Three fields, where I can add details of the article: Alt, Article Headline, Caption<br>- WYSIWYG HTML editor for content where I can format text<br>- Switch button for turning on or off comments for the article<br>- Block, where I can manage the type and number of articles that will be shown in More Articles block<br>- Save (disabled until all fields are filled) and Cancel buttons in the top of the page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b> button</br>2) In the <b>Picture</b> section, click <b>+Add picture</b></br>3) Choose the picture with the valid format (.jpg, .png, .jpeg, .tif)</br>4) Fill in all required fields</br>5) Click <b>Save</b>|5) Admin user is redirected to the list of articles. The article is saved and appears at the top of the list in Unpublished state|
 
-### **#2. Verify dropdown fields in More Articles block**
+### **#2. Verify that admin is not able to upload a picture of invalid format to the new article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Observe the elements on Create Article page|
-|6|Check what dropdown fields and buttons contain More Article block|More Articles block that contains next dropdown fields:<br>- The Category<br>- The Conference<br>- The Team<br>- Stored From<br>- Amount
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) In the <b>Picture</b> section, click <b>+Add picture</b></br>3) Choose the picture with the invalid format (any file except .jpg, .png, .jpeg, .tif)</br>4) Fill in all required fields</br>5) Click <b>Save</b>|5) The validation message "Only .jpg, .png, .jpeg, .tif formats are allowed" is shown|
 
-### **#3. Verify Preview button on Create Article page**
+### **#3. Verify that admin is not able to save a new article when required boxes are not filled**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Complete the needed fields for new Article on the Create Article page|
-|6|Click on a Preview link button|Admin will see in the new tab how this article will be shown
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) In the <b>Picture</b> section, click <b>+Add picture</b></br>3) Select a picture with the valid format (.jpg, .png, .jpeg, .tif)</br>4) Do not fill in the <b>Alt.</b> required field</br>5) Fill in all the rest required fields</br>6) Click <b>Save</b></br>7) Do not fill in the <b>Article headline</b> required field</br>8) Fill in all the rest required fields</br>9) Click <b>Save</b></br>10) Do not fill in the <b>Caption</b> required field</br>11) Fill in all the rest required fields</br>12) Click <b>Save</b></br>13) Do not fill in the <b>Content</b> required field</br>14) Fill in all the rest required field</br>15) Click <b>Save</b>|6) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>9) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>12) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>15) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown|
 
-### **#4. Verify Save button on Create Article Page**
+### **#4. Verify that admin is not able to save a new article without uploading a picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Complete the needed fields for new Article on the Create Article page|
-|6|Click Save button|New article is added at the top of the list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Do not upload file</br>3) Fill in all required fields</br>4) Click <b>Save</b>|4) The field is highlighted in red. The validation message "Please, upload a photo" is shown|
 
-### **#5. Verify clicking on Cancel button on Create Article Page**
+### **#5. Verify that admin is able to preview new article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Complete the needed fields for new Article on the Create Article page|
-|6|Click cancel button|Confirmation popup appears, where admin could confirm leaving the form without saving changes
-|7|Click on Confirm button|The page with a list of the articles appears
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page |1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the <b>Conference</b>, <b>Team</b>, and <b>Location</b></br>4) Click <b>Preview</b> icon</br>5) Click <b>Back to edit page</b> button|4) The article is shown as it will look for users</br>5) The article is back to edit mode|
 
-### **#6. Verify switch button functionality on Create Article Page**
+### **#6. Verify that admin is able to save the new article with all required fields filled in**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on +New Article button|Admin is redirected to Create Article page
-|5|Change the state of the Switch button|The comments block will be shown or hidden
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Click <b>Save</b>|3) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in Unpublished state|
+
+### **#7. Verify that admin is able to select a conference, team, and location for a new article**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the <b>Conference</b>, <b>Team</b>, and <b>Location</b></br>4) Click <b>Save</b>|3) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in Unpublished state|
+
+### **#8. Verify that the comments section can be hidden for a new article**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Click <b>Comments: Show</b> toggle</br>4) Click <b>Save</b> button|3) The <b>Comments:</b> toggle changed to <b>Hide</b></br>4) The article is saved but the comments section is not shown for users|
+
+### **#9. Verify that the comments section can be shown for a new article**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Click <b>Comments: Hide</b> toggle</br>4) Click <b>Save</b> button|4) The article is saved with the comments section shown for users|
 
 </details>
-

@@ -1,156 +1,155 @@
-### Back to [Manage Articles of the portal](../../) feature
+### Back to [Manage articles on the portal](../../) feature
 
-# Allow admin users to edit existing article
+# Allow admin users to edit an existing article
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to edit the existing article
+    I want to edit an existing article
 
 ## Acceptance criteria
 
-    Scenario: An admin user edits the existing article
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user edits the existing unpublished article
+Given I am logged in as an admin user
 
-    When I view Edit Article page
-    Then I see the next elements:
-      - Path to the article
-      - Preview link in a top-right corner of the screen
-      - Drag-and-drop field with pre-populated image
-      - Three pre-populated dropdowns fields, where I can change Conference, Team, and Location
-      - Three pre-populated fields, where I can change details of the article: Alt, Article Headline, Caption
-      - WYSIWYG HTML pre-populated editor for content where I can change the style of the text (make a header, paragraph or list, manage font style and text aligning)
-      - Switch button for turning on or off comments for the article
-      - Block, where I can manage the type and number of articles that will be shown in More Articles block that contains next dropdown fields:
-        - The Category – category of articles that will be shown in More Articles block
-        - The Conference – articles regarding for specific conference that will be shown in More Articles block
-        - The Team – articles regarding specific team that will be shown in More Articles block
-        Stored From
-        - Amount – amount of the articles in More Articles block
-      - Save (disabled until I make any changes) and Cancel buttons in the top of the page
-    When I click on Preview link
-    Then I see how this article is shown in the new tab
-    When I hover on the field with the image
-    Then I see the icons for uploading a new image or editing the existing that is described in story “Editing the image of the article”
-    When I make any changes in the form
-    Then I see a Save button is enabled
-    When I click on Save button
-    Then I see a confirmation popup that article is added
-    When I close it
-    Then I see viewing articles page
-    When I click on the Cancel button
-    Then I see confirmation popup, where I should confirm that I want to leave the form without saving changes
-    When I click on Confirm button
-    Then I see the page with a list of the articles
+When I click any sports category link on the admin side
+Then I see the list of blocks with articles
+
+When I hover over an unpublished article
+Then I see the ellipsis (...) button in the upper-right corner
+
+When I click "..." the menu icon for an unpublished article
+Then I see the <b>Edit</b> menu item present
+
+When I select <b>Edit</b> menu item
+Then I see the following:
+  - Path to the article
+  - Preview link button above the photo
+  - Drag-and-drop field for image upload with <b>+ Add picture</b> link (required field)
+  - Three drop-down fields, where I can select <b>Conference</b>, <b>Team</b>, and <b>Location</b>
+  - Three required fields, where I can add details of the article: <b>Alt</b>, <b>Article headline</b>, and <b>Caption</b>
+  - HTML editor for content where I can format text (create a header, paragraph or list, manage font style and text aligning) (required field)
+  - <b>Comments: Show/Hide</b> toggle
+  - <b>Cancel</b> and <b>Save</b> (disabled until I make any changes) buttons in the upper-right corner of the page
+
+When I click the <b>Preview</b> link button
+Then I see how this article is shown for users
+
+When I hover over the <b>Picture</b> box
+Then I see the icons for uploading a new image or editing the existing one (described in the story Editing the image of the article)
+
+When I make any changes in the form
+Then I see the <b>Save</b> button is enabled
+
+When I click the <b>Save</b> button
+Then I see the page with a list of the articles
+  And I see that my updated article appears at the top of the list in unpublished state
+
+When I click <b>Cancel</b>
+Then I see the confirmation dialog, where I should confirm that I want to leave the form without saving changes
+
+When I confirm cancelation
+Then I see the page with a list of the articles
+  And changes to the article are not saved
+
+When I click <b>Comments: Hide</b> toggle
+Then the toggle changed to <b>Show</b>
+And comments section is shown for users
+
+When I click <b>Comments: Show</b> toggle
+Then the toggle changed to <b>Hide</b>
+  And comments section is not shown for users
+</pre>
 
 ## Mockups
 
-1. User sees edit article form
-2. User sees cancel edit article popup
+1. Admin user sees an edit article form
+2. Admin user sees a cancelation popup
+3. Admin user clicks Preview icon and sees a preview page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees edit article form:**
+**1. Admin user sees an edit article form:**
 
-![Add edit article form Screen](/products/sport_news_portal/web_application_features/manage_articles/images/edit_article.png)
+![Admin user sees an edit article form](/products/sport_news_portal/web_application_features/manage_articles/images/article_filled_form.png)
 
-**2. User sees cancel edit article popup:**
+**2. Admin user sees a cancelation popup:**
 
-![Cancel edit article popup](/products/sport_news_portal/web_application_features/manage_articles/images/cancel_edit_article_popup.png)
+![Admin user sees a cancelation popup](/products/sport_news_portal/web_application_features/manage_articles/images/cancel_popup.png)
+
+**3. Admin user clicks Preview icon and sees a preview page:**
+
+![Admin user clicks Preview icon and sees a preview page](/products/sport_news_portal/web_application_features/manage_articles/images/article_preview_page.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify the content of Edit Article page
-2. Verify dropdown fields in More Articles block on Edit Article Page
-3. Verify Preview button on Edit Article page
-4. Verify choosing file for uploading on Edit Article Page
-5. Verify Save button on Edit Article Page
-6. Verify clicking on Cancel button on Edit Article Page
-7. Verify switch button functionality on Edit Article Page
+1. Verify that admin is able to change a picture to the edited article
+2. Verify that admin is not able to save the picture of invalid format to the edited article
+3. Verify that admin is not able to save empty required fields to the edited article
+4. Verify that admin is able to preview the edited article
+5. Verify that admin is able to save the edited article with all valid data updated
+6. Verify that admin is able to save changed the conference, team, and location for the edited article
+7. Verify that the comments section can be hidden for the edited article
+8. Verify that the comments section can be shown for the edited article
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of Edit Article page**
+### **#1. Verify that admin is able to change a picture to the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|
-|5|Observe content of Edit Article Page|There are such elements:<br>- Drag-and-drop field for image upload<br>- Three dropdowns fields<br>- Three fields, where I can add details of the article: Alt, Article Headline, Caption<br>- WYSIWYG HTML editor for content where I can format text<br>- Switch button for turning on or off comments for the article<br>- Block, where I can manage the type and number of articles that will be shown in More Articles block<br>- Save (disabled until all fields are filled) and Cancel buttons in the top of the page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) In the <b>Picture</b> section, click <b>+Add picture</b></br>4) Choose the picture with the valid format (.jpg, .png, .jpeg, .tif)</br>5) Click <b>Save</b> button|5) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
 
-### **#2. Verify dropdown fields in More Articles block on Edit Article Page**
+### **#2. Verify that admin is not able to save the picture of invalid format to the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Check what dropdown fields and buttons contain More Article block|More Articles block that contains next dropdown fields:<br>- The Category<br>- The Conference<br>- The Team<br>- Stored From<br>- Amount
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) In the <b>Picture</b> section, click <b>+Add picture</b></br>4) Choose the picture with the invalid format (any file except .jpg, .png, .jpeg, .tif)</br>5) Click <b>Save</b> button|5) Changes to the Article are not saved. The validation message "Only .jpg, .png, .jpeg, .tif formats are allowed" is shown|
 
-### **#3. Verify Preview button on Edit Article page**
+### **#3. Verify that admin is not able to save empty required fields to the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Click on a Preview link button|Admin will see in the new tab how this article will be shown
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) In the <b>Alt.</b> required field, delete data</br>4) Click <b>Save</b> button</br>5) Fill in <b>Alt.</b> required field</br>6) In the <b>Article headline</b> required field, delete data</br>7) Click <b>Save</b> button</br>8) Fill in <b>Article headline</b> required field</br>9) In the <b>Caption</b> required field, delete data</br>10) Click <b>Save</b> button</br>11) Fill in <b>Caption</b> required field</br>12) In the <b>Content</b> required field, delete data</br>13) Click <b>Save</b> button|4) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>7) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>10) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown</br>13) The required fields are highlighted in red. The validation message "Fill in all required fields" is shown|
 
-### **#4. Verify choosing file for uploading on Edit Article Page**
+### **#4. Verify that admin is able to preview the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Click on +Add picture|File explorer window where needed image can be selected
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) Make some changes</br>4) Change the conference, team, and location</br>5) Click the <b>Preview</b> link</br>6) Click <b>Back to edit page</b> link|5) The article is shown as it will look for users</br>6) The article is back to edit mode|
 
-### **#5. Verify Save button on Edit Article Page**
+### **#5. Verify that admin is able to save the edited article with all valid data updated**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Edit article|
-|6|Click Save button|New article is edited and shown at the top of the list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) Update all required fields</br>4) Click <b>Save</b> button|4) dmin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
 
-### **#6. Verify clicking on Cancel button on Edit Article Page**
+### **#6. Verify that admin is able to save changed the conference, team, and location for the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Edit article|
-|6|Click cancel button|Confirmation popup appears, where admin could confirm leaving the form without saving changes
-|7|Click on Confirm button|The page with a list of the articles appears
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) Change a conference, team, and location</br>4) Click <b>Save</b> button|4) dmin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
 
-### **#7. Verify switch button functionality on Edit Article Page**
+### **#7. Verify that the comments section can be hidden for the edited article**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on any sports category link|
-|4|Click on any Article -> Edit|Admin is redirected to Edit Article page
-|5|Change the state of the Switch button|The comments block will be shown or hidden
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article</br>- Comments section is shown for article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) Click the <b>Comments: Show</b> toggle</br>4) Click <b>Save</b> button|3) <b>Comments:</b> changed to <b>Hide</b></br>4) The article is saved with the hidden comments section|
+
+### **#8. Verify that the comments section can be shown for the edited article**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article</br>- Comments section is hidden for article|1) Hover over an unpublished article</br>2) Click "..." button -> <b>Edit</b> menu item</br>3) Click the <b>Comments: Hide</b> toggle</br>4) Click <b>Save</b> button|3) <b>Comments:</b> changed to <b>Show</b></br>4) The article is saved with the shown comments section|
 
 </details>
-
