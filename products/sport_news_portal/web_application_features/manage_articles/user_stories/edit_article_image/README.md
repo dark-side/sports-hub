@@ -1,190 +1,159 @@
-### Back to [Manage Articles of the portal](../../) feature
+### Back to [Manage articles on the portal](../../) feature
 
-# Allow admin users to edit the image of the article
+# Allow admin users to have advanced edit of the article image
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to edit the image of the article
+    I want to have an advanced editor for the article image
 
 ## Acceptance criteria
 
-    Scenario: An admin user edits the image of the article
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user edits an image of an article
+Given I am logged in as an admin user
 
-    When I hover on the field with the image on Add or Edit article page
-    Then I see the next elements:
-      - link for uploading a new image
-      - icon for apply filters
-      - icon for crop image
-      - icon for deleting the image
-      - icon for resizing the image
-    When I click Apply filters icon
-    Then I see thumbnails with different filter
-      And I see the name of each filter above the thumbnails
-      And I see OK and Cancel buttons
-    When I select the filter
-    Then I see the main photo with the applied filter
-    When I click OK button
-    Then I see thumbnails disappears and I see the previous Add or Edit article page with edited image
-    When I click Cancel button
-    Then I see thumbnails disappears and I see the previous Add or Edit article page without changes
-    When I click the Crop image icon
-    Then I see a frame over the image with four control points on each corner of the frame for manipulating with its size in two dimensions. The image outside this frame is covered with half-transparent overlay.
-    When I capture any of the control points and pull it
-    Then I see the zone bordered by frame changes its size.
-    When click Ok button
-    Then I see the image crops to the proper size and is saved.
-    When I click Cancel button
-    Then I see no change and I see the previous Add or Edit article page without changes.
-    When I click Resizing icon
-    Then I see the section for image resizing opens
-      And I see the image on the top, image resize control above and Cancel and Ok buttons on the left bottom corner. Image resize control looks like slider control with two icons on the left and on the right that show small and big image respectively
-    When I pull the slider control to the right
-    Then I see the image becomes bigger
-    When I pull the slider control to the left
-    Then I see the image becomes smaller
-    When I click Ok button
-    Then I see the image is saved with a new size
-    When I click Cancel button
-    Then I see the previous Add or Edit article page with the edited image.
-    When I click Delete icon
-    Then I see the image is deleted and form for image upload appears
+When I hover over the Picture box on the Add or Edit article page
+Then I see the picture editing icons:
+  - Upload new image
+  - Filters
+  - Crop
+  - Delete
+  - Resize
+
+When I click the <b>filters icon</b>
+Then I see thumbnails with different filters
+  And I see the name of each filter above the thumbnails
+  And I see the <b>OK</b> and <b>Cancel</b> buttons
+
+When I select a filter
+Then I see the filter is applied to the picture
+
+When I click <b>OK</b>
+Then I see thumbnails disappear and I see the previous Add or Edit article page with the edited image
+
+When I click <b>Cancel</b>
+Then I see thumbnails disappear and I see the previous Add or Edit article page without changes
+
+When I click the <b>crop icon</b>
+Then I see a frame over the image with four control points on each corner of the frame to edit the size in two dimensions. The image outside this frame is covered with a half-transparent overlay
+
+When I capture any control point and pull it
+Then I see the picture zone is bordered by frame changes its size
+
+When I click <b>OK</b>
+Then I see the image crops to the needed size and is saved
+
+When I click <b>Cancel</b>
+Then I see that no changes were applied
+
+When I click the <b>resize icon</b>
+Then I see the section for image resizing opens
+
+And I see the resize slider control below the picture box. The <b>Cancel</b> and <b>OK</b> buttons on the right below the picture. The resize slider control with the small image icon on the left and the bigger image icon on the right
+
+When I pull the slider control to the right
+Then I see the picture becomes bigger
+
+When I pull the slider control to the left
+Then I see the picture becomes smaller
+
+When I click <b>OK</b>
+Then I see the picture is saved with a new size
+
+When I click <b>Cancel</b>
+Then I see that no changes were applied
+
+When I click the <b>delete icon</b>
+Then I see the picture is deleted and the box for image upload appears
+</pre>
 
 ## Mockups
 
-1. User sees article image
-2. User sees crop article image screen
-2. User sees edit article image brightness screen
-4. User sees apply image filters screen
-5. User sees wrong image format popup
+1. Admin user hovers over uploaded article image and sees editor actions
+2. Admin user clicks a filter icon and sees filters under the article image
+3. Admin user clicks a resize icon and sees a size editor
+4. Admin user clicks a crop icon and sees a crop editor
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees article image:**
+**1. Admin user hovers over uploaded article image and sees editor actions:**
 
-![Article image Screen](/products/sport_news_portal/web_application_features/manage_articles/images/article_image.png)
+![Admin user hovers over uploaded article image and sees editor actions](/products/sport_news_portal/web_application_features/manage_articles/images/article_image_hover_editor.png)
 
-**2. User sees crop article image screen:**
+**2. Admin user clicks filter icon and sees filters under the article image:**
 
-![Crop article image Screen](/products/sport_news_portal/web_application_features/manage_articles/images/cancel_edit_article_popup.png)
+![Admin user clicks filter icon and sees filters under the article image](/products/sport_news_portal/web_application_features/manage_articles/images/article_image_filters.png)
 
-**3. User sees edit article image brightness screen:**
+**3. Admin user clicks resize icon and sees a size editor:**
 
-![Edit article image brightness Screen](/products/sport_news_portal/web_application_features/manage_articles/images/edit_article_image_brightness.png)
+![Admin user clicks resize icon and sees a size editor](/products/sport_news_portal/web_application_features/manage_articles/images/article_image_size_editor.png)
 
-**4. User sees apply image filters screen:**
+**4. Admin user clicks a crop icon and sees a crop editor:**
 
-![Apply image filters Screen](/products/sport_news_portal/web_application_features/manage_articles/images/edit_article_filters.png)
-
-**5. User sees wrong image format popup:**
-
-![Wrong image format popup](/products/sport_news_portal/web_application_features/manage_articles/images/wrong_image_format.png)
+![Admin user clicks a crop icon and sees a crop editor](/products/sport_news_portal/web_application_features/manage_articles/images/article_image_crop_editor.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify admin can Apply filter for article photo
-2. Verify admin can cancel applied filter for Article image
-3. Verify admin can crop an Article image
-4. Verify admin can cancel cropping an Article image
-5. Verify admin can resize an Article image
-6. Verify admin can cancel resizing of an Article image
-7. Verify admin can delete an Article image
+1. Verify that admin is able to apply a filter for an article picture
+2. Verify that admin is able to cancel the applied filter for an article picture
+3. Verify admin is able to crop an article picture
+4. Verify admin is able to cancel cropping an article picture
+5. Verify admin is able to resize an article picture
+6. Verify admin is able to cancel resizing an article picture
+7. Verify admin can delete an article picture
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify admin can Apply filter for article photo**
+### **#1. Verify that admin is able to apply a filter for an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on Apply filters icon|Thumbnails with different named filters appears
-|6|Select filter|The main photo with the applied filter
-|7|Click OK|Thumbnails will disappear and I will see the previous Add article page with edited image
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>OK</b>|5) The thumbnails disappear and the filter is applied|
 
-### **#2. Verify admin can cancel applied filter for Article image**
+### **#2. Verify that admin is able to cancel the applied filter for an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on Apply filters icon|Thumbnails with different named filters appears
-|6|Select filter|The main photo with the applied filter
-|7|Click Cancel|Thumbnails will disappear and I will see the previous Add article page without changes
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>Cancel</b>|5) The thumbnails disappear and no changes are applied to the image|
 
-### **#3. Verify admin can crop an Article image**
+### **#3. Verify admin is able to crop an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on crop icon|A frame over the image with four control points on each corner of the frame for manipulating with its size in two dimensions appears
-|6|Capture any of the control points and pull it|The zone bordered by frame changes its size
-|7|Click OK|Image crops to the proper size and is saved
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>OK</b>|5) The crop editor disappear and the picture is cropped to the proper size and is saved|
 
-### **#4. Verify admin can cancel cropping an Article image**
+### **#4. Verify admin is able to cancel cropping an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on crop icon|A frame over the image with four control points on each corner of the frame for manipulating with its size in two dimensions appears
-|6|Capture any of the control points and pull it|The zone bordered by frame changes its size
-|7|Click Cancel|Nothing has changed, the Add article page is shown without changes
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>Cancel</b>|5) The crop editor disappear and no changes are applied to the image|
 
-### **#5. Verify admin can resize an Article image**
+### **#5. Verify admin is able to resize an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on resize icon|Section for image resizing opens
-|6|Pull the slider control to the right|The image becomes bigger
-|7|Pull the slider control to the left|The image becomes smaller
-|8|Click on OK button|The image is saved with a new size
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right/to the left</br>5) Click <b>OK</b>|5) The resize editor disappear and the picture is saved with changed size|
 
-### **#6. Verify admin can cancel resizing of an Article image**
+### **#6. Verify admin is able to cancel resizing an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on +Add Article button|Admin is navigating to Create Article Page
-|5|On the field with the image click on resize icon|Section for image resizing opens
-|6|Pull the slider control to the right|The image becomes bigger
-|7|Pull the slider control to the left|The image becomes smaller
-|8|Click on Cancel button|The size of Article image has not changed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right/to the left</br>5) Click <b>Cancel</b>|5) The resize editor disappear and no changes are applied to the image|
 
-### **#7. Verify admin can delete an Article image**
+### **#7. Verify admin can delete an article picture**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Сlick on any sports category link (NBA)|
-|4|Click on any article|Admin is redirected to Edit Article page
-|5|Click delete on image of the article|Image is deleted and form for image upload appears
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the delete icon|4) The image disappears and an empty <b>Picture</b> field is shown|
 
 </details>
-
