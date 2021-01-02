@@ -1,255 +1,258 @@
-### Back to [Maintain Navigation on the portal](../../) feature
+### Back to [Maintain navigation on the portal](../../) feature
 
-# Allow admin users to manage navigation items on the portal
+# Allow admin users to create navigation menu items on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to configure the Navigation menu categories, subcategories and teams
-    So that I have control over the sport categories, subcategories and teams visible to the site users
+    I want to create the navigation menu categories, subcategories, and teams visible to the site users
 
 ## Acceptance criteria
 
-    Scenario: An admin site configures the Navigation menu categories, subcategories and teams
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user creates the navigation menu categories, subcategories, and teams
+Given I am logged in as an admin user
 
-    When I am on Information Architecture configuration page, 
-    Then I see list of Navigation Menu Categories and Add category button
-    When I click on Add category button
-    Then I see a Add new category modal with an input for category name and Add and Cancel buttons
-    When I click the Cancel button
-    Then I see a Add new category modal is closed
-    When I fill in category name input and click the Add button
-    Then I see a new category item is created 
-      And I see the Add new category modal is closed 
-      And I see system displays this created category item in the list of Navigation Menu Categories
-    When I click on the category name
-    Then I see a Add sub category button appears to the right of the Add new category button
-      And I see systems displays list of the subcategories related to the selected category
-    When I click on Add sub category button
-    Then I see system shows Add new subcategory modal with an input for subcategory name and Add and Cancel buttons
-    When I click the Cancel button
-    Then I see a Add new subcategory modal is closed
-    When I fill in subcategory name input and click the Add button
-    Then I see a new subcategory item is created 
-      And I see the Add new subcategory modal is closed 
-      And I see this created subcategory item in the list of Navigation Menu Subcategories list
-    When I click on the subcategory name
-    Then I see a Add team button appears to the right of the Add new subcategory button
-      And I see list of the teams related to the selected subcategory
-    When I click on Add team button
-    Then I see a Add new team modal with an input for team name and Add and Cancel buttons
-    When I click the Cancel button
-    Then I see a Add new team modal is closed
-    When I fill in team name input and click the Add button
-    Then I see a new team is created 
-      And I see the Add new team modal is closed 
-      And I see this created team in the list of Navigation Menu Teams list
-    When I click on the category, subcategory or team name 
-    Then I can drag and drop it up or down to change the order of the category/ subcategory/ team
-    When I hover over the category, subcategory or team name
-    Then I see a three dots to the right of the category/ subcategory/ team name
-    When I click on this three dots 
-    Then I see an options to delete or hide category (in case of clicking on the category) and option to delete, move or hide the subcategory/ team (in case I click on the subcategory/ team)
-    Note: The delete option is not available for LIFESTYLE, DEALBOOK, VIDEO and TEAM HUB categories as they are static
-    When I click on Delete option
-    Then I see  selected category/ subcategory/ team is deleted
-    When I click on Hide option
-    Then I see selected category/ subcategory/ team is hidden (not displayed on the UI, but not removed from the database)
-    When I click on Move option for the subcategory
-    Then I see a dropdown with list of categories
-    When I select any category from the list
-    Then I see a subcategory is moved to the selected category
-    When I click on Move option for the team
-    Then I see a menu with list of categories and their subcategories where I can move the selected team 
-    When I select a subcategory from this list
-    Then I see a team is moved to the selected subcategory
-    When I click a Save button
-    Then I see changes applied to the categories/ subcategories/ teams are saved
+When I am on the <b>Information architecture</b> configuration page
+Then I see the list of navigation menu categories and the <b>Save</b> button
+
+When I click <b>+ Add category</b>
+Then I see the <b>Add new category</b> popover with the <b>Name</b> field, the <b>Add</b> and <b>Cancel</b> buttons
+
+When I click <b>Cancel</b>
+Then I see the <b>Add new category</b> popover is closed
+  And the category is not added
+
+When I type a category name and click <b>Add</b>
+Then I see the <b>Add new category</b> popover is closed
+  And I see a new category item is created
+  And I see this category at the top of the list of navigation menu categories
+
+When I click on the category name
+Then I see the <b>+ Add subcategory</b> button on to the right of the <b>+ Add category</b>
+  And I see systems displays list of the subcategories related to the selected category
+
+When I click <b>+ Add subcategory</b>
+Then I see the system shows <b>Add new subcategory</b> popover with the <b>Name</b> field, the <b>Add</b> and <b>Cancel</b> buttons
+
+When I click <b>Cancel</b>
+Then I see the <b>Add new subcategory</b> popover is closed
+  And subcategory is not added
+
+When I type a subcategory name and click <b>Add</b>
+Then I see the <b>Add new subcategory</b> popover is closed
+  And I see a new subcategory item is created
+  And I see this created subcategory at the top of the list of navigation menu subcategories for the selected category
+
+When I click on the subcategory name
+Then I see the <b>+ Add team</b> button on to the right of the <b>+ Add subcategory</b>
+  And I see a list of the teams related to the selected subcategory
+
+When I click <b>+ Add team</b>
+Then I see the <b>Add new team</b> popover with the Name field, the <b>Add</b> and <b>Cancel</b> buttons
+
+When I click <b>Cancel</b>
+Then I see the <b>Add new team</b> popover is closed
+  And the team is not added
+
+When I type a team name and click <b>Add</b>
+Then I see the <b>Add new team</b> popover is closed
+  And I see a new team is created
+  And I see this created team at the top of the list of navigation menu teams for selected subcategory
+
+When I hover over a category, subcategory, or team name
+Then on the right of each category/subcategory/team name, I see the ellipsis (...) button
+
+When I click the ellipsis (...) button for any created category
+Then I see options to <b>Delete</b>, <b>Edit</b>, and <b>Hide</b> category
+
+When I click the ellipsis (...) button for any created subcategory/team
+Then I see options to <b>Delete</b>, <b>Edit</b>, <b>Hide</b>, <b>Move</b> subcategory/team
+
+When I click the ellipsis (...) button for static categories (<b>Lifestyle</b>, <b>Dealbook</b>, <b>Video</b>, <b>Team hub</b>)
+Then I see an option to <b>Hide</b> category
+
+When I select a category/subcategory/team and click <b>Delete</b>
+Then I see the confirmation popover
+
+When I confirm delete
+Then I see the selected category/subcategory/team is deleted
+
+When I select a category/subcategory/team and click <b>Edit</b>
+Then I see the edit popup with the pre-populated name field
+
+When I click to save on the popup
+Then the name is updated
+
+When I click to cancel on the popup
+Then the name is not updated
+
+When I click <b>Save</b> at the top of the page
+Then I see changes applied to the category/subcategory/team are saved
+</pre>
 
 ## Mockups
 
-1. Admin user sees Add New Category/Subcategory/Team modal 
-2. Admin user sees configuration page for Navigation Menu
-3. Admin user drags and drops Category/Subcategory/Team
-4. Admin user sees menu with Move/Hide/Delete actions for subcategory
-5. Admin user sees menu with Move/Hide/Delete actions for team
+1. Admin user sees default Information architecture configuration page
+2. Admin user clicked on the category and sees subcategories
+3. Admin user clicked on the subcategory and sees teams
+4. Admin user sees actions for the subcategory and hidden NFL category
+5. Admin user sees actions for the team
+6. Admin user clicked to add category and sees a popup
+7. Admin user clicked Save and sees a flash message
+8. Admin user clicked to delete a subcategory and sees a popup
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees Add New Category/Subcategory/Team modal:**
+**1. Admin user sees default Information architecture configuration page:**
 
-![Add New Category/Subcategory/Team modal](/products/sport_news_portal/web_application_features/maintain_navigation/images/add_new_category_subcategory_team_modal.png)
+![Admin user sees default Information architecture configuration page](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_category_only.png)
 
-**2. Admin user sees configuration page for Navigation Menu:**
+**2. Admin user clicked on the category and sees subcategories:**
 
-![Configuration page for Navigation Menu](/products/sport_news_portal/web_application_features/maintain_navigation/images/admin_configuration_page_for_navigation_menu.png)
+![Admin user clicked on the category and sees subcategories](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_subcategory_only.png)
 
-**3. Admin user drags and drops Category/Subcategory/Team:**
+**3. Admin user clicked on the subcategory and sees teams:**
 
-![Drag and drop Category/Subcategory/Team](/products/sport_news_portal/web_application_features/maintain_navigation/images/drag_and_drop_category_subcategory_team.png)
+![Admin user clicked on the subcategory and sees teams](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_with_team.png)
 
-**4. Admin user sees menu with Move/Hide/Delete actions for subcategory:**
+**4. Admin user sees actions for the subcategory and hidden NFL category:**
 
-![Move/Hide/Delete subcategory](/products/sport_news_portal/web_application_features/maintain_navigation/images/move_hide_delete_subcategory.png)
+![Admin user sees actions for the subcategory and hidden NFL category](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
 
-**5. Admin user sees menu with Move/Hide/Delete actions for team:**
+**5. Admin user sees actions for the team:**
 
-![Move/Hide/Delete team](/products/sport_news_portal/web_application_features/maintain_navigation/images/move_hide_delete_team.png)
+![Admin user sees actions for the team](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
+
+**6. Admin user clicked to add category and sees a popup:**
+
+![Admin user clicked to add category and sees a popup](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_new_category_popup.png)
+
+**7. Admin user clicked Save and sees a flash message:**
+
+![Admin user clicked Save and sees a flash message](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
+
+**8. Admin user clicked to delete a subcategory and sees a popup:**
+
+![Admin user clicked to delete a subcategory and sees a popup](/products/sport_news_portal/web_application_features/maintain_navigation/images/ia_delete_popup.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify list of Navigation Menu Categories
-2. Verify clicking on Add category button
-3. Verify clicking on Cancel button on adding new category
-4. Verify Add sub category button
-5. Verify adding new sub category
-6. Verify clicking on cancel button on adding new sub category
-7. Verify clicking on Add team button
-8. Verify ability to drag and drop the Category
-9. Verify ability to drag and drop the Subcategory
-10. Verify ability to drag and drop the Team
-11. Verify ability to delete the Category
-12. Verify ability to delete the Subcategory
-13. Verify ability to delete the Team
+1. Verify if admin is able to add a new category
+2. Verify if admin is able to cancel the adding of a new category
+3. Verify if admin is able to add a new subcategory
+4. Verify if admin is able to cancel the adding of a new subcategory
+5. Verify if admin is able to add a new team
+6. Verify if admin is able to cancel the adding of a new team
+7. Verify ability to delete the category
+8. Verify the ability to delete a subcategory
+9. Verify the ability to delete the team
+10. Verify the ability to edit the category
+11. Verify the ability to cancel editing the category
+12. Verify the ability to edit the subcategory
+13. Verify the ability to cancel editing the subcategory
+14. Verify the ability to edit the team
+15. Verify the ability to cancel editing the team
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify list of Navigation Menu Categories**
+### **#1. Verify if admin is able to add a new category**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Observe the list of Navigation Menu Categories|List of Navigation Menu Categories is present on Information Architecture configuration page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click <b>+ Add category</b></br>2) On the <b>Add new category</b> popover, in the <b>Name</b> box, enter a category name</br>3) Click <b>Add</b>|3) The new category is created and appears at the top of the categories list|
 
-### **#2. Verify clicking on Add category button**
+### **#2. Verify if admin is able to cancel the adding of a new category**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on Add category button|System shows Add new category modal with an input for category name
-|4|Fill in the category name|
-|5|Click add|The new category item is created
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click <b>+ Add category</b></br>2) Click <b>Cancel</b>|2) The Add new category popover is closed. No category is added|
 
-### **#3. Verify clicking on Cancel button on adding new category**
+### **#3. Verify if admin is able to add a new subcategory**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Click on Add category button|
-|4|Click on Cancel button|The Add new category modal is closed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click a category name</br>2) Click <b>+ Add subcategory</b></br>3) On the <b>Add new subcategory</b> popover, in the <b>Name</b> box, enter a subcategory name</br>4) Click <b>Add</b>|1) The <b>+ Add subcategory</b> button appears on the right from the <b>+ Add category</b> button</br>4) The new subcategory is created and appears at the top of the subcategories list in the selected category|
 
-### **#4. Verify Add sub category button**
+### **#4. Verify if admin is able to cancel the adding of a new subcategory**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on the category name|The Add sub category button appears to the right of the Add new category button
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click a category name</br>2) Click <b>+ Add subcategory</b></br>3) On the <b>Add new subcategory</b> popover, in the <b>Name</b> box, enter a subcategory name</br>4) Click <b>Cancel</b>|1) The <b>+ Add subcategory</b> button appears on the right from the <b>+ Add category</b> button</br>4) The Add new subcategory popover is closed. No subcategory is added|
 
-### **#5. Verify adding new sub category**
+### **#5. Verify if admin is able to add a new team**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on add sub category button|
-|5|Fill in sub category name input and click|
-|6|Click add|The system displays this created subcategory item in the list of Navigation Menu
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click on a subcategory name</br>2) Click <b>+ Add team</b></br>3) On the <b>Add new team</b> popover, in the <b>Name</b> box, enter a team name</br>4) Click <b>Add</b>|1) The <b>+ Add team</b> button appears to the right from the <b>+ Add subcategory</b> button</br>4) The new team is created and appears at the top of the team list in the selected subcategory for the category|
 
-### **#6. Verify clicking on cancel button on adding new sub category**
+### **#6. Verify if admin is able to cancel the adding of a new team**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on add sub category button|
-|5|Click Cancel|The Add new subcategory modal is closed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) Click on a subcategory name</br>2) Click <b>+ Add team</b></br>3) On the <b>Add new team</b> popover, in the <b>Name</b> box, enter a team name</br>4) Click <b>Cancel</b>|1) The <b>+ Add team</b> button appears to the right from the <b>+ Add subcategory</b> button</br>4) The <b>Add new team</b> popover is closed. No team is addedy|
 
-### **#7. Verify clicking on Add team button**
+### **#7. Verify ability to delete the category**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Сlick on the subcategory name|The Add team button appears to the right of the Add new subcategory button a list of the teams related to the selected subcategory is displayed
-|5|Click on Add team button|System shows Add new team modal with an input for team name
-|6|I fill in team name input|
-|7|Click on the Add button|The new team is created and the Add new team modal is closed. The system displays this created team in the list of Navigation Menu Teams list
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) On the right of any category, click the ellipsis (...) button</br>2) Click <b>Delete</b></br>3) Click <b>Delete</b>|2) Confirmation popover appears</br>3) The category is deleted|
 
-### **#8. Verify ability to drag and drop the Category**
+### **#8. Verify the ability to delete a subcategory**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on the category and drag and drop it up or down to change the order of the category|The order of the category can be changed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) On the right of any subcategory, click the ellipsis (...) button</br>2) Click <b>Delete</b></br>3) Click <b>Delete</b>|2) Confirmation popover appears</br>3) The subcategory is deleted|
 
-### **#9. Verify ability to drag and drop the Subcategory**
+### **#9. Verify the ability to delete the team**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on the subcategory and drag and drop it up or down to change the order of the subcategories|The order of the subcategories can be changed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page|1) On the right of any team, click the ellipsis (...) button</br>2) Click <b>Delete</b></br>3) Click <b>Delete</b>|2) Confirmation popover appears</br>3) The team is deleted|
 
-### **#10. Verify ability to drag and drop the Team**
+### **#10. Verify the ability to edit the category**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on the Team and drag and drop it up or down to change the order of the Teams|The order of the Teams can be changed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a category|1) On the right of a category, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Save</b>|2) Popover with the category name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and category saved in the same place with the new name and all subcategories and teams inside|
 
-### **#11. Verify ability to delete the Category**
+### **#11. Verify the ability to cancel editing the category**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on three dots to the right of the Category|
-|5|Click on Delete|The order of the Category can be deleted 
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a category|1) On the right of a category, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Cancel</b>|2) Popover with the category name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and the category stays in the same place with the not changed name|
 
-### **#12. Verify ability to delete the Subcategory**
+### **#12. Verify the ability to edit the subcategory**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on three dots to the right of the Subcategory|An option to delete a team is present
-|5|Click on Delete|Chosen Subcategory is deleted
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a subcategory|1) On the right of a subcategory, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Save</b>|2) Popover with the subcategory name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and subcategory saved in the same place with the new name and all teams inside|
 
-### **#13. Verify ability to delete the Team**
+### **#13. Verify the ability to cancel editing the subcategory**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to the sport news site|
-|2|Log in the admin account|
-|3|Go to Information Architecture configuration page|
-|4|Click on three dots to the right of the Team|An option to delete a team is present
-|5|Click on Delete|Chosen Team is deleted
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a subcategory|1) On the right of a subcategory, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Cancel</b>|2) Popover with the subcategory name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and the subcategory stays in the same place with the not changed name|
+
+### **#14. Verify the ability to edit the team**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a team|1) On the right of a team, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Save</b>|2) Popover with the team name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and team saved in the same place with the new name|
+
+### **#15. Verify the ability to cancel editing the team**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Information Architecture</b> configuration page</br>- There is a team|1) On the right of a team, click the ellipsis (...) button</br>2) Click <b>Edit</b></br>3) Edit the name</br>4) Click <b>Cancel</b>|2) Popover with the team name, <b>Save</b> and <b>Cancel</b> buttons appears</br>4) Popover is closed and the team stays in the same place with the not changed name|
 
 </details>
-

@@ -1,55 +1,55 @@
-# Maintain Navigation on the portal
+# Maintain navigation on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
-- [Prototype of the Feature](#prototype-of-the-feature)
-- [User Stories](#user-stories)
+- [Prototype of the feature](#prototype-of-the-feature)
+- [User stories](#user-stories)
 
 ## Description
 
-There should be a Navigation menu visible on every page of the Sport News site in the left side of every page. The Navigation menu consists of the following menu items:<br>
-    - HOME<br>
-    - NFL<br>
-    - NBA<br>
-    - MLB<br>
-    - NHL<br>
-    - CBB<br>
-    - CFB<br>
-    - NASCAR<br>
-    - GOLF<br>
-    - SOCCER<br>
-    - LIFESTYLE<br>
-    - DEALBOOK<br>
-    - VIDEO<br>
-    - TEAM HUB<br>
-    - Follow on social block (Facebook, Twitter, Google +, Youtube)<br>
-The HOME, LIFESTYLE, DEALBOOK, VIDEO and TEAM HUB menu items are static categories. The NFL, NBA, MLB, NHL, CBB, CFB, NASCAR, GOLF and SOCCER are sport categories configurable by Admin. Site admin can add as many sport categories as he prefers. If there are more than eight sport categories configured than there should be a scroll added to the menu section.   
-Some of the sport categories are divided into subcategories. The subcategories contain a list of the teams related to the subcategory. 
-For example the NFL sport category consists of the following subcategories: AFC East, AFC North, AFC South, AFC West, NFC East, NFC North, NFC South, NFC West. The AFC South contains the following teams: Houston, Indianapolis, Jacksonville, Tennessee
-When a logged in user hovers over the category in the main navigation menu that consists of the subcategories, then this category is highlighted and a mega dropdown menu with links to the subcategories appear in the UI. When a logged in user clicks on the subcategory, he is redirected to the subcategory page
-When a logged in user hovers over the subcategory in the secondary navigation menu that consists of the teams, then this subcategory is highlighted and a dropdown menu with list of teams appears in the UI. When a logged in user clicks on the team, he is redirected to the team page
-The LIFESTYLE, DEALBOOK, VIDEO and TEAM HUB Navigation menu categories don’t have subcategories, so when a logged in user hovers over one of these categories, then this category is only highlighted. When a logged in user clicks on one of these categories, he is redirected to the appropriate category page
-Admin user configures a list of categories, subcategories and teams visible in the Navigation panel
+There should be a navigation menu visible on every page of the Sport News site on the left side. The navigation menu consists of the following menu items:
+  - Home
+  - Configured by admin category news pages (for example, NFL, NBA, Golf, Soccer, ect.)
+  - Lifestyle
+  - Dealbook
+  - Video
+  - Team hub
+
+The Home, Lifestyle, Dealbook, Video, and Team hub menu items are static categories.
+The site admins can add as many sports categories as hthey prefers. If there are lots of the sports categories configured, then there should be a scroll bar added to the menu section.
+
+Some of the sports categories have subcategories. The subcategories contain a list of the teams related to the subcategory. For example, the NFL sports category consists of the following subcategories: AFC East, AFC North, AFC South. The AFC South contains the following teams: Houston, Indianapolis, Jacksonville, Tennessee.
+
+When a user hovers over a category in the main navigation menu that consists of the subcategories, then this category is highlighted and a drop-down menu with links to the subcategories appears on the UI. When a user clicks on the subcategory, they are redirected to the subcategory news page.
+When a user hovers over the subcategory in the secondary navigation menu that consists of the teams, then this subcategory is highlighted and a drop-down menu with the list of teams appears on the UI. When a user clicks on the team, he is redirected to a team news page
+
+The Lifestyle, Dealbook, Video, and Team hub menu categories do not have subcategories, so when the user hovers over one of these categories, then this category is only highlighted. When the user clicks on one of these categories, the user is redirected to the appropriate category news page.
+Admin user configures a list of categories, subcategories, and teams visible in the navigation menu.
 
 ## Check list:
 
-  - Verify if UI corresponds to prototype
-  - Navigation should be present on every page of the Sport News site
-  - Admin user should be able to configure the Navigation menu categories, subcategories and teams
-  - Logged in user should be able to navigate to the sport subcategory page of the Sport News site using the Navigation menu
-  - Logged in user should be able to navigate to the team page of the Sport News site using the Navigation menu
-  - Page content should be valid without any spelling or grammatical errors
-  - All fonts should be same as per the requirements
+  - Verify if UI corresponds to prototypes
+  - The navigation menu should be present on every page of the Sport News site
+  - Admin user should be able to configure the navigation menu categories, subcategories, and teams
+  - User should be able to go to the sport subcategory page of the Sport News site by using the navigation menu
+  - User should be able to navigate to the team page of the Sport News site by using the navigation menu
 
 ## Prototype of the feature
 
   Please click [here](https://www.figma.com/file/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=4523%3A10122) to see a clickable prototype for the feature.
 
-## User Stories
+## User stories
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to manage navigation items on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/manage_navigation_items)|<pre>As an admin user<br>I want to be able to configure the Navigation menu categories, subcategories and teams<br>So that I have control over the sport categories, subcategories and teams visible to the site users</pre>
-2 |[**Allow users to view the navigation menu on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/main_navigation)|<pre>As a site user<br>I want to be able to views the Navigation menu on every page of the Sport News site<br>So that I can navigate between sport categories pages</pre>
-3 |[**Allow users to navigate to the sport subcategory page on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/main_navigation_dropdowns)|<pre>As a site user<br>I want to be able to navigate to the sport subcategory page of the Sport News site using the Navigation menu<br>So that I can see news about selected subcategory</pre>
-4 |[**Allow users to navigate to the team page on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/secondary_navigation)|<pre>As a site user<br>I want to be able to navigate to the team page of the Sport News site using the Navigation menu<br>So that I can see news about selected team</pre>
+1 |[**Allow admin users to create navigation menu items on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/manage_navigation_items)|<pre>As an admin user<br>I want to create the navigation menu categories, subcategories, and teams visible to the site users</pre>
+2 |[**Allow admin users to show and hide navigation menu items on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/hide_show_navigation_items)|<pre>As an admin user<br>I want to show and hide the navigation menu categories, subcategories, and teams on the portal</pre>
+3 |[**Allow admin users to change order of the navigation menu items and move them between the categories and subcategories**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/move_and_order_navigation_items)|<pre>As an admin user<br>I want to change order of the navigation menu items and move them between the categories and subcategories</pre>
+4 |[**Allow site users to navigate to the sport categories, subcategories, and teams page on the portal**](/products/sport_news_portal/web_application_features/maintain_navigation/user_stories/navigation_user_side)|<pre>As a site user<br>I want to view the navigation menu on every page of the Sport News site<br>So that I can navigate between sport categories, subcategories, and teams news pages</pre>
+
+
+
+
+
+
+
