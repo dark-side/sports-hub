@@ -5,57 +5,60 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
     I want to be able to preview Home page while configuration
-    So that I could review the page as user
+    So that I could review the page as a site user
 
 ## Acceptance criteria
 
-    Scenario: An admin user previews Home page
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user previews the Home page
+Given I am logged in as an admin user
 
-    When I am on Home configuration page
-    Then I see a Preview icon
-    When I click on that icon
-    Then I see a Home page as for site users
-    When I click on that icon again
-    Then I am taken back to the Home configuration page
+When I am on the <b>Home</b> configuration page
+Then I see the <b>Preview</b> button
+
+When I click the <b>Preview</b> button
+Then I see a home page in regular user mode
+  And I see <b>Back to edit page</b> button
+
+When I click the <b>Back to edit page</b> button
+Then I am taken back to the <b>Home</b> configuration page
+</pre>
 
 ## Mockups
 
-1. The admin user sees configured Home Page
-2. The admin user preview the Home Page
+1. Admin user sees a Home configuration page
+2. Admin user sees a Home preview page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. The admin user sees configured Home Page:**
+**1. Admin user sees a Home configuration page:**
 
-![Home Page](/products/sport_news_portal/web_application_features/home_page/images/home_page_admin_side.png)
+![Admin user sees a Home configuration page](/products/sport_news_portal/web_application_features/home_page/images/home_configuration.png)
 
-**2. The admin user preview the Home Page:**
+**2. Admin user sees a Home preview page:**
 
-![Home Page](/products/sport_news_portal/web_application_features/home_page/images/preview_home_page.png)
+![Admin user sees a Home preview page](/products/sport_news_portal/web_application_features/home_page/images/home_preview_page.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify clicking on Preview icon
+1. Verify that admin is able to preview the home page and navigate back to the configuration page
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify clicking on Preview icon**
+### **#1. Verify that admin is able to preview the home page and navigate back to the configuration page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Click on preview icon|Then the system is displayed the Home page as for site users
-|4|Click on preview icon again|Admin navigates back to the Home configuration page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page</br>- Update <b>Main articles</b> section</br>- Update <b>Breakdown</b> section</br>- Update <b>Photo of the day</b> section|1) Click <b>Preview</b> button</br>2) Click <b>Back to edit page</b> button|1) The <b>Home</b> page is shown for admin as it will be shown for the users</br>2) Admin navigates back to the <b>Home</b> configuration page|
+
 </details>
