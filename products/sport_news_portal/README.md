@@ -94,7 +94,7 @@ Specific goals are:
 19. [Manage Pages on the portal](/products/sport_news_portal/web_application_features/manage_pages/)
 20. [Lifestyle – Sidebar Block](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/)
 21. [User Management on the portal](/products/sport_news_portal/web_application_features/user_management/)
-22. [Newsletter Email](/products/sport_news_portal/web_application_features/newsletter_email/)
+22. [Newsletter subscription](/products/sport_news_portal/web_application_features/newsletter_email/)
 23. [Manage News Partners on the portal](/products/sport_news_portal/web_application_features/manage_news_partners/)
 24. [Comments block on the portal](/products/sport_news_portal/web_application_features/comments/)
 
