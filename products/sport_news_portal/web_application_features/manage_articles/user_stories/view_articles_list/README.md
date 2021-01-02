@@ -82,11 +82,12 @@ Then I see the following options:
 ## Mockups
 
 1. Admin user sees a list of articles
-2. Admin user clicks status filter and sees the options
-3. Admin user clicks search icon and sees an input field
-4. Admin user sees actions for a published article
-5. Admin user sees actions for an unpublished article
-6. Admin user sees a category preview page
+2. Admin user clicks conference filter and sees the options
+3. Admin user clicks status filter and sees the options
+4. Admin user clicks search icon and sees an input field
+5. Admin user sees actions for a published article
+6. Admin user sees actions for an unpublished article
+7. Admin user sees a category preview page
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -95,23 +96,27 @@ Then I see the following options:
 
 ![Admin user sees a list of articles](/products/sport_news_portal/web_application_features/manage_articles/images/articles_list.png)
 
-**2. Admin user clicks status filter and sees the options:**
+**2. Admin user clicks conference filter and sees the options:**
+
+![Admin user clicks conference filter and sees the options](/products/sport_news_portal/web_application_features/manage_articles/images/conferences_filter.png)
+
+**3. Admin user clicks status filter and sees the options:**
 
 ![Admin user clicks status filter and sees the options](/products/sport_news_portal/web_application_features/manage_articles/images/status_filter.png)
 
-**3. Admin user clicks search icon and sees an input field:**
+**4. Admin user clicks search icon and sees an input field:**
 
 ![Admin user clicks search icon and sees an input field](/products/sport_news_portal/web_application_features/manage_articles/images/search_field.png)
 
-**4. Admin user sees actions for a published article:**
+**5. Admin user sees actions for a published article:**
 
 ![Admin user sees actions for a published article](/products/sport_news_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
-**5. Admin user sees actions for an unpublished article:**
+**6. Admin user sees actions for an unpublished article:**
 
 ![Admin user sees actions for an unpublished article](/products/sport_news_portal/web_application_features/manage_articles/images/unpublished_article_actions.png)
 
-**6. Admin user sees a category preview page:**
+**7. Admin user sees a category preview page:**
 
 ![Admin user sees a category preview page](/products/sport_news_portal/web_application_features/manage_articles/images/category_preview_page.png)
 
