@@ -1,129 +1,185 @@
 ### Back to [Home page of the portal](../../) feature
 
-# Allow admin user to configure Breakdown block
+# Allow admin user to configure a breakdown block
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
-    As an admin user 
-    I want to be able to set up Breakdown block news for a specific category
-    So that the site users can see them on the Home page
+    As an admin user
+    I want to set up Breakdown section news for a specific category
+    So that the site users can see them on the home page
 
 ## Acceptance criteria
 
-    Scenario: An admin user configures Breakdown block news for a specific category
-    Given I am logged as an admin user
+<pre>
+Scenario: An admin user configures Breakdown section news for a specific category
+Given I am logged as an admin user
 
-    When I am on Home configuration page
-    Then I see a Breakdown block after Main News block
-      And I see the Breakdown block contains the next dropdown fields:
-        - Category - contains a list of all sport categories - required field
-        - Conference - contains a list of all conferences
-        - Team - contains a list of all teams
-      And I see an  “Add One More” link, Delete icon, and show/hide toggle are displayed at the bottom of the block
-    When I select Category
-    Then I see a Conference dropdown is updated with conferences from a selected Category if any
-      And I see a Team dropdown is updated with teams related to a selected Category if any
-    When I select Conference
-    Then I see a Team dropdown is updated with teams related to a selected Conference if any
-    When I click on Add One More
-    Then I see a system displays the same breakdown news row and Delete icon, and show/hide toggle in front of it
-    When I click on Delete icon
-    Then I see the second row is being removed from the page
-    When I click Save 
-    Then I see selected articles are saved to database but not yet published
-    When I click Publish
-    Then I see All changes are ready to be displayed for the users on the Home Page
+When I am on the <b>Home</b> configuration page
+Then I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right corner
+  And I see I see an empty <b>Breakdown</b> section under the <b>Main articles</b> section
+  And I see <b>Add one more breakdown</b> button
+  And I see <b>Show on the main page</b> toggle
+
+When I click <b>Add one more breakdown</b>
+  Then I see the form is added in <b>Breakdown</b> section:
+    - <b>Category</b> - contains a list of all sports categories, first category from the list is selected by default, is required
+    - <b>Conference</b> - contains a list of all conferences, nothing is selected by default
+    - <b>Team</b> - contains a list of all teams, nothing is selected by default
+    - <b>Delete</b> button
+    - <b>Add one more breakdown</b> button
+
+When I change the default category
+Then I see the <b>Conference</b> drop-down list is updated with conferences from the selected category
+  And I see the <b>Team</b> drop-down list is updated with teams according to the selected category
+
+When I select <b>Conference</b>
+Then I see the <b>Team</b> drop-down list is updated with teams according to the selected conference 
+
+When I click <b>Delete</b>
+Then the confirmation popup appears
+
+When I click <b>Yes</b> on the confirmation popup
+Then I see the row is removed from the page
+
+When I click <b>Show on the main page</b> toggle
+Then the toggle changes to the <b>Hide on the main page</b>
+  And the whole <b>Breakdown</b> section is not shown for the users on the <b>Home</b> page
+
+When I click <b>Hide on the main page</b> toggle
+Then the toggle changes to the <b>Show on the main page</b>
+  And the whole <b>Breakdown</b> section is shown for the users on the <b>Home</b> page
+
+When I click the <b>Cancel</b> button
+Then I see all changes which were made are canceled
+
+When I click the <b>Save all changes</b> button and there are validation errors
+Then I see all changes are present and there are validation errors highlighted
+
+When I click the <b>Save all changes</b> button and there are no validation errors
+Then all changes are saved and I see the <b>Publish</b> button
+
+When I click the <b>Publish</b> button
+Then the <b>Home</b> page is in the published state
+  And I see a success flash message
+  And I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right corner
+</pre>
 
 ## Mockups
 
-1. The admin user sees Home Page 
-2. The admin user sees configured Home Page
+1. Admin user sees a Home configuration page
+2. Admin user sees a Publish button after clicking the Save all changes button
+3. Admin user sees a success flash message after clicking the Publish button
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. The admin user sees Home Page:**
+**1. Admin user sees a Home configuration page:**
 
-![Home Page](/products/sport_news_portal/web_application_features/home_page/images/home_page_admin_side_empty.png)
-
-**2. The admin user sees configured Home Page:**
-
-![Home Page](/products/sport_news_portal/web_application_features/home_page/images/home_page_admin_side.png)
+![Admin user sees a Home configuration page](/products/sport_news_portal/web_application_features/home_page/images/home_configuration.png)
 
 </details>
 
-## Test Scenarios
+**2. Admin user sees a Publish button after clicking the Save all changes button:**
 
-1. Verify that Breakdown block contains the next dropdown fields
-2. Verify selecting Category in Top News
-3. Verify selecting Conference in Top News
-4. Verify Add one more link at the bottom of the breakdown block
-5. Verify deleting breakdown news row
-6. Verify saving breakdown news to be displayed on Home page
+![Admin user sees a Publish button after clicking the Save all changes button](/products/sport_news_portal/web_application_features/home_page/images/home_configuration_publish_button.png)
+
+**3. Admin user sees a success flash message after clicking the Publish button:**
+
+![Admin user sees a success flash message after clicking the Publish button](/products/sport_news_portal/web_application_features/home_page/images/success_publish.png)
+
+## Test cases
+
+1. Verify that admin is able to cancel all changes of the home page
+2. Verify that admin is not able to save changes of the home page when there are validation errors
+3. Verify that admin is able to save changes of the home page when there are no validation errors
+4. Verify that admin is able to publish changes of the home page
+5. Verify that the admin is able to add Breakdown in the Breakdown section
+6. Verify that the admin is able to change Category in the Breakdown section
+7. Verify that admin is able to select a Conference in the Breakdown section
+8. Verify that admin is able to select a Team in the Breakdown section
+9. Verify that it is possible to delete a Breakdown in the Breakdown section
+10. Verify that it is possible to delete the last Breakdown from the Breakdown section
+11. Verify that the Breakdown section can be hidden for users view
+12. Verify that the Breakdown section can be unhidden for users view
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that Breakdown block contains the next dropdown fields**
+### **#1. Verify that admin is able to cancel all changes of the home page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Examine dropdown fields in Breakdown block|The Breakdown block contains the next dropdown fields:<br> - Category - contains a list of all sport categories<br> - Conference - contains a list of all conferences<br> - Team - contains a list of all teams
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page</br>- There are some unpublished changes|1) Click <b>Cancel</b> button|1) All changes are canceled|
 
-### **#2. Verify selecting Category in Top News**
+### **#2. Verify that admin is not able to save changes of the home page when there are validation errors**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Verify the Top News block fields|
-|4|Сhose sport category|
-|5|Verify if category dropdown is updated|Category dropdown is updated with conferences from a selected Category<br>And Team dropdown is updated with teams related to a selected Category
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page|1) Leave required fields empty</br>2) Click the <b>Save all changes</b> button|2) Error messages about empty required fields appear. All changes are present but not saved|
 
-### **#3. Verify selecting Conference in Top News**
+### **#3. Verify that admin is able to save changes of the home page when there are no validation errors**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Verify the Top News block fields|
-|4|Сhose Conference|
-|5|Verify if conference dropdown is updated|Conference dropdown is updated with conferences from a selected Category<br>And Team dropdown is updated with teams related to a selected Category
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page|1) Fill in all required fields</br>2) Click the <b>Save all changes</b> button|2) All changes are saved. <b>Publish</b> button appears|
 
-### **#4. Verify Add one more link at the bottom of the breakdown block**
+### **#4. Verify that admin is able to publish changes of the home page**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Click on Add One More link at the bottom of the breakdown block|Then the system displays the same breakdown news row and Delete Icon in front of it
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page</br>- Changes are saved|1) Click <b>Publish</b> button|1) <b>Home</b> page is in published state|
 
-### **#5. Verify deleting breakdown news row**
+### **#5. Verify that the admin is able to add Breakdown in the Breakdown section**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Click on Add One More link at the bottom of the breakdown block|Then the system displays the same breakdown news row and Delete Icon in front of it
-|4|Click on Delete icon|The system removes the second row from the page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section|1) Click <b>Add one more breakdown</b> in the <b>Breakdown</b> section|1) The <b>Breakdown</b> form is added with:</br> - <b>Category</b> (required with selected by default first category form the list)</br>- <b>Conference</b> (empty)</br>- <b>Team</b> (empty) dropdown lists</br>- <b>Delete</b> button|
 
-### **#6. Verify saving breakdown news to be displayed on Home page**
+### **#6. Verify that the admin is able to change Category in the Breakdown section**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to Sport News site|
-|2|Log into your admin account|
-|3|Click on Add One More link at the bottom of the breakdown block|Then the system displays the same breakdown news row and Delete Icon in front of it
-|4|Choose the article|
-|5|Click on Save|The selected articles are saved to database but not yet published
-|6|Click  on Publish|All changes are ready to be displayed for the users on the Home Page
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- <b>Breakdown</b> is added|1) Change the sports category in the <b>Breakdown</b> section</br>2) Check if the <b>Conference</b> and <b>Team</b> drop-down lists are updated|2) The <b>Conference</b> and <b>Team</b> drop-down lists are updated according to the selected category|
+
+### **#7. Verify that admin is able to select a Conference in the Breakdown section**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Conference</b></br>2) Check if the <b>Team</b> drop-down list is updated|2) The <b>Team</b> drop-down list is updated according to the selected conference|
+
+### **#8. Verify that admin is able to select a Team in the Breakdown section**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected</br>- <b>Conference</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Team</b>|1) The <b>Team</b> is selected|
+
+### **#9. Verify that it is possible to delete a Breakdown in the Breakdown section**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section|1) In the Breakdown section, click <b>Delete</b> any breakdown</br>2) Click <b>Yes</b> on the confirmation popup|2) The breakdown is deleted|
+
+### **#10. Verify that it is possible to delete the last Breakdown from the Breakdown section**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- There is only 1 breakdown present|1) In the Breakdown section, go to the last breakdown, and then click <b>Delete</b></br>2) Click <b>Yes</b> on the confirmation popup|2) The breakdown is deleted|
+
+### **#11. Verify that the Breakdown section can be hidden for users view**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- There is <b>Show on the main page</b> toggle|1) Examine the <b>Breakdown</b> section</br>2) Click <b>Show on the main page</b> toggle|2) Toggle changes to the <b>Hide on the main page</b>. The <b>Breakdown</b> section is not visible for users|
+
+### **#12. Verify that the Breakdown section can be unhidden for users view**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Home</b> configuration page -> <b>Breakdown</b> section</br>- There is <b>Hide on the main page</b> toggle|1) Examine the <b>Breakdown</b> section</br>2) Click <b>Hide on the main page</b> toggle|2) Toggle changes to the <b>Show on the main page</b>. The <b>Breakdown</b> section is visible for users|
 
 </details>
-
