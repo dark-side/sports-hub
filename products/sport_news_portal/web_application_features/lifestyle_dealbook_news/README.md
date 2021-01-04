@@ -19,7 +19,7 @@ The site users should have separate pages where they can read this news.
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes.
+  - Verify if UI corresponds to prototype
   - The Lifestyle and Dealbook should be separate menu items in the navigation
   - User should be able to view articles that relate to Lifestyle and Dealbook
   - User should be able to scroll the list of articles

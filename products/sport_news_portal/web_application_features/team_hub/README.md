@@ -12,7 +12,7 @@ The team list available for users to follow is created by the admin user.
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes
+  - Verify if UI corresponds to prototype
   - Logged in user should be able to select favorite teams
   - Logged in user should be able to read news of favorite teams
   - Logged in user should be able to unfollow a team

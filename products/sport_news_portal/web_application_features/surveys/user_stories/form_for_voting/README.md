@@ -1,89 +1,104 @@
 ### Back to [Surveys on the portal](../../) feature
 
-# Allow users to see form for voting
+# Allow users to participate in the surveys on My surveys page
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As a site user
-    I want to be able to have a voting form
-    So that I can submit my answer
+    I want to vote on My surveys page in my personal cabinet
 
 ## Acceptance criteria
 
-    Scenario: A site user submits a survey
-    Given I am logged in as a site user
+<pre>
+Scenario: A site user votes on My surveys page
+Given I am logged in as a site user
 
-    When I am on My Surveys page
-    When I click on any of Open survey
-    Then I see a form in reader pool
-      And I see the form contains a question, answer options, active "Next" question and non-active "See the results" buttons
-    When I click on Next
-    Then I see the next survey
-    When I choose an answer
-    Then I see my answer is immediately saved
-    When I click on Next
-    Then I see the survey is Closed and displays the next survey
-    When I choose an answer
-    Then I see the results button is active
-    When I click on See the results
-    Then I see a progress bars of the answers
-      And I see the Next button is active and "See the results" becomes inactive
+When I visit <b>My surveys</b> page
+Then I see a first survey is active and displayed in the <b>Reader pool</b> on the right side
+
+When I click on any of the <b>Open</b> surveys
+Then I see a form in the <b>Reader pool</b> that contains:
+  - Survey active period
+  - Question
+  - Answer options
+  - Active <b>Next</b> question button
+  - Disabled <b>See the results</b> button
+
+When I click <b>Next</b> button
+Then I see the next survey
+
+When I choose an answer
+Then I see the <b>See the results</b> button is active
+
+When I click <b>See the results</b> button
+Then I see the progress bar for each answer option
+  And I see the <b>Back to survey</b> button
+
+When I click <b>Back to survey</b> button
+Then I see the next survey question
+  And the voted previous survey is moved to the <b>Closed</b> tab
+</pre>
 
 ## Mockups
 
-1. User sees My Surveys page -> Open tab
-2. User sees My Surveys page -> Closed tab
+1. User sees a voting form in the Reader pool
+2. User clicked See the results button and sees results and Back to survey button
+3. User sees survey results on the Closed tab
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees My Surveys page -> Open tab:**
+**1. User sees a voting form in the Reader pool:**
 
-![My Surveys page -> Open tab](/products/sport_news_portal/web_application_features/surveys/images/my_surveys_opened.png)
+![User sees a voting form in the Reader pool](/products/sport_news_portal/web_application_features/surveys/images/user_voting_form.png)
 
-**2. User sees My Surveys page -> Closed tab:**
+**2. User clicked See the results button and sees results and Back to survey button:**
 
-![My Surveys page -> Closed tab Screen](/products/sport_news_portal/web_application_features/surveys/images/my_surveys_closed.png)
+![User clicked See the results button and sees results and Back to survey button](/products/sport_news_portal/web_application_features/surveys/images/user_back_to_survey.png)
+
+**3. User sees survey results on the Closed tab:**
+
+![User sees survey results on the Closed tab](/products/sport_news_portal/web_application_features/surveys/images/user_closed_tab.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify the content of a reader pool form for user
-2. Verify clicking on See the results in a reader pool form for user
+1. Verify the content of Reader Poll block on My surveys section of the Personal cabinet
+2. Verify the content of Reader Poll block on My surveys section of the Personal cabinet
+3. Verify that user can vote on the survey in My surveys section of the Personal cabinet
+4. Verify that user cannot vote twice on the same survey in My surveys section of the Personal cabinet
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of a reader pool form for user**
+### **#1. Verify the content of Reader Poll block on My surveys section of the Personal cabinet**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Click on a dropdown menu next to my avatar at the top of the page|The system displays My Surveys menu item
-|4|Click to My Surveys|Then the system takes me to a personal cabinet and My Survey tab is active
-|5|Go to open tab|
-|6|Click on any open survey|
-|7|Observe the content of a reader pool form for user|A form contains a question, answer options, active "Next" question and non-active "See the results" buttons
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by user account</br>- User is on <b>My surveys</b> section -> <b>Open</b> tab</br>- There is a published survey|1) Click on any survey</br>2) Examine the content of the <b>Reader pool</b> section|1) The appropriate <b>Reader pool</b> block appears on the right side</br>2) There is a name of the survey, the date range for voting, answer variants without preselection, active <b>Next</b> button, and disabled <b>See the results</b> button|
 
-### **#2. Verify clicking on See the results in a reader pool form for user**
+### **#2. Verify the content of Reader Poll block on My surveys section of the Personal cabinet**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Click on a dropdown menu next to my avatar at the top of the page|The system displays My Surveys menu item
-|4|Click to My Surveys|Then the system takes me to a personal cabinet and My Survey tab is active
-|5|Go to open tab|
-|6|Click on any open survey|The reader pool form for user is opened
-|7|Click on Next button|The system moves the survey to Closed and displays the next survey
-|8|Choose an answer|The results button is active
-|9|Click on See the results|Then the system displays progress bars of the answers and the "Next" button is active and "See the results" becomes inactive
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by user account</br>- User is on <b>My surveys</b> section -> <b>Open</b> tab</br>- There is a published survey|1) Click on any survey</br>2) Examine the content of the <b>Reader pool</b> section|1) The appropriate <b>Reader pool</b> block appears on the right side</br>2) There is a question of the survey, the date range for voting, answer variants without preselection, active <b>Next</b> button, and disabled <b>See the results</b> button|
+
+### **#3. Verify that user can vote on the survey in My surveys section of the Personal cabinet**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by user account</br>- User is on <b>My surveys</b> section -> <b>Open</b> tab</br>- There is a published survey|1) Click on any survey</br>2) Select an answer</br>3) Click <b>See the result</b></br>4) Click <b>Back to survey</b>|2) The answer is calculated. <b>See the result</b> button is active</br>3) Results of all users voting is shown</br>4) <b>Reader pool</b> for the survey is shown|
+
+### **#4. Verify that user cannot vote twice on the same survey in My surveys section of the Personal cabinet**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by user account</br>- User is on <b>My surveys</b> section -> <b>Open</b> tab</br>- There is a published survey</br>- User already voted for this survey|1) Examine the <b>Reader pool</b> section|1) Results of all users voting are shown. The <b>Next</b> button is present|
 
 </details>

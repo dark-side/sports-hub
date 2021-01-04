@@ -11,9 +11,10 @@ Site users should be able to subscribe and then receive daily news emails from t
 
 ## Check list:
 
-- User should be able to subscribe to general news by subscribing on the Home page
-- User should be able to subscribe to some category/subcategory/team news by subscribing on the appropriate page
-- User should be able to navigate from email to Sport News Site
+  - Verify if UI corresponds to prototype
+  - User should be able to subscribe to general news by subscribing on the Home page
+  - User should be able to subscribe to some category/subcategory/team news by subscribing on the appropriate page
+  - User should be able to navigate from email to Sport News Site
 
 ## Prototype of the feature
 

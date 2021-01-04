@@ -21,7 +21,7 @@ The admin user should also have the ability to publish/unpublish a video and tur
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes
+  - Verify if UI corresponds to prototype
   - Admin user should be able to add a new video
   - Admin user should be able to view a list of existing videos
   - Admin user should be able to edit the existing video

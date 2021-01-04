@@ -1,75 +1,68 @@
 ### Back to [Surveys on the portal](../../) feature
 
-# Allow admin to delete a survey
+# Allow admin to publish the surveys
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
     I want to be able to publish the surveys
-    So that the users can vote
+    So that the users can see them and vote
 
 ## Acceptance criteria
 
-    Scenario: An admin user publishes the survey
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user publishes the survey
+Given I am logged in as an admin user
 
-    When I am on the Surveys page and view Open list
-      And I select Not Published survey and click Publish
-    Then I see a confirmation popup
-    When I click to continue
-    Then I see a notification about success (failure)
-      And I see the survey in the users’ personal cabinet
+When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
+Then I see a <b>Publish</b> action for <b>Not published</b> surveys
+
+When I click <b>Publish</b>
+Then I see a success message
+  And I see the survey status is changed to <b>Published</b>
+  And I the survey is visible for the site users
+
+When I click on a <b>Published</b> survey
+Then I see a survey read-only details in the <b>Reader pool</b> without any action buttons
+  And I see the progress bars for each answer
+</pre>
 
 ## Mockups
 
-1. User sees Surveys page
-2. User sees Publish survey confirmation popup
-3. User sees Survey is published popup
-4. User sees Publish survey failure popup
+1. Admin user sees actions for not published survey and published survey in the Reader pool
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Surveys page:**
+**1. Admin user sees actions for not published survey and published survey in the Reader pool:**
 
-![Surveys page Screen](/products/sport_news_portal/web_application_features/surveys/images/surveys_open_tab.png)
-
-**2. User sees Publish survey confirmation popup:**
-
-![Publish survey confirmation popup](/products/sport_news_portal/web_application_features/surveys/images/publish_conformation.png)
-
-**3. User sees Survey is published popup:**
-
-![Survey is published popup](/products/sport_news_portal/web_application_features/surveys/images/published_notification_popup.png)
-
-**4. User sees Publish survey failure popup:**
-
-![Publish survey failure popup](/products/sport_news_portal/web_application_features/surveys/images/failure_popup.png)
+![Admin user sees actions for not published survey and published survey in the Reader pool](/products/sport_news_portal/web_application_features/surveys/images/admin_non_published_actions.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify deleting of the survey
+1. Verify that admin can publish a not published survey
+2. Verify that it is not possible to edit a published survey
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin can publish a survey**
+### **#1. Verify that admin can publish a not published survey**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on the Surveys menu item in the left sidebar|The system displays filter with options Published/ Not Published
-|4|Go to Open list|
-|5|Select Not Published Survey|
-|6|Click Publish|The system displays a confirmation popup
-|7|Click to continue|The system displays a notification about success (failure) and the survey is displayed in the user's personal cabinet
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is not published survey|1) Select not published survey</br>2) Click the <b>Not published</b> state</br>3) Select <b>Publish</b> action</br>|3) The survey changes state to <b>Published</b>. The survey is available for users to vote|
+
+### **#2. Verify that it is not possible to edit a published survey**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a published survey|1) Click published survey|1) In the <b>Reader poll</b> section on the right side, information about the survey appears. There is a name, answers to the survey, and percentage for each answer. No actions appear|
 
 </details>

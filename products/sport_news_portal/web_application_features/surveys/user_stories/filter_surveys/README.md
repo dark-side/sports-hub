@@ -5,7 +5,7 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
@@ -14,62 +14,78 @@
 
 ## Acceptance criteria
 
-    Scenario: An admin user filters surveys
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user filters surveys
+Given I am logged in as an admin user
 
-    When I am on the Surveys page and view Open list
-    Then I see a filter with options Published/ Not Published
-    When I select Published
-    Then I see only Published surveys and their amount
-    When I select Not Published
-    Then I see only Not Published surveys and their amount
+When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
+Then I see the <b>Status</b> filter and a search icon
+
+When I click the <b>Status</b> filter
+Then I see the options:
+  - All
+  - Published
+  - Not Published
+
+When I select <b>Published</b>
+Then I see only published surveys and their amount
+
+When I select <b>Not published</b>
+Then I see only not published surveys and their amount
+
+When I select <b>All</b>
+Then I see all surveys and their amount
+
+When I click on a search icon
+Then I see a search field
+
+When I type some text in the field
+Then I see the list of surveys is refreshed with matching results
+</pre>
 
 ## Mockups
 
-1. User sees Surveys page
-2. User sees Filter surveys options
+1. Admin user sees Status filter options
+2. Admin user clicked a search icon and sees an input field
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Surveys page:**
+**1. Admin user sees Status filter options:**
 
-![Surveys page Screen](/products/sport_news_portal/web_application_features/surveys/images/surveys_open_tab.png)
+![Admin user sees Status filter options](/products/sport_news_portal/web_application_features/surveys/images/admin_status_filter.png)
 
-**1. User sees Filter surveys options:**
+**2. Admin user clicked a search icon and sees an input field:**
 
-![Filter surveys options Screen](/products/sport_news_portal/web_application_features/surveys/images/filter_options.png)
+![Admin user clicked a search icon and sees an input field](/products/sport_news_portal/web_application_features/surveys/images/admin_search.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify ability to filter Published surveys
-2. Verify ability to filter Not Published surveys
+1. Verify that it is possible to filter surveys by the Published state
+2. Verify that it is possible to filter surveys by Not Published state
+3. Verify that list of surveys is updated according to a search match
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify ability to filter Published surveys**
+### **#1. Verify that it is possible to filter surveys by the Published state**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on the Surveys menu item in the left sidebar|
-|4|Go to Open list|
-|5|Click on Surveys filter icon|The system displays filter with options Published/ Not Published
-|6|Select Published|The system displays only Published surveys and their amount
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Published</b>|2) User can see only published surveys in the table|
 
-### **#2. Verify ability to filter Not Published surveys**
+### **#2. Verify that it is possible to filter surveys by Not Published state**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on the Surveys menu item in the left sidebar|
-|4|Go to Open list|
-|5|Click on Surveys filter icon|The system displays filter with options Published/ Not Published
-|6|Select Not Published|The system displays only Not Published surveys and their amount
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Not published</b>|2) User can see only not published surveys are shown in the table|
+
+### **#3. Verify that list of surveys is updated according to a search match**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click on a search icon</br>2) Type some text to the field|1) An input field appears</br>2) The list of surveys is updated with match|
 
 </details>

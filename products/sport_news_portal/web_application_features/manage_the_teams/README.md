@@ -16,7 +16,7 @@ User with admin permission should be able to manage teams, namely:
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes:
+  - Verify if UI corresponds to prototype
   - Admin should be able to add new team using selectors
   - Admin should be able to add a new team using the map
   - Admin should be able to view information about already added teams

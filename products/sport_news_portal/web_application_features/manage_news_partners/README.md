@@ -17,7 +17,7 @@ News from the configured partner should be shown directly to the users and shoul
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes
+  - Verify if UI corresponds to prototype
   - Admin should be able to configure a new partner
   - Admin should be able to view existing partners configurations
   - Admin should be able to edit the existing partner's configurations

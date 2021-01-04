@@ -5,82 +5,96 @@
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As an admin user
-    I want to be able to close manually or automatically any of surveys
+    I want to be able to close the surveys
 
 ## Acceptance criteria
 
-    Scenario: An admin user closes a survey
-    Given I am logged in as an admin user
+<pre>
+Scenario: An admin user closes a survey
+Given I am logged in as an admin user
 
-    When I am on the Surveys page and view Open list
-    Then I see a Close action for Published surveys
-    When I click to Close
-    Then I see a confirmation popup
-    When I click to continue
-    Then I see a notification about success (failure)
-      And I see the survey is moved to Closed list and is not available for users
-    When survey end day has passed
-    Then I see a moves the survey to Closed list and it’s not available for users
+When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
+Then I see the <b>Close</b> action for surveys in <b>Published</b> state
+
+When I click <b>Close</b>
+Then I see a success message
+  And I see the survey is moved to the <b>Closed</b> tab and is not available for users
+
+When the survey configured end day has passed
+Then I see the survey is automaticaly moved to <b>Closed</b> tab and is not available for users
+
+When I go to the <b>Closed</b> tab
+Then I see a list of closed surveys that contain:
+  - Question
+  - Closed date
+  - Responses – the number of people who passed the survey
+  - Delete icon for each row
+
+When I click on any survey on the <b>Closed</b> tab
+Then I see survey read-only details in <b>Reader pool</b> on the right side without any action buttons
+  And I see the progress bars for each answer
+
+When I hover over the survey in the list
+Then I see a <b>Delete</b> icon
+
+When I click on the <b>Delete</b> icon
+Then I see a confirmation dialog
+
+When I confirm delete on the confirmation dialog
+Then I see a success message
+  And I see the survey is removed from the list
+</pre>
 
 ## Mockups
 
-1. User sees Surveys page
-2. User sees Close survey option
-3. User sees Close survey failure popup
+1. Admin user sees a Closed tab
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Surveys page:**
+**1. Admin user sees a Closed tab:**
 
-![Surveys page Screen](/products/sport_news_portal/web_application_features/surveys/images/surveys_open_tab.png)
-
-**2. User sees Close survey option:**
-
-![Close survey option](/products/sport_news_portal/web_application_features/surveys/images/close_dropdown_option.png)
-
-**3. User sees Close survey failure popup:**
-
-![Publish survey failure popup](/products/sport_news_portal/web_application_features/surveys/images/failure_popup.png)
+![Admin user sees a Closed tab](/products/sport_news_portal/web_application_features/surveys/images/admin_surveys_closed_tab.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that admin can close an existing survey
-2. Verify that admin can close a new survey
+1. Verify that admin can close a published survey
+2. Verify that survey is closed automatically when the end day of range is passed
+3. Verify the content of the Closed tab on the Surveys page
+4. Verify that it is possible to delete the Closed survey
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that admin can close an existing survey**
+### **#1. Verify that admin can close a published survey**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on the Surveys menu item in the left sidebar|The system displays filter with options Published/ Not Published
-|4|Go to Open list|
-|5|Click on Close for a published survey|
-|6|Click on Delete button|The system displays a confirmation popup
-|7|Click to continue|The survey is moved to Closed list and is not available for users
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a published survey|1) Click published survey/br>2) Click the <b>Publish</b> state/br>3) Select <b>Close</b> action|3) Survey moved to the <b>Closed tab<b>. The survey is not available for users to vote|
 
-### **#2. Verify that admin can close a new survey**
+### **#2. Verify that survey is closed automatically when the end day of range is passed**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your admin account|
-|3|Click on the Surveys menu item in the left sidebar|The system displays filter with options Published/ Not Published
-|4|Click on Add survey button|
-|5|Fill in all the needed fields and chose the close date of a survey|
-|6|Click Save|The required fields for adding new survey appears
-|7|Set up your system time on PC/laptop in order to imitate the time expiration for the survey|The survey is saved and appears in a list
-|8|Check if the survey is moved to Closed|The survey should be moved to Closed
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a published survey with a configured end date (mm.dd.yyyy)|1) Check when the selected date passed|1) Survey moved to the <b>Closed tab</b>. The survey is not available for users to vote|
+
+### **#3. Verify the content of the Closed tab on the Surveys page**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Observe the content of the <b>Closed</b> tab|1) There is a table with 3 columns:</br>- Question (text of question)</br>- Closed date</br>- Responses (amount of users who responded to the survey). When the user hovers over a row, the Delete icon appears|
+
+### **#4. Verify that it is possible to delete the Closed survey**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a closed survey|1) Click closed survey</br>2) Click <b>Delete</b></br>3) Confirm on the confirmation dialog|2) The survey is removed from the <b>Closed</b> tab|
 
 </details>

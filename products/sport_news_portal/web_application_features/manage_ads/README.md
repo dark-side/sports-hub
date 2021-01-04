@@ -16,7 +16,7 @@ When there is more than one ad that should be shown in the category then ads wil
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes
+  - Verify if UI corresponds to prototype
   - User should be able to see advertisements at the right sidebar on the site
   - User should be able to click on the advertisement and be redirected to the advertised website
   - Admin user should be able to edit the advertisements list (including adding new advertisement, editing advertisement, deleting advertisement, and disabling advertisement for the whole site)
