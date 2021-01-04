@@ -24,5 +24,5 @@ Site users should be able to subscribe and then receive daily news emails from t
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to subcribe to newsletter**](/products/sport_news_portal/web_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a site user<br>I want to subscribe to a Sport News site<br>So that I can receive an email with the latest sports news</pre>
-2 |[**Allow users to receive newsletter email**](/products/sport_news_portal/web_application_features/newsletter_email/user_stories/send_newsletter_email)|<pre>As a site user<br>I want to receive a newsletter email and navigate to the appropriate site page<br>So that I can read the latest sports news on the site</pre>
+1 |[**Allow admin users to configure Newsletter footer sections**](/products/sport_news_portal/web_application_features/newsletter_email/user_stories/configure_newsletter)|<pre>As an admin user<br>I want to be able to configure Newsletter footer sections</pre>
+2 |[**Allow users to subcribe to newsletter**](/products/sport_news_portal/web_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a site user<br>I want to subscribe to a Sport News site<br>So that I can receive an email with the latest sports news</pre>

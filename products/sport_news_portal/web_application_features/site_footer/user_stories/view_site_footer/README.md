@@ -1,112 +1,114 @@
-### Back to [Site Footer of the portal](../../) feature
+### Back to [Site footer of the portal](../../) feature
 
 # Allow users view site footer on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
 - [Mockups](#mockups)
-- [Test Scenarios](#test-scenarios)
+- [Test cases](#test-cases)
 
 ## Description
 
     As a site user
-    I want to be able to see a site Footer on the every page of the Sport News site
-    So that I can see link to pages to read more about the company, contributors and subscribe to receive latest news
+    I want to be able to see a site footer on the every page of the Sport News site with the configured by admin links
 
 ## Acceptance criteria
 
-    Scenario: A site user sees a site Footer on the every page of the Sport News site
-    Given I am logged in as a site user
+<pre>
+Scenario: A site user sees the site footer on every page of the Sport News site
+Given I am a site user
 
-    When I am view any page on the site
-    Then I see a footer containing the following:
-      - Three columns: COMPANY INFO, CONTRIBUTORS, NEWSLETTER
-      - Block with a Sport News logo at the left and a Copyright section with link to  Privacy / Terms page
-        And I see the COMPANY INFO column consists of the following links:
-          - About Sport News
-          - News / In the Press
-          - Advertising / Sports Blogger Ad Network
-          - Events
-          - Contact Us
-        And I see the CONTRIBUTORS column consists of the following links:
-      - Featured Writers Program
-      - Featured Team Writers Program
-      - Internship Program
-        And I see the NEWSLETTER column consists of the “Sign up to receive the latest in sport news” form containing the input for the email address followed by a Subscribe button and the Facebook or Google+ sign up link
-        And I see the pages that appear in the site footer are controlled by admin in the CMS
-    When I click on the Sport News logo
-    Then I am taken to the site’s home page
-    When I click a link in the Company Info, Contributors, or Copyright section
-    Then I see the dialog with “Coming Soon“ message and close icon
-        And I can type my email in the Email Newsletter signup input and click Subscribe button
-        And I see the Facebook or Google+ subscription links
+When I view any page on the site 
+Then I see a footer containing the following: 
+  - Three columns: Company info, Contributors, Newsletter
+  - Sport News logo on the left and the copyright section with the links to Privacy Policy / Terms and Conditions pages
+
+When I view the <b>Company info</b> column
+Then I see the table contains the following links:
+  - About Sport News
+  - News / In the Press
+  - Advertising / Sports Blogger Ad Network
+  - Events
+  - Contact Us
+
+When I view the <b>Contributors</b> tab
+Then I see the configuration table with the following links:
+  - Featured Writers Program
+  - Featured Team Writers Program
+  - Internship Program
+
+When I click on the <b>Sport News</b> logo
+Then I am taken to the home page
+
+When I click on the <b>Privacy Policy / Terms and Conditions</b> links
+Then I am taken to the appropriate pages
+
+When I click a link in the <b>Company info</b>, <b>Contributors</b>
+Then I am taken to the appropriate pages
+</pre>
+
+  <i>The <b>Newsletter</b> is described [in separate feature](/products/sport_news_portal/web_application_features/newsletter_email)</i>
 
 ## Mockups
 
-1. User sees Site Footer with Contact Us page
-2. User sees Site Footer with About Us page
-3. User sees Coming soon popup
+1. User sees site footer in the Sport News site
+2. User sees Contact Us page
+3. User sees About Sport News page
+4. User sees Privacy Policy page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Site Footer with Contact Us page:**
+**1. User sees site footer in the Sport News site:**
 
-![Site Footer with Contact Us page Screen](/products/sport_news_portal/web_application_features/site_footer/images/site_footer_contact_us.png)
+![User sees site footer in the Sport News site](/products/sport_news_portal/web_application_features/site_footer/images/site_footer.png)
 
-**2. User sees Site Footer with About Us page:**
+**2. User sees Contact Us page:**
 
-![Site Footer with About Us page Screen](/products/sport_news_portal/web_application_features/site_footer/images/site_footer_about_us.png)
+![User sees Contact Us page](/products/sport_news_portal/web_application_features/site_footer/images/contact_us.png)
 
-**3. User sees Coming soon popup:**
+**3. User sees About Sport News page:**
 
-![Coming soon popup](/products/sport_news_portal/web_application_features/site_footer/images/coming_soon_popup.png)
+![User sees About Sport News page](/products/sport_news_portal/web_application_features/site_footer/images/about_sport_news.png)
+
+**4. User sees Privacy Policy page:**
+
+![User sees Privacy Policy page](/products/sport_news_portal/web_application_features/site_footer/images/privacy_policy.png)
 
 </details>
 
-## Test Scenarios
+## Test cases
 
-1. Verify that footer configuration page shows three tabs
-2. Verify that COMPANY INFO display required rows (footer links)
-3. Verify that the CONTRIBUTORS tab displays required rows
-4. Verify the NEWSLETTER tab displays configuration table with a single row
+1. Verify the footer section is visible from any page for users
+2. Verify that user can click on the links in the Company info and Contributors columns
+3. Verify that user can read Privacy Policy / Terms and Conditions information by click on the Privacy Policy / Terms and Condition
+4. Verify that user is redirected to the Home page by click on the Sports News logo
 
 <details>
-  <summary>Click here to see test scenarios details</summary>
+  <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that footer configuration page shows three tabs**
+### **#1. Verify the footer section is visible from any page for users**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Examine tabs on footer configuration page|The system shows three tabs:<br>- COMPANY INFO<br>- CONTRIBUTORS<br>- NEWSLETTER
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Browse through different pages|1) The footer section is present on every page|
 
-### **#2. Verify that COMPANY INFO display required rows (footer links)**
+### **#2. Verify that user can click on the links in the Company info and Contributors columns**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Examine COMPANY INFO rows (footer links) tab on footer configuration page|The COMPANY INFO displays the following rows (footer links):<br>- About Sport News<br>- News / In the Press<br>- Advertising / Sports Blogger Ad Network<br>- Events<br>- Contact Us
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the site footer</br>2) In the <b>Company info</b> and <b>Contributors</b> columns, click on the links one by one|2) Links show appropriate info or redirect to appropriate pages|
 
-### **#3. Verify that the CONTRIBUTORS tab displays required rows**
+### **#3. Verify that user can read Privacy Policy / Terms and Conditions information by click on the Privacy Policy / Terms and Conditions links**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Examine rows that are displayed in CONTRIBUTORS tab|The system displays configuration table with the following rows:<br>- Featured Writers Program<br>- Featured Team Writers Program<br>- Internship Program
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the site footer</br>2) Click on the <b>Privacy Policy</b> link</br>3) Click on the <b>Terms and Conditions</b> link|2) The <b>Privacy Policy</b> page opens</br>3) The <b>Terms and Conditions</b> page opens|
 
-### **#4. Verify the NEWSLETTER tab displays configuration table with a single row**
+### **#4. Verify that user is redirected to the Home page by click on the Sports News logo**
 
-|#|Steps|Expected Result
-------|-------|----------
-|1|Go to sport news site|
-|2|Log in your user account|
-|3|Examine NEWSLETTER tab table|The system displays configuration table with a single row:<br>- "Sign up to receive the  latest in sport news"
-|4|Verify the input for the email address|"Sign up to receive the latest in sport news" form contains the input for the email address
-|5|Verify Subscribe button|Subscribe button is present
-|6|Verify the Facebook or Google+ sign up link|The Facebook or Google+ sign up link is present
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to any page except <b>Home</b></br>2) Go to the site footer</br>3) Click on the <b>Sport News</b> logo|3) User is redirected to the <b>Home</b> page|
 
 </details>
