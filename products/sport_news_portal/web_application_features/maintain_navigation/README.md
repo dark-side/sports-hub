@@ -28,7 +28,7 @@ Admin user configures a list of categories, subcategories, and teams visible in 
 
 ## Check list:
 
-  - Verify if UI corresponds to prototypes
+  - Verify if UI corresponds to prototype
   - The navigation menu should be present on every page of the Sport News site
   - Admin user should be able to configure the navigation menu categories, subcategories, and teams
   - User should be able to go to the sport subcategory page of the Sport News site by using the navigation menu
