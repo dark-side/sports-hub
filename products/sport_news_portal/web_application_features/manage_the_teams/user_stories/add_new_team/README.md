@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user adds a new team
+<b><i>Scenario: An admin user adds a new team</i></b>
+
 Given I am logged in as an admin user
 
 When I click the <b>+ Add team</b> button

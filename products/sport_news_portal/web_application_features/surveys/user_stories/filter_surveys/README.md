@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user filters surveys
+<b><i>Scenario: An admin user filters surveys</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Surveys</b> page and view the <b>Open</b> tab

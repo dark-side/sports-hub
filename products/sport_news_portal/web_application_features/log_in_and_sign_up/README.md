@@ -1,4 +1,4 @@
-# Log In and Sign Up to the portal
+# Log in and sign up to the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -28,7 +28,9 @@ The user should be able to have a personal account on the Sport News site. To cr
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/pGlTwGGnAojQsmcvwEU1o9/Login%2FSign-Up?node-id=6324%3A4393&scaling=scale-down) to see a clickable prototype for the login flow and click [here](https://www.figma.com/proto/bcp6rKNxQoYrYArsPFJS40/Personal-Cabinet?node-id=6829%3A15676&scaling=min-zoom) to see a clickable prototype for the personal cabinet flow.
+Please click [here](https://www.figma.com/proto/pGlTwGGnAojQsmcvwEU1o9/Log-In-Sign-Up?node-id=6324%3A4393&viewport=504%2C425%2C0.02521197311580181&scaling=scale-down) and [here](https://www.figma.com/proto/bcp6rKNxQoYrYArsPFJS40/Personal-Cabinet?node-id=6829%3A15676&viewport=-239%2C424%2C0.08385282009840012&scaling=min-zoom) to see clickable prototypes.
+
+Please click [here](https://www.figma.com/file/pGlTwGGnAojQsmcvwEU1o9/Log-In-Sign-Up?node-id=0%3A36) and [here](https://www.figma.com/file/bcp6rKNxQoYrYArsPFJS40/Personal-Cabinet?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 
 ## User stories
 

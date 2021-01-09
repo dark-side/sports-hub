@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views sports videos
+<b><i>Scenario: A site user views sports videos</i></b>
+
 Given I am a site user
 
 When I view the <b>Videos</b> page on the Sport News site

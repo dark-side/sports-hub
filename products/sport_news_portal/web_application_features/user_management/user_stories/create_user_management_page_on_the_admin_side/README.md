@@ -1,4 +1,4 @@
-### Back to [User Management on the portal](../../) feature
+### Back to [User management on the portal](../../) feature
 
 # Allow admin user to view User Management page on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user visits <b>Users</b> configuration page and have a place with the list of users
+<b><i>Scenario: An admin user visits Users configuration page and have a place with the list of users</i></b>
+
 Given I am logged in as an admin user
 
 When I view the page

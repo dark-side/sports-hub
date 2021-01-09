@@ -1,4 +1,4 @@
-### Back to [User Management on the portal](../../) feature
+### Back to [User management on the portal](../../) feature
 
 # Allow admin user to delete users on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user deletes the user
+<b><i>Scenario: An admin user deletes the user</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Users</b> configuration page
@@ -34,6 +35,7 @@ Then I see the confirmation dialog is closed
 ## Mockups
 
 1. Admin user sees user management page with actions dropdown
+2. Admin user sees delete confirmation popup
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -41,6 +43,10 @@ Then I see the confirmation dialog is closed
 **1. Admin user sees Delete button within actions dropdown:**
 
 ![Admin user sees Delete button within actions dropdown](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
+
+**2. Admin user sees delete confirmation popup:**
+
+![Admin user sees delete confirmation popup](/products/sport_news_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
 
 </details>
 

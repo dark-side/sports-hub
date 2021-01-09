@@ -1,4 +1,4 @@
-### Back to [Page Layout on the portal](../../) feature
+### Back to [Page layout on the portal](../../) feature
 
 # Page Structure
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user views the administration office
+<b><i>Scenario: An admin user views the administration office</i></b>
+
 Given I am logged in as an admin user
 
 When I view the administration office
@@ -41,7 +42,6 @@ Then button changes to the <b>Switch to admin view</b>
 When I click the <b>Switch to admin view</b> button
 Then button changes to the <b>Switch to user view</b>
   And I am taken to the admin side of Sport News home page where I can act as an admin
-
 </pre>
 
 ## Mockups

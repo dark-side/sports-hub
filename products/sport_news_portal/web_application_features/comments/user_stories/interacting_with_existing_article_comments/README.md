@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user sorts comments and likes/dislikes comments
+<b><i>Scenario: A site user sorts comments and likes/dislikes comments</i></b>
+
 Given I am logged in as a site user
 
 When I view an article page

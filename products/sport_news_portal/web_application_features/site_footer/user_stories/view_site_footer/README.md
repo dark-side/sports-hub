@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user sees the site footer on every page of the Sport News site
+<b><i>Scenario: A site user sees the site footer on every page of the Sport News site</i></b>
+
 Given I am a site user
 
 When I view any page on the site 

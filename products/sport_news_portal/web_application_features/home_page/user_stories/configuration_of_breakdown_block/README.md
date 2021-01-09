@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures Breakdown section news for a specific category
+<b><i>Scenario: An admin user configures Breakdown section news for a specific category</i></b>
+
 Given I am logged as an admin user
 
 When I am on the <b>Home</b> configuration page

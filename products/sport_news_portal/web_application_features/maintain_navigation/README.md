@@ -36,7 +36,17 @@ Admin user configures a list of categories, subcategories, and teams visible in 
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=4523%3A10122) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A1075&viewport=-177%2C284%2C0.04348461702466011&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A2&viewport=210%2C442%2C0.08585662394762039&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

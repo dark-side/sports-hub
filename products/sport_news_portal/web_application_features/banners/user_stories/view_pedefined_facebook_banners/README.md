@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views Facebook Video and Facebook Post banners in the sidebar section
+<b><i>Scenario: A site user views Facebook Video and Facebook Post banners in the sidebar section</i></b>
+
 Given I am a site user
 
 When I view any sport category page with the <b>Facebook Video</b> banner in the sidebar section

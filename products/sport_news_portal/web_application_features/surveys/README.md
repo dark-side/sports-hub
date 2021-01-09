@@ -28,7 +28,17 @@ The users should have a separate page for their surveys and should also have the
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1&scaling=min-zoom) and [here](https://www.figma.com/proto/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1073&scaling=min-zoom) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1075&viewport=-74%2C435%2C0.06860820204019547&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A2&viewport=513%2C537%2C0.12442872673273087&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

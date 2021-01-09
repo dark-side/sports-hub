@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views Lifestyle and Dealbook banners in the sidebar section
+<b><i>Scenario: A site user views Lifestyle and Dealbook banners in the sidebar section</i></b>
+
 Given I am a site user
 
 When I view any page with the <b>Lifestyle</b> and <b>Dealbook</b> banners in the sidebar section

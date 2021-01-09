@@ -1,4 +1,4 @@
-### Back to [Site Languages on the portal](../../) feature
+### Back to [Site languages on the portal](../../) feature
 
 # Allow users to change a site language on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: Any type of site user (regular or admin) changes a site language 
+<b><i>Scenario: Any type of site user (regular or admin) changes a site language</i></b>
+
 Given I am any type of site user (regular or admin)
 
 When I view any page of the site

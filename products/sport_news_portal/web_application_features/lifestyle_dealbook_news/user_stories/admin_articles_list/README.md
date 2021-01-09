@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user views the list of existing articles in Lifestyle and Dealbook
+<b><i>Scenario: An admin user views the list of existing articles in Lifestyle and Dealbook</i></b>
+
 Given I am logged in as an admin user
 
 When I click the <b>Lifestyle</b> or <b>Dealbook</b> link on the admin side

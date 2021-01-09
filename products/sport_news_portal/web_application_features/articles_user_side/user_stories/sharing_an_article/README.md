@@ -1,4 +1,4 @@
-### Back to [Articles User Side on the portal](../../) feature
+### Back to [Articles - user side on the portal](../../) feature
 
 # Allow users to share an article from the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user shares the article on the selected service
+<b><i>Scenario: A site user shares the article on the selected service</i></b>
+
 Given I am a site user
 
 When I view an article page and click <b>Facebook</b>, <b>Twitter</b>, or <b>Google+</b> icon

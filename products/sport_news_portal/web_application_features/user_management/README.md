@@ -1,4 +1,4 @@
-# User Management on the portal
+# User management on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -34,7 +34,9 @@ We want to do the following actions to the user accounts:
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1075&scaling=min-zoom) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1075&viewport=-111%2C560%2C0.05949114263057709&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

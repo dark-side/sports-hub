@@ -20,7 +20,9 @@ The team list available for users to follow is created by the admin user.
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/Sport-News?node-id=0%3A8215) [here](https://www.figma.com/proto/HB6RaAViOl1Iw5qCsEb2gj/Manage-the-teams?node-id=0%3A1&scaling=min-zoom) and to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A2&viewport=-2364%2C508%2C0.2207438349723816&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

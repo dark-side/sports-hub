@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user visits My surveys page
+<b><i>Scenario: A site user visits My surveys page</i></b>
+
 Given I am logged in as a site user
 
 When I click the drop-down button on the right of the profile picture

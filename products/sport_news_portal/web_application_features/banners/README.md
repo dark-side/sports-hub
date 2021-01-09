@@ -28,7 +28,9 @@ The admin user should configure the banners visible per category as well as the 
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A10849&scaling=min-zoom) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A2335&viewport=-3340%2C642%2C0.12847007811069489&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

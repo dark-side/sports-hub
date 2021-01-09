@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to reset their password
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user resets the password
+<b><i>Scenario: A site user resets the password</i></b>
+
 Given I have an account on the portal
 
 When I visit the <b>Log in</b> page

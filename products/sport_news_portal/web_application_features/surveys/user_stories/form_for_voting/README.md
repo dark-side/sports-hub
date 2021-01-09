@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user votes on My surveys page
+<b><i>Scenario: A site user votes on My surveys page</i></b>
+
 Given I am logged in as a site user
 
 When I visit <b>My surveys</b> page

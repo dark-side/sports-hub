@@ -1,4 +1,4 @@
-# Articles User Side on the portal
+# Articles - user side on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -26,7 +26,9 @@ The user should be able to interact with articles according to a role on the sit
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/ZzrUgMKcDZQ724xuUlTv60/Articles-User-Side?node-id=0%3A1265&scaling=min-zoom) and [here](https://www.figma.com/proto/YtKIh0i79C3og2Jvrc4BHI/League-%26-Team-Page?node-id=0%3A1&scaling=min-zoom) to see clickable prototypes for the feature.
+Please click [here](https://www.figma.com/proto/ZzrUgMKcDZQ724xuUlTv60/Articles-User-Side?node-id=6555%3A1605&viewport=340%2C419%2C0.08522418141365051&scaling=min-zoom) and [here](https://www.figma.com/proto/YtKIh0i79C3og2Jvrc4BHI/League-and-Team-Page?node-id=0%3A2&viewport=360%2C481%2C0.0646771639585495&scaling=min-zoom) to see clickable prototypes.
+
+Please click [here](https://www.figma.com/file/ZzrUgMKcDZQ724xuUlTv60/Articles-User-Side?node-id=0%3A1) and [here](https://www.figma.com/file/YtKIh0i79C3og2Jvrc4BHI/League-and-Team-Page?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 
 ## User stories
 

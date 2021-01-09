@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../) feature
 
 # Allow admin user to configure a new partner on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures a new integration with a partner on the <b>News Partners</b> page
+<b><i>Scenario: An admin user configures a new integration with a partner on the <b>News Partners</b> page</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>News Partners</b> page with no partners

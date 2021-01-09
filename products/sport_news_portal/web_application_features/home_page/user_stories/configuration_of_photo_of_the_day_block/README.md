@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures the Photo of the day section
+<b><i>Scenario: An admin user configures the Photo of the day section</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Home</b> configuration page

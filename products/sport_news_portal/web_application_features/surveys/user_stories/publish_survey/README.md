@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user publishes the survey
+<b><i>Scenario: An admin user publishes the survey</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Surveys</b> page and view the <b>Open</b> tab

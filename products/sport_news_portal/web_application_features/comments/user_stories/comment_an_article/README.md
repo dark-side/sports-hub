@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user leaves a comment on the article page
+<b><i>Scenario: A site user leaves a comment on the article page</i></b>
+
 Given I am logged in as a site user
 
 When I view an article page

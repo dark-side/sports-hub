@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user creates a new article in Lifestyle/Dealbook
+<b><i>Scenario: An admin user creates a new article in Lifestyle/Dealbook</i></b>
+
 Given I am logged in as an admin user
 
 When I click the <b>Lifestyle</b> or <b>Dealbook</b> link on the admin side

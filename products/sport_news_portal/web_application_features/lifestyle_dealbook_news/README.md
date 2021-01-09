@@ -31,7 +31,17 @@ The site users should have separate pages where they can read this news.
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/K1ppj2AeBOoMMvFHDLh44k/Lifestyle?node-id=0%3A70&scaling=min-zoom) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/NCxW6Vl3GCsRUxds7yJEUh/Manage-Articles?node-id=6313%3A12981&viewport=-258%2C426%2C0.055423103272914886&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/NCxW6Vl3GCsRUxds7yJEUh/Manage-Articles?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/P3Ayi81FT9rH95OYXkV6px/Dealbook-Page?node-id=0%3A2&viewport=1041%2C428%2C0.17152680456638336&scaling=min-zoom) and [here](https://www.figma.com/proto/K1ppj2AeBOoMMvFHDLh44k/Lifestyle?node-id=0%3A2&viewport=2481%2C-54%2C0.3953210413455963&scaling=min-zoom) to see clickable prototypes.
+
+Please click [here](https://www.figma.com/file/P3Ayi81FT9rH95OYXkV6px/Dealbook-Page?node-id=0%3A1) and [here](https://www.figma.com/file/K1ppj2AeBOoMMvFHDLh44k/Lifestyle?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 
 ## User stories
 

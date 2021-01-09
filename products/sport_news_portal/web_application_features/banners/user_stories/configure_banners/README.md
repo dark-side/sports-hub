@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures a list of banners
+<b><i>Scenario: An admin user configures a list of banners</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>Banners</b> configuration page

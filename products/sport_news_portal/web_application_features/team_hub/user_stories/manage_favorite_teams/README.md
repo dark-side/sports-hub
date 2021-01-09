@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A logged-in user selects favorite teams
+<b><i>Scenario: A logged-in user selects favorite teams</i></b>
+
 Given I am logged in to the portal
 
 When I view any page of the application

@@ -11,12 +11,13 @@
 
     As a site user
     I want to use a site search
-    So that I can quickly find the information I’m interested in
+    So that I can quickly find the information I am interested in
 
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user uses a site search
+<b><i>Scenario: A site user uses a site search</i></b>
+
 Given I am a site user
 
 When I view any page on the site
@@ -32,7 +33,7 @@ When there is no article matching my search
 Then I don’t see the suggestions list
 
 When I don’t select any item from the suggestions list
-  And enter a search word and click enter,
+  And enter a search word and click enter
 Then I am taken to a search results page
 
 When I view the search results page on the site

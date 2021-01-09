@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A user visits the Lifestyle/Dealbook page
+<b><i>Scenario: A user visits the Lifestyle/Dealbook page</i></b>
+
 Given I am a site user
 
 When I view the navigation menu

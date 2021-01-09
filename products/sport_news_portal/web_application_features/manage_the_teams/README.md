@@ -26,7 +26,9 @@ User with admin permission should be able to manage teams, namely:
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/Sport-News?node-id=0%3A8215) [here](https://www.figma.com/proto/HB6RaAViOl1Iw5qCsEb2gj/Manage-the-teams?node-id=0%3A1&scaling=min-zoom) and to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A1075&viewport=-627%2C353%2C0.028726190328598022&scaling=scale-down) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

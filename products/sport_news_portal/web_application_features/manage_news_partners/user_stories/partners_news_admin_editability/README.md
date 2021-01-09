@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../) feature
 
 # News from the configured partners can not be edited by the admin
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin is viewing the articles list page
+<b><i>Scenario: An admin is viewing the articles list page</i></b>
+
 Given I am logged in as an admin user
 
 When I view the articles list page

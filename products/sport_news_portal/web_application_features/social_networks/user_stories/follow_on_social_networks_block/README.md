@@ -1,4 +1,4 @@
-### Back to [Social Networks on the portal](../../) feature
+### Back to [Social networks on the portal](../../) feature
 
 # Allow users to follow the portal on social networks
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user follows the Sport News portal using one of the configured social networks (Facebook, Twitter, Google +, Youtube)
+<b><i>Scenario: A site user follows the Sport News portal using one of the configured social networks (Facebook, Twitter, Google +, Youtube)</i></b>
+
 Given I am a site user
 
 When I view any page of the Sport News site

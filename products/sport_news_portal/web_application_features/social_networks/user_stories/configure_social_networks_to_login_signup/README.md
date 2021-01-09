@@ -1,4 +1,4 @@
-### Back to [Social Networks on the portal](../../) feature
+### Back to [Social networks on the portal](../../) feature
 
 # Allow admin user to configure social networks for sign up and log in
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures which social networks are to be used for following
+<b><i>Scenario: An admin user configures which social networks are to be used for following</i></b>
+
 Given I am logged in as an admin user
 
 When I view the social networks configuration page

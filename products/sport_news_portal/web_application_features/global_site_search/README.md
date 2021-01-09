@@ -16,10 +16,12 @@ The header section should have a global site search. The search should show all 
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/ZoxzwUAIg07UEnbYO0lljl/Global-Site-Search?node-id=0%3A1) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/ZoxzwUAIg07UEnbYO0lljl/Global-Site-Search?node-id=6834%3A15675&viewport=957%2C301%2C0.11661802232265472&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/ZoxzwUAIg07UEnbYO0lljl/Global-Site-Search?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to use a site search on the portal**](/products/sport_news_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use a site search<br>So that I can quickly find the information I’m interested in</pre>
+1 |[**Allow users to use a site search on the portal**](/products/sport_news_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use a site search<br>So that I can quickly find the information I am interested in</pre>

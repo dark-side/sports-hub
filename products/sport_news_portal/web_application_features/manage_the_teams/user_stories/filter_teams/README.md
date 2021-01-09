@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user views the <b>Teams</b> page and filters the existing teams
+<b><i>Scenario: An admin user views the <b>Teams</b> page and filters the existing teams</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>Teams</b> page

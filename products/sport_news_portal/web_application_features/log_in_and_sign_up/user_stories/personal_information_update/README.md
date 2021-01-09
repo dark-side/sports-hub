@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to update their personal information
 
@@ -15,8 +15,9 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user updates personal information
-Given I’m a site user on the personal profile page
+<b><i>Scenario: A site user updates personal information</i></b>
+
+Given I am a site user on the personal profile page
 
 When I enter the new information in the <b>First name</b>, <b>Last name</b>, <b>Email</b> fields, and click <b>Update Profile</b>
 Then the system saves the changes and immediately updates the user’s name in the page header

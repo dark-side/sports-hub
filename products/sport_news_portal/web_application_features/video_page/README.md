@@ -36,7 +36,17 @@ The admin user should also have the ability to publish/unpublish a video and tur
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1073&scaling=min-zoom) and [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1&scaling=min-zoom) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=7325%3A519&viewport=-601%2C1284%2C0.14238496124744415&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1184&viewport=-938%2C496%2C0.25463470816612244&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

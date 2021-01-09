@@ -1,4 +1,4 @@
-### Back to [User Management on the portal](../../) feature
+### Back to [User management on the portal](../../) feature
 
 # Send notification emails to the users on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user receives notifications in email
+<b><i>Scenario: A site user receives notifications in email</i></b>
+
 Given I am logged in as a site user
 
 When I am blocked, activated, got/lost admin permissions by the admin user

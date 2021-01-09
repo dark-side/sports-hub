@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to change their password via profile
 
@@ -15,8 +15,9 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user updates password
-Given I’m a site user on the Change password tab in my profile
+<b><i>Scenario: A site user updates password</i></b>
+
+Given I am a site user on the Change password tab in my profile
 
 And I see a form with three fields:
   - Old password

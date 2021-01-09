@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user deletes an existing team
+<b><i>Scenario: An admin user deletes an existing team</i></b>
+
 Given I am logged in as an admin user
 
 When I hover over a table row

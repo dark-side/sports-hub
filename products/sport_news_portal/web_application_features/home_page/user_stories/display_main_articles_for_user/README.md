@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views the main articles section on the Home page
+<b><i>Scenario: A site user views the main articles section on the Home page</i></b>
+
 Given I am a site user
 
 When I am on the <b>Home</b> page

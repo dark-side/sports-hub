@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to log in to the portal using a third-party authentication provider
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user logs in using Facebook or Google+
+<b><i>Scenario: A site user logs in using Facebook or Google+</i></b>
+
 Given I have registered to the portal with Facebook or Google+ account
 
 When I visit the <b>Log in</b> page
