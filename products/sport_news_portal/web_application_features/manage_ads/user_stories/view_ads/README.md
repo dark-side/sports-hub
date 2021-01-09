@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views advertisement on the top of the right sidebar
+<b><i>Scenario: A site user views advertisement on the top of the right sidebar</i></b>
+
 Given I am a site user
 
 When I view a page of the Sport News and the advertisements are configured to be shown by the admin
@@ -33,14 +34,14 @@ Then advertisements are rotating each 3 seconds in the banner
 
 ## Mockups
 
-1. User sees ad on the portal
+1. User sees ad on the portal (Nike shoes)
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees ad on the portal:**
+**1. User sees ad on the portal (Nike shoes):**
 
-![User sees ad on the portal](/products/sport_news_portal/web_application_features/manage_ads/images/display_ads.png)
+![User sees ad on the portal (Nike shoes)](/products/sport_news_portal/web_application_features/manage_ads/images/display_ads.png)
 
 </details>
 

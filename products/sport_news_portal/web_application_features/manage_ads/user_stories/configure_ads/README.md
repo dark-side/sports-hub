@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin configures the list of advertisements
+<b><i>Scenario: An admin configures the list of advertisements</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>Advertising</b> configuration page

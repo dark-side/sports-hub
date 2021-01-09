@@ -48,7 +48,17 @@ The Newsletter is described [in separate feature](/products/sport_news_portal/we
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A1&scaling=min-zoom) and [here](https://www.figma.com/proto/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A1&scaling=min-zoom) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A2345&viewport=-3358%2C515%2C0.10175449401140213&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A3859) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A2&viewport=502%2C286%2C0.10842359811067581&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/7AUcQB82LimoDlaD7rl4uw/Site-Footer?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

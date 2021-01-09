@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user publish/unpublish an existing video
+<b><i>Scenario: An admin user publish/unpublish an existing video</i></b>
+
 Given I am logged in as an admin user
 
 When I click the <b>Videos</b> link on the admin side

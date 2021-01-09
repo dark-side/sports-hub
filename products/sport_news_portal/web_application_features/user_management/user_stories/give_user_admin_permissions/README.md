@@ -1,4 +1,4 @@
-### Back to [User Management on the portal](../../) feature
+### Back to [User management on the portal](../../) feature
 
 # Allow admin user to give user admin permissions on the portal
 
@@ -15,8 +15,9 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user makes the user as admin
-Given I’m logged in as an admin user
+<b><i>Scenario: An admin user makes the user as admin</i></b>
+
+Given I am logged in as an admin user
 
 When I am on the <b>Users</b> configuration page
 And I view the <b>Users</b> tab

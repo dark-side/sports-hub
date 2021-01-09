@@ -1,4 +1,4 @@
-### Back to [Articles User Side on the portal](../../) feature
+### Back to [Articles - user side on the portal](../../) feature
 
 # Allow users to view More Articles block on the portal
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views the <b>More articles</b> section
+<b><i>Scenario: A site user views the <b>More articles</b> section</i></b>
+
 Given I am a site user
 
 When I view an article page

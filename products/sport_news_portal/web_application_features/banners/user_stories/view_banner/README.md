@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views banners in the right sidebar of the site
+<b><i>Scenario: A site user views banners in the right sidebar of the site</i></b>
+
 Given I am site user
 
 When I view a page within the category that has published banner

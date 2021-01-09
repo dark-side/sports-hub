@@ -1,4 +1,4 @@
-# Manage News Partners on the portal
+# Manage news partners on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -28,7 +28,9 @@ News from the configured partner should be shown directly to the users and shoul
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/U7MdkpMsV1yimaWduSnzZP/News-Partners?node-id=4523%3A10122) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?node-id=6615%3A14257&viewport=-223%2C371%2C0.02814709022641182&scaling=scale-down) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

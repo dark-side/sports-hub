@@ -1,4 +1,4 @@
-### Back to [Articles User Side on the portal](../../) feature
+### Back to [Articles - user side on the portal](../../) feature
 
 # Allow users to view league/team page of the portal
 
@@ -15,7 +15,8 @@
 
 ## Acceptance criteria
 <pre>
-Scenario: A site user views the league or team page
+<b><i>Scenario: A site user views the league or team page</i></b>
+
 Given I am a site user
 
 When I view the league or team page

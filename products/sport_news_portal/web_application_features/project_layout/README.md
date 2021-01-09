@@ -1,4 +1,4 @@
-# Page Layout on the portal
+# Page layout on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -28,7 +28,9 @@ Please note, page content sections are configured by the admin.
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/%231---Sport-News-General-Prototype?node-id=7210%3A511&scaling=min-zoom) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1586&viewport=-381%2C678%2C0.1179991066455841&scaling=min-zoom) and [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A2&viewport=454%2C441%2C0.038604091852903366&scaling=min-zoom) to see clickable prototypes.
+
+Please click [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1) and [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
 ## User stories
 

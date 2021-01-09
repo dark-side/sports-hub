@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user edits an image of an article
+<b><i>Scenario: An admin user edits an image of an article</i></b>
+
 Given I am logged in as an admin user
 
 When I hover over the Picture box on the Add or Edit article page

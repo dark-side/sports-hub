@@ -1,4 +1,4 @@
-# Site Languages on the portal
+# Site languages on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -21,7 +21,9 @@ Admin also can use the language selector to change the site content. English lan
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/r4rCFsgZLTI77lroZSQynb/Site-Languages?node-id=0%3A1) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/r4rCFsgZLTI77lroZSQynb/Site-Languages?node-id=0%3A1075&viewport=406%2C-1586%2C0.2511744797229767&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/r4rCFsgZLTI77lroZSQynb/Site-Languages?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

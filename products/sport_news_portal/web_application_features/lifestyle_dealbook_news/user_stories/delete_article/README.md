@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user deletes an existing article
+<b><i>Scenario: An admin user deletes an existing article</i></b>
+
 Given I am logged in as an admin user
 
 When I click <b>Lifestyle/Dealbook</b> link on the admin side

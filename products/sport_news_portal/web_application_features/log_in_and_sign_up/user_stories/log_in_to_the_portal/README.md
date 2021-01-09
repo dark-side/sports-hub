@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to log in to the portal using an email
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user logs in to the portal
+<b><i>Scenario: A site user logs in to the portal</i></b>
+
 Given I have an account on the Sport News site
 
 When I visit any page on the site

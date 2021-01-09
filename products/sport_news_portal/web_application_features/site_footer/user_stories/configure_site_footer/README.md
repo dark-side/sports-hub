@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures the links and columns of the site footer and the content of these links and columns
+<b><i>Scenario: An admin user configures the links and columns of the site footer and the content of these links and columns</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Footer</b> configuration page

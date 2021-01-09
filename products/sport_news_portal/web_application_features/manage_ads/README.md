@@ -3,7 +3,7 @@
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
-- [User ftories](#user-stories)
+- [User stories](#user-stories)
 
 ## Description
 
@@ -27,9 +27,11 @@ When there is more than one ad that should be shown in the category then ads wil
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/egXgh8BYD7Xaa0JeMNhv9R/Manage-Ads?node-id=0%3A1075&scaling=min-zoom) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/egXgh8BYD7Xaa0JeMNhv9R/Manage-Ads?node-id=0%3A1075&viewport=-2341%2C634%2C0.1026575043797493&scaling=min-zoom) to see a clickable prototype.
 
-## User Stories
+Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-Ads?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+## User stories
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------

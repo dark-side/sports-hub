@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user previews the Home page
+<b><i>Scenario: An admin user previews the Home page</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Home</b> configuration page

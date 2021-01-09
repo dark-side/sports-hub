@@ -32,7 +32,17 @@ The Most popular and Most commented functionality is described in [the separate 
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=4523%3A10122) to see a clickable prototype for the feature.
+_Admin side_
+
+Please click [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1074&viewport=-716%2C546%2C0.10301588475704193&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+
+_User side_
+
+Please click [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A2&viewport=530%2C561%2C0.07127833366394043&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

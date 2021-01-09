@@ -1,4 +1,4 @@
-### Back to [Page Layout on the portal](../../) feature
+### Back to [Page layout on the portal](../../) feature
 
 # Page Structure
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views layout structure across all the pages
+<b><i>Scenario: A site user views layout structure across all the pages</i></b>
+
 Given I am a site user
 
 When I view any page on the site

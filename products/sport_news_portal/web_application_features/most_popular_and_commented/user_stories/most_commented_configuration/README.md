@@ -1,4 +1,4 @@
-### Back to [Most Popular/Commented articles on the portal](../../) feature
+### Back to [The most popular/commented articles on the portal](../../) feature
 
 # Allow admin user to configure the Most commented section
 
@@ -15,10 +15,9 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures the Most commented section for the whole site from the home page (most commented articles have the largest number of comments during a selected period of time in the whole news scope for the active page)
-Given I am logged in as an admin user
+<b><i>Scenario: An admin user configures the Most commented section for the whole site from the home page</i></b>
 
-<i>Note: This section is configured for the whole site and is context-sensitive.</i>
+Given I am logged in as an admin user
 
 When I am on the <b>Home</b> configuration page
 Then I see the <b>Most commented</b> section after the <b>Photo of the day</b> section
@@ -38,6 +37,8 @@ When I click <b>Hide on the main page</b> toggle
 Then the toggle changes to the <b>Show on the main page</b>
   And the whole Most commented section is shown for the users
   And <b>From the period</b> is visible for this section
+
+<i>Note: The most commented articles have the largest number of comments during a selected period of time in the whole news scope for the active page. This section is configured for the whole site and is context-sensitive.</i>
 </pre>
 
 ## Mockups
@@ -54,7 +55,7 @@ Then the toggle changes to the <b>Show on the main page</b>
 
 **2. Admin user sees period configuration dropdown:**
 
-![Admin user sees period configuration dropdown](/products/sport_news_portal/web_application_features/most_popular_and_commented/images/most_popular_commentable_configuration_period.png)
+![Admin user sees period configuration dropdown](/products/sport_news_portal/web_application_features/most_popular_and_commented/images/most_popular_commented_configuration_period.png)
 
 </details>
 

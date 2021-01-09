@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to sign up to the portal using an email
 
@@ -16,7 +16,7 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A new user creates a personal account using an email
+<b><i>Scenario: A new user creates a personal account using an email</i></b>
 
 When I visit any page on the site
 Then I see the <b>Get Started</b> button in the upper-right corner of the page

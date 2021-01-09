@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A logged-in user visits the Team hub page
+<b><i>Scenario: A logged-in user visits the Team hub page</i></b>
+
 Given I am logged in as a site user
 
 When I am on any page of the application

@@ -1,4 +1,4 @@
-### Back to [Most Popular/Commented articles on the portal](../../) feature
+### Back to [The most popular/commented articles on the portal](../../) feature
 
 # Allow site user to view most commented articles
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views the Most commented section
+<b><i>Scenario: A site user views the Most commented section</i></b>
+
 Given I am logged in as a site user
 
 When I view a page with the <b>Most commented</b> section

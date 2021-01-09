@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../) feature
 
 # Allow admin user to activate/deactivate news partners
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user views the list of existing partners configurations on the News Partners page
+<b><i>Scenario: An admin user views the list of existing partners configurations on the News Partners page</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>News Partners</b> page where at least one partner was added

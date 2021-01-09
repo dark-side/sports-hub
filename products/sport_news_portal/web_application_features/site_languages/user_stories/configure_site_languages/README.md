@@ -1,4 +1,4 @@
-### Back to [Site Languages on the portal](../../) feature
+### Back to [Site languages on the portal](../../) feature
 
 # Allow admin user to configure site languages on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures the list of available site languages
+<b><i>Scenario: An admin user configures the list of available site languages</i></b>
+
 Given I am logged in as an admin user
 
 When I view the <b>Languages</b> configuration page
@@ -26,10 +27,13 @@ When I hover over some language
 Then I see the <b>Delete</b> icon
 
 When I click on the <b>Delete</b> icon
-Then I see the language is deleted from the list
+Then I see a confirmation popup
+
+When I confirm delete
+Then the language is deleted from the list
 
 When I hover over the English language
-Then I do not see the Delete icon
+Then I do not see the <b>Delete</b> icon
 
 When I switch the language status toggle (<i>present for any language except English</i>)
 Then I see the language is activated or deactivated
@@ -42,7 +46,7 @@ When I click <b>New Language</b>
 Then I see the <b>Add Language</b> pop-up window with the multi-select input with checkboxes, the <b>Add</b> and <b>Cancel</b> buttons
 
 When I select the list of languages that I want to make available on the site and click <b>Add</b>
-Then I see new languages are displayed in the languages list
+Then I see a success message and new languages are displayed in the list
 
 When I click the <b>Cancel</b> button in the <b>Add Language</b> pop-up window
 Then I see the pop-up window is closed and no new languages appear in the language list
@@ -54,6 +58,8 @@ Then I see the pop-up window is closed and no new languages appear in the langua
 2. Admin user sees "Add Language" popup
 3. Admin user sees successful saved message
 4. Admin user sees select language drop-down
+5. Admin user sees delete confirmation popup
+6. A success delete flash message sample
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -73,6 +79,14 @@ Then I see the pop-up window is closed and no new languages appear in the langua
 **4. Admin user sees select language drop-down:**
 
 ![Admin user sees select language drop-down](/products/sport_news_portal/web_application_features/site_languages/images/admin_selects_language.png)
+
+**5. Admin user sees delete confirmation popup:**
+
+![Admin user sees delete confirmation popup](/products/sport_news_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
+
+**5. A success delete flash message sample:**
+
+![A success delete flash message sample](/products/sport_news_portal/web_application_features/site_languages/images/success_delete_message.png)
 
 </details>
 

@@ -1,4 +1,4 @@
-### Back to [Log In and Sign Up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../) feature
 
 # Allow users to sign up using a third-party authentication provider
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A new user creates or has already created a personal account on Facebook or Google+
+<b><i>Scenario: A new user creates or has already created a personal account on Facebook or Google+</i></b>
+
 Given I have a Facebook or Google+ account
 
 When I visit the <b>Create Account</b> or <b>Log in</b> page

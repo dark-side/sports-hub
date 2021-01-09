@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user edits the existing unpublished article
+<b><i>Scenario: An admin user edits the existing unpublished article</i></b>
+
 Given I am logged in as an admin user
 
 When I click the Lifestyle/Dealbook link on the admin side

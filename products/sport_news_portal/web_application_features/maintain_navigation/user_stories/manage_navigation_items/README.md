@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user creates the navigation menu categories, subcategories, and teams
+<b><i>Scenario: An admin user creates the navigation menu categories, subcategories, and teams</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Information architecture</b> configuration page

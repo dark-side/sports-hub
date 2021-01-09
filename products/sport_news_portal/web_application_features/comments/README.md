@@ -28,7 +28,9 @@ An admin user should have the ability to delete any comment.
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/file/hrAekXmuhUGxfBMzxjyRFz/Comments?node-id=4523%3A10122) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/hrAekXmuhUGxfBMzxjyRFz/Comments-block-on-the-portal?node-id=6306%3A3340&viewport=418%2C293%2C0.05886208266019821&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/hrAekXmuhUGxfBMzxjyRFz/Comments-block-on-the-portal?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

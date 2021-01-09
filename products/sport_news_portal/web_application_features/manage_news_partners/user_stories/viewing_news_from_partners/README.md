@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../) feature
 
 # Allow site user to view news from the configured partners
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An user is browsing different category pages and the Home page
+<b><i>Scenario: An user is browsing different category pages and the Home page</i></b>
+
 Given I am a site user
 
 When I view the <b>Home</b> page

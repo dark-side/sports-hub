@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user publishes/unpublishes an existing article
+<b><i>Scenario: An admin user publishes/unpublishes an existing article</i></b>
+
 Given I am logged in as an admin user
 
 When I click any sports category link on the admin side

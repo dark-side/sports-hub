@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user subscribes to a Sport News site
+<b><i>Scenario: A site user subscribes to a Sport News site</i></b>
+
 Given I am a site user
 
 When I view the page and the <b>Newsletter</b> subscription section in the site footer

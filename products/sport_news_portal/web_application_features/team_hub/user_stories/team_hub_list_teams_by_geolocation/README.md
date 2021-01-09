@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A logged-in user reads news of teams from his geolocation on the Team hub page
+<b><i>Scenario: A logged-in user reads news of teams from his geolocation on the Team hub page</i></b>
+
 Given I am logged in as a site user
 
 When I am on the <b>Team hub</b> page and I haven’t configured my favorite teams in the personal cabinet

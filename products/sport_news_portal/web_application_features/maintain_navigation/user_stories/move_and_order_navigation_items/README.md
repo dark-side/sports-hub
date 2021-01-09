@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user change order of the navigation menu categories, subcategories, and teams and moves them between the categories and subcategories
+<b><i>Scenario: An admin user change order of the navigation menu categories, subcategories, and teams and moves them between the categories and subcategories</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Information architecture</b> configuration page

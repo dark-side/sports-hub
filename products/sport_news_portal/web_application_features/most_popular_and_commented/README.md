@@ -1,4 +1,4 @@
-# Most Popular/Commented articles on the portal
+# The most popular/commented articles on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -25,7 +25,9 @@ Admin user can configure the time period for the Most popular and Most commented
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1074&scaling=min-zoom) to see a clickable prototype for the feature as an admin user and [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A2&scaling=min-zoom) to see prototype for the feature as a site user.
+Please click [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1074&viewport=-659%2C447%2C0.10292607545852661&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

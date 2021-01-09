@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user sees a survey banner on news pages
+<b><i>Scenario: A site user sees a survey banner on news pages</i></b>
+
 Given I am a site user
 
 When I am on any site page

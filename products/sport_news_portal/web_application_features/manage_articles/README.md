@@ -27,7 +27,9 @@ The admin user should also have the ability to publish/unpublish an article and 
 
 ## Prototype of the feature
 
-  Please click [here](https://www.figma.com/proto/NCxW6Vl3GCsRUxds7yJEUh/Manage-Articles?node-id=6313%3A12981&scaling=min-zoom) to see a clickable prototype for the feature.
+Please click [here](https://www.figma.com/proto/NCxW6Vl3GCsRUxds7yJEUh/Manage-Articles?node-id=6313%3A12981&viewport=-84%2C350%2C0.06816829741001129&scaling=min-zoom) to see a clickable prototype.
+
+Please click [here](https://www.figma.com/file/NCxW6Vl3GCsRUxds7yJEUh/Manage-Articles?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
 ## User stories
 

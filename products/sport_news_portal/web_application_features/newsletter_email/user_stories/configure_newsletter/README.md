@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures Newsletter footer sections
+<b><i>Scenario: An admin user configures Newsletter footer sections</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Footer</b> configuration page

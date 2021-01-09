@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user closes a survey
+<b><i>Scenario: An admin user closes a survey</i></b>
+
 Given I am logged in as an admin user
 
 When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
@@ -52,12 +53,17 @@ Then I see a success message
 
 ## Mockups
 
-1. Admin user sees a Closed tab
+1. Admin user sees actions for published survey
+2. Admin user sees a Closed tab
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees a Closed tab:**
+**1. Admin user sees actions for published survey:**
+
+![Admin user sees actions for published survey](/products/sport_news_portal/web_application_features/surveys/images/admin_published_actions.png)
+
+**2. Admin user sees a Closed tab:**
 
 ![Admin user sees a Closed tab](/products/sport_news_portal/web_application_features/surveys/images/admin_surveys_closed_tab.png)
 

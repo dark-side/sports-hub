@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user configures surveys on the portal
+<b><i>Scenario: An admin user configures surveys on the portal</i></b>
+
 Given I am logged in as an admin user
 
 When I view the site

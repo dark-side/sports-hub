@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user shares sports videos
+<b><i>Scenario: A site user shares sports videos</i></b>
+
 Given I am a site user
 
 When I view a spesific video page and video sharing is enabled

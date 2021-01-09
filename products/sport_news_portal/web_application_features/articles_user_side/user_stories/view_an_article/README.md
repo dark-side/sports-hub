@@ -1,4 +1,4 @@
-### Back to [Articles User Side on the portal](../../) feature
+### Back to [Articles - user side on the portal](../../) feature
 
 # Allow users to view an article on the portal
 
@@ -16,7 +16,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: A site user views an article content
+<b><i>Scenario: A site user views an article content</i></b>
+
 Given I am a site user
 
 When I view an article page

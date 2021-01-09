@@ -1,4 +1,4 @@
-### Back to [Manage News Partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../) feature
 
 # Allow admin user to delete the integration with the partner on the portal
 
@@ -15,7 +15,8 @@
 ## Acceptance criteria
 
 <pre>
-Scenario: An admin user deletes the existing integration with the partner on the News Partners page
+<b><i>Scenario: An admin user deletes the existing integration with the partner on the News Partners page</i></b>
+
 Given I am logged in as an admin user
 
 When I click the delete icon for the needed partner on the <b>News Partners</b> page
