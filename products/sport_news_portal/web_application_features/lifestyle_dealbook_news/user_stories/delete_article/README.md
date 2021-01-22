@@ -48,7 +48,7 @@ Then I see a success message
 
 **1. Admin user sees a confirmation popup on delete of the article:**
 
-![Admin user sees a confirmation popup on delete of the article](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/confirmation_to_delete.png)
+![Admin user sees a confirmation popup on delete of the article](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/confirmation_to_delete.png)
 
 </details>
 

@@ -51,7 +51,7 @@ Then I see a success message
 
 **1. Admin user sees article actions on Dealbook and Lifestyle index page:**
 
-![Admin user sees article actions on Dealbook and Lifestyle index page](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/article_actions_index_page.png)
+![Admin user sees article actions on Dealbook and Lifestyle index page](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/article_actions_index_page.png)
 
 </details>
 

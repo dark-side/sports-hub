@@ -65,11 +65,11 @@ Then I see only articles with the biggest amount of comments for configured by a
 
 **1. User sees a Lifestyle page:**
 
-![User sees a Lifestyle page](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/lifestyle_user_page.png)
+![User sees a Lifestyle page](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_user_page.png)
 
 **2. User sees a Dealbook page:**
 
-![User sees a Dealbook page](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/dealbook_user_page.png)
+![User sees a Dealbook page](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_user_page.png)
 
 </details>
 

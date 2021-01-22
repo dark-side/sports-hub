@@ -83,27 +83,27 @@ Then I see the following options:
 
 **1. Admin user sees a Lifestyle list of articles:**
 
-![Admin user sees a Lifestyle list of articles](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/lifestyle_index_page.png)
+![Admin user sees a Lifestyle list of articles](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_index_page.png)
 
 **2. Admin user sees a Dealbook list of articles:**
 
-![Admin user sees a Dealbook list of articles](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/dealbook_index_page.png)
+![Admin user sees a Dealbook list of articles](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_index_page.png)
 
 **3. Admin user sees actions for a published article on Dealbook and Lifestyle confiduration page:**
 
-![Admin user sees actions for a published article on Dealbook and Lifestyle confiduration page](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/article_actions_index_page.png)
+![Admin user sees actions for a published article on Dealbook and Lifestyle confiduration page](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/article_actions_index_page.png)
 
 **4. Admin user clicks status filter and sees the options:**
 
-![Admin user clicks status filter and sees the options](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/status_filter_options.png)
+![Admin user clicks status filter and sees the options](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/status_filter_options.png)
 
 **5. Admin user clicks search icon and sees an input field:**
 
-![Admin user clicks search icon and sees an input field](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/search_field.png)
+![Admin user clicks search icon and sees an input field](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/search_field.png)
 
 **6. Admin user sees a Lifestyle preview page:**
 
-![Admin user sees a Lifestyle preview page](/products/sport_news_portal/web_application_features/lifestyle_sidebar_block/images/lifestyle_preview_page.png)
+![Admin user sees a Lifestyle preview page](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_preview_page.png)
 
 </details>
 
