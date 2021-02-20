@@ -32,23 +32,23 @@ Then I am taken to the appropriate article page
 
 ## Mockups
 
-1. User sees Dealbook banner in the sidebar section
+1. Users see the <b>Dealbook</b> banner in the sidebar section
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Dealbook banner in the sidebar section:**
+**1. Users see the Dealbook banner in the sidebar section:**
 
-![User sees Dealbook banner in the sidebar section](/products/sport_news_portal/web_application_features/banners/images/banners_user_side.png)
+![Users see the Dealbook banner in the sidebar section](/products/sport_news_portal/web_application_features/banners/images/banners_user_side.png)
 
 </details>
 
 ## Test cases
 
-1. Verify the content of the Lifestyle banner on the right side
-2. Verify redirection to the appropriate article page by click on the header for the article from the Lifestyle banner
-3. Verify the content of the Dealbook banner on the right side
-4. Verify redirection to the appropriate article page by click on the header for the article from the Dealbook banner
+1. Verify the content of the <b>Lifestyle</b> banner on the right side
+2. Verify redirection to the appropriate article page by clicking the header for the article from the <b>Lifestyle</b> banner
+3. Verify the content of the <b>Dealbook</b> banner on the right side
+4. Verify redirection to the appropriate article page by clicking the header for the article from the <b>Dealbook</b> banner
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -57,24 +57,24 @@ Then I am taken to the appropriate article page
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- <b>Lifestyle</b> banner is enabled|1) Examine the <b>Lifestyle</b> banner on the right side|1) The <b>Lifestyle</b> banner contains the most recent lifestyle article and the following:</br>- Heading <b>Lifestyle</b></br>- Article Photo</br>- Article header|
+|- The <b>Lifestyle</b> banner is enabled|1) Examine the <b>Lifestyle</b> banner on the right side|1) The <b>Lifestyle</b> banner contains the most recent lifestyle article and the following:</br>- Heading <b>Lifestyle</b></br>- Article photo</br>- Article header|
 
-### **#2. Verify redirection to the appropriate article page by click on the header for the article from the Lifestyle banner**
+### **#2. Verify redirection to the appropriate article page by clicking the header for the article from the Lifestyle banner**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- <b>Lifestyle</b> banner is enabled|1) Click the header for the <b>Lifestyle</b> banner article|1) The user is redirected to the appropriate article page|
+|- The <b>Lifestyle</b> banner is enabled|1) Click the header for the <b>Lifestyle</b> banner article|1) The user is redirected to the appropriate article page|
 
 ### **#3. Verify the content of the Dealbook banner on the right side**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- <b>Dealbook</b> banner is enabled|1) Examine the <b>Dealbook</b> banner on the right side|1) The <b>Dealbook</b> banner contains the most recent dealbook article and the following:</br>- Heading <b>Dealbook</b></br>- Article Photo</br>- Article header|
+|- The <b>Dealbook</b> banner is enabled|1) Examine the <b>Dealbook</b> banner on the right side|1) The <b>Dealbook</b> banner contains the most recent dealbook article and the following:</br>- Heading <b>Dealbook</b></br>- Article photo</br>- Article header|
 
-### **#4. Verify redirection to the appropriate article page by click on the header for the article from the Dealbook banner**
+### **#4. Verify redirection to the appropriate article page by clicking the header for the article from the Dealbook banner**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- <b>Dealbook</b> banner is enabled|1) Click the header for the <b>Dealbook</b> banner article|1) The user is redirected to the appropriate article page|
+|- The <b>Dealbook</b> banner is enabled|1) Click the header for the <b>Dealbook</b> banner article|1) The user is redirected to the appropriate article page|
 
 </details>

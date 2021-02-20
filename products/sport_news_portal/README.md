@@ -1,4 +1,4 @@
-# Sport News portal
+# Sports Hub portal
 
 - [Problem](#problem)
 - [Solution](#solution)
@@ -14,41 +14,42 @@
 
 ## Problem
 
-Nowadays the world is filled in with different kinds of news and news sites, but often it’s hard and time consuming to find the news you are interested in. When it comes to sports, sport fans need to spend a fair amount of time browsing through the web in order to find the sport news relevant to their favorite kind of sport or their favorite league or team.
+These days in the world filled with different kinds of news presented on various websites it’s rather hard and time consuming to find the information we need. When it comes to sports, fans spend a fair amount of time browsing the web in order to find hot news relevant to their best-loved kind of sports or their favorite league or team.
 
 ## Solution
 
-Creating a sport news site that is focused only on the news about different sport activities and allows users to effectively manage the news that they want to see will help sport fans and people who are interested in sport to solve the problem with the information overdose in the web and save their time when looking for the news relevant to their interest.
+Creating a sports news site focused exclusively on the sports activities will allow users to effectively manage the news they want to see thus helping fans and people interested in sports to address the issue of information overdose on the web and save time when looking for the news consistent with their interests.
 
 ## Goals and objectives
 
 Specific goals are:
-1. Create a web-application that allows users the following:
-  - to read sport news related to different kinds of sport
-  - to subscribe to receive the news about their favorite kind of sport or league or team 
-  - to receive the newsletter emails
-  - to manage the kind of news they want to see (eg.: news related to specific kind of sport or league or team) what kind of news
-2. Create a Content Management System that allows users with proper permissions to define the structure and content of the web-application
+1. To create a web-application allowing users:
+  - to read news related to different kinds of sports
+  - to subscribe to the sports news of their choice
+  - to receive the newsletters via email
+  - to manage the kind of news they want to see (e.g. news related to the specific kind of sports,league or team)
+
+2. To create the Content Management System (CMS) allowing users with proper permission to define the structure and content of the web-application
 
 ## User personas
 
-**Not authorised website user (not logged in to the Sport News site)**
+**Unauthorized website user (not logged in to the Sports Hub site)**
 
     Available actions
-      - View sport news (note: the structure of the news pages and the content of the pages (articles) are defined in the CMS)
-      - Subscribe to receive sport news (note: there are few different subscription types - General news, League news, Team news)
+      - View sports news (note: the structure of the news pages and the content of the pages (articles) are defined in the CMS)
+      - Subscribe to receive sports news (note: there are a few different subscription types: General news, League news, Team news)
       - Share the news via the Social Media (when configured in the CMS)
-      -Login/Sign up to the Sport News site (including the Login/Sign up with the Social Networks if enabled in CMS)
+      - Login/Sign up to the Sports Hub site (including the Login/Sign up with the Social Networks if enabled in CMS)
 
-**Authorised website user (logged in to the Sport News site)**
+**Authorised website user (logged in to the Sports Hub site)**
 
     Available actions:
       - Manage personal info
       - Manage team subscriptions
       - Manage surveys
       - Answer the surveys
-      - Comment an article
-      - Actions available for not authorized user
+      - Comment on an article
+      - Actions available for an unauthorized user
 
 **Website Admin**
 
@@ -59,15 +60,15 @@ Specific goals are:
       - Site users
       - Structure of the pages
       - Articles
-      - Sport Categories (Leagues)
-      - Sport Conferences
+      - Sports Categories (Leagues)
+      - Sports Conferences
       - Teams
       - Relations between Categories, Conferences, Teams
       - Site Languages
       - Social Networks support
       - Surveys
       - Banners
-      - Advertises
+      - Advertisements
 
 ## Requirements
 
@@ -98,17 +99,17 @@ Specific goals are:
 
 ### Non-functional requirements
 
-- The application should use Cloud service for storing images and video files.
-- The application should be built following the REST principles.
-- The application must work in all modern browsers.
-- The application must be able to support 1000 simultaneous users.
+- The application should use Cloud service for storing images and video files
+- The application should be built following the REST principles
+- The application must work in all modern browsers
+- The application must be able to support 1000 simultaneous users
 
 ### Layout requirements
 
-- The site inputs should have validation on the server side as well as on a client side (consider limiting input length, checking the input value format and type).
-- The site links should be opened in a new tab.
-- The site links should be highlighted on hover.
-- The menu item that is currently active (meaning user is viewing it in the moment) should be highlighted.
+- The site inputs should have validation on the server side as well as on a client side (consider limiting input length, checking the input value format and type)
+- The site links should be opened in a new tab
+- The site links should be highlighted on hover
+- The menu item that is currently active (meaning user is viewing it in the moment) should be highlighted
 
 ### User interface
 
@@ -116,12 +117,12 @@ Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-N
 
 ## Audience
 
-1. Sport fans.
-2. People who want to get latest sport news.
+1. Sports fans.
+2. People in search of the latest sports news.
 3. People who want to receive sport news emails.
 
 ## Future work
 
-1. Mobile support. Make sure that users can access the Sport news application using their mobile phone or tablet and the the Sport news application layout is optimized for use by mobile phone or tablet.
-2. Page templates list. Build support for admin to choose the page template when they create a new page for a Sport news application.
-3. Admins with different sets of permissions. Build possibility for admin users to define permissions for other admins in order to make it possible to create admins with limited access to CMS.
+1. Mobile support. Make sure that users can access the Sports Hub application using their mobile phone or tablet and the Sports Hub application layout is optimized.
+2. Page templates list. Build support for admins to choose the page template when creating a new page for the Sports Hub application.
+3. Admins with different sets of permissions. Build a possibility for admin users to define permissions for other admins in order to make it possible to create admins with limited access to CMS.
