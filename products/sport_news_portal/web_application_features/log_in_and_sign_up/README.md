@@ -7,7 +7,7 @@
 
 ## Description
 
-The user should be able to have a personal account on the Sport News site. To create an account, the user can use the sign-up form or sign up via social networks, such as Google+ and Facebook, that are present on the sign-up window. The user should be able to log in with the right username and password or via social network buttons on the login form. The user should be able to restore the password using the "Forgot password?" functionality. Registered users should have a personal cabinet where they can view and update personal information:
+Users should be able to have a personal account on the Sports Hub site. To create an account, they can use the sign-up form or sign up via social networks, such as Google+ and Facebook, that are present on the sign-up page. Users should be able to log in with the right username and password or via social network buttons on the log-in form. Users should be able to restore the password using the "Forgot password?" functionality. Registered users should have a personal cabinet where they can view and update personal information:
 - First name
 - Last name
 - Profile picture
@@ -15,16 +15,16 @@ The user should be able to have a personal account on the Sport News site. To cr
 
 ## Check list:
 
-  - Verify if UI corresponds to prototype
-  - User should be able to sign up into Sport News site via email
-  - User should be able to sign up into Sport News site via social network accounts
-  - User should be able to log into an already created account
-  - User should not be able to log in with invalid credentials or empty credential fields (error message should appear)
-  - User should be able to restore password
-  - Logged-in user should be able to view personal information on the profile page (_do not allow if logged by social network_)
-  - Logged-in user should be able to update the personal information on the profile page (_do not allow if logged by social network_)
-  - Logged-in user should be able to change a password (_do not allow if logged by social network_)
-  - Logged-in user should be able to upload a photo as a profile picture (_do not allow if logged by social network_)
+  - Verify if UI corresponds to the prototype
+  - Users should be able to sign up on the Sports Hub site via email
+  - Users should be able to sign up on the Sports Hub site via social network accounts
+  - Users should be able to log in to an already created account
+  - Users should not be able to log in with invalid credentials or empty credential fields (error message should appear)
+  - Users should be able to restore password
+  - Logged-in users should be able to view personal information on the profile page (_do not allow if logged-in by social network_)
+  - Logged-in users should be able to update the personal information on the profile page (_do not allow if logged-in via social network_)
+  - Logged-in users should be able to change the password (_do not allow if logged-in via  social network_)
+  - Logged-in users should be able to upload a photo as a profile picture (_do not allow if logged-in via social network_)
 
 ## Prototype of the feature
 
@@ -36,9 +36,9 @@ Please click [here](https://www.figma.com/file/pGlTwGGnAojQsmcvwEU1o9/Log-In-Sig
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to sign up to the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_to_the_portal)|<pre>As a new user<br>I want to be able to sign up using my email<br>So that I will be in the site member list</pre>
+1 |[**Allow users to sign up on the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_to_the_portal)|<pre>As a new user<br>I want to be able to sign up using my email<br>So that I will be on the site member list</pre>
 2 |[**Allow users to log in to the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_to_the_portal)|<pre>As a site user<br>I want to be able to login with an email and password</pre>
-3 |[**Allow users to sign up using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_with_third_party) |<pre>As a new user<br>I want to be able to sign up using a third-party authentication provider<br>So that I will be in the site member list</pre>
+3 |[**Allow users to sign up using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_with_third_party) |<pre>As a new user<br>I want to be able to sign up using a third-party authentication provider<br>So that I will be on the site member list</pre>
 4 |[**Allow users to log in to the portal using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_with_third_party) |<pre>As a site user<br>I want to be able to login using a third-party authentication provider</pre>
 5 |[**Allow users to reset their password**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/forgot_password)|<pre>As a site user<br>I want to be able to reset my password</pre>
 6 |[**Allow users to update their personal information**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/personal_information_update)|<pre>As a site user<br>I want to be able to update my personal information</pre>
