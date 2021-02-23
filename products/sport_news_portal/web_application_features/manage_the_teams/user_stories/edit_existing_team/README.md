@@ -23,8 +23,8 @@ When I hover over a table row
 Then I see the <b>Edit</b> link button on the right side
 
 When I double-click a table row or click the <b>Edit</b> link button
-Then I see the edit form next to the map are filled with the selected team details
-  And I see <b>Save</b> button that is disabled by default and <b>Cancel</b> button
+Then I see the edit form next to the map is filled with the selected team details
+  And I see the <b>Save</b> button that is disabled by default and the <b>Cancel</b> button
 
 When I make changes
 Then I see the <b>Save</b> button becomes enabled
@@ -41,49 +41,49 @@ Then I see the default form
 
 ## Mockups
 
-1. Admin user sees Edit button on hover over the table row and edit form
+1. Admin user sees the <b>Edit</b> button on hover over the table row and edit form
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees Edit button on hover over the table row and edit form:**
+**1. Admin user sees the Edit button on hover over the table row and edit form:**
 
-![Admin user sees Edit button on hover over the table row and edit form](/products/sport_news_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
+![Admin user sees the Edit button on hover over the table row and edit form](/products/sport_news_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
 
 </details>
 
 ## Test cases
 
-1. Verify that the Edit link button appears on the right side of the team when hovering over a row
-2. Verify the possibility to edit an existing team by clicking the Edit link button on the right side of a team
-3. Verify the possibility to edit location for the existing team by clicking the map
-4. Verify the possibility to cancel editing an existing team by clicking the Edit link button on the right side of a team record
+1. Verify that the <b>Edit</b> button appears on the right side of the team when hovering over a row
+2. Verify the possibility to edit existing teams by clicking the <b>Edit</b> button on the right side of a team
+3. Verify the possibility to edit location for existing teams by clicking the map
+4. Verify the possibility to cancel editing of existing teams by clicking the <b>Edit</b> button on the right side of a team record
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that the Edit link button appears on the right side of the team when hovering over a row**
+### **#1. Verify that the Edit button appears on the right side of the team when hovering over a row**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over a row|1) The Edit link button appears on the right side|
+|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over a row|1) The <b>Edit</b> button appears on the right side|
 
-### **#2. Verify the possibility to edit an existing team by clicking the Edit link button on the right side of a team**
-
-|Preconditions|Steps|Expected result
---------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) On the right side of the team, row click the <b>Edit</b> link button</br>3) Enter new data to all fields</br>4) Click <b>Save</b>|2) The edit form next to the map appears with <b>Save</b> button that is disabled by default and <b>Cancel</b> button</br>4) All new data is saved as the team information|
-
-### **#3. Verify the possibility to edit location for the existing team by clicking the map**
+### **#2. Verify the possibility to edit existing teams by clicking the Edit button on the right side of a team**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) On the right side of the team, row click the <b>Edit</b> link button</br>3) Click anywhere on the map</br>4) Click <b>Save</b>|2) The edit form next to the map appears with <b>Save</b> button that is disabled by default and <b>Cancel</b> button</br>3) <b>Select Location</b> dropdown is changed according to the selected location on the map</br>4) All new data is saved as the team information|
+|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) On the right side of the team row, click the <b>Edit</b> button</br>3) Enter new data to all fields</br>4) Click <b>Save</b>|2) The edit form next to the map appears with the <b>Save</b> button that is disabled by default and the <b>Cancel</b> button</br>4) All new data is saved as the team information|
 
-### **#4. Verify the possibility to cancel editing an existing team by clicking the Edit link button on the right side of a team record**
+### **#3. Verify the possibility to edit location for existing teams by clicking the map**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) Click on the Edit link on the right side of the team record</br>3) Update all fields with new data</br>4) Click <b>Cancel</b>|2) The edit form next to the map appears with <b>Save</b> button that is disabled by default and <b>Cancel</b> button</br>4) All old data is shown as the team information|
+|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) On the right side of the team row, click the <b>Edit</b> button</br>3) Click anywhere on the map</br>4) Click <b>Save</b>|2) The edit form next to the map appears with the <b>Save</b> button that is disabled by default and the <b>Cancel</b> button</br>3) <b>Select location</b> drop-down list is changed according to the selected location on the map</br>4) All new data is saved as the team information|
+
+### **#4. Verify the possibility to cancel editing of existing teams by clicking the Edit button on the right side of a team record**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Hover over any team row</br>2) Click <b>Edit</b> on the right side of the team record</br>3) Update all fields with new data</br>4) Click <b>Cancel</b>|2) The edit form next to the map appears with the <b>Save</b> button that is disabled by default and the <b>Cancel</b> button</br>4) All old data is shown as the team information|
 
 </details>
