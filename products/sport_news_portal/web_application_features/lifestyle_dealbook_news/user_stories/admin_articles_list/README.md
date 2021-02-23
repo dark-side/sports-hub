@@ -62,7 +62,7 @@ Then I am taken back to <b>Lifestyle</b> or <b>Dealbook</b> admin page
 When I hover over an article
 Then I see the ellipsis (<b>...</b>) button in the upper-right corner
 
-When I click <b>...</b> button
+When I click "<b>...</b>" button
 Then I see the following options:
   - <b>Unpublish</b> if the article is published or <b>Publish</b> if the article is unpublished
   - <b>Edit</b>

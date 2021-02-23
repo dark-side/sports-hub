@@ -25,7 +25,7 @@ Then I see the list of blocks with articles
 When I hover over any article
 Then I see the ellipsis (<b>...</b>) button in the upper-right corner
 
-When I click <b>...</b> the menu icon for an unpublished article
+When I click "<b>...</b>" the menu icon for an unpublished article
 Then I see the <b>Publish</b> menu item present
 
 When I click <b>Publish</b> menu item
@@ -33,7 +33,7 @@ Then I see a success message
   And the status of article changed to <b>Published</b>
   And article is visible for users in <b>Lifestyle</b> and <b>Dealbook</b>
 
-When I click <b>...</b> the menu icon for a published article
+When I click "<b>...</b>" the menu icon for a published article
 Then I see the <b>Unpublish</b> menu item present
 
 When I click <b>Unpublish</b> menu item
@@ -67,11 +67,11 @@ Then I see a success message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click <b>...</b> button > <b>Publish</b> menu item|2) A success message appears and users can see the article|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Publish</b> menu item|2) A success message appears and users can see the article|
 
 ### **#2. Verify that admin is able to unpublish an existing published article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is a published article|1) Hover over a published article</br>2) Click <b>...</b> button > <b>Unpublish</b> menu item|2) A success message appears and users do not see the article|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is a published article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Unpublish</b> menu item|2) A success message appears and users do not see the article|
 </details>

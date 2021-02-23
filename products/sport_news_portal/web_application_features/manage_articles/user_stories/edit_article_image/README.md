@@ -1,6 +1,6 @@
 ### Back to [Manage articles on the portal](../../) feature
 
-# Allow admin users to have advanced edit of the article image
+# Allow admin users to have advanced editing of the article image
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -19,7 +19,7 @@
 
 Given I am logged in as an admin user
 
-When I hover over the Picture box on the Add or Edit article page
+When I hover over the <b>Picture</b> box on the <b>Add</b> or <b>Edit</b> article page
 Then I see the picture editing icons:
   - Upload new image
   - Filters
@@ -27,21 +27,21 @@ Then I see the picture editing icons:
   - Delete
   - Resize
 
-When I click the <b>filters icon</b>
+When I click the filters icon
 Then I see thumbnails with different filters
   And I see the name of each filter above the thumbnails
   And I see the <b>OK</b> and <b>Cancel</b> buttons
 
-When I select a filter
+When I select the filter
 Then I see the filter is applied to the picture
 
 When I click <b>OK</b>
-Then I see thumbnails disappear and I see the previous Add or Edit article page with the edited image
+Then I see thumbnails disappear and I see the previous <b>Add</b> or <b>Edit</b> article page with the edited image
 
 When I click <b>Cancel</b>
-Then I see thumbnails disappear and I see the previous Add or Edit article page without changes
+Then I see thumbnails disappear and I see the previous <b>Add</b> or <b>Edit</b> article page without changes
 
-When I click the <b>crop icon</b>
+When I click the crop icon
 Then I see a frame over the image with four control points on each corner of the frame to edit the size in two dimensions. The image outside this frame is covered with a half-transparent overlay
 
 When I capture any control point and pull it
@@ -53,10 +53,10 @@ Then I see the image crops to the needed size and is saved
 When I click <b>Cancel</b>
 Then I see that no changes were applied
 
-When I click the <b>resize icon</b>
+When I click the resize icon
 Then I see the section for image resizing opens
 
-And I see the resize slider control below the picture box. The <b>Cancel</b> and <b>OK</b> buttons on the right below the picture. The resize slider control with the small image icon on the left and the bigger image icon on the right
+And I see the resize slider control below the picture box, the <b>Cancel</b> and <b>OK</b> buttons on the right below the picture, and the resize slider control with the small image icon on the left and the bigger image icon on the right
 
 When I pull the slider control to the right
 Then I see the picture becomes bigger
@@ -70,7 +70,7 @@ Then I see the picture is saved with a new size
 When I click <b>Cancel</b>
 Then I see that no changes were applied
 
-When I click the <b>delete icon</b>
+When I click the delete icon
 Then I see the picture is deleted and the box for image upload appears
 </pre>
 
@@ -119,42 +119,42 @@ Then I see the picture is deleted and the box for image upload appears
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>OK</b>|5) The thumbnails disappear and the filter is applied|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>OK</b>|5) The thumbnails disappear and the filter is applied|
 
 ### **#2. Verify that admin is able to cancel the applied filter for an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>Cancel</b>|5) The thumbnails disappear and no changes are applied to the image|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the filters icon</br>4) Select filter</br>5) Click <b>Cancel</b>|5) The thumbnails disappear and no changes are applied to the image|
 
 ### **#3. Verify admin is able to crop an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>OK</b>|5) The crop editor disappear and the picture is cropped to the proper size and is saved|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>OK</b>|5) The crop editor disappears and the picture is cropped to the proper size and saved|
 
 ### **#4. Verify admin is able to cancel cropping an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>Cancel</b>|5) The crop editor disappear and no changes are applied to the image|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the crop icon</br>4) Capture any control point and pull it</br>5) Click <b>Cancel</b>|5) The crop editor disappears and no changes are applied to the image|
 
 ### **#5. Verify admin is able to resize an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right/to the left</br>5) Click <b>OK</b>|5) The resize editor disappear and the picture is saved with changed size|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right and to the left</br>5) Click <b>OK</b>|5) The resize editor disappears and the picture is saved with changed size|
 
 ### **#6. Verify admin is able to cancel resizing an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right/to the left</br>5) Click <b>Cancel</b>|5) The resize editor disappear and no changes are applied to the image|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the resize icon</br>4) Move the slider control to the right and to the left</br>5) Click <b>Cancel</b>|5) The resize editor disappears and no changes are applied to the image|
 
 ### **#7. Verify admin can delete an article picture**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the delete icon|4) The image disappears and an empty <b>Picture</b> field is shown|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+Add Article</b></br>2) Upload some picture</br>3) In the <b>Picture</b> section, click the delete icon|4) The image disappears and an empty <b>Picture</b> field is shown|
 
 </details>

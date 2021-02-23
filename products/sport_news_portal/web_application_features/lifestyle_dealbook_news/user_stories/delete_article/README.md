@@ -25,7 +25,7 @@ Then I see the list of blocks with articles
 When I hover over an any article
 Then I see the ellipsis (<b>...</b>) button in the upper-right corner
 
-When I click <b>...</b> the menu icon for an article
+When I click "<b>...</b>" the menu icon for an article
 Then I see the <b>Delete</b> menu item is present
 
 When I select <b>Delete</b> menu item
@@ -65,17 +65,17 @@ Then I see a success message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click <b>...</b> button > <b>Delete</b> menu item</br>3) Confirm deleting on the confirmation popover|3) A success message is shown and the article is deleted from the list|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) Confirm deleting on the confirmation popover|3) A success message is shown and the article is deleted from the list|
 
 ### **#2. Verify that admin is able to delete a published article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is a published article|1) Hover over a published article</br>2) Click <b>...</b> button > <b>Delete</b> menu item</br>3) Confirm deleting on the confirmation popover|3) A success message is shown and the article is deleted from the list|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is a published article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) Confirm deleting on the confirmation popover|3) A success message is shown and the article is deleted from the list|
 
 ### **#3. Verify that admin is able to cancel deleting of any article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click <b>...</b> button > <b>Delete</b> menu item</br>3) Cancel deleting on the confirmation popover|3) The article is present in the list|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) Cancel deleting on the confirmation popover|3) The article is present in the list|
 </details>
