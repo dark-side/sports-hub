@@ -86,7 +86,7 @@ Specific goals are:
 10. [Home page of the portal](/products/sport_news_portal/web_application_features/home_page/)
 11. [Lifestyle and Dealbook news](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/)
 12. [Sports videos on the portal](/products/sport_news_portal/web_application_features/video_page/)
-13. [The most popular/commented articles on the portal](/products/sport_news_portal/web_application_features/most_popular_and_commented/)
+13. [The most popular and commented articles on the portal](/products/sport_news_portal/web_application_features/most_popular_and_commented/)
 14. [Manage news partners on the portal](/products/sport_news_portal/web_application_features/manage_news_partners/)
 15. [Comments block on the portal](/products/sport_news_portal/web_application_features/comments/)
 16. [Global site search on the portal](/products/sport_news_portal/web_application_features/global_site_search/)
