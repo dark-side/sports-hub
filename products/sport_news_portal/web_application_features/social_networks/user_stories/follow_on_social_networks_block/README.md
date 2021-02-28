@@ -10,74 +10,74 @@
 ## Description
 
     As a site user
-    I want to be able to follow the Sport News portal on the social networks
+    I want to be able to follow the Sports Hub portal on the social networks
 
 ## Acceptance criteria
 
 <pre>
-<b><i>Scenario: A site user follows the Sport News portal using one of the configured social networks (Facebook, Twitter, Google +, Youtube)</i></b>
+<b><i>Scenario: A site user follows the Sports Hub portal using one of the configured social networks (Facebook, Twitter, Google +, YouTube)</i></b>
 
 Given I am a site user
 
-When I view any page of the Sport News site
+When I view any page of the Sports Hub site
 Then I see the Follow icons for Facebook, Twitter, Google+, and YouTube on the left sidebar menu
 
 When I click any of these icons
-Then I go to the Sport News page on that site
+Then I go to the Sports Hub page on that site
 </pre>
 
 ## Mockups
 
-1. User sees Follow icons in the navigation menu
+1. Users see <b>Follow</b> icons in the navigation menu
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Follow icons in the site header:**
+**1. Users see Follow icons in the site header:**
 
-![User sees Follow icons in the navigation menu](/products/sport_news_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
+![Users see Follow icons in the navigation menu](/products/sport_news_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
 
 </details>
 
 ## Test cases
 
-1. Verify social network icons at the Navigation menu
-2. Verify clicking on the Facebook icon
-3. Verify clicking on the Twitter icon
-4. Verify clicking on the Google+ icon
-5. Verify clicking on the YouTube icon
+1. Verify social network icons on the navigation menu
+2. Verify clicking the Facebook icon
+3. Verify clicking the Twitter icon
+4. Verify clicking the Google+ icon
+5. Verify clicking the YouTube icon
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify social network icons at the Navigation menu**
+### **#1. Verify social network icons on the navigation menu**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-||1) Go to the Sport News site</br>2) Examine icons on the left sidebar menu|2) The following icons are present: Facebook, Twitter, Google+, YouTube|
+||1) Go to the Sports Hub site</br>2) Examine icons on the left sidebar menu|2) The following icons are present: Facebook, Twitter, Google+, YouTube|
 
-### **#2. Verify clicking on the Facebook icon**
-
-|Preconditions|Steps|Expected result
---------------|-----|----------
-||1) Go to the Sport News site</br>2) Examine icons on the left sidebar menu</br>3) Click on the Facebook icon|2) The following icons are present: Facebook, Twitter, Google+, YouTube</br>3) User goes to the Sport News page on Facebook|
-
-### **#3. Verify clicking on the Twitter icon**
+### **#2. Verify clicking the Facebook icon**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-||1) Go to the Sport News site</br>2) Examine icons on the left sidebar menu</br>3) Click on the Twitter icon|2) The following icons should be present: Facebook, Twitter, Google+, YouTube</br>3) User goes to the Sport News page on Twitter|
+||1) Go to the Sports Hub site</br>2) Examine icons on the left sidebar menu</br>3) Click the Facebook icon|2) The following icons are present: Facebook, Twitter, Google+, YouTube</br>3) The user goes to the Sports Hub page on Facebook|
 
-### **#4. Verify clicking on the Google+ icon**
-
-|Preconditions|Steps|Expected result
---------------|-----|----------
-||1) Go to the Sport News site</br>2) Examine icons on the left sidebar menu</br>3) Click on the Google+ icon|2) The following icons are present: Facebook, Twitter, Google+, YouTube</br>3) User goes to the Sport News page on Google+|
-
-### **#5. Verify clicking on the YouTube icon**
+### **#3. Verify clicking the Twitter icon**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-||1) Go to the Sport News site</br>2) Examine icons on the left sidebar menu</br>3) Click on the YouTube icon|2) The following icons should be present: Facebook, Twitter, Google+, YouTube</br>3) User goes to the Sport News page on YouTube|
+||1) Go to the Sports Hub site</br>2) Examine icons on the left sidebar menu</br>3) Click the Twitter icon|2) The following icons should be present: Facebook, Twitter, Google+, YouTube</br>3) The user goes to the Sports Hub page on Twitter|
+
+### **#4. Verify clicking the Google+ icon**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sports Hub site</br>2) Examine icons on the left sidebar menu</br>3) Click the Google+ icon|2) The following icons are present: Facebook, Twitter, Google+, YouTube</br>3) The user goes to the Sports Hub page on Google+|
+
+### **#5. Verify clicking the YouTube icon**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+||1) Go to the Sports Hub site</br>2) Examine icons on the left sidebar menu</br>3) Click the YouTube icon|2) The following icons should be present: Facebook, Twitter, Google+, YouTube</br>3) The user goes to the Sports Hub page on YouTube|
 
 </details>
