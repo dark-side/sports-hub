@@ -160,6 +160,6 @@ Then the toggle changed to <b>Hide</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b>|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) The <b>Comments:</b>  toggle is in <b>Show</b> state</br>4) Click <b>Save</b>|4) The article is saved with <b>Comments</b> section visible to users|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b>|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) The <b>Comments:</b> toggle is in <b>Show</b> state</br>4) Click <b>Save</b>|4) The article is saved with <b>Comments</b> section visible to users|
 
 </details>

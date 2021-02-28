@@ -23,7 +23,7 @@ Users should be able to have a personal account on the Sports Hub site. To creat
   - Users should be able to restore password
   - Logged-in users should be able to view personal information on the profile page (_do not allow if logged-in by social network_)
   - Logged-in users should be able to update the personal information on the profile page (_do not allow if logged-in via social network_)
-  - Logged-in users should be able to change the password (_do not allow if logged-in via  social network_)
+  - Logged-in users should be able to change the password (_do not allow if logged-in via social network_)
   - Logged-in users should be able to upload a photo as a profile picture (_do not allow if logged-in via social network_)
 
 ## Prototype of the feature

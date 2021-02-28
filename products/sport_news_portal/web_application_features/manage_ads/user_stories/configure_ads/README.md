@@ -10,7 +10,7 @@
 ## Description
 
     As an admin user
-    I want to configure the list of advertisements  
+    I want to configure the list of advertisements
     So that it is possible to promote them via the Sports Hub site
 
 ## Acceptance criteria

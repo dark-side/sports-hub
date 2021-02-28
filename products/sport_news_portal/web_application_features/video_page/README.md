@@ -7,32 +7,35 @@
 
 ## Description
 
-There should be the Videos menu item available on the left-side menu. Users should be able to view sports videos on the Videos page. This page should contain the most recently added videos and consist of the following sections:
+<b>Video</b> menu item should be available on the left-side menu. Users should be able to view sports videos on the <b>Video</b> page. This page should contain the most recently added videos and consist of the following sections:
   - The last added video as the main one
   - Scrollable section with all videos
   - Most popular
   - Most commented
+
 Admin user should be able to manage videos:
-  - Add a new video
+  - Add new videos
   - View existing videos
-  - Edit the existing video
-  - Delete the existing video
-The admin user should also have the ability to publish/unpublish a video and turn on/off comments. In addition, the admin user should also turn on/off sharing videos.
+  - Edit existing videos
+  - Delete existing videos
+  - Publish/unpublish videos
+  - Turn on/off comments
+  - Turn on/off sharing videos
 
 ## Check list:
 
-  - Verify if UI corresponds to prototype
-  - Admin user should be able to add a new video
+  - Verify if UI corresponds to the prototype
+  - Admin user should be able to add new videos
   - Admin user should be able to view a list of existing videos
-  - Admin user should be able to edit the existing video
-  - Admin user should be able to delete the existing video
-  - Admin user should be able to allow or not to share the videos
-  -Admin user should be able to unpublish/publish a video
+  - Admin user should be able to edit existing videos
+  - Admin user should be able to delete existing videos
+  - Admin user should be able to turn on/off sharing videos
+  - Admin user should be able to unpublish/publish videos
   - Admin user should be able to turn on/off comments
-  - The user Videos page should contain: Most recently added video, Scrollable section with all videos, Most popular, and Most commented video sections
-  - User should be able to view video
-  - User should be able to share video
-  - Logged in user should be able to comment on the video or other comments
+  - The <b>Video</b> page should contain: recently added videos, scrollable section with all videos, <b>Most popular</b>, and <b>Most commented</b> video sections
+  - Users should be able to view videos
+  - Users should be able to share videos
+  - Logged-in users should be able to comment on videos
 
 ## Prototype of the feature
 
@@ -52,10 +55,10 @@ Please click [here](https://www.figma.com/file/J5XiOLd3XPLYkr6jb3rkaC/Video-Page
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to add a new video**](/products/sport_news_portal/web_application_features/video_page/user_stories/add_new_video)|<pre>As an admin user<br>I want to be able to add the new video</pre>
+1 |[**Allow admin users to add new videos**](/products/sport_news_portal/web_application_features/video_page/user_stories/add_new_video)|<pre>As an admin user<br>I want to be able to add new videos</pre>
 2 |[**Allow admin users to view the list of existing videos**](/products/sport_news_portal/web_application_features/video_page/user_stories/admin_videos_list)|<pre>As an admin user<br>I want to view the list of existing videos</pre>
-3 |[**Allow admin users to edit an existing video**](/products/sport_news_portal/web_application_features/video_page/user_stories/edit_existing_video)|<pre>As an admin user<br>I want to edit an existing unpublished video</pre>
-4 |[**Allow admin users to delete an existing video**](/products/sport_news_portal/web_application_features/video_page/user_stories/delete_existing_video)|<pre>As an admin user<br>I want to be able to delete the existing video</pre>
-5 |[**Allow admin users to publish/unpublish an existing video**](/products/sport_news_portal/web_application_features/video_page/user_stories/publish_unpublish_video)|<pre>As an admin user<br>I want to publish/unpublish an existing video</pre>
+3 |[**Allow admin users to edit existing videos**](/products/sport_news_portal/web_application_features/video_page/user_stories/edit_existing_video)|<pre>As an admin user<br>I want to edit existing unpublished videos</pre>
+4 |[**Allow admin users to delete existing videos**](/products/sport_news_portal/web_application_features/video_page/user_stories/delete_existing_video)|<pre>As an admin user<br>I want to be able to delete existing videos</pre>
+5 |[**Allow admin users to publish/unpublish existing videos**](/products/sport_news_portal/web_application_features/video_page/user_stories/publish_unpublish_video)|<pre>As an admin user<br>I want to publish/unpublish existing videos</pre>
 6 |[**Allow site users to view videos on the portal**](/products/sport_news_portal/web_application_features/video_page/user_stories/user_video_list)|<pre>As a site user<br>I want to be able to view sports videos</pre>
 7 |[**Allow site users to share videos on social networks**](/products/sport_news_portal/web_application_features/video_page/user_stories/share_video)|<pre>As a site user<br>I want to be able to share sports videos on my social network account</pre>

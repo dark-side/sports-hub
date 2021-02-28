@@ -19,19 +19,19 @@
 
 Given I am a site user
 
-When I view a spesific video page and video sharing is enabled
-Then I see <b>Share</b> button on the video in the upper right corner
+When I view a specific video page and video sharing is enabled
+Then I see the <b>Share</b> button on the video in the upper right corner
 
 When I hover over the <b>Share</b> button
 Then I see social networks icons
 
 When I click any of social networks icon
-Then I see the video being shared on my social network account
+Then I see the video is shared on my social network account
 </pre>
 
 ## Mockups
 
-1. User hovers over the Share button and sees social networks icons
+1. User hovers over the <b>Share</b> button and sees social networks icons
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -53,6 +53,6 @@ Then I see the video being shared on my social network account
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Go to the <b>Video</b> page of the Sport News site|1) Hover over the <b>Share</b> button</br>2) Click some social network|2) The popup window is opened allowing a user to share the current video on the social network|
+|- Go to the <b>Video</b> page on the Sports Hub site|1) Hover over the <b>Share</b> button</br>2) Click some social network|2) The pop-up window opens allowing the user to share the current video on the social network|
 
 </details>

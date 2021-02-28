@@ -42,14 +42,14 @@ Then I see the <b>Most popular</b> section on any page where it can be present
 
 ## Mockups
 
-1. User sees the <b>Most popular</b> articles section
+1. Users see the <b>Most popular</b> articles section
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees the Most popular articles section:**
+**1. Users see the Most popular articles section:**
 
-![User sees the Most popular articles section](/products/sport_news_portal/web_application_features/most_popular_and_commented/images/most_popular_commented.png)
+![Users see the Most popular articles section](/products/sport_news_portal/web_application_features/most_popular_and_commented/images/most_popular_commented.png)
 
 </details>
 
