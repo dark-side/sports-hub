@@ -1,6 +1,6 @@
-### Back to [Team hub - news of favorite teams](../../) feature
+### Back to [Team hub: news about favorite teams](../../) feature
 
-# Allow users to see teams news on Team Hub based on user’s geolocation
+# Allow users to see teams news on Team hub based on their geolocation
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -10,12 +10,12 @@
 ## Description
 
     As a logged-in user
-    I want to read news of teams from my geolocation on the Team hub page when I haven’t configured favorite teams
+    I want to read news about teams from my geolocation on the Team hub page when I haven’t configured favorite teams
 
 ## Acceptance criteria
 
 <pre>
-<b><i>Scenario: A logged-in user reads news of teams from his geolocation on the Team hub page</i></b>
+<b><i>Scenario: A logged-in users reads news about teams from their geolocation on the Team hub page</i></b>
 
 Given I am logged in as a site user
 
@@ -25,14 +25,14 @@ Then I see a list of news that are sorted according to the teams that are select
 
 ## Mockups
 
-1. User sees Team Hub page
+1. Users see the Team hub page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Team Hub page:**
+**1. Users see the Team hub page:**
 
-![User sees Team Hub page](/products/sport_news_portal/web_application_features/team_hub/images/team_hub_geolocation_teams.png)
+![Users see the Team hub page](/products/sport_news_portal/web_application_features/team_hub/images/team_hub_geolocation_teams.png)
 
 </details>
 
@@ -48,11 +48,11 @@ Then I see a list of news that are sorted according to the teams that are select
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by user account</br>- There are no teams followed by the user</br>- Geolocation is turned on|1) On the left sidebar menu, select <b>Team hub</b></br>2) Examine the team list|2) There are news for each team that belongs to the user’s geolocation. There are the <b>Most Popular</b> and <b>Most Commented</b> sections in case they are enabled by admin|
+|- Log in with user account</br>- There are no teams followed by the user</br>- Geolocation is turned on|1) Select <b>Team hub</b> on the left sidebar menu</br>2) Examine the team list|2) There are news for each team that belongs to the user’s geolocation. There are the <b>Most Popular</b> and <b>Most Commented</b> sections in case they are enabled by admin|
 
 ### **#2. Verify that the team list on the Team hub page is empty if geolocation is turned off**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by user account</br>- There are no teams followed by the user</br>- Geolocation is turned off|1) On the left sidebar menu, select <b>Team hub</b></br>2) Examine the team list|2) The list of news is empty|
+|- Log in with user account</br>- There are no teams followed by the user</br>- Geolocation is turned off|1) Select <b>Team hub</b> on the left sidebar menu</br>2) Examine the team list|2) The list of news is empty|
 </details>

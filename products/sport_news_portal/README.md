@@ -91,7 +91,7 @@ Specific goals are:
 15. [Comments block on the portal](/products/sport_news_portal/web_application_features/comments/)
 16. [Global site search on the portal](/products/sport_news_portal/web_application_features/global_site_search/)
 17. [Newsletter subscription](/products/sport_news_portal/web_application_features/newsletter_email/)
-18. [Team hub - news of favorite teams](/products/sport_news_portal/web_application_features/team_hub/)
+18. [Team hub: news about favorite teams](/products/sport_news_portal/web_application_features/team_hub/)
 19. [User management on the portal](/products/sport_news_portal/web_application_features/user_management/)
 20. [Banners on the portal](/products/sport_news_portal/web_application_features/banners/)
 21. [Manage advertisements on the portal](/products/sport_news_portal/web_application_features/manage_ads/)
