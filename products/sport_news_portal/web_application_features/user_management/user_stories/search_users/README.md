@@ -24,19 +24,19 @@ When I am on the <b>Users</b> configuration page
 Then I see the search icon with the placeholder "Type a user name here"
 
 When I enter the user’s name
-Then I see a users that match the search
+Then I see the user that match the search
 </pre>
 
 ## Mockups
 
-1. Admin user sees search users input field when clicking on the magnifier icon
+1. Admin user sees search users input field when clicking the magnifier icon
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees search users input field when clicking on the magnifier icon:**
+**1. Admin user sees search users input field when clicking the magnifier icon:**
 
-![Admin user sees search users input field when clicking on the magnifier icon](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_search_input_field.png)
+![Admin user sees search users input field when clicking the magnifier icon](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_search_input_field.png)
 
 </details>
 
@@ -51,5 +51,5 @@ Then I see a users that match the search
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) In the search input, type some text</br>2) Click the <b>Admins</b> tab</br>3) In the search input, type some text|2) The list of users which match the entered text is shown</br>3) The list of admins that match the entered text is shown|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page|1) In the search input, type some text</br>2) Click the <b>Admins</b> tab</br>3) In the search input, type some text|2) The list of users which match the entered text is shown</br>3) The list of admins that match the entered text is shown|
 </details>

@@ -1,6 +1,6 @@
 ### Back to [User management on the portal](../../) feature
 
-# Send notification emails to the users on the portal
+# Send notification emails to users on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -48,5 +48,5 @@ Then I see an email with a corresponding message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab</br>- There is a blocked user on the <b>Users</b> tab</br>- There is another admin on the <b>Admins</b> tab|1) Block the active user</br>2) Make the blocked user active</br>3) Set admin permissions for active user</br>4) Remove admin permissions from another admin</br>5) Delete the active user</br>6) Delete the blocked user</br>7) Delete another admin|1)-4) The email about changes is sent to the users’ emails</br>5)-7) No emails about changes|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab</br>- There is a blocked user on the <b>Users</b> tab</br>- There is another admin on the <b>Admins</b> tab|1) Block the active user</br>2) Make the blocked user active</br>3) Set admin permissions for the active user</br>4) Remove admin permissions from another admin</br>5) Delete the active user</br>6) Delete the blocked user</br>7) Delete another admin|1)-4) The email about changes is sent to the users’ emails</br>5)-7) No emails about changes|
 </details>

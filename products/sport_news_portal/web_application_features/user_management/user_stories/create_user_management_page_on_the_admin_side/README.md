@@ -1,6 +1,6 @@
 ### Back to [User management on the portal](../../) feature
 
-# Allow admin user to view User Management page on the portal
+# Allow admin user to view user management page on the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -56,9 +56,9 @@ Then I see two tabs: Users and Admins
 
 ## Test cases
 
-1. Verify the lists of users on the Users page
-2. Verify the content of Users tab on a Users page
-3. Verify the content of Admins tab on a Users page
+1. Verify the lists of users on the <b>Users</b> page
+2. Verify the content of <b>Users</b> tab on the <b>Users</b> page
+3. Verify the content of <b>Admins</b> tab on the <b>Users</b> page
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -67,17 +67,17 @@ Then I see two tabs: Users and Admins
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the tabs on the page|1) There are two tabs: Users and Admins. The Users tab is active by default|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the tabs on the page|1) There are two tabs: <b>Users</b> and <b>Admins</b>. The <b>Users</b> tab is active by default|
 
-### **#2. Verify the content of Users tab on a Users page**
-
-|Preconditions|Steps|Expected result
---------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the content of <b>Users</b> tab|1) There is a table with 3 columns: Name, Status and Actions|
-
-### **#3. Verify the content of Admins tab on a Users page**
+### **#2. Verify the content of Users tab on the Users page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page|1) Click <b>Admins</b> tab</br>2) Examine the content of the <b>Admins</b> tab|2) There is a table with 3 columns: Name, Status, and Actions|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page|1) Examine the content of <b>Users</b> tab|1) There is a table with 3 columns: Name, Status and Actions|
+
+### **#3. Verify the content of Admins tab on the Users page**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page|1) Select <b>Admins</b> tab</br>2) Examine the content of the <b>Admins</b> tab|2) There is a table with 3 columns: Name, Status, and Actions|
 </details>
