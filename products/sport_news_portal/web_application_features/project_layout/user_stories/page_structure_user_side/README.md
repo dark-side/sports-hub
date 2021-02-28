@@ -1,6 +1,6 @@
 ### Back to [Page layout on the portal](../../) feature
 
-# Page Structure
+# Page structure (user side)
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -20,50 +20,50 @@
 Given I am a site user
 
 When I view any page on the site
-Then I see the page consists of:
-  - Header section that is common for all pages, includes:
-    1. Social network icons (configured by the admin)
+Then I see the page consisting:
+  - Header section that is common for all pages includes:
+    1. Social network icons (configured by admin)
     2. Global search box
-    3. Sport News logo
-    4. Sign up and Log in buttons (in case user is not logged in) 
+    3. Sports Hub logo
+    4. <b>Sign up</b> and <b>Log in</b> buttons (in case user is not logged in) 
     5. User name, Profile picture, and profile link (in case user is logged in)
-    6. Site language drop-down menu (language list is configured by the admin)
+    6. Site language drop-down menu (language list is configured by admin)
   - Main navigation sidebar menu on the left that is common to all pages
-  - The main content area with content blocks, configured by the admin
-  - Right sidebar with content blocks, configured by the admin 
-  - Footer section that is common to all pages, configured by the admin
+  - The main content area with content blocks, configured by admin
+  - Right sidebar with content blocks, configured by admin 
+  - Footer section that is common to all pages, configured by admin
 
-When I click on the <b>Sport News</b> logo
-Then I am taken to the Sport News home page 
+When I select the <b>Sports Hub</b> logo
+Then I am taken to the Sports Hub home page 
   And I see the <b>Home</b> menu item is active
 
-When I click on a link to an external site 
-Then I see the site is opened on a new browser tab
+When I select a link to an external site 
+Then I see the site is opened in a new browser tab
 
 </pre>
 
 ## Mockups
 
-1. User sees Home page structure when user is signed-in
-2. User sees Home page structure when user is not signed-in
+1. Users see <b>Home</b> page structure when they are signed in
+2. Users see <b>Home</b> page structure when they are not signed in
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Home page structure when user is signed-in:**
+**1. Users see Home page structure when they are signed in:**
 
-![User sees Home page structure when user is signed-in](/products/sport_news_portal/web_application_features/project_layout/images/home_page_logged_in_user.png)
+![Users see Home page structure when they are signed in](/products/sport_news_portal/web_application_features/project_layout/images/home_page_logged_in_user.png)
 
-**2. User sees Home page structure when user is not signed-in:**
+**2. Users see Home page structure when they are not signed in:**
 
-![User sees Home page structure when user is not signed-in](/products/sport_news_portal/web_application_features/project_layout/images/home_page_logged_out_user.png)
+![Users see Home page structure when they are not signed in](/products/sport_news_portal/web_application_features/project_layout/images/home_page_logged_out_user.png)
 
 </details>
 
 ## Test cases
 
 1. Verify that the link to an external site is opened in a separate browser tab
-2. Verify that the user is able to navigate to the home page by clicking on the logo
+2. Verify that the user is able to navigate to the <b>Home</b> page by selecting the logo
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -72,12 +72,12 @@ Then I see the site is opened on a new browser tab
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|Go to Sport News home page|1) Go to any page</br>2) Сlick on a link to an external site|2) The site opens on a new browser tab|
+|Go to the Sports Hub home page|1) Go to any page</br>2) Select a link to an external site|2) The site opens in a new browser tab|
 
-### **#2. Verify that the user is able to navigate to the home page by clicking on the logo**
+### **#2. Verify that the user is able to navigate to the Home page by selecting the logo**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|Go to Sport News home page|1) Go to any page</br>2) In the upper-left corner of the page, click on the logo|2) User goes to the home page|
+|Go to the Sports Hub home page|1) Go to any page</br>2) In the upper-left corner of the page, select the logo|2) The user goes to the home page|
 
 </details>

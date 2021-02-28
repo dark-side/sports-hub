@@ -25,20 +25,20 @@ When I am on the <b>Users</b> configuration page
 Then I see the <b>Block</b> button on the right of active users
 
 When I select an active user and then click <b>Block</b>
-Then I see a confirmation dialog
+Then I see the confirmation dialog
 
 When I click <b>Continue</b>
 Then I see the confirmation dialog is closed
   And I see a notification message that the user has been OR has not been blocked
   And I see the user’s status is changed to <b>Blocked</b> if the action was successful
-  And blocked user cannot comment
+  And the blocked user cannot comment
   And notification about blocking is sent to the user’s email
 </pre>
 
 ## Mockups
 
 1. Admin user sees actions dropdown against active user
-2. Admin user sees warning popup on user block
+2. Admin user sees warning pop-up window on the user block
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -47,17 +47,17 @@ Then I see the confirmation dialog is closed
 
 ![Admin user sees actions dropdown against active user](/products/sport_news_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
-**2. Admin user sees warning popup on user block:**
+**2. Admin user sees warning pop-up window on the user block:**
 
-![Admin user sees warning popup on user block](/products/sport_news_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
+![Admin user sees warning pop-up window on the user block](/products/sport_news_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
 
 </details>
 
 ## Test cases
 
-1. Verify that admin can block an active user on the Users page
-2. Verify that admin can cancel blocking an active user on the Users page
-3. Verify that admin is not able to block admin on the Users page
+1. Verify that admin can block an active user on the <b>Users</b> page
+2. Verify that admin can cancel blocking an active user on the <b>Users</b> page
+3. Verify that admin is not able to block admin on the <b>Users</b> page
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -66,18 +66,18 @@ Then I see the confirmation dialog is closed
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Continue</b></br>3) Log out as admin user</br>4) Login as blocked user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has a Blocked state. Notification about blocking is sent to the user’s email</br>4) The user can log in</br>5) The user cannot write comments|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Continue</b></br>3) Log out of admin account</br>4) Login as a blocked user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has a <b>Blocked</b> state. Notification about blocking is sent to the user’s email</br>4) The user can log in</br>5) The user cannot write comments|
 
 ### **#2. Verify that admin can cancel blocking an active user on the Users page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Cancel</b></br>3) Log out as admin</br>4) Log in as user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has the <b>Active</b> state</br>4) The user can log in</br>5) The user can see and write comments|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Cancel</b></br>3) Log out of admin account</br>4) Log in as a user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has the <b>Active</b> state</br>4) The user can log in</br>5) The user can see and write comments|
 
 ### **#3. Verify that admin is not able to block admin on the Users page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another active admin on the <b>Admins</b> tab|1) Click the <b>Admins</b> tab</br>2) On the right of another admin, click the actions drop-down button group|2) There is no <b>Block</b> action|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is another active admin on the <b>Admins</b> tab|1) Select the <b>Admins</b> tab</br>2) On the right of another admin, click the actions drop-down button group|2) There is no <b>Block</b> action|
 
 </details>

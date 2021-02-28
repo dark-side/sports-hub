@@ -20,14 +20,14 @@
 Given I have an account on the portal
 
 When I visit the <b>Log in</b> page
-Then I see the link "Forgot password?" above the <b>Password</b> field
+Then I see the <b>Forgot password?</b> link above the <b>Password</b> field
 
-When I click the link "Forgot password?"
+When I select the <b>Forgot password?</b> link
 Then I am taken to the <b>Forgot password</b> page
-  And I see the <b>Email</b> fiels, the <b>Request reset link</b> button and the <b>Back to Log In</b> link
+  And I see the <b>Email</b> fiels, the <b>Request reset</b> link button and the <b>Back to Log In</b> link
 
-When I enter email address and click the <b>Request reset link</b>
-Then I see the message "Check your email"
+When I enter email address and select the <b>Request reset</b> link
+Then I receive the message "Check your email"
 
 When I check my email
 Then I see the <b>Reset password</b> button inside
@@ -43,48 +43,48 @@ Then I am taken to the <b>Log in</b> page
 
 ## Mockups
 
-1. User sees Log In form
-2. User sees Forgot Password form
-3. User sees Check your email screen
-4. User sees an email with reset password link
-5. User sees Reset Password form
-6. User sees Log In form with password updated message
+1. Users see the log in form
+2. Users see the <b>Forgot Password</b> form
+3. Users see <b>Check your email</b> screen
+4. Users receive an email with reset password link
+5. Users see the <b>Reset Password</b> form
+6. Users see the log in form with password updated message
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Log In form:**
+**1. Users see the log in form:**
 
-![User sees Log In form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
-**2. User sees Forgot Password form:**
+**2. Users see the Forgot Password form:**
 
-![User sees Forgot Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/forgot_password_empty_form.png)
+![Users see the Forgot Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/forgot_password_empty_form.png)
 
-**3. User sees Check your email screen:**
+**3. Users see Check your email screen:**
 
-![User sees Check your email screen](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/check_your_email_to_reset_password.png)
+![Users see Check your email screen](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/check_your_email_to_reset_password.png)
 
-**4. User sees an email with reset password link:**
+**4. Users receive an email with reset password link:**
 
-![User sees an email with reset password link](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/email_reset_password.png)
+![Users receive an email with reset password link](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/email_reset_password.png)
 
-**5. User sees Reset Password form:**
+**5. Users see the Reset Password form:**
 
-![User sees Reset Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/reset_password_form.png)
+![Users see the Reset Password form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/reset_password_form.png)
 
-**6. User sees Log In form with password updated message:**
+**6. Users see the log in form with password updated message:**
 
-![User sees Log In form with password updated message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_form_password_is_updated.png)
+![Users see the log in form with password updated message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_form_password_is_updated.png)
 
 </details>
 
 ## Test cases
 
 1. Verify that the user is able to update the password
-2. Verify that the user is not able to update a password if the Confirm password field is empty
-3. Verify that the user is able to cancel the password update procedure after clicking on the Forgot password link and still can use old credentials
-4. Verify that the user is able to cancel the password update procedure on the Enter new password page and still can use old credentials
+2. Verify that the user is not able to update a password if the <b>Confirm password</b> field is empty
+3. Verify that the user is able to cancel the password update procedure after selecting the <b>Forgot password</b> link and still can use old credentials
+4. Verify that the user is able to cancel the password update procedure on the <b>Enter new password</b> page and still can use old credentials
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -93,23 +93,23 @@ Then I am taken to the <b>Log in</b> page
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- User is registered in the system|1) Click **Log in**</br>2) Click on the "Forgot password?" link</br>3) Enter your email</br>4) Click **Request reset link**</br>5) Check your email</br>6) Click Reset password</br>7) Enter the new password in the **New password** and **Confirm password** fields</br>8) Click **Change password**</br>9) Enter old credentials</br>10) Click **Log in**</br>11) Enter new credentials</br>12) Click **Log in**|8) User is redirected to the **Log in** page and sees the message "Your password has been updated"</br>10) User is not logged in. Message about invalid credentials appears</br>12) User is logged in|
+|- Go to the Sports Hub home page</br>- The user is registered in the system|1) Click **Log in**</br>2) Select the **Forgot password?** link</br>3) Enter your email</br>4) Select the **Request reset** link</br>5) Check your email</br>6) Click **Reset password**</br>7) Enter the new password in the **New password** and **Confirm password** fields</br>8) Click **Change password**</br>9) Enter old credentials</br>10) Click **Log in**</br>11) Enter new credentials</br>12) Click **Log in**|8) The user is redirected to the **Log in** page and receives the message "Your password has been updated"</br>10) The user is not logged in. Message about invalid credentials appears</br>12) The user is logged in|
 
 ### **#2. Verify that the user is not able to update a password if the Confirm password field is empty**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- User is registered in the system|1) Click **Log in**</br>2) Click on the **Forgot password?** link</br>3) Enter your email</br>4) Click **Request reset link**</br>5) Check your email</br>6) Click **Reset Password**</br>7) Enter the new password in the **New password** field</br>8) Do not enter the new password in the **Confirm password** field</br>9) Click **Set new password**|9) The user sees the error message that the required fields can not be empty|
+|- Go to the Sports Hub home page</br>- The user is registered in the system|1) Click **Log in**</br>2) Select the **Forgot password?** link</br>3) Enter your email</br>4) Select the **Request reset** link</br>5) Check your email</br>6) Click **Reset Password**</br>7) Enter the new password in the **New password** field</br>8) Do not enter the new password in the **Confirm password** field</br>9) Click **Set new password**|9) The user receives the error message that the required fields can not be empty|
 
-### **#3. Verify that the user is able to cancel the password update procedure after clicking on the Forgot password link and still can use old credentials**
+### **#3. Verify that the user is able to cancel the password update procedure after selecting the Forgot password link and still can use old credentials**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- User is registered in the system|1) Click **Log in**</br>2) Click on the **Forgot password?** link</br>3) Enter your email</br>4) Click Back to log in</br>5) Enter old credentials</br>6) Click Log in|4) The **Log in** page is opened</br>6) User is logged in|
+|- Go to the Sports Hub home page</br>- The user is registered in the system|1) Click **Log in**</br>2) Select the **Forgot password?** link</br>3) Enter your email</br>4) Click **Back to log in**</br>5) Enter old credentials</br>6) Click **Log in**|4) The **Log in** page is opened</br>6) The user is logged in|
 
 ### **#4. Verify that the user is able to cancel the password update procedure on the Enter new password page and still can use old credentials**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- User is registered in the system|1) Click **Log in**</br>2) Click on the **Forgot password?** link</br>3) Enter your email</br>4) Click **Request reset link**</br>5) Check your email</br>6) Click **Reset password**</br>7) Click **Back to log in**</br>8) Enter old credentials</br>9) Click **Log in**|7) The **Log in** page opens</br>9) User is logged in|
+|- Go to the Sports Hub home page</br>- The user is registered in the system|1) Click **Log in**</br>2) Select the **Forgot password?** link</br>3) Enter your email</br>4) Select the **Request reset** link</br>5) Check your email</br>6) Click **Reset password**</br>7) Click **Back to log in**</br>8) Enter old credentials</br>9) Click **Log in**|7) The **Log in** page opens</br>9) The user is logged in|
 </details>

@@ -7,12 +7,13 @@
 
 ## Description
 
-Admin user should be able to manage articles for sport categories:
+Admin user should be able to manage articles for sports categories:
   - Add a new article
   - View existing articles
   - Edit the existing article
   - Delete the existing article
-The admin user should also have the ability to publish/unpublish an article and change its sports category in case of category article. In addition, the admin user can turn on/off comments.
+  - Publish and unpublish an article and change its sports category
+  - Turn on/off comments
 
 ## Check list:
 
@@ -21,8 +22,8 @@ The admin user should also have the ability to publish/unpublish an article and 
   - Admin user should be able to view a list of existing articles
   - Admin user should be able to edit the existing article
   - Admin user should be able to delete the existing article
-  - Admin user should be able to unpublish/publish an article
-  - Admin user should be able to change a sport category of an article
+  - Admin user should be able to publish and unpublish an article
+  - Admin user should be able to change a sports category of an article
   - Admin user should be able to turn on/off comments
 
 ## Prototype of the feature
@@ -39,6 +40,6 @@ No           |      Name     |   Details
 2 |[**Allow admin users to view the list of existing articles**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/view_articles_list)|<pre>As an admin user<br>I want to view the list of existing articles per category</pre>
 3 |[**Allow admin users to edit an existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_existing_article)|<pre>As an admin user<br>I want to edit an existing article</pre>
 4 |[**Allow admin users to delete an existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/delete_existing_article)|<pre>As an admin user<br>I want to delete an existing article</pre>
-5 |[**Allow admin users to publish/unpublish an existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/article_publish_unpublish)|<pre>As an admin user<br>I want to publish/unpublish an existing article</pre>
+5 |[**Allow admin users to publish and unpublish an existing article**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/article_publish_unpublish)|<pre>As an admin user<br>I want to publish and unpublish an existing article</pre>
 6 |[**Allow admin users to move an existing article between categories**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/move_article_between_categories)|<pre>As an admin user<br>I want to move an existing article between categories</pre>
-7 |[**Allow admin users to have advanced edit of the article image**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_article_image)|<pre>As an admin user<br>I want to have an advanced editor for the article image</pre>
+7 |[**Allow admin users to have advanced editing of the article image**](/products/sport_news_portal/web_application_features/manage_articles/user_stories/edit_article_image)|<pre>As an admin user<br>I want to have an advanced editor for the article image</pre>

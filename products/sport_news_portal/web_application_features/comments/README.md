@@ -7,24 +7,24 @@
 
 ## Description
 
-We want to allow our users to chat with each other and leave their comments on news and videos. Registered and logged-in users should have the ability to:
-  - Leave a comment
+We want to allow our users to chat with each other and leave their comments on news articles and videos. Registered and logged-in users should have the ability to:
+  - Leave their comments on articles
   - Reply to other comments
   - Edit and delete their comments
   - Like and dislike comments
 Not registered and not logged-in users should have the ability to read comments. We should ask users to log in to the application when they attempt to add a comment or like.
-An admin user should have the ability to delete any comment.
+Admin user should be able to delete any comments.
 
 ## Check list:
 
 - Verify if UI corresponds to the prototype
-- Logged-in user should be able to leave comments on news
-- Logged-in user should be able to reply to comments on news
-- Logged-in user should be able to edit and delete comments
-- Logged-in user should be able to like and dislike comment
+- Logged-in users should be able to leave comments on news articles
+- Logged-in users should be able to reply to comments on news articles
+- Logged-in users should be able to edit and delete comments
+- Logged-in users should be able to like and dislike comments
 - Not registered and not logged-in users should be able to read comments
-- Admin user should be able to delete any comment
-- Not logged in users should be informed that they need to log in to the site on try to like or dislike a comment
+- Admin user should be able to delete any comments
+- Not logged-in users should be informed that they need to log in to the site to like or dislike a comment
 
 ## Prototype of the feature
 
@@ -37,5 +37,5 @@ Please click [here](https://www.figma.com/file/hrAekXmuhUGxfBMzxjyRFz/Comments-b
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to comment an article on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/comment_an_article)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
-2 |[**Allow users to interacting with existing article comments on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and to put like/dislike mark to the comment</pre>
+2 |[**Allow users to interact with existing article comments on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike comments</pre>
 

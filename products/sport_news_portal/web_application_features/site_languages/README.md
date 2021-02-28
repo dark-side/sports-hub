@@ -7,15 +7,15 @@
 
 ## Description
 
-There should be a drop-down list with available languages on the site in the right section of the site header. When a user changes a site language, then the site content is translated into this language. 
-Admin configures a list of languages that are available in the site language dropdown.
+A drop-down list with available languages on the site should appear in the right section of the site header. When users change a site language, the site content is translated into this language. 
+Admin configures a list of languages that are available in the site language drop-down list.
 Admin also can use the language selector to change the site content. English language is default and cannot be removed or disabled for users.
 
 ## Check list:
 
 - A drop-down list with available site languages should be present in the right section of the site header for any user type (regular user or admin)
 - Any user type should be able to change the site language
-- Site content should be translated into a chosen language
+- Site content should be translated into the chosen language
 - Admin should be able to add, delete, enable, and disable a language in the drop-down list
 - English language is default and cannot be deleted or disabled for any user type
 
@@ -29,5 +29,5 @@ Please click [here](https://www.figma.com/file/r4rCFsgZLTI77lroZSQynb/Site-Langu
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure site languages on the portal**](/products/sport_news_portal/web_application_features/site_languages/user_stories/configure_site_languages)|<pre>As an admin user<br>I want to be able to configure a list of available site languages<br>So user can select the preferred language for the Sport News site</pre>
-2 |[**Allow users to change a site language on the portal**](/products/sport_news_portal/web_application_features/site_languages/user_stories/site_language_dropdown)|<pre>As a site user (regular or admin)<br>I want to be able to change a site language<br>So that I can view site pages translated to a preferred language</pre>
+1 |[**Allow admin user to configure site languages on the portal**](/products/sport_news_portal/web_application_features/site_languages/user_stories/configure_site_languages)|<pre>As an admin user<br>I want to be able to configure a list of available site languages<br>So users can select the preferred language for the Sports Hub site</pre>
+2 |[**Allow users to change a site language on the portal**](/products/sport_news_portal/web_application_features/site_languages/user_stories/site_language_dropdown)|<pre>As a site user (regular or admin)<br>I want to be able to change a site language<br>So that I can view site pages translated to the preferred language</pre>

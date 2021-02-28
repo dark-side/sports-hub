@@ -24,34 +24,34 @@ Then the system saves the changes and immediately updates the user’s name in t
   And I see a success message
 
 When I click <b>Update Profile</b> with empty fields, invalid email or photo with invalid format (only .jpg, .png, .jpeg, .tif are allowed)
-Then I see an error messages
+Then I see an error message
 </pre>
 
 ## Mockups
 
-1. User sees a profile page
-2. User sees successful update message
-3. User sees error message
-4. User sees image format validation popup
+1. Users see a profile page
+2. Users receive a successful update message
+3. Users receive an error message
+4. Users see image format validation pop-up window
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees a profile page:**
+**1. Users see a profile page:**
 
-![User sees a profile page](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
+![Users see a profile page](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
 
-**2. User sees successful update message:**
+**2. Users receive a successful update message:**
 
-![User sees successful update message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/successful_personal_info_update_message.png)
+![Users receive a successful update message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/successful_personal_info_update_message.png)
 
-**3. User sees error message:**
+**3. Users receive an error message:**
 
-![User sees error message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
+![Users receive an error message](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
 
-**4. User sees image format validation popup:**
+**4. Users see image format validation pop-up window:**
 
-![User sees image format validation popup](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/image_format_validation.png)
+![Users see image format validation pop-up window](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/image_format_validation.png)
 
 </details>
 
@@ -59,8 +59,8 @@ Then I see an error messages
 
 1. Verify that the user is able to update personal information with an email account
 2. Verify that the user is not able to update personal information if signed up with a social network account
-3. Verify that the user is not able to update personal information when fields are empty
-4. Verify that photo with the invalid format cannot be uploaded
+3. Verify that the user is not able to update personal information when the fields are empty
+4. Verify that a photo with the invalid format cannot be uploaded
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -69,23 +69,23 @@ Then I see an error messages
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Change the information in the **First name**, **Last name**, and **Email** fields on the **Personal** tab</br>4) Upload a new photo with a valid format</br>5) Click **Update profile**|4) The system saves the changes and immediately updates the user’s name in the page header|
+|- Go to the Sports Hub home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Change the information in the **First name**, **Last name**, and **Email** fields on the **Personal** tab</br>4) Upload a new photo with a valid format</br>5) Click **Update profile**|4) The system saves the changes and immediately updates the user’s name in the page header|
 
 ### **#2. Verify that the user is not able to update personal information if signed up with a social network account**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- The user is logged in with social networks account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Examine the **Personal** tab on the profile page|3) User is not able to change any personal information|
+|- Go to the Sports Hub home page</br>- The user is logged in with social networks account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Examine the **Personal** tab on the profile page|3) The user is not able to change any personal information|
 
-### **#3. Verify that the user is not able to update personal information when fields are empty**
-
-|Preconditions|Steps|Expected result
-------|-------|----------
-|- Go to Sport News home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Delete the data in the **Last name**, **First name**, and **Email** fields</br>4) Click **Update profile**|4) The user sees the error message that the required fields can not be empty|
-
-### **#4. Verify that photo with the invalid format cannot be uploaded**
+### **#3. Verify that the user is not able to update personal information when the fields are empty**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to Sport News home page</br>- The user is logged in with an email account</br>- Only .jpg, .png, .jpeg, .tif formats are allowed|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Try to upload a profile photo with invalid format|3) User sees the dialog "Only .jpg, .png, .jpeg, .tif formats are allowed"|
+|- Go to the Sports Hub home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Delete the data in the **Last name**, **First name**, and **Email** fields</br>4) Click **Update profile**|4) The user receives the error message that the required fields can not be empty|
+
+### **#4. Verify that a photo with the invalid format cannot be uploaded**
+
+|Preconditions|Steps|Expected result
+------|-------|----------
+|- Go to the Sports Hub home page</br>- The user is logged in with an email account</br>- Only .jpg, .png, .jpeg, .tif formats are allowed|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Try to upload a profile photo with invalid format|3) The user receives the message "Only .jpg, .png, .jpeg, .tif formats are allowed"|
 </details>

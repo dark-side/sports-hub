@@ -1,6 +1,6 @@
-### Back to [Team hub - news of favorite teams](../../) feature
+### Back to [Team hub: news about favorite teams](../../) feature
 
-# Allow users to see Team Hub page
+# Allow users to see the Team hub page
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -11,7 +11,7 @@
 
     As a logged-in user
     I want to go to the Team hub page
-    So that I can read news of my favorite teams
+    So that I can read news about my favorite teams
 
 ## Acceptance criteria
 
@@ -24,7 +24,7 @@ When I am on any page of the application
 Then I see <b>Team hub</b> on the navigation menu
 
 When I click <b>Team hub</b>
-Then I see the list of news that are sorted according to the teams I selected in my personal cabinet
+Then I see the list of news that is sorted according to the teams I selected in my personal cabinet
   And I see the <b>Most popular</b> and <b>Most commented</b> sections
 
 When I click <b>Unfollow</b> any team
@@ -37,46 +37,46 @@ And I see the message "You have unfollowed the team {team name}!"
 
 ## Mockups
 
-1. User sees Team Hub page
-3. User sees Unfollow team confirmation popup
+1. Users see the Team hub page
+3. Users see Unfollow team confirmation pop-up window
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees Team Hub page:**
+**1. Users see the Team hub page:**
 
-![User sees Team Hub page](/products/sport_news_portal/web_application_features/team_hub/images/team_hub_page.png)
+![Users see the Team hub page](/products/sport_news_portal/web_application_features/team_hub/images/team_hub_page.png)
 
-**2. User sees Unfollow team confirmation popup:**
+**2. Users see Unfollow team confirmation pop-up window:**
 
-![User sees Unfollow team confirmation popup](/products/sport_news_portal/web_application_features/team_hub/images/unfollow_team_confirmation_popup.png)
+![Users see Unfollow team confirmation pop-up window](/products/sport_news_portal/web_application_features/team_hub/images/unfollow_team_confirmation_popup.png)
 
 </details>
 
 ## Test cases
 
-1. Verify content of Team hub page
-2. Verify possibility to unfollow team
-3. Verify possibility to cancel of unfollowing
+1. Verify content of the Team hub page
+2. Verify the possibility to unfollow the team
+3. Verify the possibility to cancel unfollowing
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify content of Team hub page**
+### **#1. Verify content of the Team hub page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by user account</br>- There are Team1 and Team2 followed by the user|1) Click <b>Team hub</b> in the navigation menu</br>2) Examine the page|2) There are news for each team followed by the user. There are <b>Most Popular</b> and <b>Most Commented</b> sections in case they are enabled by admin|
+|- Log in with user account</br>- There are Team1 and Team2 followed by the user|1) Click <b>Team hub</b> in the navigation menu</br>2) Examine the page|2) There is news for each team followed by the user. There are <b>Most Popular</b> and <b>Most Commented</b> sections in case they are enabled by admin|
 
-### **#2. Verify possibility to unfollow team**
-
-|Preconditions|Steps|Expected result
---------------|-----|----------
-|- Log in by user account</br>- There are some teams followed by user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>Yes</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news disappears from the page and the system displays the message "You have unfollowed the team {team name}!"</br>3) The removed team is not present in the list|
-
-### **#3. Verify possibility to cancel of unfollowing**
+### **#2. Verify the possibility to unfollow the team**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by user account</br>- There are some teams followed by user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>No</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news is still present on the page</br>3) The team is still present in the list|
+|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>Yes</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news disappears from the page and the system displays the message "You have unfollowed the team {team name}!"</br>3) The removed team is not present on the list|
+
+### **#3. Verify the possibility to cancel unfollowing**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>No</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news is still present on the page</br>3) The team is still present on the list|
 </details>

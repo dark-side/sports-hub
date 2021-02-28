@@ -7,12 +7,12 @@
 
 ## Description
 
-The header section should have a global site search. The search should show all places (article and video pages) where the match with the entered word(s) is found and the user should be able to go to those pages.
+The header section should have global site search. The search should show all places (article and video pages) where the match with the entered word(s) is found and the user should be able to go to those pages.
 
 ## Check list:
 
-  - Verify if UI corresponds to prototype
-  - User should able to use Site Search
+  - Verify if UI corresponds to the prototype
+  - Users should able to use site search
 
 ## Prototype of the feature
 
@@ -24,4 +24,4 @@ Please click [here](https://www.figma.com/file/ZoxzwUAIg07UEnbYO0lljl/Global-Sit
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to use a site search on the portal**](/products/sport_news_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use a site search<br>So that I can quickly find the information I am interested in</pre>
+1 |[**Allow users to use site search on the portal**](/products/sport_news_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use site search<br>So that I can quickly find the information I am interested in</pre>

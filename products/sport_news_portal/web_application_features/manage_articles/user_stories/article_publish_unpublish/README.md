@@ -19,21 +19,21 @@
 
 Given I am logged in as an admin user
 
-When I click any sports category link on the admin side
+When I select any sports category link on the admin side
 Then I see the list of blocks with articles
 
 When I hover over any article
-Then I see the ellipsis (...) button in the upper-right corner
+Then I see the ellipsis (<b>...</b>) button in the upper-right corner
 
-When I click "..." the menu icon for an unpublished article
+When I click "<b>...</b>" the menu icon for an unpublished article
 Then I see the <b>Publish</b> menu item present
 
 When I click <b>Publish</b> menu item
 Then I see "The article is successfully published" flash message
-  And the status of article changed to <b>Published</b>
+  And the status of article changes to <b>Published</b>
   And the article is visible for users in the appropriate category
 
-When I click "..." the menu icon for a published article
+When I click "<b>...</b>" the menu icon for a published article
 Then I see the <b>Unpublish</b> menu item present
 
 When I click <b>Unpublish</b> menu item
@@ -72,12 +72,12 @@ Then I see "The article is successfully unpublished" flash message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over a published article</br>2) Click "..." button -> <b>Publish</b> menu item|2) "The article is successfully published" flash message appears and the users can see the article|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Publish</b> menu item|2) "The article is successfully published" flash message appears and the users can see the article|
 
 ### **#2. Verify that admin is able to unpublish an existing published article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "..." button -> <b>Unpublish</b> menu item|2) "The article is successfully unpublished" flash message appears and the users cannot see the article|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Unpublish</b> menu item|2) "The article is successfully unpublished" flash message appears and the users cannot see the article|
 
 </details>

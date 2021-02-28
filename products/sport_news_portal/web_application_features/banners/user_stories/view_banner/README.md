@@ -11,7 +11,7 @@
 
     As a site user
     I want to view banners in the right sidebar of the site
-    So that I can see reminders about upcoming sport events, important updates, etc
+    So that I can see reminders about upcoming sports events, important updates, etc.
 
 ## Acceptance criteria
 
@@ -29,35 +29,35 @@ Then I see banners are rotating every 3 seconds
 
 ## Mockups
 
-1. User sees a banner in the right sidebar
+1. Users see a banner in the right sidebar
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. User sees a banner in the right sidebar:**
+**1. Users see a banner in the right sidebar:**
 
-![User sees a banner in the right sidebar](/products/sport_news_portal/web_application_features/banners/images/banners_user_side.png)
+![Users see a banner in the right sidebar](/products/sport_news_portal/web_application_features/banners/images/banners_user_side.png)
 
 </details>
 
 ## Test cases
 
-1. Verify that a user can view the published banners
+1. Verify that users can view the published banners
 2. Verify that banners are rotating
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that a user can view the published banners**
+### **#1. Verify that users can view the published banners**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Banners are published for a category|1) Go to a category</br>2) Examine the right sidebar|2) There are banners with a photo on the right sidebar|
+|- Banners are published for the category|1) Go to the category</br>2) Examine the right sidebar|2) There are banners with a photo on the right sidebar|
 
 ### **#2. Verify that banners are rotating**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Banners are published for a category</br>- There are more than one banner in the category|1) Go to a category</br>2) Wait 3 seconds</br>3) Examine the right sidebar</br>4) Wait till all banners from the category are shown|3) Banner is changed on the right sidebar</br>4) The first banner is shown again|
+|- Banners are published for the category</br>- There are more than one banner in the category|1) Go to the category</br>2) Wait for 3 seconds</br>3) Examine the right sidebar</br>4) Wait till all banners from the category are shown|3) Banner is changed on the right sidebar</br>4) The first banner is shown again|
 
 </details>

@@ -1,6 +1,6 @@
 ### Back to [Sports videos on the portal](../../) feature
 
-# Allow admin users to delete an existing video
+# Allow admin users to delete existing videos
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -10,7 +10,7 @@
 ## Description
 
     As an admin user
-    I want to be able to delete the existing video
+    I want to be able to delete existing videos
 
 ## Acceptance criteria
 
@@ -19,14 +19,14 @@
 
 Given I am logged in as an admin user
 
-When I click the <b>Videos</b> link on the admin side 
-Then I see the list of blocks with videos.
+When I select the <b>Video</b> link on the admin side 
+Then I see the list of blocks with videos
 
 When I hover over any video
-Then I see the ellipsis (...) button in the upper-right corner
+Then I see the ellipsis (<b>...</b>) button in the upper-right corner
 
-When I click "..." the menu icon for a video
-Then I see the <b>Delete</b> menu item present
+When I click "<b>...</b>" the menu icon for a video
+Then I see <b>Delete</b> menu item is present
 
 When I select <b>Delete</b> menu item
 Then I see confirmation dialog
@@ -70,18 +70,18 @@ Then I see the "The video is successfully deleted" flash message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to <b>Videos</b> page</br>- There is an unpublished video|1) Hover over an unpublished video</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Delete</b> button|3) "The video is successfully deleted" flash message is shown and video is deleted from the list|
+|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Delete</b> button|3) "The video is successfully deleted" flash message appears and video is deleted from the list|
 
 ### **#2. Verify that admin is able to delete a published video**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to <b>Videos</b> page</br>- There is a published video|1) Hover over a published video</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Delete</b> button|3) "The video is successfully deleted" flash message is shown and video is deleted from the list|
+|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is a published video|1) Hover over a published video</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Delete</b> button|3) "The video is successfully deleted" flash message appears and video is deleted from the list|
 
 ### **#3. Verify that admin is able to cancel deleting of any video**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to <b>Videos</b> page|1) Hover over any video</br>2) Click "..." button -> <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Cancel</b> button|3) The video is present in the list|
+|- Log in with admin account</br>- Go to the <b>Video</b> page|1) Hover over any video</br>2) Click "<b>...</b>" button > <b>Delete</b> menu item</br>3) On the confirmation popover, click the <b>Cancel</b> button|3) The video is present in the list|
 
 </details>
