@@ -19,7 +19,7 @@
 
 Given I am logged in as an admin user
 
-When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
+When I am on the <b>Surveys</b> page and view the <b>Opened</b> tab
 Then I see the <b>Status</b> filter and a search icon
 
 When I click the <b>Status</b> filter
@@ -32,12 +32,12 @@ When I select <b>Published</b>
 Then I see only published surveys and their amount
 
 When I select <b>Not published</b>
-Then I see only not published surveys and their amount
+Then I see only unpublished surveys and their amount
 
 When I select <b>All</b>
 Then I see all surveys and their amount
 
-When I click on a search icon
+When I click a search icon
 Then I see a search field
 
 When I type some text in the field
@@ -46,8 +46,8 @@ Then I see the list of surveys is refreshed with matching results
 
 ## Mockups
 
-1. Admin user sees Status filter options
-2. Admin user clicked a search icon and sees an input field
+1. Admin user sees <b>Status</b> filter options
+2. Admin user sees a search input field after clicking the search icon
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -56,37 +56,37 @@ Then I see the list of surveys is refreshed with matching results
 
 ![Admin user sees Status filter options](/products/sport_news_portal/web_application_features/surveys/images/admin_status_filter.png)
 
-**2. Admin user clicked a search icon and sees an input field:**
+**2. Admin user sees a search input field after clicking the search icon:**
 
-![Admin user clicked a search icon and sees an input field](/products/sport_news_portal/web_application_features/surveys/images/admin_search.png)
+![Admin user sees a search input field after clicking the search icon](/products/sport_news_portal/web_application_features/surveys/images/admin_search.png)
 
 </details>
 
 ## Test cases
 
-1. Verify that it is possible to filter surveys by the Published state
-2. Verify that it is possible to filter surveys by Not Published state
+1. Verify that it is possible to filter surveys by the <b>Published</b> status
+2. Verify that it is possible to filter surveys by the <b>Not published</b> status
 3. Verify that list of surveys is updated according to a search match
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that it is possible to filter surveys by the Published state**
+### **#1. Verify that it is possible to filter surveys by the Published status**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Published</b>|2) User can see only published surveys in the table|
+|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Published</b>|2) Users can see only published surveys in the table|
 
-### **#2. Verify that it is possible to filter surveys by Not Published state**
+### **#2. Verify that it is possible to filter surveys by the Not published status**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Not published</b>|2) User can see only not published surveys are shown in the table|
+|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click the <b>Status</b> column label</br>2) Select <b>Not published</b>|2) Users can see only unpublished surveys in the table|
 
 ### **#3. Verify that list of surveys is updated according to a search match**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in by admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click on a search icon</br>2) Type some text to the field|1) An input field appears</br>2) The list of surveys is updated with match|
+|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page|1) Click a search icon</br>2) Type some text to the field|1) An input field appears</br>2) The list of surveys is updated with match|
 
 </details>

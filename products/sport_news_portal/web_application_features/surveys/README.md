@@ -7,24 +7,24 @@
 
 ## Description
 
-To gather information from the sports fans and build statistics, we need to have functionality that will allow us to create questionnaires.
+To gather information from sports fans and build statistics, we need to have functionality that will allow us to create questionnaires.
 
-An admin user should be able to create, edit, delete, and close surveys with predefined answers, send them to the users and review the voting results.
+An admin user should be able to create, edit, delete, and close surveys with predefined answers, send them to users and review voting results.
 
-The users should have a separate page for their surveys and should also have the ability to vote during reading the news.
+Users should have a separate page for their surveys and should also have the ability to vote while reading the news.
 
 ## Check list:
 
-  - Verify if UI corresponds to prototype
-  - Admin should be able to  create, edit, delete and close a survey
-  - Admin should be able to send a survey to the users
-  - Logged in user should be able to submit a survey 
-  - Logged in user should be able to view all published surveys
-  - Logged in user should be able to sort open surveys by Newest, Most Popular, and About to Expire
-  - Logged in user should be able to view all closed surveys
-  - Logged in user should be able to filter closed surveys by Voted or All surveys filter
-  - Logged in user should be able to sort closed surveys by the close date
-  - Admin should be able to review the voting
+  - Verify if UI corresponds to the prototype
+  - Admin should be able to create, edit, delete, and close a survey
+  - Admin should be able to send a survey to users
+  - Logged-in users should be able to submit a survey 
+  - Logged-in users should be able to view all published surveys
+  - Logged-in users should be able to sort opened surveys by Newest, Most Popular, and About to Expire
+  - Logged-in users should be able to view all closed surveys
+  - Logged-in users should be able to filter closed surveys by Voted or All surveys filter
+  - Logged-in users should be able to sort closed surveys by the close date
+  - Admin should be able to review voting results
 
 ## Prototype of the feature
 
@@ -45,9 +45,9 @@ Please click [here](https://www.figma.com/file/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?no
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow admin to create surveys on the portal**](/products/sport_news_portal/web_application_features/surveys/user_stories/create_surveys)|<pre>As an admin user<br>I want to create surveys on the portal</pre>
-2 |[**Allow admin to publish the surveys**](/products/sport_news_portal/web_application_features/surveys/user_stories/publish_survey)|<pre>As an admin user<br>I want to be able to publish the surveys<br>So that the users can see them and vote</pre>
-3 |[**Allow admin to close the survey**](/products/sport_news_portal/web_application_features/surveys/user_stories/close_survey)|<pre>As an admin user<br>I want to be able to close the surveys</pre>
+2 |[**Allow admin to publish surveys**](/products/sport_news_portal/web_application_features/surveys/user_stories/publish_survey)|<pre>As an admin user<br>I want to be able to publish surveys<br>So that users can see them and vote</pre>
+3 |[**Allow admin to close surveys**](/products/sport_news_portal/web_application_features/surveys/user_stories/close_survey)|<pre>As an admin user<br>I want to be able to close surveys</pre>
 4 |[**Allow admin to filter surveys**](/products/sport_news_portal/web_application_features/surveys/user_stories/filter_surveys)|<pre>As an admin user<br>I want to be able to filter opened surveys</pre>
 5 |[**Allow users to see a list of all surveys**](/products/sport_news_portal/web_application_features/surveys/user_stories/my_surveys_for_user)|<pre>As a site user<br>I want to see a list of all surveys<br>So that I can vote</pre>
-6 |[**Allow users to participate in the surveys on My surveys page**](/products/sport_news_portal/web_application_features/surveys/user_stories/form_for_voting)|<pre>As a site user<br>I want to vote on My surveys page in my personal cabinet</pre>
-7 |[**Allow users to participate in the surveys on news pages**](/products/sport_news_portal/web_application_features/surveys/user_stories/banner_for_voting)|<pre>As a site user<br>I want to see a survey banner on news pages<br>So that I can vote</pre>
+6 |[**Allow users to participate in surveys on the My surveys page**](/products/sport_news_portal/web_application_features/surveys/user_stories/form_for_voting)|<pre>As a site user<br>I want to vote on the My surveys page in my personal cabinet</pre>
+7 |[**Allow users to participate in surveys on news pages**](/products/sport_news_portal/web_application_features/surveys/user_stories/banner_for_voting)|<pre>As a site user<br>I want to see a survey banner on news pages<br>So that I can vote</pre>
