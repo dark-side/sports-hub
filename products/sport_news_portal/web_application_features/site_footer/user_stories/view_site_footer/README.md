@@ -19,8 +19,8 @@
 
 Given I am a site user
 
-When I view any page on the site 
-Then I see a footer containing the following: 
+When I view any page on the site
+Then I see a footer containing the following:
   - Three columns: Company info, Contributors, Newsletter
   - Sports Hub logo on the left and the copyright section with the links to <b>Privacy Policy</b> and <b>Terms and Conditions</b> pages
 
@@ -41,10 +41,10 @@ Then I see the configuration table with the following links:
 When I select the <b>Sports Hub</b> logo
 Then I am taken to the home page
 
-When I select the <b>Privacy Policy / Terms and Conditions</b> links
+When I select the <b>Privacy / Terms</b> links
 Then I am taken to the appropriate pages
 
-When I click a link on the <b>Company info</b>, <b>Contributors</b> tabs
+When I select a link on the <b>Company info</b>, <b>Contributors</b> tabs
 Then I am taken to the appropriate pages
 </pre>
 
@@ -70,7 +70,7 @@ Then I am taken to the appropriate pages
 
 **3. Users see the About Sports Hub page:**
 
-![Users see the About Sports Hub page](/products/sport_news_portal/web_application_features/site_footer/images/about_sport_news.png)
+![Users see the About Sports Hub page](/products/sport_news_portal/web_application_features/site_footer/images/about_sports_hub.png)
 
 **4. Users see the Privacy Policy page:**
 
@@ -83,7 +83,7 @@ Then I am taken to the appropriate pages
 1. Verify that footer section is visible from any page for users
 2. Verify that users can click on the links in the <b>Company info</b> and <b>Contributors</b> columns
 3. Verify that users can read Privacy Policy / Terms and Conditions information by clicking the <b>Privacy / Terms</b>
-4. Verify that users are redirected to the home page by selecting the Sports Hub logo
+4. Verify that users are redirected to the <b>Home</b> page by selecting the Sports Hub logo
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -104,9 +104,9 @@ Then I am taken to the appropriate pages
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-||1) Go to the site footer</br>2) Select the <b>Privacy Policy</b> link</br>3) Select the <b>Terms and Conditions</b> link|2) The <b>Privacy Policy</b> page opens</br>3) The <b>Terms and Conditions</b> page opens|
+||1) Go to the site footer</br>2) Select the <b>Privacy</b> link</br>3) Select the <b>Terms</b> link|2) The <b>Privacy Policy</b> page opens</br>3) The <b>Terms and Conditions</b> page opens|
 
-### **#4. Verify that users are redirected to the home page by selecting the Sports Hub logo**
+### **#4. Verify that users are redirected to the Home page by selecting the Sports Hub logo**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

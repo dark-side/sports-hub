@@ -33,14 +33,14 @@ Then the toggle changes to <b>Show</b>
 
 ## Mockups
 
-1. Admin user sees <b>Opened</b> and <b>Predefined banners</b> tabs on the <b>Banners</b> configuration page
+1. Admin user sees <b>Open</b> and <b>Predefined banners</b> tabs on the <b>Banners</b> configuration page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees Opened and Predefined banners tabs on the Banners configuration page:**
+**1. Admin user sees Open and Predefined banners tabs on the Banners configuration page:**
 
-![Admin user sees Opened and Predefined banners tabs on the Banners configuration page](/products/sport_news_portal/web_application_features/banners/images/banners_open_tab.png)
+![Admin user sees Open and Predefined banners tabs on the Banners configuration page](/products/sport_news_portal/web_application_features/banners/images/banners_open_tab.png)
 
 </details>
 

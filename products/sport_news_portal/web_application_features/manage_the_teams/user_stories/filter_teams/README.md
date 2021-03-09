@@ -21,7 +21,7 @@ Given I am logged in as an admin user
 
 When I view the <b>Teams</b> page
 Then I see the button <b>+Add team</b> in the page header
-  And I see the section with the map (with the <b>Reset, Zoom in</b> and <b>Zoom out</b> icons) on the left side and the filter form on the right that has the following elements:
+  And I see the section with the map (with the <b>Reset, Zoom in</b>, and <b>Zoom out</b> icons) on the left side and the filter form on the right that has the following elements:
     - <b>Select location</b> drop-down list box (default value "All")
     - <b>Select category</b> drop-down list box (default value "All")
     - <b>Select subcategory</b> drop-down list box (default value "All")
@@ -123,5 +123,5 @@ Then I see the table is refreshed with the matching results
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Click the <b>+Add team</b> button</br>2) Click anywhere on the map</br>3) Complete the form</br>4) Click <b>Add to list</b>|2) Select the location drop-down list is filled according to the selected location on the map</br>4) A success message appears and the team is added to the top of the list|
+|- Log in with admin account</br>- Go to the <b>Teams</b> configuration page|1) Click the <b>+Add team</b> button</br>2) Click anywhere on the map</br>3) Complete the form</br>4) Click <b>Add to list</b>|2) Select location drop-down list is filled according to the selected location on the map</br>4) A success message appears and the team is added to the top of the list|
 </details>

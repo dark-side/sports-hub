@@ -44,7 +44,7 @@ Then I am taken to my <b>My surveys</b> page
 ## Mockups
 
 1. Users see the <b>Create Account</b> page
-2. Users see the log in form
+2. Users see the log-in form
 3. Registered via third party users see a profile menu
 4. Registered via third party users see a profile page
 
@@ -55,9 +55,9 @@ Then I am taken to my <b>My surveys</b> page
 
 ![Users see the Create Account page](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/sing_up_empty_form.png)
 
-**2. Users see the log in form:**
+**2. Users see the log-in form:**
 
-![Users see the log in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **3. Registered via third party users see a profile menu:**
 

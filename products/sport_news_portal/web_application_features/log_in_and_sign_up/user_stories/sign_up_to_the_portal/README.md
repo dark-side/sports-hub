@@ -48,7 +48,7 @@ Then I am taken to the <b>Log in</b> page
 1. Users see the <b>Sign Up</b> button
 2. Users see the <b>Create Account</b> page
 3. Users receive an email about successful registration
-4. Users see log in form
+4. Users see the log-in form
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -65,9 +65,9 @@ Then I am taken to the <b>Log in</b> page
 
 ![Users receive an email about successful registration](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/email_successful_sing_up.png)
 
-**4. Users see log in form:**
+**4. Users see the log-in form:**
 
-![Users see log in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 </details>
 
@@ -87,7 +87,7 @@ Then I am taken to the <b>Log in</b> page
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
-|- Go to the Sports Hub home page</br>- The user is not logged in to the account|1) In the upper-right corner of the page, click **Get Started**</br>2) Enter valid data in all the required fields on the **Create Account** page</br>3) Click **Sign Up**</br>4) Check the entered email inbox</br>5) In the subscription confirmation email, click **Go to website**|4) The user receives the subscription confirmation email</br>5) The user goes to the **Log in** page and is able to log in with the data used to sign up|
+|- Go to the Sports Hub home page</br>- The user is not logged in to the account|1) In the upper-right corner of the page, click **Get Started**</br>2) Enter valid data in all required fields on the **Create Account** page</br>3) Click **Sign Up**</br>4) Check the entered email inbox</br>5) In the subscription confirmation email, click **Go to website**|4) The user receives the subscription confirmation email</br>5) The user goes to the **Log in** page and is able to log in with the data used to sign up|
 
 ### **#2. Verify that the user is not signed up if they provide already used email address**
 

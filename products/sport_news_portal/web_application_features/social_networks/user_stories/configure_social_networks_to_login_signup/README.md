@@ -50,8 +50,8 @@ Then the toggle changes to <b>Show section</b>
 
 1. Admin user sees <b>Log in/Sign up</b> configuration page with <b>Show section</b> on
 2. Admin user sees <b>Log in/Sign up</b> configuration page with <b>Show section</b> off
-3. Users see Log in page with social network icons
-4. Users see Sign up page with social network icons
+3. Users see <b>Log in</b> page with social network icons
+4. Users see <b>Sign up</b> page with social network icons
 5. Users see Log in with Facebook example
 
 <details>

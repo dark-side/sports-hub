@@ -10,7 +10,7 @@
 ## Description
 
     As a site user
-    I want to be able to login using a third-party authentication provider
+    I want to be able to log in using a third-party authentication provider
 
 ## Acceptance criteria
 
@@ -39,16 +39,16 @@ Then I am taken to the <b>My surveys</b> page
 
 ## Mockups
 
-1. Users see the log in form
+1. Users see the log-in form
 2. Registered via third party users see a profile menu
 3. Registered via third party users see a profile page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see the log in form:**
+**1. Users see the log-in form:**
 
-![Users see the log in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **2. Registered via third party users see a profile menu:**
 

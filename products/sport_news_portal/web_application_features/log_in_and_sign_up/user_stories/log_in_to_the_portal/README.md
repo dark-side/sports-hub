@@ -10,7 +10,7 @@
 ## Description
 
     As a site user
-    I want to be able to login with an email and password
+    I want to be able to log in with an email and password
 
 ## Acceptance criteria
 
@@ -32,7 +32,7 @@ Then I am taken to the <b>Log in</b> page
 When I entered all the fields on the <b>Log in</b> page and click <b>Log in</b>
 Then I am authenticated at the website
   And I am taken to the home page
-  And the login link is replaced with my name
+  And the log in link is replaced with my name
   And I see the <b>Log out</b> button in the drop-down menu next to my name
   And I see the <b>View profile</b> item in the drop-down menu next to my name
 
@@ -53,7 +53,7 @@ Then I am taken to my profile page
 ## Mockups
 
 1. Users see the <b>Sign Up</b> button
-2. Users see the log in form
+2. Users see the log-in form
 3. Users see validation errors
 4. Users see home page after successful logging in
 5. Users see a profile menu
@@ -66,9 +66,9 @@ Then I am taken to my profile page
 
 ![Users see the Sign Up button](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
 
-**2. Users see the log in form:**
+**2. Users see the log-in form:**
 
-![Users see the log in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/products/sport_news_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **3. Users see validation errors:**
 
@@ -90,27 +90,27 @@ Then I am taken to my profile page
 
 ## Test cases
 
-1. Verify that the user is able to log into the Sports Hub site with valid credentials
-2. Verify that the user is not able to log into the Sports Hub site with invalid credentials
-3. Verify that the user is not able to log into the Sports Hub site with empty boxes for credentials
+1. Verify that the user is able to log in to the Sports Hub site with valid credentials
+2. Verify that the user is not able to log in to the Sports Hub site with invalid credentials
+3. Verify that the user is not able to log in to the Sports Hub site with empty boxes for credentials
 4. Verify that the user is able to log out from the Sports Hub site
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that the user is able to log into the Sports Hub site with valid credentials**
+### **#1. Verify that the user is able to log in to the Sports Hub site with valid credentials**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
 |- Go to the Sports Hub home page</br>- Have a site user account registered|1) Click **Log in** in the upper-right corner of the page</br>2) Enter valid data in the **Email address** and **Password** fields</br>3) Click **Log in**|3) The user is successfully logged in|
 
-### **#2. Verify that the user is not able to log into the Sports Hub site with invalid credentials**
+### **#2. Verify that the user is not able to log in to the Sports Hub site with invalid credentials**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------
 |- Go to the Sports Hub home page|1) Click **Log in** in the upper-right corner of the page</br>2) Enter invalid data in the **Email address** or **Password** fields</br>3) Click **Log in**|3) The user is not able to log in with invalid credentials|
 
-### **#3. Verify that the user is not able to log into the Sports Hub site with empty boxes for credentials**
+### **#3. Verify that the user is not able to log in to the Sports Hub site with empty boxes for credentials**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------

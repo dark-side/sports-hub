@@ -77,7 +77,7 @@ Then I see an error message "Use at least 8 characters that includes numbers and
 ## Test cases
 
 1. Verify that the user is able to change the password via profile
-2. Verify that the user is not able to change password via profile in case an invalid old password is provided
+2. Verify that the user is not able to change the password via profile in case an invalid old password is provided
 3. Verify that the user is not able to change the password to the new one with invalid format via profile
 4. Verify that the user is not able to change the password via profile when the new password and confirmation password do not match
 5. Verify that the user is not able to change the password if they are signed up with social networks
@@ -91,7 +91,7 @@ Then I see an error message "Use at least 8 characters that includes numbers and
 ------|-------|----------
 |- Go to the Sports Hub home page</br>- The user is logged in with an email account|1) Click the drop-down button on the right of the profile picture</br>2) Select **View profile** from the drop-down menu</br>3) Select the **Change password** tab on the profile page</br>4) Enter the correct information in the fields</br>5) Click **Change password**|5) The changes are saved and the user receives a success message|
 
-### **#2. Verify that the user is not able to change password via profile in case an invalid old password is provided**
+### **#2. Verify that the user is not able to change the password via profile in case an invalid old password is provided**
 
 |Preconditions|Steps|Expected result
 ------|-------|----------

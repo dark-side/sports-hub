@@ -10,7 +10,7 @@
 The footer section should be visible on every page of the Sports Hub site.
 All footer sections should be configurable by the admin user. The admin defines which section to show in the footer as well as the content of each section.
 
-The footer section should contain three columns: Company info, Contributors, Newsletter, Sports Hub logo, the copyright sign, and the <b>Privacy</b> and <b>Terms</b> link at the bottom of the page.
+The footer section should contain three columns: Company info, Contributors, Newsletter, Sports Hub logo, the copyright sign, and the <b>Privacy</b> and <b>Terms</b> links at the bottom of the page.
 
 The Company info column should consist of the following links:
   - About Sports Hub

@@ -20,7 +20,7 @@
 Given I am a site user
 
 When I view any page on the site
-Then I see the page consisting:
+Then I see the page consisting of:
   - Header section that is common for all pages includes:
     1. Social network icons (configured by admin)
     2. Global search box
@@ -34,11 +34,11 @@ Then I see the page consisting:
   - Footer section that is common to all pages, configured by admin
 
 When I select the <b>Sports Hub</b> logo
-Then I am taken to the Sports Hub home page 
+Then I am taken to the Sports Hub home page
   And I see the <b>Home</b> menu item is active
 
 When I select a link to an external site 
-Then I see the site is opened in a new browser tab
+Then I see the site opens in a new browser tab
 
 </pre>
 

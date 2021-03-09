@@ -20,7 +20,7 @@
 
 Given I am logged in as an admin user
 
-When I am on the <b>Surveys</b> page and view the <b>Opened</b> tab
+When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
 Then I see a <b>Publish</b> action for <b>Not published</b> surveys
 
 When I click <b>Publish</b>

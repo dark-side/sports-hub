@@ -130,7 +130,7 @@ Then I see the configuration table with the following rows:
 4. Verify that links can be deleted on the <b>Company info</b> tab by clicking the <b>Delete</b> button
 5. Verify that <b>About Sports Hub</b> and <b>Contact Us</b> cannot be deleted on the <b>Company info</b> tab
 6. Verify that admin can hide the <b>Company info</b> column by disabling the <b>Show section</b> on the <b>Company info</b> tab
-7. Verify that admin can unhide the <b>Company Info</b> column by enabling the <b>Show section</b> on the <b>Company info</b> tab
+7. Verify that admin can unhide the <b>Company info</b> column by enabling the <b>Show section</b> on the <b>Company info</b> tab
 8. Verify that admin can edit content for the items on the <b>Company info</b> tab by selecting the items
 9. Verify that admin can add a new page on the <b>Company info</b> tab by clicking <b>+ New footer page</b>
 10. Verify that admin can hide links for the site users on the <b>Contributors</b> tab by clicking <b>Show</b>
@@ -183,7 +183,7 @@ Then I see the configuration table with the following rows:
 --------------|-----|----------
 |- Log in with admin account</br>- Go to the <b>Footer</b> configuration page > <b>Company info</b> tab</br>- <b>Show section</b> toggle is enabled on the <b>Company info</b> tab|1) Disable the <b>Show section</b> toggle</br>2) Log out of admin account</br>3) Log in with user account</br>4) Examine if the <b>Company info</b> column is present|4) The <b>Company info</b> column is not visible for users|
 
-### **#7. Verify that admin can unhide the Company Info column by enabling the Show section on the Company info tab**
+### **#7. Verify that admin can unhide the Company info column by enabling the Show section on the Company info tab**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

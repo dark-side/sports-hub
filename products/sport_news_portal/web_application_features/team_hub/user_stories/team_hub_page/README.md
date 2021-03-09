@@ -72,11 +72,11 @@ And I see the message "You have unfollowed the team {team name}!"
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>Yes</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news disappears from the page and the system displays the message "You have unfollowed the team {team name}!"</br>3) The removed team is not present on the list|
+|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>Yes</b></br>3) Go to <b>Team hub</b> list in Personal cabinet|2) The team section with news disappears from the page and the system displays the message "You have unfollowed the team {team name}!"</br>3) The removed team is not present on the list|
 
 ### **#3. Verify the possibility to cancel unfollowing**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>No</b></br>3) Go to <b>My teams</b> list in Personal cabinet|2) The team section with news is still present on the page</br>3) The team is still present on the list|
+|- Log in with user account</br>- There are some teams followed by the user|1) Click <b>Unfollow</b> for any team</br>2) On the confirmation pop-up window, click <b>No</b></br>3) Go to <b>Team hub</b> list in Personal cabinet|2) The team section with news is still present on the page</br>3) The team is still present on the list|
 </details>

@@ -19,7 +19,7 @@
 
 Given I am logged in as an admin user
 
-When I am on the <b>Surveys</b> page and view the <b>Opened</b> tab
+When I am on the <b>Surveys</b> page and view the <b>Open</b> tab
 Then I see the <b>Close</b> action for surveys in <b>Published</b> status
 
 When I click <b>Close</b>

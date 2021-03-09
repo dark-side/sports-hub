@@ -24,10 +24,10 @@ When I view the <b>Banners</b> configuration page
 Then I see the following:
   - Section with the <b>Banners</b> heading and the <b>+ New Banner</b> button under the header section
   - Search icon
-  - <b>Opened</b> and <b>Closed</b> tabs with the number of banners displayed next to the tab name, and the list of banners below
+  - <b>Open</b> and <b>Closed</b> tabs with the number of banners displayed next to the tab name, and the list of banners below
   - <b>Predefined Banners</b> section with a table which contains four predefined banners: <b>Facebook Video</b>, <b>Facebook Post</b>, <b>Lifestyle</b>, <b>Dealbook</b> with the <b>Show/Hide</b> toggle for each of them
 
-When I view the <b>Opened</b> tab
+When I view the <b>Open</b> tab
 Then I see a table with a list of the opened banners that contains:
   - Banner name
   - Banner status
@@ -87,7 +87,7 @@ Then I see the banner is deleted
 
 ## Mockups
 
-1. Admin user sees the <b>Opened</b> tab on the <b>Banners</b> configuration page
+1. Admin user sees the <b>Open</b> tab on the <b>Banners</b> configuration page
 2. Admin user sees the <b>Closed</b> tab on the <b>Banners</b> configuration page
 3. Admin user clicked <b>+ New banner</b> and sees a banner form
 4. Admin user clicked to edit banner and sees a pre-populated banner form
@@ -99,9 +99,9 @@ Then I see the banner is deleted
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees the Opened tab on the Banners configuration page:**
+**1. Admin user sees the Open tab on the Banners configuration page:**
 
-![Admin user sees the Opened tab on the Banners configuration page](/products/sport_news_portal/web_application_features/banners/images/banners_open_tab.png)
+![Admin user sees the Open tab on the Banners configuration page](/products/sport_news_portal/web_application_features/banners/images/banners_open_tab.png)
 
 **2. Admin user sees the Closed tab on the Banners configuration page:**
 
@@ -136,7 +136,7 @@ Then I see the banner is deleted
 ## Test cases
 
 1. Verify the content of the <b>Banners</b> page
-2. Verify the content of the <b>Opened</b> tab on the <b>Banners</b> page
+2. Verify the content of the <b>Open</b> tab on the <b>Banners</b> page
 3. Verify the content of the <b>Closed</b> tab on the <b>Banners</b> page
 4. Verify that it is not possible to save the banner without name
 5. Verify that it is possible to save the banner with all valid data
@@ -159,13 +159,13 @@ Then I see the banner is deleted
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Examine the tabs on the page|1) There are two tabs: <b>Opened</b> and <b>Closed</b>. The <b>Opened</b> tab is active by default. Also, there is a <b>Predefined Banners</b> section with default banners <b>Facebook Video, Facebook Post, Lifestyle, Dealbook</b> with the <b>Show/Hide</b> toggle for each of them|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Examine the tabs on the page|1) There are two tabs: <b>Open</b> and <b>Closed</b>. The <b>Open</b> tab is active by default. Also, there is a <b>Predefined Banners</b> section with default banners <b>Facebook Video, Facebook Post, Lifestyle, Dealbook</b> with the <b>Show/Hide</b> toggle for each of them|
 
-### **#2. Verify the content of the Opened tab on the Banners page**
+### **#2. Verify the content of the Open tab on the Banners page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Observe the content of the <b>Opened</b> tab|1) There is a table with 3 columns: <b>Banner name</b>, <b>Status (Published/Not published)</b>, <b>Published in</b> (category)|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Observe the content of the <b>Open</b> tab|1) There is a table with 3 columns: <b>Banner name</b>, <b>Status (Published/Not published)</b>, <b>Published in</b> (category)|
 
 ### **#3. Verify the content of the Closed tab on the Banners page**
 
@@ -183,13 +183,13 @@ Then I see the banner is deleted
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Click the <b>New Banner</b> button</br>2) Fill in the <b>Name</b> field</br>3) Upload the photo</br>4) Click <b>Save</b>|4) The banner is saved and appears on the <b>Opened</b> tab in the <b>Not published</b> status|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Click the <b>New Banner</b> button</br>2) Fill in the <b>Name</b> field</br>3) Upload the photo</br>4) Click <b>Save</b>|4) The banner is saved and appears on the <b>Open</b> tab in the <b>Not published</b> status|
 
 ### **#6. Verify that it is possible to cancel the banner creation at any stage**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Click the <b>New Banner</b> button</br>2) Enter the banner name</br>3) Upload a photo</br>4) Click <b>Cancel</b>|4) The banner is not saved and doesn’t appear on the <b>Opened</b> tab|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page|1) Click the <b>New Banner</b> button</br>2) Enter the banner name</br>3) Upload a photo</br>4) Click <b>Cancel</b>|4) The banner is not saved and doesn’t appear on the <b>Open</b> tab|
 
 ### **#7. Verify that it is possible to filter banners by Published status**
 
@@ -225,13 +225,13 @@ Then I see the banner is deleted
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page</br>- There is an unpublished banner|1) Select the unpublished banner</br>2) Click <b>Edit</b></br>3) Edit name</br>4) Upload new picture</br>5) Click <b>Save</b>|5) All changes are saved. The banner appears on the <b>Opened</b> tab with the <b>Not published</b> status|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page</br>- There is an unpublished banner|1) Select the unpublished banner</br>2) Click <b>Edit</b></br>3) Edit name</br>4) Upload new picture</br>5) Click <b>Save</b>|5) All changes are saved. The banner appears on the <b>Open</b> tab with the <b>Not published</b> status|
 
 ### **#13. Verify that it is possible to delete the unpublished banner**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page</br>- There is an unpublished banner|1) Select the unpublished banner</br>2) Click <b>Delete</b></br>3) On the confirmation message, click <b>Delete</b>|3) The banner is removed from the <b>Opened</b> tab|
+|- Log in with admin account</br>- Go to the <b>Banners</b> configuration page</br>- There is an unpublished banner|1) Select the unpublished banner</br>2) Click <b>Delete</b></br>3) On the confirmation message, click <b>Delete</b>|3) The banner is removed from the <b>Open</b> tab|
 
 ### **#14. Verify that it is possible to delete the closed banner**
 

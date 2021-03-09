@@ -21,10 +21,10 @@ Given I am logged in to the portal
 
 When I view any page of the application
   And I click the drop-down menu next to my profile picture at the top of the page
-Then I see a link to <b>My teams</b> page
+Then I see a link to <b>Team hub</b> page
 
-When I click <b>My teams</b>
-Then I am taken to <b>My teams</b> configuration page in my cabinet
+When I click <b>Team hub</b>
+Then I am taken to <b>Team hub</b> configuration page in my cabinet
 
 And I click <b>Manage teams list</b>
 Then I see the search input with the <b>Follow</b> button
@@ -46,8 +46,8 @@ Then the team is removed from the list
 
 ## Mockups
 
-1. Users see a link to the <b>My teams</b> management page
-2. Users see the <b>My teams</b> management page
+1. Users see a link to the <b>Team hub</b> management page
+2. Users see the <b>Team hub</b> management page
 3. Users see the page after clicking <b>Manage teams list</b>
 4. Users see the search team results
 5. Users see the search field after selecting the team
@@ -55,13 +55,13 @@ Then the team is removed from the list
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see the link to My teams management page:**
+**1. Users see the link to Team hub management page:**
 
-![Users see the link to My teams management page](/products/sport_news_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
+![Users see the link to Team hub management page](/products/sport_news_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
 
-**2. Users see the My teams management page:**
+**2. Users see the Team hub management page:**
 
-![Users see the My teams management page](/products/sport_news_portal/web_application_features/team_hub/images/my_teams_management_page.png)
+![Users see the Team hub management page](/products/sport_news_portal/web_application_features/team_hub/images/my_teams_management_page.png)
 
 **3. Users see the page after clicking Manage teams list:**
 
@@ -92,29 +92,29 @@ Then the team is removed from the list
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account|1) In the page header next to the user’s profile picture click the drop-down button</br>2) Select <b>My teams</b> from the drop-down menu</br>3) Check the content of the <b>Team hub</b> tab|4) The <b>Team hub</b> tab contains a list with user’s favorite teams and the <b>Manage team list</b> button|
+|- Log in with user account|1) In the page header next to the user’s profile picture click the drop-down button</br>2) Select <b>Team hub</b> from the drop-down menu</br>3) Check the content of the <b>Team hub</b> tab|4) The <b>Team hub</b> tab contains a list with user’s favorite teams and the <b>Manage team list</b> button|
 
 ### **#2. Verify the Manage teams list button**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account|1) In the page header next to the user’s profile picture click the drop-down button</br>2) Select <b>My teams</b> from the drop-down menu</br>3) Click <b>Manage team list</b> link at the bottom of the list|3) The search field with "Type a team name" placeholder and delete icon on hover for existing teams appear|
+|- Log in with user account|1) In the page header next to the user’s profile picture click the drop-down button</br>2) Select <b>Team hub</b> from the drop-down menu</br>3) Click <b>Manage team list</b> link at the bottom of the list|3) The search field with "Type a team name" placeholder and delete icon on hover for existing teams appear|
 
 ### **#3. Verify that the search field proposes teams according to the entered text**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- There are some teams to be added which contain "Los"|1) In the page header, next to the user’s profile picture click the drop-down button</br>2) From the drop-down menu, select <b>My teams</b></br>3) Click <b>Manage team list</b></br>4) Type "Los" into the search field|4) There are only teams that contain "Los" are included in the list|
+|- Log in with user account</br>- There are some teams to be added which contain "Los"|1) In the page header, next to the user’s profile picture click the drop-down button</br>2) From the drop-down menu, select <b>Team hub</b></br>3) Click <b>Manage team list</b></br>4) Type "Los" into the search field|4) There are only teams that contain "Los" are included in the list|
 
 ### **#4. Verify selecting a team to follow**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- Go to <b>My teams</b>|1) Click <b>Manage team list</b></br>2) Select some team from the list and click <b>Follow</b>|2) Selected team appears on the list. Users can see news about selected team on the <b>Team hub</b> page|
+|- Log in with user account</br>- Go to <b>Team hub</b>|1) Click <b>Manage team list</b></br>2) Select some team from the list and click <b>Follow</b>|2) Selected team appears on the list. Users can see news about selected team on the <b>Team hub</b> page|
 
 ### **#5. Verify deleting a team from the list**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- Go to <b>My teams</b></br>- There are some teams followed by the user|1) Click <b>Manage team list</b></br>2) Click <b>Delete</b> any team|2) The team is removed from the list. The user does not see news about the selected team on the <b>Team hub</b> page|
+|- Log in with user account</br>- Go to <b>Team hub</b></br>- There are some teams followed by the user|1) Click <b>Manage team list</b></br>2) Click <b>Delete</b> any team|2) The team is removed from the list. The user does not see news about the selected team on the <b>Team hub</b> page|
 </details>

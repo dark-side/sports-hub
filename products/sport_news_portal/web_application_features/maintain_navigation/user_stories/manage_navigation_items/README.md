@@ -73,7 +73,7 @@ When I click the ellipsis (<b>...</b>) button for any created category
 Then I see the following options: <b>Delete</b>, <b>Edit</b>, and <b>Hide</b> category
 
 When I click the ellipsis (<b>...</b>) button for any created subcategory or team
-Then I see the following options to <b>Delete</b>, <b>Edit</b>, <b>Hide</b>, <b>Move</b> subcategory or team
+Then I see the following options: <b>Delete</b>, <b>Edit</b>, <b>Hide</b>, <b>Move</b> subcategory or team
 
 When I click the ellipsis (<b>...</b>) button for static categories (<b>Lifestyle</b>, <b>Dealbook</b>, <b>Video</b>, <b>Team hub</b>)
 Then I see an option <b>Hide</b> category

@@ -21,7 +21,7 @@ Users should be able to have a personal account on the Sports Hub site. To creat
   - Users should be able to log in to an already created account
   - Users should not be able to log in with invalid credentials or empty credential fields (error message should appear)
   - Users should be able to restore password
-  - Logged-in users should be able to view personal information on the profile page (_do not allow if logged-in by social network_)
+  - Logged-in users should be able to view personal information on the profile page (_do not allow if logged-in via social network_)
   - Logged-in users should be able to update the personal information on the profile page (_do not allow if logged-in via social network_)
   - Logged-in users should be able to change the password (_do not allow if logged-in via social network_)
   - Logged-in users should be able to upload a photo as a profile picture (_do not allow if logged-in via social network_)
@@ -37,9 +37,9 @@ Please click [here](https://www.figma.com/file/pGlTwGGnAojQsmcvwEU1o9/Log-In-Sig
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to sign up on the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_to_the_portal)|<pre>As a new user<br>I want to be able to sign up using my email<br>So that I will be on the site member list</pre>
-2 |[**Allow users to log in to the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_to_the_portal)|<pre>As a site user<br>I want to be able to login with an email and password</pre>
+2 |[**Allow users to log in to the portal using an email**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_to_the_portal)|<pre>As a site user<br>I want to be able to log in with an email and password</pre>
 3 |[**Allow users to sign up using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_with_third_party) |<pre>As a new user<br>I want to be able to sign up using a third-party authentication provider<br>So that I will be on the site member list</pre>
-4 |[**Allow users to log in to the portal using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_with_third_party) |<pre>As a site user<br>I want to be able to login using a third-party authentication provider</pre>
+4 |[**Allow users to log in to the portal using a third-party authentication provider**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_with_third_party) |<pre>As a site user<br>I want to be able to log in using a third-party authentication provider</pre>
 5 |[**Allow users to reset their password**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/forgot_password)|<pre>As a site user<br>I want to be able to reset my password</pre>
 6 |[**Allow users to update their personal information**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/personal_information_update)|<pre>As a site user<br>I want to be able to update my personal information</pre>
 7 |[**Allow users to change their password via profile**](/products/sport_news_portal/web_application_features/log_in_and_sign_up/user_stories/password_update)|<pre>As a site user<br>I want to be able to update my password</pre>

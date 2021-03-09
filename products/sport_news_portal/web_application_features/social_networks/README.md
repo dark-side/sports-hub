@@ -8,7 +8,7 @@
 ## Description
 
 Site users should be able to use social networks to perform the following actions on the Sports Hub site:
-  - Login and Sign up to the site
+  - Log in and Sign up to the site
   - Follow the Sports Hub
   - Share an article
   - View/Like Facebook posts and videos
@@ -19,7 +19,7 @@ The site admin should configure which social networks should be integrated into 
 
   - Verify if UI corresponds to the prototype
   - Users should be able to sign up on the Sports Hub site using social networks
-  - Users should be able to login to the Sports Hub site using social networks
+  - Users should be able to log in to the Sports Hub site using social networks
   - Users should be able to follow the Sports Hub using social networks
   - Users should be able to share an article from the Sports Hub using social networks
   - Users should be able to use the view/like Facebook posts and videos

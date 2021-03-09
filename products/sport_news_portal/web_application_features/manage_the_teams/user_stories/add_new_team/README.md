@@ -45,7 +45,7 @@ Then I see the default form
 ## Mockups
 
 1. Admin user sees a new team form
-2. Admin user selectes a logo in the form
+2. Admin user selects a logo in the form
 3. Admin user sees a success message
 
 <details>
@@ -55,9 +55,9 @@ Then I see the default form
 
 ![Admin user sees a new team form](/products/sport_news_portal/web_application_features/manage_the_teams/images/new_team_form.png)
 
-**2. Admin user selectes a logo in the form:**
+**2. Admin user selects a logo in the form:**
 
-![Admin user selectes a logo in the form](/products/sport_news_portal/web_application_features/manage_the_teams/images/new_team_form_with_logo.png)
+![Admin user selects a logo in the form](/products/sport_news_portal/web_application_features/manage_the_teams/images/new_team_form_with_logo.png)
 
 **3. Admin user sees a success message:**
 

@@ -10,7 +10,7 @@
 ## Description
 
     As a site user
-    I want to be able to follow the Sports Hub portal on the social networks
+    I want to be able to follow the Sports Hub portal on social networks
 
 ## Acceptance criteria
 

@@ -26,9 +26,9 @@ Then I see the <b>My surveys</b> menu item
 When I click <b>My surveys</b>
 Then I am taken to a personal cabinet and the <b>My surveys</b> tab is active
   And I see the system displays only published by admin surveys here
-  And I see the system displays two tabs: <b>Opened</b> and <b>Closed</b>
+  And I see the system displays two tabs: <b>Open</b> and <b>Closed</b>
 
-When I am on the <b>Opened</b> tab
+When I am on the <b>Open</b> tab
 Then I see a first survey is active and displayed in the <b>Reader Poll</b> on the right side
   And I see the list is sorted by creation date and contains the following columns:
     - Questions
@@ -56,7 +56,7 @@ Then I see the list of surveys is refreshed with matching results
 When I select <b>Voted</b> in the filter
 Then I see surveys that I have participated in
 
-When I click the <b>Sort by</b> filter on the <b>Opened</b> tab
+When I click the <b>Sort by</b> filter on the <b>Open</b> tab
 Then I see the options:
   - Newest (default)
   - Most Popular
@@ -72,9 +72,9 @@ Then I see surveys are sorted by the end day
 ## Mockups
 
 1. Users see a link to the <b>My surveys</b> page
-2. Users see the <b>Opened</b> tab on the <b>My surveys</b> page
+2. Users see the <b>Open</b> tab on the <b>My surveys</b> page
 3. Users see the <b>Closed</b> tab on the <b>My surveys</b> page
-4. Users see <b>Sort by</b> options on the <b>Opened</b> tab
+4. Users see <b>Sort by</b> options on the <b>Open</b> tab
 5. Users see filter options on the <b>Closed</b> tab
 6. Users see a search input field after clicking the search icon
 
@@ -85,17 +85,17 @@ Then I see surveys are sorted by the end day
 
 ![Users see a link to the My surveys page](/products/sport_news_portal/web_application_features/surveys/images/user_link_to_surveys_page.png)
 
-**2. Users see the Opened tab on the My surveys page:**
+**2. Users see the Open tab on the My surveys page:**
 
-![Users see the Opened tab on the My surveys page](/products/sport_news_portal/web_application_features/surveys/images/user_voting_form.png)
+![Users see the Open tab on the My surveys page](/products/sport_news_portal/web_application_features/surveys/images/user_voting_form.png)
 
 **3. Users see the Closed tab on the My surveys page:**
 
 ![Users see the Closed tab on the My surveys page](/products/sport_news_portal/web_application_features/surveys/images/user_closed_tab.png)
 
-**4. Users see Sort by options on the Opened tab:**
+**4. Users see Sort by options on the Open tab:**
 
-![Users see Sort by options on the Opened tab](/products/sport_news_portal/web_application_features/surveys/images/user_sort_by_options.png)
+![Users see Sort by options on the Open tab](/products/sport_news_portal/web_application_features/surveys/images/user_sort_by_options.png)
 
 **5. Users see filter options on the Closed tab:**
 
@@ -109,8 +109,8 @@ Then I see surveys are sorted by the end day
 
 ## Test cases
 
-1. Verify the content of the <b>Opened</b> tab on the <b>My surveys</b> page
-2. Verify that users can sort surveys by <b>Newest, Most Popular, About to Expire</b> options on the <b>Opened</b> tab on the <b>My surveys</b> page
+1. Verify the content of the <b>Open</b> tab on the <b>My surveys</b> page
+2. Verify that users can sort surveys by <b>Newest, Most Popular, About to Expire</b> options on the <b>Open</b> tab on the <b>My surveys</b> page
 3. Verify the content of the <b>Closed</b> tab on the <b>My surveys</b> page
 4. Verify that users can filter surveys by <b>Voted, All surveys</b> on the <b>Closed</b> tab on the <b>My surveys</b> page
 5. Verify that users can sort surveys by <b>Closed date</b> on the <b>Closed</b> tab on the <b>My surveys</b> page
@@ -118,17 +118,17 @@ Then I see surveys are sorted by the end day
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the content of the Opened tab on the My surveys page**
+### **#1. Verify the content of the Open tab on the My surveys page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account|1) Click the drop-down near the profile picture</br>2) Select <b>My surveys</b> item</br>3) Examine the <b>Opened</b> tab|2) Personal cabinet opens on the <b>My surveys</b> page</br>3) The <b>Opened</b> tab is opened by default. The <b>Opened</b> tab consists of two columns: <b>Questions</b> and <b>Due date</b>. The list contains all open surveys for the moment. Surveys are sorted from the newest to oldest|
+|- Log in with user account|1) Click the drop-down near the profile picture</br>2) Select <b>My surveys</b> item</br>3) Examine the <b>Open</b> tab|2) Personal cabinet opens on the <b>My surveys</b> page</br>3) The <b>Open</b> tab is opened by default. The <b>Open</b> tab consists of two columns: <b>Questions</b> and <b>Due date</b>. The list contains all open surveys for the moment. Surveys are sorted from the newest to oldest|
 
-### **#2. Verify that users can sort surveys by Newest, Most Popular, About to Expire options on the Opened tab on the My surveys page**
+### **#2. Verify that users can sort surveys by Newest, Most Popular, About to Expire options on the Open tab on the My surveys page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- The user is on the <b>My surveys</b> page > <b>Opened</b> tab|1) Select the <b>Sort by</b> link</br>2) Click <b>Most popular</b></br>3) Select the <b>Sort by</b> link</br>4) Click <b>About to Expire</b></br>5) Select the <b>Sort by</b> link</br>6) Click <b>Newest</b></br>|2) Surveys are sorted according to the amount of users voted from the biggest number</br>4) Surveys are sorted according to the end date from the closest one</br>6) Surveys are sorted according to the date of creation from the newest one|
+|- Log in with user account</br>- The user is on the <b>My surveys</b> page > <b>Open</b> tab|1) Select the <b>Sort by</b> link</br>2) Click <b>Most popular</b></br>3) Select the <b>Sort by</b> link</br>4) Click <b>About to Expire</b></br>5) Select the <b>Sort by</b> link</br>6) Click <b>Newest</b></br>|2) Surveys are sorted according to the amount of users voted from the biggest number</br>4) Surveys are sorted according to the end date from the closest one</br>6) Surveys are sorted according to the date of creation from the newest one|
 
 ### **#3. Verify the content of the Closed tab on the My surveys page**
 
