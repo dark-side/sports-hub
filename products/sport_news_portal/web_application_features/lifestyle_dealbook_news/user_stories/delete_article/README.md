@@ -41,14 +41,14 @@ Then I see a success message
 
 ## Mockups
 
-1. Admin user sees a confirmation pop-up windows to delete the article
+1. Admin user sees a confirmation pop-up window to delete the article
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user sees a confirmation pop-up windows to delete the article:**
+**1. Admin user sees a confirmation pop-up window to delete the article:**
 
-![Admin user sees a confirmation pop-up windows to delete the article](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/confirmation_to_delete.png)
+![Admin user sees a confirmation pop-up window to delete the article](/products/sport_news_portal/web_application_features/lifestyle_dealbook_news/images/confirmation_to_delete.png)
 
 </details>
 

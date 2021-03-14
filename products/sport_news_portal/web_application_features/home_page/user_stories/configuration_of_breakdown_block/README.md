@@ -27,12 +27,12 @@ Then I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right co
   And I see the <b>Show on the main page</b> toggle
 
 When I click <b>Add one more breakdown</b>
-  Then I see the form is added in the <b>Breakdown</b> section:
-    - <b>Category</b> contains a list of all sports categories, first category from the list is selected by default, is required
-    - <b>Conference</b> contains a list of all conferences, nothing is selected by default
-    - <b>Team</b> contains a list of all teams, nothing is selected by default
-    - The <b>Delete</b> button
-    - The <b>Add one more breakdown</b> button
+Then I see the form is added in the <b>Breakdown</b> section:
+  - <b>Category</b> contains a list of all sports categories, first category from the list is selected by default, is required
+  - <b>Conference</b> contains a list of all conferences, nothing is selected by default
+  - <b>Team</b> contains a list of all teams, nothing is selected by default
+  - The <b>Delete</b> button
+  - The <b>Add one more breakdown</b> button
 
 When I change the default category
 Then I see the <b>Conference</b> drop-down list is updated with conferences according to the selected category
@@ -42,9 +42,9 @@ When I select <b>Conference</b>
 Then I see the <b>Team</b> drop-down list is updated with teams according to the selected conference 
 
 When I click <b>Delete</b>
-Then the confirmation pop-up windows appears
+Then the confirmation pop-up window appears
 
-When I click <b>Yes</b> in the confirmation pop-up windows
+When I click <b>Yes</b> in the confirmation pop-up window
 Then I see the row is removed from the page
 
 When I click the <b>Show on the main page</b> toggle
@@ -102,7 +102,7 @@ Then the <b>Home</b> page is in the published state
 6. Verify that admin is able to change <b>Category</b> in the <b>Breakdown</b> section
 7. Verify that admin is able to select a <b>Conference</b> in the <b>Breakdown</b> section
 8. Verify that admin is able to select a <b>Team</b> in the <b>Breakdown</b> section
-9. Verify that it is possible to delete a breakdown in the <b>Breakdown</b> section
+9. Verify that it is possible to delete a breakdown from the <b>Breakdown</b> section
 10. Verify that it is possible to delete the last breakdown from the <b>Breakdown</b> section
 11. Verify that the <b>Breakdown</b> section can be hidden for users view
 12. Verify that the <b>Breakdown</b> section can be unhidden for users view
@@ -158,7 +158,7 @@ Then the <b>Home</b> page is in the published state
 --------------|-----|----------
 |- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected</br>- <b>Conference</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Team</b>|1) The <b>Team</b> is selected|
 
-### **#9. Verify that it is possible to delete a breakdown in the Breakdown section**
+### **#9. Verify that it is possible to delete a breakdown from the Breakdown section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

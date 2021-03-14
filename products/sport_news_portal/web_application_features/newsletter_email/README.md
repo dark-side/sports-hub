@@ -7,7 +7,7 @@
 
 ## Description
 
-Site users should be able to subscribe and then receive daily news emails from the Sports Hub site. The content of the news should depend on the subscription type. If users is subscribe to a specific sports category/subcategory/team page, the newsletter email should contain articles related to the subscribed category/subcategory/team. If users subscribe to the <b>Home</b> page, they should receive emails with articles related to any of the sports categories.
+Site users should be able to subscribe and then receive daily news emails from the Sports Hub site. The content of the news should depend on the subscription type. If users subscribe to a specific sports category/subcategory/team page, the newsletter email should contain articles related to the subscribed category/subcategory/team. If users subscribe to the <b>Home</b> page, they should receive emails with articles related to any of the sports categories.
 
 ## Check list:
 

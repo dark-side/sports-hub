@@ -83,7 +83,7 @@ Then I see the confirmation dialog is closed
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>|1) Select the <b>Admins</b> tab</br>2)For the current admin, in the <b>Actions</b> column, click <b>Delete</b></br>3) On the confirmation dialog, click <b>Delete</b>|3) Warning message appears about no possibility to delete the currently logged-in user|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>|1) Select the <b>Admins</b> tab</br>2) For the current admin, in the <b>Actions</b> column, click <b>Delete</b></br>3) On the confirmation dialog, click <b>Delete</b>|3) Warning message appears about no possibility to delete the currently logged-in user|
 
 ### **#5. Verify that admin can cancel deleting users on the Users page**
 

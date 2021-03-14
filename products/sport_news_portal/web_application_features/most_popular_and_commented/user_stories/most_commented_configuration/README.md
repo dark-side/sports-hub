@@ -84,5 +84,5 @@ Then the toggle changes to <b>Show on the main page</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Go to the Sports Hub home page</br>- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Most commented</b> section</br>- There is the <b>Hide on the main page</b> toggle|1) Examine the <b>Most commented</b> section</br>2) Click the <b>Hide on the main page</b> toggle|2) The Most commented section is visible to users|
+|- Go to the Sports Hub home page</br>- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Most commented</b> section</br>- There is the <b>Hide on the main page</b> toggle|1) Examine the <b>Most commented</b> section</br>2) Click the <b>Hide on the main page</b> toggle|2) The <b>Most commented</b> section is visible to users|
 </details>

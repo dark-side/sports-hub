@@ -81,7 +81,7 @@ Then I see the <b>Newsletter</b> section is visible to site users
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Footer</b> configuration page > <b>Newsletter</b> tab</br>- There are links which are hidden for users|1) Hover over the table row which is hidden (footer link)</br>2) Turn on the <b>Hide</b> toggle for the hovered table row (footer link)</br>3) Log out of admin account</br>4) Log in with user account</br>5) Examine if the hidden footer link is visible to site users|1) Table row (footer link) becomes highlighted</br>2) The <b>Hide</b> toggle is changed to <b>Show</b></br>5) The appropriate item is visible to site user|
+|- Log in with admin account</br>- Go to the <b>Footer</b> configuration page > <b>Newsletter</b> tab</br>- There are links which are hidden for users|1) Hover over the table row which is hidden (footer link)</br>2) Turn on the <b>Hide</b> toggle for the hovered table row (footer link)</br>3) Log out of admin account</br>4) Log in with user account</br>5) Examine if the hidden footer link is visible to site users|1) Table row (footer link) becomes highlighted</br>2) The <b>Hide</b> toggle is changed to <b>Show</b></br>5) The appropriate item is visible to site users|
 
 ### **#4. Verify that the Sign up to receive the latest sports news link cannot be deleted on the Newsletter tab**
 

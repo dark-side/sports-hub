@@ -66,7 +66,7 @@ Then I see the confirmation dialog is closed
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Continue</b></br>3) Log out of admin account</br>4) Login as a blocked user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has a <b>Blocked</b> state. Notification about blocking is sent to the user’s email</br>4) The user can log in</br>5) The user cannot write comments|
+|- Log in with admin account</br>- Go to the <b>Users</b> configuration page</br>- There is an active user on the <b>Users</b> tab|1) On the right of an active user, click <b>Block</b></br>2) On the confirmation dialog, click <b>Continue</b></br>3) Log out of admin account</br>4) Log in as a blocked user</br>5) Go through pages with comments|1) The confirmation dialog appears</br>2) The user has a <b>Blocked</b> state. Notification about blocking is sent to the user’s email</br>4) The user can log in</br>5) The user cannot write comments|
 
 ### **#2. Verify that admin can cancel blocking an active user on the Users page**
 

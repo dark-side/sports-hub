@@ -13,7 +13,7 @@ Users with admin permission should be able to manage integration with partners, 
   - Edit the existing partners’ configurations
   - Remove integration with partners
 
-Integration can be configured only with partners from the predefined list
+Integration can be configured only with partners from the predefined list.
 Admin cannot add new partners to the list. It is possible to add only one integration for one partner. The initial design is built for one partner - Google News (https://newsapi.org). News from the configured partners should be shown directly to users and shouldn’t be available among other news to be edited by admin.
 
 ## Check list:
@@ -25,7 +25,7 @@ Admin cannot add new partners to the list. It is possible to add only one integr
   - Admin should be able to remove integration with partners
   - Integration should be configured only with partners from the predefined list
   - News from configured partners shouldn’t be available in the news list for admin to configure them as articles
-  - Users should be able to view the news from configured partners 
+  - Users should be able to view the news from configured partners
 
 ## Prototype of the feature
 
@@ -42,4 +42,4 @@ No           |      Name     |   Details
 3 |[**Allow admin user to edit existing partners' configurations on the portal**](/products/sport_news_portal/web_application_features/manage_news_partners/user_stories/editing_existing_partners_configurations)|<pre>As an admin user<br>I want to be able to change the existing partner's configurations</pre>
 4 |[**Allow admin user to delete the integration with partners on the portal**](/products/sport_news_portal/web_application_features/manage_news_partners/user_stories/deleting_integration_with_partner)|<pre>As an admin user<br>I want to be able to delete the existing integration with the partner</pre>
 5 |[**Allow site users to view news from configured partners**](/products/sport_news_portal/web_application_features/manage_news_partners/user_stories/viewing_news_from_partners)|<pre>As a site user<br>I want to be able to see the news from configured partners in the appropriate categories</pre>
-6 |[**News from configured partners can not be edited by the admin**](/products/sport_news_portal/web_application_features/manage_news_partners/user_stories/partners_news_admin_editability)|<pre>As an admin user<br>I should not see the news from configured partners on the articles list page</pre>
+6 |[**News from configured partners can not be edited by the admin**](/products/sport_news_portal/web_application_features/manage_news_partners/user_stories/partners_news_admin_editability)|<pre>As an admin user<br>I should not see the news from the configured partners on the articles list page</pre>

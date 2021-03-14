@@ -80,7 +80,7 @@ Then I see the <b>Most commented</b> section on any page where it can be present
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Admin hide <b>Most commented</b> section</br>- Go to the Sports Hub home page</br>- Go to any page where the <b>Most commented</b> section should be present|1) On any page, examine the <b>Most commented</b> section|1) The <b>Most commented</b> section is not shown|
+|- Admin hides <b>Most commented</b> section</br>- Go to the Sports Hub home page</br>- Go to any page where the <b>Most commented</b> section should be present|1) On any page, examine the <b>Most commented</b> section|1) The <b>Most commented</b> section is not shown|
 
 ### **#4. Verify that users are redirected to the proper article by selecting the article in the Most commented section**
 

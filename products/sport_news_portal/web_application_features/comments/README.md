@@ -12,6 +12,7 @@ We want to allow our users to chat with each other and leave their comments on n
   - Reply to other comments
   - Edit and delete their comments
   - Like and dislike comments
+
 Not registered and not logged-in users should have the ability to read comments. We should ask users to log in to the application when they attempt to add a comment or like.
 Admin user should be able to delete any comments.
 
@@ -37,5 +38,5 @@ Please click [here](https://www.figma.com/file/hrAekXmuhUGxfBMzxjyRFz/Comments-b
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to comment an article on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/comment_an_article)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
-2 |[**Allow users to interact with existing article comments on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike comments</pre>
+2 |[**Allow users to interact with existing article comments on the portal**](/products/sport_news_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike the comment</pre>
 

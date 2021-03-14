@@ -29,7 +29,7 @@ When I view the new article page
 Then I see the next elements:
   - Preview icon in the upper-right corner of the page
   - Drag-and-drop field for image upload with <b>+ Add picture</b> link (edit picture behavior should be the same as described in <b>Manage Articles - Allow admin users to have advanced editing of the article image</b>)
-  - Three fields where I can add details of the article: <b>Alt, Article headline</b>, and <b>Caption</b>
+  - Three fields where I can add details of the article: <b>Alt., Article headline</b>, and <b>Caption</b>
   - HTML editor for article content
   - The <b>Comments: Show/Hide</b> toggle
   - <b>Cancel</b> and <b>Save</b> (disabled until all required fields are filled) buttons in the upper-right corner of the page
@@ -130,7 +130,7 @@ Then the toggle changed to <b>Hide</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b>|1) Click <b>+ New Article</b></br>2) In the <b>Picture</b> section, click <b>+Add picture</b></br>3) Select a photo with the valid format (.jpg, .png, .jpeg, .tif)</br>4) Do not fill in the <b>Alt</b> required field</br>5) Fill in all the rest required fields</br>6) Click <b>Save</b></br>7) Do not fill in the <b>Article headline</b> required field</br>8) Fill in all the rest required fields</br>9) Click <b>Save</b></br>10) Do not fill in the <b>Caption</b> required field</br>11) Fill in all the rest required fields</br>12) Click <b>Save</b></br>13) Do not fill in the <b>Content</b> required field</br>14) Fill in all the rest required field</br>15) Click <b>Save</b>|6) The required fields are highlighted in red</br>9) The required fields are highlighted in red</br>12) The required fields are highlighted in red</br>15) The required fields are highlighted in red|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b>|1) Click <b>+ New Article</b></br>2) In the <b>Picture</b> section, click <b>+Add picture</b></br>3) Select a photo with the valid format (.jpg, .png, .jpeg, .tif)</br>4) Do not fill in the <b>Alt.</b> required field</br>5) Fill in all the rest required fields</br>6) Click <b>Save</b></br>7) Do not fill in the <b>Article headline</b> required field</br>8) Fill in all the rest required fields</br>9) Click <b>Save</b></br>10) Do not fill in the <b>Caption</b> required field</br>11) Fill in all the rest required fields</br>12) Click <b>Save</b></br>13) Do not fill in the <b>Content</b> required field</br>14) Fill in all the rest required field</br>15) Click <b>Save</b>|6) The required fields are highlighted in red</br>9) The required fields are highlighted in red</br>12) The required fields are highlighted in red</br>15) The required fields are highlighted in red|
 
 ### **#4. Verify that admin is not able to save new articles without uploading photos**
 

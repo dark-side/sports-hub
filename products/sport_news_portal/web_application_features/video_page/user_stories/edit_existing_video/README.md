@@ -67,9 +67,9 @@ Then I see the page with a list of the videos
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Admin user clicks the + New Video button and sees a pop-up window:**
+**1. Admin user clicks to upload new video on the edit page and sees a pop-up window:**
 
-![Admin user clicks the + New Video button and sees a pop-up window](/products/sport_news_portal/web_application_features/video_page/images/new_video_edit_popup.png)
+![Admin user clicks to upload new video on the edit page and sees a pop-up window](/products/sport_news_portal/web_application_features/video_page/images/new_video_edit_popup.png)
 
 **2. Admin user sees a new video form:**
 
@@ -131,18 +131,18 @@ Then I see the page with a list of the videos
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Update all required boxes</br>4)Click <b>Save</b>|4) Admin user is redirected to the list of videos. Videos are saved with all information and appear at the top of the list in <b>Unpublished</b> state|
+|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Update all required boxes</br>4) Click <b>Save</b>|4) Admin user is redirected to the list of videos. Videos are saved with all information and appear at the top of the list in <b>Unpublished</b> state|
 
 ### **#5. Verify that the Comments section can be hidden for the edited video**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video</br>- The <b>Comments</b> section is shown for video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Show</b> toggle</br>4)Click <b>Save</b>|3) <b>Comments:</b> changes to <b>Hide</b></br>4) The video is saved with the hidden <b>Comments</b> section|
+|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video</br>- The <b>Comments</b> section is shown for video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Show</b> toggle</br>4) Click <b>Save</b>|3) <b>Comments:</b> changes to <b>Hide</b></br>4) The video is saved with the hidden <b>Comments</b> section|
 
 ### **#6. Verify that the Comments section can be shown for the edited video**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video</br>- The <b>Comments</b> section is hidden for video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Hide</b> toggle</br>4)Click <b>Save</b>|3) <b>Comments:</b> changes to <b>Show</b></br>4) The video is saved with the shown <b>Comments</b> section|
+|- Log in with admin account</br>- Go to the <b>Video</b> page</br>- There is an unpublished video</br>- The <b>Comments</b> section is hidden for video|1) Hover over an unpublished video</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Hide</b> toggle</br>4) Click <b>Save</b>|3) <b>Comments:</b> changes to <b>Show</b></br>4) The video is saved with the shown <b>Comments</b> section|
 
 </details>

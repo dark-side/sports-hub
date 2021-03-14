@@ -33,7 +33,7 @@ Then I am taken to the video page
 When I click the non-main video thumbnail
 Then I am taken to the <b>Video</b> page
 
-When I am on the video page
+When I am on the <b>Video</b> page
 Then I see the following:
   - Video
   - The <b>Share</b> button if sharing is enabled

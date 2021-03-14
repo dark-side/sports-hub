@@ -30,7 +30,7 @@ Then I see the most recent video added on the Sports Hub Facebook page
 When I click the video or the <b>Like us on Facebook</b> link
 Then I am taken to the video on the Sports Hub Facebook page
 
-When I click a <b>like</b> icon
+When I click a like icon
 Then I see the Facebook pop-up window where I can comment and like the video
 
 When I view a page with the <b>Facebook Post</b> banner in the sidebar section
@@ -65,10 +65,10 @@ Then I see the Facebook pop-up window where I can comment and like the post
 
 1. Verify the content of the sports category page with the <b>Facebook Video</b> sidebar section
 2. Verify selecting the <b>Facebook Video</b> section or the Like us on the Facebook link
-3. Verify clicking the <b>like</b> button
+3. Verify clicking the like button
 4. Verify the content of the <b>Facebook Post</b> section on the right sidebar
 5. Verify selecting the <b>Facebook Post</b> section or the Like us on the Facebook link
-6. Verify clicking the <b>like</b> button
+6. Verify clicking the like button
 
 <details>
   <summary>Click here to see test cases details</summary>

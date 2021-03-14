@@ -55,9 +55,9 @@ Then the team is removed from the list
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see the link to Team hub management page:**
+**1. Users see a link to the Team hub management page:**
 
-![Users see the link to Team hub management page](/products/sport_news_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
+![Users see a link to the Team hub management page](/products/sport_news_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
 
 **2. Users see the Team hub management page:**
 

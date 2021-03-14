@@ -10,7 +10,7 @@
 ## Description
 
     As a site user
-    I want to sort comments and like or dislike comments
+    I want to sort comments and like or dislike the comment
 
 ## Acceptance criteria
 

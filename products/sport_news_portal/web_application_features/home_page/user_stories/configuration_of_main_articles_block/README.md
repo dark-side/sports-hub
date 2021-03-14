@@ -23,7 +23,7 @@ Given I am logged in as an admin user
 When I am on the <b>Home</b> configuration page
 Then I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right corner
   And I see the <b>Main articles</b> section on the top of the page
-  And I see the <b>Main articles</b> section contains a form with the followingfields:
+  And I see the <b>Main articles</b> section contains a form with the following fields:
     - <b>Category</b> contains a list of all sports categories, first category from the list is selected by default, is required
     - <b>Conference</b> contains a list of all conferences, nothing is selected by default
     - <b>Team</b> contains a list of all teams, nothing is selected by default
@@ -44,7 +44,7 @@ Then I see the row is removed from the page
 When I click the <b>Add one more article</b> button four times
 Then the <b>Add one more article</b> button disappears
 
-When I click the <b>Show on the main page</b> toggle on article form
+When I click the <b>Show on the main page</b> toggle on any article form
 Then the <b>Show on the main page</b> toggle changes to <b>Hide on the main page</b>
 
 When I change the category in the drop-down list
@@ -185,6 +185,6 @@ Then the <b>Home</b> page is in the published state
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Main articles</b> section|1) Examine the <b>Main articles</b> section|1) There is no <b>Show/Hide</b> toggle in the <b>Main articles</b> section,so it can’t be hidden for users|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Main articles</b> section|1) Examine the <b>Main articles</b> section|1) There is no <b>Show/Hide</b> toggle in the <b>Main articles</b> section, so it can’t be hidden for users|
 
 </details>

@@ -42,13 +42,13 @@ Then I do not see the <b>Photo of the day</b> section
 
 ## Test cases
 
-1. Verify that users can see Photo of the day section
-2. Verify that the hidden Photo of the day section is not shown
+1. Verify that users can see the <b>Photo of the day</b> section
+2. Verify that the hidden <b>Photo of the day</b> section is not shown
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify that users can see Photo of the day section**
+### **#1. Verify that users can see the Photo of the day section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

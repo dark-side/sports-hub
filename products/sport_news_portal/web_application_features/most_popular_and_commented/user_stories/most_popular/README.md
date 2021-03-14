@@ -10,7 +10,7 @@
 ## Description
 
     As a site user
-    I want to view the Most popular section 
+    I want to view the Most popular section
     So that I can read articles that have the highest number of views in the period configured by admin (day, week, month, year)
 
 ## Acceptance criteria

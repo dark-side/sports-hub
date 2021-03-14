@@ -9,11 +9,13 @@
 
 When users visit our site, they should see the main page by default. The main page is called <b>Home</b> in the navigation menu. This page should contain the most recent news and topics, and consist of the following page sections:
   - <b>Main articles</b>: Admin can add at least 1 and up to 5 articles to the section. These articles will be rotating every 3 seconds. This section needs to be always present and users can not hide it on the page. Users can select the article number to make a rotation to it. Rotation will continue from the selected article. The section is always present and can not be hidden.
-  - <b>Breakdown</b>: Admin can show or hide this section on the page. The <b>Breakdown</b> section has to consist of breakdowns with 2-4 articles. 
+  - <b>Breakdown</b>: Admin can show or hide this section on the page. The <b>Breakdown</b> section has to consist of breakdowns with 2-4 articles.
+
 Admin user can show and hide the following sections:
   - <b>Photo of the day</b>
   - <b>Most popular</b>
   - <b>Most commented</b>
+
 We want to allow the admin user to configure this page, post articles, photos, and make some parts of the page visible or hidden.
 The <b>Most popular</b> and <b>Most commented</b> functionalities are described in [the separate feature](/products/sport_news_portal/web_application_features/home_page/user_stories/most_popular_and_commented).
 

@@ -143,7 +143,7 @@ Then the <b>Home</b> page is in the published state
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Photo of the day</b> section|1)In the <b>Photo of the day</b> section, fill in <b>Alt.</b>, <b>Photo title</b>, <b>Short description</b>, and <b>Author</b> fields|1) Entered data are present and ready to be saved and published|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Photo of the day</b> section|1) In the <b>Photo of the day</b> section, fill in <b>Alt.</b>, <b>Photo title</b>, <b>Short description</b>, and <b>Author</b> fields|1) Entered data are present and ready to be saved and published|
 
 ### **#8. Verify that the Photo of the day section can be hidden from users**
 

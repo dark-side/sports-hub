@@ -32,7 +32,7 @@ When I enter the name of a new ad and click <b>Save</b>
 Then I see a new ad is added on the top of the ads table. Ad’s preview block is displayed on the right side of the page with a date of Ad’s creation and the configuration page which contains:
   - URL input for the advertised item
   - List of categories where advertisement should be displayed (Note: advertisement category is optional. If no category is selected, then advertisement can be shown on any page of the site)
-  - <b>Open</b> (the number that indicates how many times the user selected the advertised item, the default value for new advertisement is 0)
+  - <b>Opened</b> (the number that indicates how many times the user selected the advertised item, the default value for new advertisement is 0)
   - <b>Displayed</b> (the number that indicates how many times an advertisement is displayed on the site, the default value for the new advertisement is 0)
   - <b>Cancel</b> and <b>Save</b> buttons
 

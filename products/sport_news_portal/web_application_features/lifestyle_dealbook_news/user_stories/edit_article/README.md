@@ -119,7 +119,7 @@ Then I see the page with a list of the articles
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Delete data from the <b>Alt.</b> field</br>4) Click <b>Save</b></br>5)Fill in the <b>Alt.</b> required field</br>6) In the <b>Article headline</b> required field, delete data</br>7) Click <b>Save</b></br>8) Fill in <b>Article headline</b> required field</br>9) In the <b>Caption</b> required field, delete data</br>10) Click <b>Save</b></br>11) Fill in the <b>Caption</b> required field</br>12) In the <b>Content</b> required field, delete data</br>13) Click <b>Save</b>|4) The required fields are highlighted in red</br>7) The required fields are highlighted in red</br>10) The required fields are highlighted in red</br>13) The required fields are highlighted in red</br>|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Delete data from the <b>Alt.</b> field</br>4) Click <b>Save</b></br>5) Fill in the <b>Alt.</b> required field</br>6) In the <b>Article headline</b> required field, delete data</br>7) Click <b>Save</b></br>8) Fill in the <b>Article headline</b> required field</br>9) In the <b>Caption</b> required field, delete data</br>10) Click <b>Save</b></br>11) Fill in the <b>Caption</b> required field</br>12) In the <b>Content</b> required field, delete data</br>13) Click <b>Save</b>|4) The required fields are highlighted in red</br>7) The required fields are highlighted in red</br>10) The required fields are highlighted in red</br>13) The required fields are highlighted in red</br>|
 
 ### **#4. Verify that admin is able to preview the edited article**
 
@@ -137,11 +137,11 @@ Then I see the page with a list of the articles
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article</br>- The <b>Comments</b> section is shown for article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Show</b> toggle</br>4)Click <b>Save</b>|3) <b>Comments: Show</b> changed to <b>Hide</b></br>4) The article is saved with the hidden <b>Comments</b> section|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article</br>- The <b>Comments</b> section is shown for article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Show</b> toggle</br>4) Click <b>Save</b>|3) <b>Comments: Show</b> changed to <b>Hide</b></br>4) The article is saved with the hidden <b>Comments</b> section|
 
 ### **#7. Verify that the Comments section can be shown in the edited article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article</br>- The <b>Comments</b> section is hidden for article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Hide</b> toggle</br>4)Click <b>Save</b>|3) <b>Comments: Hide</b> changed to <b>Show</b></br>4) The article is saved with the shown <b>Comments</b> section|
+|- Log in with admin account</br>- Go to <b>Lifestyle</b> and <b>Dealbook</b></br>- There is an unpublished article</br>- The <b>Comments</b> section is hidden for article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Click the <b>Comments: Hide</b> toggle</br>4) Click <b>Save</b>|3) <b>Comments: Hide</b> changed to <b>Show</b></br>4) The article is saved with the shown <b>Comments</b> section|
 </details>

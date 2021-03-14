@@ -37,7 +37,7 @@ Then I see a list of closed surveys that contain:
   - Delete icon for each row
 
 When I select any survey on the <b>Closed</b> tab
-Then I see survey read-only details in <b>Reader poll</b> on the right side without any action buttons
+Then I see survey read-only details in <b>Reader Poll</b> on the right side without any action buttons
   And I see the progress bars for each answer
 
 When I hover over the survey on the list
@@ -83,7 +83,7 @@ Then I see a success message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a published survey|1) Select the published survey/br>2) Click the <b>Published</b> status</br>3) Select <b>Close</b> action|3) The survey is moved to the <b>Closed</b> tab. The survey is not available for users to vote|
+|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is a published survey|1) Select the published survey</br>2) Click the <b>Published</b> status</br>3) Select <b>Close</b> action|3) The survey is moved to the <b>Closed</b> tab. The survey is not available for users to vote|
 
 ### **#2. Verify that survey is closed automatically when the end day of range is passed**
 

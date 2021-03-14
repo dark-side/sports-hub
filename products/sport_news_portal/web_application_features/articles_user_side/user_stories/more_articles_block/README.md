@@ -15,7 +15,7 @@
 ## Acceptance criteria
 
 <pre>
-<b><i>Scenario: A site user views the <b>More Articles</b> section</i></b>
+<b><i>Scenario: A site user views the More Articles section</i></b>
 
 Given I am a site user
 

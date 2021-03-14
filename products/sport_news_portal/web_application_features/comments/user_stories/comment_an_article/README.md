@@ -111,7 +111,7 @@ Then I see the edited comment is immediately posted on the site in the right pla
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- The user is not logged in</br>- There is some article with comments enabled</br>- There are some users’ comments to the article|1) Select an article</br>2) Select comment form to the article</br>3) View comments to the article</br>4) Select comment form to reply to a comment|2) Pop-up window "Please log in to leave a comment" with a link to log-in page appears</br>4) Pop-up window "Please log in to leave a comment" with a link to log-in page|
+|- The user is not logged in</br>- There is some article with comments enabled</br>- There are some users’ comments to the article|1) Select an article</br>2) Select comment form to the article</br>3) View comments to the article</br>4) Select comment form to reply to a comment|2) Pop-up window "Please log in to leave a comment" with a link to log-in page appears</br>4) Pop-up window "Please log in to leave a comment" with a link to log-in page appears|
 
 ### **#3. Verify that logged-in users can edit their comments**
 

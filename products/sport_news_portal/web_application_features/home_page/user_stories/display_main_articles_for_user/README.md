@@ -100,6 +100,6 @@ Then I am taken to the article view page
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Go to the Sports Hub home page|1) On the <b>Home</b> page, examine the <b>Main articles</b> section</br>2) In the <b>Main articles</b> section, click on any article|2) The user is redirected to the right page|
+|- Go to the Sports Hub home page|1) On the <b>Home</b> page, examine the <b>Main articles</b> section</br>2) In the <b>Main articles</b> section, select any article|2) The user is redirected to the right page|
 
 </details>

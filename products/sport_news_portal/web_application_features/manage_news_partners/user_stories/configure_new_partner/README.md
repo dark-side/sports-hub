@@ -24,7 +24,7 @@ When I view the <b>News Partners</b> page with no partners
 Then I see the following:
   - Page headline in the upper-left corner
   - <b>+Add New Partner</b> button in the upper-right corner of the page
-  - Empty state message that informs about the absence of integrations with partners, with a link for adding the first one
+  - Empty state message that informs about the absence of integrations with partners with a link for adding the first one
 
 When I click the <b>+Add New Partner</b> button or select the <b>Add New Partner</b> link in the center of the page
 Then I see a drop-down list with the available partners on the popover
@@ -49,7 +49,7 @@ When I click <b>Cancel</b>
 Then I see the confirmation dialog, where I should confirm that I want to leave the form without saving changes
 
 When I click <b>Yes</b>
-Then I see that form is closed, changes are not saved and integration with this partner is inactivated
+Then I see that form is closed, changes are not saved, and integration with this partner is inactivated
 
 When I click <b>Save</b>
 Then the system saves the changes and displays a message about success
@@ -61,7 +61,7 @@ Then I see they are highlighted with red and nothing happens with the form
 ## Mockups
 
 1. Admin user sees the <b>News Partners</b> page with no partners
-2. Admin user sees <b>Add New News Partner</b> pop-up windows
+2. Admin user sees <b>Add New News Partner</b> pop-up window
 3. Admin user sees new partner empty form
 4. Admin user sees "Something went wrong" error message
 5. Admin user sees confirmation pop-up window with the cancelation form
@@ -73,9 +73,9 @@ Then I see they are highlighted with red and nothing happens with the form
 
 ![Admin user sees the News Partners page with no partners](/products/sport_news_portal/web_application_features/manage_news_partners/images/news_partners_page_with_no_partners.png)
 
-**2. Admin user sees <b>Add New News Partner</b> pop-up windows:**
+**2. Admin user sees Add New News Partner pop-up window:**
 
-![Admin user sees <b>Add New News Partner</b> pop-up windows](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
+![Admin user sees Add New News Partner pop-up window](/products/sport_news_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
 
 **3. Admin user sees new partner empty form:**
 

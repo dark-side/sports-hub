@@ -123,6 +123,5 @@ Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-N
 
 ## Future work
 
-1. Mobile support. Make sure that users can access the Sports Hub application using their mobile phone or tablet and the Sports Hub application layout is optimized.
-2. Page templates list. Build support for admins to choose the page template when creating a new page for the Sports Hub application.
-3. Admins with different sets of permissions. Build a possibility for admin users to define permissions for other admins in order to make it possible to create admins with limited access to CMS.
+1. Page templates list. Build support for admins to choose the page template when creating a new page for the Sports Hub application.
+2. Admins with different sets of permissions. Build a possibility for admin users to define permissions for other admins in order to make it possible to create admins with limited access to CMS.

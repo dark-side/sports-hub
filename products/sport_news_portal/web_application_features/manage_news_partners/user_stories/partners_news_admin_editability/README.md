@@ -10,7 +10,7 @@
 ## Description
 
     As an admin user
-    I should not see the news from configured partners on the articles list page
+    I should not see the news from the configured partners on the articles list page
 
 ## Acceptance criteria
 

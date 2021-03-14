@@ -111,9 +111,9 @@ Then I see the banner is deleted
 
 ![Admin user clicked + New banner and sees a banner form](/products/sport_news_portal/web_application_features/banners/images/new_banner_form.png)
 
-**4. Admin user clicked + New banner and sees a banner form:**
+**4. Admin user clicked to edit banner and sees a pre-populated banner form:**
 
-![Admin user clicked + New banner and sees a banner form](/products/sport_news_portal/web_application_features/banners/images/edit_banner_form.png)
+![Admin user clicked to edit banner and sees a pre-populated banner form](/products/sport_news_portal/web_application_features/banners/images/edit_banner_form.png)
 
 **5. Admin user sees a category drop-down options:**
 

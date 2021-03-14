@@ -49,7 +49,7 @@ Then I see the pop-up window "Please log in to vote" with the log-in form
 ## Mockups
 
 1. Users see a banner with <b>Reader Poll</b> and voting form
-2. Unauthoried users click to vote and see a pop-up window to log in
+2. Unauthorized users click to vote and see a pop-up window to log in
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -58,9 +58,9 @@ Then I see the pop-up window "Please log in to vote" with the log-in form
 
 ![Users see a banner with Reader Poll and voting form](/products/sport_news_portal/web_application_features/surveys/images/user_survey_banner.png)
 
-**2. Unauthoried users click to vote and see a pop-up window to log in:**
+**2. Unauthorized users click to vote and see a pop-up window to log in:**
 
-![Unauthoried users click to vote and see a pop-up window to log in](/products/sport_news_portal/web_application_features/surveys/images/user_login_popup.png)
+![Unauthorized users click to vote and see a pop-up window to log in](/products/sport_news_portal/web_application_features/surveys/images/user_login_popup.png)
 
 </details>
 

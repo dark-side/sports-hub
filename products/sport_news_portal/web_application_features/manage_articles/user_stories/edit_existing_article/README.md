@@ -109,7 +109,7 @@ Then the toggle changed to <b>Hide</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) In the <b>Picture</b> section, click <b>+Add picture</b></br>4) Choose the picture with the valid format (.jpg, .png, .jpeg, .tif)</br>5) Click <b>Save</b> button|5) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in <b>Unpublished</b> state|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) In the <b>Picture</b> section, click <b>+Add picture</b></br>4) Choose the picture with the valid format (.jpg, .png, .jpeg, .tif)</br>5) Click <b>Save</b>|5) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in <b>Unpublished</b> state|
 
 ### **#2. Verify that admin is not able to save the picture of invalid format to the edited article**
 

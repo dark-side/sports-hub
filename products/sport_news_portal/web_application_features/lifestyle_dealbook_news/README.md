@@ -9,7 +9,7 @@
 
 <b>Lifestyle</b> and <b>Dealbook</b> are specific news types. <b>Lifestyle</b> news is about the daily life of sports stars, teams.
 <b>Dealbook</b> news is about financial deals in the sports world, such as transfer of players and rewards.
-Admin user should be able to manage articles for <b>Lifestyle</b> and <b>Dealbook</b> namely:
+Admin user should be able to manage articles for <b>Lifestyle</b> and <b>Dealbook</b>, namely:
   - Add new articles
   - View existing articles
   - Edit existing articles

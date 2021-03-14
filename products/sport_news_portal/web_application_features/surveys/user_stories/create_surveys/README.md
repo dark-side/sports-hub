@@ -67,7 +67,7 @@ Then I see the delete icon
 When I click the delete icon
 Then I see a confirmation dialog
 
-When I confirm deletion the confirmation dialog
+When I confirm deletion on the confirmation dialog
 Then I see a success message
   And I see the survey is removed from the list
 </pre>
@@ -114,7 +114,7 @@ Then I see a success message
 
 1. Verify the tabs on the <b>Surveys</b> page
 2. Verify the content of the <b>Open</b> tab on the <b>Surveys</b> page
-3. Verify the content of the new Survey form on the Surveys page
+3. Verify the content of the new Survey form on the <b>Surveys</b> page
 4. Verify that it is not possible to save the survey without a question
 5. Verify that it is not possible to select the past dates for the survey
 6. Verify that it is possible to remove the answer from the survey
@@ -205,6 +205,6 @@ Then I see a success message
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is an upublished survey|1) Select the unpublished survey</br>2) In the <b>Reader poll</b> section, click <b>Delete</b></br>3) Confirm on the confirmation dialog|2) The survey is removed from the <b>Open</b> tab|
+|- Log in with admin account</br>- Go to the <b>Surveys</b> configuration page</br>- There is an unpublished survey|1) Select the unpublished survey</br>2) In the <b>Reader poll</b> section, click <b>Delete</b></br>3) Confirm on the confirmation dialog|2) The survey is removed from the <b>Open</b> tab|
 
 </details>
