@@ -22,7 +22,7 @@ Given I am logged in as an admin user
 When I am on the <b>Home</b> configuration page
 Then I see the <b>Most popular</b> section after the <b>Photo of the day</b> section
   And I see the <b>Most popular</b> section contains the following:
-    - From the period - drop-down list with <b>Day, Weak, Month, and Year</b> values (<b>Month</b> is the default value)
+    - From the period - drop-down list with <b>Day, Week, Month, and Year</b> values (<b>Month</b> is the default value)
 And I see the <b>Show on the main page</b> toggle is displayed
 
 When I change the period
