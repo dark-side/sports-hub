@@ -1,3 +1,5 @@
+### Back to [Mobile application](../../#mobile-application) functional requirements
+
 # Log in and sign up in the application
 
 - [Description](#description)
@@ -41,5 +43,5 @@ No           |      Name     |   Details
 3 |[**Allow users to sign up using a third-party authentication provider**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/sign_up_with_third_party) |<pre>As a new user<br>I want to be able to sign up using a third-party authentication provider<br>So that I will be on the Sports Hub members list</pre>
 4 |[**llow users to log in the application using a third-party authentication provider**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/log_in_with_third_party) |<pre>As a user<br>I want to be able to log in using a third-party authentication provider</pre>
 5 |[**Allow users to reset their password**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/forgot_password)|<pre>As a user<br>I want to be able to reset my password</pre>
-6 |[**Allow users to update their personal informationn**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/personal_information_update)|<pre>As a user<br>I want to be able to update my personal information</pre>
+6 |[**Allow users to update their personal information**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/personal_information_update)|<pre>As a user<br>I want to be able to update my personal information</pre>
 7 |[**Allow users to change their password via profile**](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/user_stories/password_update)|<pre>As a user<br>I want to be able to update my password</pre>

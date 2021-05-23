@@ -1,3 +1,5 @@
+### Back to [Mobile application](../../#mobile-application) functional requirements
+
 # Team hub: news about favorite teams
 
 - [Description](#description)

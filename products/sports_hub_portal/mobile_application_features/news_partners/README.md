@@ -1,3 +1,5 @@
+### Back to [Mobile application](../../#mobile-application) functional requirements
+
 # News from Sports Hub partners
 
 - [Description](#description)

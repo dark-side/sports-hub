@@ -1,3 +1,5 @@
+### Back to [Mobile application](../../#mobile-application) functional requirements
+
 # Global application search
 
 - [Description](#description)
