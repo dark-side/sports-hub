@@ -1,3 +1,5 @@
+### Back to [Web site](../../#web-site) functional requirements
+
 # Global site search on the portal
 
 - [Description](#description)

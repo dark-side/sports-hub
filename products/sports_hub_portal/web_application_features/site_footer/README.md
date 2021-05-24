@@ -1,3 +1,5 @@
+### Back to [Web site](../../#web-site) functional requirements
+
 # Site footer of the portal
 
 - [Description](#description)

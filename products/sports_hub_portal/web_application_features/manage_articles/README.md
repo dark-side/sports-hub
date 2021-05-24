@@ -1,3 +1,5 @@
+### Back to [Web site](../../#web-site) functional requirements
+
 # Manage articles on the portal
 
 - [Description](#description)

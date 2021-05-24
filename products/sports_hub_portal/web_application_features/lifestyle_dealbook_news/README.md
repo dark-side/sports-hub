@@ -1,3 +1,5 @@
+### Back to [Web site](../../#web-site) functional requirements
+
 # Lifestyle and Dealbook news
 
 - [Description](#description)

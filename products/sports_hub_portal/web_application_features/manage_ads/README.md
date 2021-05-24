@@ -1,3 +1,5 @@
+### Back to [Web site](../../#web-site) functional requirements
+
 # Manage advertisements on the portal
 
 - [Description](#description)
