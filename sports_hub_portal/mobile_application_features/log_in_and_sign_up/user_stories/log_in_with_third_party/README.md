@@ -42,19 +42,19 @@ And I see <b>My surveys</b>, <b>Team hub</b>, and <b>Log out</b> menu items
 
 **1. Users see the Log In and Sign Up buttons:**
 
-![Users see the Log In and Sign Up buttons](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_out.png)
+![Users see the Log In and Sign Up buttons](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_out.png)
 
 **2. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
+![Users see the log-in form](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
 
 **3. Users see home page after successful logging in:**
 
-![Users see home page after successful logging in](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_main_articles_section.png)
+![Users see home page after successful logging in](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_main_articles_section.png)
 
 **4. Registered via third party users see a profile menu:**
 
-![Registered via third party users see a profile menu](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_with_third_party.png)
+![Registered via third party users see a profile menu](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_with_third_party.png)
 
 </details>
 

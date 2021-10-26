@@ -35,11 +35,11 @@ Then I see a prompt to authentication and permissions request page
 
 **1. Users see share button on the article page:**
 
-![Users see share button on the article page](/products/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
+![Users see share button on the article page](/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
 
 **2. Users see social network icons when hovering the Share button:**
 
-![Users see social network icons when hovering the Share button](/products/sports_hub_portal/web_application_features/articles_user_side/images/article_share_icon_hover.png)
+![Users see social network icons when hovering the Share button](/sports_hub_portal/web_application_features/articles_user_side/images/article_share_icon_hover.png)
 
 </details>
 

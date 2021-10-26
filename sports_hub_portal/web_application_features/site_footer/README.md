@@ -28,7 +28,7 @@ The Contributors column should consist of the following links:
 
 The admin should be able to change the <b>Privacy policy</b> and <b>Terms and conditions</b> link names, and content but should not hide or delete them.
 
-The Newsletter is described [in separate feature](/products/sports_hub_portal/web_application_features/newsletter_email)
+The Newsletter is described [in separate feature](/sports_hub_portal/web_application_features/newsletter_email)
 
 ## Check list:
 
@@ -66,5 +66,5 @@ Please click [here](https://www.figma.com/file/7AUcQB82LimoDlaD7rl4uw/Site-Foote
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure site footer**](/products/sports_hub_portal/web_application_features/site_footer/user_stories/configure_site_footer)|<pre>As an admin user<br>I want to be able to configure site footer sections, links, and content</pre>
-2 |[**Allow users view site footer on the portal**](/products/sports_hub_portal/web_application_features/site_footer/user_stories/view_site_footer)|<pre>As a site user<br>I want to be able to see a site footer on every page of the Sports Hub site with the links configured by admin</pre>
+1 |[**Allow admin user to configure site footer**](/sports_hub_portal/web_application_features/site_footer/user_stories/configure_site_footer)|<pre>As an admin user<br>I want to be able to configure site footer sections, links, and content</pre>
+2 |[**Allow users view site footer on the portal**](/sports_hub_portal/web_application_features/site_footer/user_stories/view_site_footer)|<pre>As a site user<br>I want to be able to see a site footer on every page of the Sports Hub site with the links configured by admin</pre>

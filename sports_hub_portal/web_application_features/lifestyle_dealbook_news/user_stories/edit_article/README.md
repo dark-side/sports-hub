@@ -66,27 +66,27 @@ Then I see the page with a list of the articles
 
 **1. Admin user sees Lifestyle index page:**
 
-![Admin user sees Lifestyle index page](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_index_page.png)
+![Admin user sees Lifestyle index page](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_index_page.png)
 
 **2. Admin user sees Dealbook index page:**
 
-![Admin user sees Dealbook index page](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_index_page.png)
+![Admin user sees Dealbook index page](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_index_page.png)
 
 **3. Admin user sees article actions on Dealbook and Lifestyle index pages:**
 
-![Admin user sees article actions on Dealbook and Lifestyle index pages](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/article_actions_index_page.png)
+![Admin user sees article actions on Dealbook and Lifestyle index pages](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/article_actions_index_page.png)
 
 **4. Admin user sees Lifestyle new article page:**
 
-![Admin user sees Lifestyle new article page](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_new_article_page.png)
+![Admin user sees Lifestyle new article page](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/lifestyle_new_article_page.png)
 
 **5. Admin user sees Dealbook new article page:**
 
-![Admin user sees Dealbook new article page](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_new_article_page.png)
+![Admin user sees Dealbook new article page](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/dealbook_new_article_page.png)
 
 **6. Admin user sees a confirmation pop-up window on canceling the edit form:**
 
-![Admin user sees a confirmation pop-up window on canceling the edit form](/products/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/confirmation_to_cancel.png)
+![Admin user sees a confirmation pop-up window on canceling the edit form](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/images/confirmation_to_cancel.png)
 
 </details>
 

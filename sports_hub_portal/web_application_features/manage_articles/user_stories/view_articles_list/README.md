@@ -95,31 +95,31 @@ Then I see the following options:
 
 **1. Admin user sees a list of articles:**
 
-![Admin user sees a list of articles](/products/sports_hub_portal/web_application_features/manage_articles/images/articles_list.png)
+![Admin user sees a list of articles](/sports_hub_portal/web_application_features/manage_articles/images/articles_list.png)
 
 **2. Admin user clicks conference filter and sees the options:**
 
-![Admin user clicks conference filter and sees the options](/products/sports_hub_portal/web_application_features/manage_articles/images/conferences_filter.png)
+![Admin user clicks conference filter and sees the options](/sports_hub_portal/web_application_features/manage_articles/images/conferences_filter.png)
 
 **3. Admin user clicks status filter and sees the options:**
 
-![Admin user clicks status filter and sees the options](/products/sports_hub_portal/web_application_features/manage_articles/images/status_filter.png)
+![Admin user clicks status filter and sees the options](/sports_hub_portal/web_application_features/manage_articles/images/status_filter.png)
 
 **4. Admin user clicks the search icon and sees an input field:**
 
-![Admin user clicks the search icon and sees an input field](/products/sports_hub_portal/web_application_features/manage_articles/images/search_field.png)
+![Admin user clicks the search icon and sees an input field](/sports_hub_portal/web_application_features/manage_articles/images/search_field.png)
 
 **5. Admin user sees actions for a published article:**
 
-![Admin user sees actions for a published article](/products/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
+![Admin user sees actions for a published article](/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
 **6. Admin user sees actions for an unpublished article:**
 
-![Admin user sees actions for an unpublished article](/products/sports_hub_portal/web_application_features/manage_articles/images/unpublished_article_actions.png)
+![Admin user sees actions for an unpublished article](/sports_hub_portal/web_application_features/manage_articles/images/unpublished_article_actions.png)
 
 **7. Admin user sees a category preview page:**
 
-![Admin user sees a category preview page](/products/sports_hub_portal/web_application_features/manage_articles/images/category_preview_page.png)
+![Admin user sees a category preview page](/sports_hub_portal/web_application_features/manage_articles/images/category_preview_page.png)
 
 </details>
 

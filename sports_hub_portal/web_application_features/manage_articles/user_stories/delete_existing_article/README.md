@@ -49,11 +49,11 @@ Then I see a success message
 
 **1. Admin user sees Delete among actions for the article:**
 
-![Admin user sees Delete among actions for the article](/products/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
+![Admin user sees Delete among actions for the article](/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
 **2. Admin user sees a delete confirmation dialog:**
 
-![Admin user sees a delete confirmation dialog](/products/sports_hub_portal/web_application_features/manage_articles/images/delete_article_confirmation.png)
+![Admin user sees a delete confirmation dialog](/sports_hub_portal/web_application_features/manage_articles/images/delete_article_confirmation.png)
 
 </details>
 

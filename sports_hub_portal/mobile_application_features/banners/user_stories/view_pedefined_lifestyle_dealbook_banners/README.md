@@ -41,7 +41,7 @@ Then I am taken to the appropriate article page
 
 **1. Users see the Dealbook banner at the bottom of the pagen:**
 
-![Users see the Dealbook banner in the sidebar section](/products/sports_hub_portal/mobile_application_features/banners/images/application_dealbook_banner.png)
+![Users see the Dealbook banner in the sidebar section](/sports_hub_portal/mobile_application_features/banners/images/application_dealbook_banner.png)
 
 </details>
 

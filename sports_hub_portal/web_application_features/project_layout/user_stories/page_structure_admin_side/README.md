@@ -53,7 +53,7 @@ Then button changes to the <b>Switch to user view</b>
 
 **1. Admin user sees administration side:**
 
-![Admin user sees administration side](/products/sports_hub_portal/web_application_features/project_layout/images/admin_side.png)
+![Admin user sees administration side](/sports_hub_portal/web_application_features/project_layout/images/admin_side.png)
 
 </details>
 

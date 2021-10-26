@@ -41,11 +41,11 @@ Then I am taken back to the <b>Home</b> configuration page
 
 **1. Admin user sees the Home configuration page:**
 
-![Admin user sees the Home configuration page](/products/sports_hub_portal/web_application_features/home_page/images/home_configuration.png)
+![Admin user sees the Home configuration page](/sports_hub_portal/web_application_features/home_page/images/home_configuration.png)
 
 **2. Admin user sees the Home preview page:**
 
-![Admin user sees the Home preview page](/products/sports_hub_portal/web_application_features/home_page/images/home_preview_page.png)
+![Admin user sees the Home preview page](/sports_hub_portal/web_application_features/home_page/images/home_preview_page.png)
 
 </details>
 

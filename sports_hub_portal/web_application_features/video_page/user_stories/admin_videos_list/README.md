@@ -84,19 +84,19 @@ Then the toggle changed to <b>Yes</b>
 
 **1. Admin user sees the Video page:**
 
-![Admin user sees the Video page](/products/sports_hub_portal/web_application_features/video_page/images/video_index_page.png)
+![Admin user sees the Video page](/sports_hub_portal/web_application_features/video_page/images/video_index_page.png)
 
 **2. Admin user clicks status filter and sees the options:**
 
-![Admin user clicks status filter and sees the options](/products/sports_hub_portal/web_application_features/video_page/images/status_filter_options.png)
+![Admin user clicks status filter and sees the options](/sports_hub_portal/web_application_features/video_page/images/status_filter_options.png)
 
 **3. Admin user clicks a search icon and sees an input field:**
 
-![Admin user clicks a search icon and sees an input field](/products/sports_hub_portal/web_application_features/video_page/images/search_field.png)
+![Admin user clicks a search icon and sees an input field](/sports_hub_portal/web_application_features/video_page/images/search_field.png)
 
 **4. Admin user sees actions for the published video:**
 
-![Admin user sees actions for the published video](/products/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
+![Admin user sees actions for the published video](/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
 
 </details>
 

@@ -42,7 +42,7 @@ Then I see a survey read-only details in the <b>Reader Poll</b> without any acti
 
 **1. Admin user sees actions for unpublished and published surveys in the Reader Poll:**
 
-![Admin user sees actions for unpublished and published surveys in the Reader Poll](/products/sports_hub_portal/web_application_features/surveys/images/admin_non_published_actions.png)
+![Admin user sees actions for unpublished and published surveys in the Reader Poll](/sports_hub_portal/web_application_features/surveys/images/admin_non_published_actions.png)
 
 </details>
 

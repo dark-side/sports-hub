@@ -30,6 +30,6 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to manage favorite teams in the personal cabinet**](/products/sports_hub_portal/mobile_application_features/team_hub/user_stories/manage_favorite_teams)|<pre>As a logged-in user</br>I want to select my favorite teams</pre>
-2 |[**Allow users to see the Team hub page**](/products/sports_hub_portal/mobile_application_features/team_hub/user_stories/team_hub_page)|<pre>As a logged-in user</br>I want to go to the Team hub page</br>So that I can read news about my favorite teams</pre>
-3 |[**Allow users to see teams news on Team hub based on their geolocation**](/products/sports_hub_portal/mobile_application_features/team_hub/user_stories/team_hub_list_teams_by_geolocation)|<pre>As a logged-in user</br>I want to be able to read news of teams based on my geolocation on the Team Hub page in case of no teams are followed</pre>
+1 |[**Allow users to manage favorite teams in the personal cabinet**](/sports_hub_portal/mobile_application_features/team_hub/user_stories/manage_favorite_teams)|<pre>As a logged-in user</br>I want to select my favorite teams</pre>
+2 |[**Allow users to see the Team hub page**](/sports_hub_portal/mobile_application_features/team_hub/user_stories/team_hub_page)|<pre>As a logged-in user</br>I want to go to the Team hub page</br>So that I can read news about my favorite teams</pre>
+3 |[**Allow users to see teams news on Team hub based on their geolocation**](/sports_hub_portal/mobile_application_features/team_hub/user_stories/team_hub_list_teams_by_geolocation)|<pre>As a logged-in user</br>I want to be able to read news of teams based on my geolocation on the Team Hub page in case of no teams are followed</pre>

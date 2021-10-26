@@ -65,27 +65,27 @@ Then I see the pop-up window with confirmation about subscription
 
 **1. Full page:**
 
-![Full page](/products/sports_hub_portal/mobile_application_features/application_footer/images/footer.png)
+![Full page](/sports_hub_portal/mobile_application_features/application_footer/images/footer.png)
 
 **2. Users see footer in the Sports Hub application:**
 
-![Users see footer in the Sports Hub application](/products/sports_hub_portal/mobile_application_features/application_footer/images/application_footer.png)
+![Users see footer in the Sports Hub application](/sports_hub_portal/mobile_application_features/application_footer/images/application_footer.png)
 
 **3. Contact Us full page:**
 
-![Contact Us full page](/products/sports_hub_portal/mobile_application_features/application_footer/images/contact_us.png)
+![Contact Us full page](/sports_hub_portal/mobile_application_features/application_footer/images/contact_us.png)
 
 **4. About Sports Hub full page:**
 
-![About Sports Hub full page](/products/sports_hub_portal/mobile_application_features/application_footer/images/about_sports_hub.png)
+![About Sports Hub full page](/sports_hub_portal/mobile_application_features/application_footer/images/about_sports_hub.png)
 
 **5. Users see the About Sports Hub page:**
 
-![Users see the About Sports Hub page](/products/sports_hub_portal/mobile_application_features/application_footer/images/application_about_sports_hub.png)
+![Users see the About Sports Hub page](/sports_hub_portal/mobile_application_features/application_footer/images/application_about_sports_hub.png)
 
 **6. Users see the Privacy Policy page:**
 
-![Users see the Privacy Policy page](/products/sports_hub_portal/mobile_application_features/application_footer/images/application_privacy_policy.png)
+![Users see the Privacy Policy page](/sports_hub_portal/mobile_application_features/application_footer/images/application_privacy_policy.png)
 
 </details>
 

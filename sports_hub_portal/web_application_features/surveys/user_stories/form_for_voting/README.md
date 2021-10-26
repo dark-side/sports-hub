@@ -56,15 +56,15 @@ Then I see the next survey question
 
 **1. Users see a voting form in the Reader Poll:**
 
-![Users see a voting form in the Reader Poll](/products/sports_hub_portal/web_application_features/surveys/images/user_voting_form.png)
+![Users see a voting form in the Reader Poll](/sports_hub_portal/web_application_features/surveys/images/user_voting_form.png)
 
 **2. Users click the See the results button and see results and the Back to survey button:**
 
-![Users click the See the results button and see results and the Back to survey button](/products/sports_hub_portal/web_application_features/surveys/images/user_back_to_survey.png)
+![Users click the See the results button and see results and the Back to survey button](/sports_hub_portal/web_application_features/surveys/images/user_back_to_survey.png)
 
 **3. Users see survey results on the Closed tab:**
 
-![Users see survey results on the Closed tab](/products/sports_hub_portal/web_application_features/surveys/images/user_closed_tab.png)
+![Users see survey results on the Closed tab](/sports_hub_portal/web_application_features/surveys/images/user_closed_tab.png)
 
 </details>
 

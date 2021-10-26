@@ -37,11 +37,11 @@ Then I see the error message
 
 **1. Users see a profile page:**
 
-![Users see a profile page](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_page.png)
+![Users see a profile page](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_page.png)
 
 **2. Users receive a successful update message:**
 
-![Users receive a successful update message](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_successful_personal_info_update_message.png)
+![Users receive a successful update message](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_successful_personal_info_update_message.png)
 
 </details>
 

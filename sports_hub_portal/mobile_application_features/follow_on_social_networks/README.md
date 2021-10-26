@@ -26,4 +26,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to follow Sports Hub on social networks**](/products/sports_hub_portal/mobile_application_features/follow_on_social_networks/user_stories/follow_on_social_networks_block)|<pre>As a user<br>I want to be able to follow Sports Hub on the social networks</pre>
+1 |[**Allow users to follow Sports Hub on social networks**](/sports_hub_portal/mobile_application_features/follow_on_social_networks/user_stories/follow_on_social_networks_block)|<pre>As a user<br>I want to be able to follow Sports Hub on the social networks</pre>

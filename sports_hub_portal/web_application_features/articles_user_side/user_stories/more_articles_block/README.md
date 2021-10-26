@@ -41,7 +41,7 @@ Then I am taken to that article page
 
 **1. Users see More Articles block on the article page:**
 
-![Users see More Articles block on the article page](/products/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
+![Users see More Articles block on the article page](/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
 
 </details>
 

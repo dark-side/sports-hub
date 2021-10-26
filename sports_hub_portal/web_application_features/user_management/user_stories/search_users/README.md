@@ -36,7 +36,7 @@ Then I see the user that match the search
 
 **1. Admin user sees search users input field when clicking the magnifier icon:**
 
-![Admin user sees search users input field when clicking the magnifier icon](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_search_input_field.png)
+![Admin user sees search users input field when clicking the magnifier icon](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_search_input_field.png)
 
 </details>
 

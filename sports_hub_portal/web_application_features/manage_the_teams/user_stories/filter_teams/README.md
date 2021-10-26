@@ -69,11 +69,11 @@ Then I see the table is refreshed with the matching results
 
 **1. Admin user sees filter on the Teams page and the Apply and Cancel buttons being disabled:**
 
-![AAdmin user sees filter on the Teams page and the Apply and Cancel buttons being disabled](/products/sports_hub_portal/web_application_features/manage_the_teams/images/manage_teams_page.png)
+![AAdmin user sees filter on the Teams page and the Apply and Cancel buttons being disabled](/sports_hub_portal/web_application_features/manage_the_teams/images/manage_teams_page.png)
 
 **2. Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled:**
 
-![Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled](/products/sports_hub_portal/web_application_features/manage_the_teams/images/teams_page_active_filter_buttons.png)
+![Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled](/sports_hub_portal/web_application_features/manage_the_teams/images/teams_page_active_filter_buttons.png)
 
 </details>
 

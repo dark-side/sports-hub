@@ -45,19 +45,19 @@ Then the system saves the changes and displays a message about success
 
 **1. Admin user sees News Partners list:**
 
-![Admin user sees News Partners list](/products/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
+![Admin user sees News Partners list](/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
 
 **2. Admin user sees new/edit news partner form:**
 
-![Admin user sees new/edit news partner form](/products/sports_hub_portal/web_application_features/manage_news_partners/images/new_news_partners_edit_state.png)
+![Admin user sees new/edit news partner form](/sports_hub_portal/web_application_features/manage_news_partners/images/new_news_partners_edit_state.png)
 
 **3. Admin user sees "Something went wrong" error message:**
 
-![Admin user sees "Something went wrong" error message](/products/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+![Admin user sees "Something went wrong" error message](/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
 
 **4. Admin user sees confirmation pop-up window on the cancelation form:**
 
-![Admin user sees confirmation pop-up window on the cancelation form](/products/sports_hub_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
+![Admin user sees confirmation pop-up window on the cancelation form](/sports_hub_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
 
 </details>
 

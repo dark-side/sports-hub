@@ -58,27 +58,27 @@ Then I am taken to the <b>Log in</b> page
 
 **1. Users see the Log In and Sign Up buttons:**
 
-![Users see the Log In and Sign Up buttons](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_out.png)
+![Users see the Log In and Sign Up buttons](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_out.png)
 
 **2. Users see the Create Account page:**
 
-![Users see the Create Account page](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_sing_up_form.png)
+![Users see the Create Account page](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_sing_up_form.png)
 
 **3. Users receive an email about successful registration:**
 
-![Users receive an email about successful registration](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/email_successful_sing_up.png)
+![Users receive an email about successful registration](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/email_successful_sing_up.png)
 
 **4. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
+![Users see the log-in form](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
 
 **5. Users see home page after successful logging in:**
 
-![Users see home page after successful logging in](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_main_articles_section.png)
+![Users see home page after successful logging in](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_main_articles_section.png)
 
 **6. Users see a profile menu:**
 
-![Users see a profile menu](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_with_email.png)
+![Users see a profile menu](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_user_profile_menu_logged_with_email.png)
 
 </details>
 

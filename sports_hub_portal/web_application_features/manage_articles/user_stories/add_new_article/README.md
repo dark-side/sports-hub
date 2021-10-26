@@ -76,19 +76,19 @@ Then the toggle changed to <b>Hide</b>
 
 **1. Admin user sees a new article form:**
 
-![Admin user sees a new article form](/products/sports_hub_portal/web_application_features/manage_articles/images/article_empty_form.png)
+![Admin user sees a new article form](/sports_hub_portal/web_application_features/manage_articles/images/article_empty_form.png)
 
 **2. Admin user sees a filled in form:**
 
-![Admin user sees a filled in form](/products/sports_hub_portal/web_application_features/manage_articles/images/article_filled_form.png)
+![Admin user sees a filled in form](/sports_hub_portal/web_application_features/manage_articles/images/article_filled_form.png)
 
 **3. Admin user sees a cancelation pop-up window:**
 
-![Admin user sees a cancelation pop-up window](/products/sports_hub_portal/web_application_features/manage_articles/images/cancel_popup.png)
+![Admin user sees a cancelation pop-up window](/sports_hub_portal/web_application_features/manage_articles/images/cancel_popup.png)
 
 **4. Admin user clicks the preview icon and sees a preview page:**
 
-![Admin user clicks the preview icon and sees a preview page](/products/sports_hub_portal/web_application_features/manage_articles/images/article_preview_page.png)
+![Admin user clicks the preview icon and sees a preview page](/sports_hub_portal/web_application_features/manage_articles/images/article_preview_page.png)
 
 </details>
 

@@ -64,27 +64,27 @@ Then I am taken to my profile page
 
 **1. Users see the Sign Up button:**
 
-![Users see the Sign Up button](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
+![Users see the Sign Up button](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
 
 **2. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **3. Users see validation errors:**
 
-![Users see validation errors](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_form_validation.png)
+![Users see validation errors](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_form_validation.png)
 
 **4. Users see home page after successful logging in:**
 
-![Users see home page after successful logging in](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_in_user.png)
+![Users see home page after successful logging in](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_in_user.png)
 
 **5. Users see a profile menu:**
 
-![Users see a profile menu](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_menu_for_email_registration.png)
+![Users see a profile menu](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_menu_for_email_registration.png)
 
 **6. Users see a profile page:**
 
-![Users see a profile page](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
+![Users see a profile page](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
 
 </details>
 

@@ -36,5 +36,5 @@ Please click [here](https://www.figma.com/file/9TMDdhuvrYo8qNJh90uklV/Newsletter
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure Newsletter footer section**](/products/sports_hub_portal/web_application_features/newsletter_email/user_stories/configure_newsletter)|<pre>As an admin user<br>I want to be able to configure Newsletter footer section</pre>
-2 |[**Allow users to subscribe to newsletter**](/products/sports_hub_portal/web_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a site user<br>I want to subscribe to the Sports Hub site<br>So that I can receive an email with the latest sports news</pre>
+1 |[**Allow admin user to configure Newsletter footer section**](/sports_hub_portal/web_application_features/newsletter_email/user_stories/configure_newsletter)|<pre>As an admin user<br>I want to be able to configure Newsletter footer section</pre>
+2 |[**Allow users to subscribe to newsletter**](/sports_hub_portal/web_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a site user<br>I want to subscribe to the Sports Hub site<br>So that I can receive an email with the latest sports news</pre>

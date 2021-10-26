@@ -39,6 +39,6 @@ Please click [here](https://www.figma.com/file/hrAekXmuhUGxfBMzxjyRFz/Comments-b
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to comment an article on the portal**](/products/sports_hub_portal/web_application_features/comments/user_stories/comment_an_article)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
-2 |[**Allow users to interact with existing article comments on the portal**](/products/sports_hub_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike the comment</pre>
+1 |[**Allow users to comment an article on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/comment_an_article)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
+2 |[**Allow users to interact with existing article comments on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike the comment</pre>
 

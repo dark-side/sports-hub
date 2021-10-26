@@ -42,15 +42,15 @@ Then I see two tabs: Users and Admins
 
 **1. Admin user sees user management page:**
 
-![Admin user sees user management page](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page.png)
+![Admin user sees user management page](/sports_hub_portal/web_application_features/user_management/images/user_management_page.png)
 
 **2. Admin user sees management page for admin users:**
 
-![Admin user sees management page for admin users](/products/sports_hub_portal/web_application_features/user_management/images/admin_user_management_page.png)
+![Admin user sees management page for admin users](/sports_hub_portal/web_application_features/user_management/images/admin_user_management_page.png)
 
 **3. Admin user sees actions dropdown against admin user:**
 
-![Admin user sees actions dropdown against admin user](/products/sports_hub_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
+![Admin user sees actions dropdown against admin user](/sports_hub_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
 
 </details>
 

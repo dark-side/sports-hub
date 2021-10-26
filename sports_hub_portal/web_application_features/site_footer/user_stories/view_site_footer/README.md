@@ -48,7 +48,7 @@ When I select a link on the <b>Company info</b>, <b>Contributors</b> tabs
 Then I am taken to the appropriate pages
 </pre>
 
-  <i>The <b>Newsletter</b> is described [in separate feature](/products/sports_hub_portal/web_application_features/newsletter_email)</i>
+  <i>The <b>Newsletter</b> is described [in separate feature](/sports_hub_portal/web_application_features/newsletter_email)</i>
 
 ## Mockups
 
@@ -62,19 +62,19 @@ Then I am taken to the appropriate pages
 
 **1. Users see site footer in the Sports Hub site:**
 
-![Users see site footer in the Sports Hub site](/products/sports_hub_portal/web_application_features/site_footer/images/site_footer.png)
+![Users see site footer in the Sports Hub site](/sports_hub_portal/web_application_features/site_footer/images/site_footer.png)
 
 **2. Users see the Contact Us page:**
 
-![Users see the Contact Us page](/products/sports_hub_portal/web_application_features/site_footer/images/contact_us.png)
+![Users see the Contact Us page](/sports_hub_portal/web_application_features/site_footer/images/contact_us.png)
 
 **3. Users see the About Sports Hub page:**
 
-![Users see the About Sports Hub page](/products/sports_hub_portal/web_application_features/site_footer/images/about_sports_hub.png)
+![Users see the About Sports Hub page](/sports_hub_portal/web_application_features/site_footer/images/about_sports_hub.png)
 
 **4. Users see the Privacy Policy page:**
 
-![Users see the Privacy Policy page](/products/sports_hub_portal/web_application_features/site_footer/images/privacy_policy.png)
+![Users see the Privacy Policy page](/sports_hub_portal/web_application_features/site_footer/images/privacy_policy.png)
 
 </details>
 

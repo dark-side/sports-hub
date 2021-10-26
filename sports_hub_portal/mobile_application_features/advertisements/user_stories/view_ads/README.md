@@ -41,7 +41,7 @@ Then advertisements are rotating each 3 seconds in the banner
 
 **1. Users see ad posted in NBA (Nike shoes):**
 
-![ Users see ad posted in NBA (Nike shoes)](/products/sports_hub_portal/mobile_application_features/advertisements/images/display_ads.png)
+![ Users see ad posted in NBA (Nike shoes)](/sports_hub_portal/mobile_application_features/advertisements/images/display_ads.png)
 
 </details>
 

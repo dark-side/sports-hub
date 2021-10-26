@@ -55,27 +55,27 @@ Then I am taken to the <b>Log in</b> page
 
 **1. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **2. Users see the Forgot Password form:**
 
-![Users see the Forgot Password form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/forgot_password_empty_form.png)
+![Users see the Forgot Password form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/forgot_password_empty_form.png)
 
 **3. Users see Check your email screen:**
 
-![Users see Check your email screen](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/check_your_email_to_reset_password.png)
+![Users see Check your email screen](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/check_your_email_to_reset_password.png)
 
 **4. Users receive an email with reset password link:**
 
-![Users receive an email with reset password link](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/email_reset_password.png)
+![Users receive an email with reset password link](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/email_reset_password.png)
 
 **5. Users see the Reset Password form:**
 
-![Users see the Reset Password form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/reset_password_form.png)
+![Users see the Reset Password form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/reset_password_form.png)
 
 **6. Users see the log-in form with password updated message:**
 
-![Users see the log-in form with password updated message](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_form_password_is_updated.png)
+![Users see the log-in form with password updated message](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_form_password_is_updated.png)
 
 </details>
 

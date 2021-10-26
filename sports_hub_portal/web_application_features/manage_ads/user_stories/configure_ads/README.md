@@ -76,27 +76,27 @@ Then I see that the advertisement is deleted
 
 **1. Admin sees Empty page message:**
 
-![Admin sees Empty page message](/products/sports_hub_portal/web_application_features/manage_ads/images/no_ads_added.png)
+![Admin sees Empty page message](/sports_hub_portal/web_application_features/manage_ads/images/no_ads_added.png)
 
 **2. Admin sees add new ad pop-up window:**
 
-![Admin sees add new ad pop-up window](/products/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads_popup.png)
+![Admin sees add new ad pop-up window](/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads_popup.png)
 
 **3. Admin sees new ad empty form**
 
-![Admin sees new ad empty form](/products/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads.png)
+![Admin sees new ad empty form](/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads.png)
 
 **4. Admin sees filled in form**
 
-![Admin sees filled in form](/products/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads_filled_in_form.png)
+![Admin sees filled in form](/sports_hub_portal/web_application_features/manage_ads/images/add_new_ads_filled_in_form.png)
 
 **5. Admin sees success message on save**
 
-![Admin sees success message on save](/products/sports_hub_portal/web_application_features/manage_ads/images/ads_is_saved_popup.png)
+![Admin sees success message on save](/sports_hub_portal/web_application_features/manage_ads/images/ads_is_saved_popup.png)
 
 **6. Admin sees a list of ads**
 
-![Admin sees a list of ads](/products/sports_hub_portal/web_application_features/manage_ads/images/ads_list.png)
+![Admin sees a list of ads](/sports_hub_portal/web_application_features/manage_ads/images/ads_list.png)
 
 </details>
 

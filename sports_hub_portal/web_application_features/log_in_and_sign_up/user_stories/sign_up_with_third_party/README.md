@@ -53,19 +53,19 @@ Then I am taken to my <b>My surveys</b> page
 
 **1. Users see the Create Account page:**
 
-![Users see the Create Account page](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/sing_up_empty_form.png)
+![Users see the Create Account page](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/sing_up_empty_form.png)
 
 **2. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **3. Registered via third party users see a profile menu:**
 
-![Registered via third party users see a profile menu](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_menu_for_third_party.png)
+![Registered via third party users see a profile menu](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_menu_for_third_party.png)
 
 **4. Registered via third party users see a profile page:**
 
-![Registered via third party users see a profile page](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_third_party_login.png)
+![Registered via third party users see a profile page](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_third_party_login.png)
 
 </details>
 

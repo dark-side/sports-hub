@@ -42,11 +42,11 @@ Then I see a success message
 
 **1. Admin user sees the trash icon on hovering over the table row:**
 
-![Admin user sees the trash icon on hovering over the table row](/products/sports_hub_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
+![Admin user sees the trash icon on hovering over the table row](/sports_hub_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
 
 **2. Admin user sees the delete team confirmation pop-up window:**
 
-![Admin user sees the delete team confirmation pop-up window](/products/sports_hub_portal/web_application_features/manage_the_teams/images/delete_popup.png)
+![Admin user sees the delete team confirmation pop-up window](/sports_hub_portal/web_application_features/manage_the_teams/images/delete_popup.png)
 
 </details>
 

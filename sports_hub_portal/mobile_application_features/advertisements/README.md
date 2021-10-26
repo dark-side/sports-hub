@@ -31,4 +31,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to see advertisements**](/products/sports_hub_portal/mobile_application_features/advertisements/user_stories/view_ads)|<pre>As a user<br>I want to view an advertisement on the top of banners after the main content of the page</pre>
+1 |[**Allow users to see advertisements**](/sports_hub_portal/mobile_application_features/advertisements/user_stories/view_ads)|<pre>As a user<br>I want to view an advertisement on the top of banners after the main content of the page</pre>

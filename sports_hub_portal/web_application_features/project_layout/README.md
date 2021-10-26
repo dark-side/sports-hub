@@ -38,5 +38,5 @@ Please click [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-Ne
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Page structure (user side)**](/products/sports_hub_portal/web_application_features/project_layout/user_stories/page_structure_user_side)|<pre>As a site user<br>I want to view the same layout structure across all the pages</pre>
-2 |[**Page structure (admin side)**](/products/sports_hub_portal/web_application_features/project_layout/user_stories/page_structure_admin_side)|<pre>As an admin user<br>I want to view the administration office</pre>
+1 |[**Page structure (user side)**](/sports_hub_portal/web_application_features/project_layout/user_stories/page_structure_user_side)|<pre>As a site user<br>I want to view the same layout structure across all the pages</pre>
+2 |[**Page structure (admin side)**](/sports_hub_portal/web_application_features/project_layout/user_stories/page_structure_admin_side)|<pre>As an admin user<br>I want to view the administration office</pre>

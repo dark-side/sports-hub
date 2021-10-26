@@ -39,7 +39,7 @@ Then I see the following:
 
 **1. Users see the article page:**
 
-![Users see the article page](/products/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
+![Users see the article page](/sports_hub_portal/web_application_features/articles_user_side/images/article_page.png)
 
 </details>
 

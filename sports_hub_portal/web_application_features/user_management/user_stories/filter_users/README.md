@@ -37,7 +37,7 @@ Then I see a relevant result and the number of selected users
 
 **1. Admin user sees the user management page with filter dropdown:**
 
-![Admin user sees the user management page with filter dropdown](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_filter_dropdown.png)
+![Admin user sees the user management page with filter dropdown](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_filter_dropdown.png)
 
 </details>
 

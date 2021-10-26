@@ -69,31 +69,31 @@ Then I see the page with a list of the videos
 
 **1. Admin user clicks to upload new video on the edit page and sees a pop-up window:**
 
-![Admin user clicks to upload new video on the edit page and sees a pop-up window](/products/sports_hub_portal/web_application_features/video_page/images/new_video_edit_popup.png)
+![Admin user clicks to upload new video on the edit page and sees a pop-up window](/sports_hub_portal/web_application_features/video_page/images/new_video_edit_popup.png)
 
 **2. Admin user sees a new video form:**
 
-![Admin user sees a new video form](/products/sports_hub_portal/web_application_features/video_page/images/video_form.png)
+![Admin user sees a new video form](/sports_hub_portal/web_application_features/video_page/images/video_form.png)
 
 **3. Admin user hovers over the uploaded video:**
 
-![Admin user hovers over the uploaded video](/products/sports_hub_portal/web_application_features/video_page/images/hover_over_video.png)
+![Admin user hovers over the uploaded video](/sports_hub_portal/web_application_features/video_page/images/hover_over_video.png)
 
 **4. Admin user sees a success save flash message:**
 
-![Admin user sees a success save flash message](/products/sports_hub_portal/web_application_features/video_page/images/success_save_message.png)
+![Admin user sees a success save flash message](/sports_hub_portal/web_application_features/video_page/images/success_save_message.png)
 
 **5. Admin user sees a delete confirmation dialog:**
 
-![Admin user sees a delete confirmation dialog](/products/sports_hub_portal/web_application_features/video_page/images/delete_confirmation.png)
+![Admin user sees a delete confirmation dialog](/sports_hub_portal/web_application_features/video_page/images/delete_confirmation.png)
 
 **6. Admin user sees a cancel confirmation dialog:**
 
-![Admin user sees a cancel confirmation dialog](/products/sports_hub_portal/web_application_features/video_page/images/cancel_confirmation.png)
+![Admin user sees a cancel confirmation dialog](/sports_hub_portal/web_application_features/video_page/images/cancel_confirmation.png)
 
 **7. Admin user sees a video preview page:**
 
-![Admin user sees a video preview page](/products/sports_hub_portal/web_application_features/video_page/images/video_preview.png)
+![Admin user sees a video preview page](/sports_hub_portal/web_application_features/video_page/images/video_preview.png)
 
 </details>
 

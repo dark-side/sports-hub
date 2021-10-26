@@ -35,7 +35,7 @@ Then I go to the Sports Hub page on that site
 
 **1. Users see Follow icons in the site header:**
 
-![Users see Follow icons in the navigation menu](/products/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
+![Users see Follow icons in the navigation menu](/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
 
 </details>
 

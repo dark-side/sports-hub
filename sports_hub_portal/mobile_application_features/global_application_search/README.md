@@ -26,4 +26,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to use application search**](/products/sports_hub_portal/mobile_application_features/global_application_search/user_stories/application_search)|<pre>As a user</br>I want to be able to use search</br>So that I can quickly find the information I am interested in</pre>
+1 |[**Allow users to use application search**](/sports_hub_portal/mobile_application_features/global_application_search/user_stories/application_search)|<pre>As a user</br>I want to be able to use search</br>So that I can quickly find the information I am interested in</pre>

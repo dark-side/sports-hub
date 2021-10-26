@@ -59,19 +59,19 @@ Then I see the pop-up window "Please log in to like or dislike comments" with th
 
 **1. Logged-in users see comments on the article page:**
 
-![Logged-in users see comments on the article page](/products/sports_hub_portal/web_application_features/comments/images/comments_for_logged_in_user.png)
+![Logged-in users see comments on the article page](/sports_hub_portal/web_application_features/comments/images/comments_for_logged_in_user.png)
 
 **2. Users see confirmation pop-up window to delete comments:**
 
-![Users see confirmation pop-up window to delete comments](/products/sports_hub_portal/web_application_features/comments/images/before_delete_warning_popup.png)
+![Users see confirmation pop-up window to delete comments](/sports_hub_portal/web_application_features/comments/images/before_delete_warning_popup.png)
 
 **3. Users see success delete message:**
 
-![Users see success delete message](/products/sports_hub_portal/web_application_features/comments/images/comment_deleted_popup.png)
+![Users see success delete message](/sports_hub_portal/web_application_features/comments/images/comment_deleted_popup.png)
 
 **4. Users see last comments after clicking the Show more button:**
 
-![Users see last comments after clicking the Show more button](/products/sports_hub_portal/web_application_features/comments/images/expanded_comments.png)
+![Users see last comments after clicking the Show more button](/sports_hub_portal/web_application_features/comments/images/expanded_comments.png)
 
 </details>
 

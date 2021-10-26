@@ -33,7 +33,7 @@ Then I see an email with a corresponding message
 
 **1. Example of the email style and structure:**
 
-![Example of the email style and structure](/products/sports_hub_portal/web_application_features/user_management/images/mail_style_example.png)
+![Example of the email style and structure](/sports_hub_portal/web_application_features/user_management/images/mail_style_example.png)
 
 </details>
 

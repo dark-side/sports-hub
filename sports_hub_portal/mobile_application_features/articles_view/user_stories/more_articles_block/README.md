@@ -41,11 +41,11 @@ Then I am taken to that article page
 
 **1. Users see More Articles block on the article page:**
 
-![Users see More Articles block on the article page](/products/sports_hub_portal/mobile_application_features/articles_view/images/application_more_articles.png)
+![Users see More Articles block on the article page](/sports_hub_portal/mobile_application_features/articles_view/images/application_more_articles.png)
 
 **2. Article full page:**
 
-![Article full page](/products/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
+![Article full page](/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
 
 </details>
 

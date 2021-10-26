@@ -54,11 +54,11 @@ Then I see the following:
 
 **1. Users see a video list page:**
 
-![Users see a video list page](/products/sports_hub_portal/web_application_features/video_page/images/user_video_list_page.png)
+![Users see a video list page](/sports_hub_portal/web_application_features/video_page/images/user_video_list_page.png)
 
 **2. Users see a video view page:**
 
-![Users see a video view page](/products/sports_hub_portal/web_application_features/video_page/images/user_video_view_page.png)
+![Users see a video view page](/sports_hub_portal/web_application_features/video_page/images/user_video_view_page.png)
 
 </details>
 

@@ -55,19 +55,19 @@ Then I am taken to the <b>Log in</b> page
 
 **1. Users see the Sign Up button:**
 
-![Users see the Sign Up button](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
+![Users see the Sign Up button](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
 
 **2. Users see the Create Account page:**
 
-![Users see the Create Account page](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/sing_up_empty_form.png)
+![Users see the Create Account page](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/sing_up_empty_form.png)
 
 **3. Users receive an email about successful registration:**
 
-![Users receive an email about successful registration](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/email_successful_sing_up.png)
+![Users receive an email about successful registration](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/email_successful_sing_up.png)
 
 **4. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 </details>
 

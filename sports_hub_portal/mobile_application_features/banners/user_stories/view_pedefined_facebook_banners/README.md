@@ -65,11 +65,11 @@ Then I see the Facebook pop-up window where I can comment and like the story
 
 **1. Users see Facebook Video banner at the bottom of the page:**
 
-![Users see Facebook Video banner at the bottom of the page](/products/sports_hub_portal/mobile_application_features/banners/images/application_facebook_video_banner.png)
+![Users see Facebook Video banner at the bottom of the page](/sports_hub_portal/mobile_application_features/banners/images/application_facebook_video_banner.png)
 
 **2. Users see Facebook Post banner at the bottom of the page:**
 
-![Users see Facebook Post banner at the bottom of the page](/products/sports_hub_portal/mobile_application_features/banners/images/application_facebook_post_banner.png)
+![Users see Facebook Post banner at the bottom of the page](/sports_hub_portal/mobile_application_features/banners/images/application_facebook_post_banner.png)
 
 </details>
 

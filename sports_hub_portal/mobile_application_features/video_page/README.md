@@ -35,5 +35,5 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view videos in the application**](/products/sports_hub_portal/mobile_application_features/video_page/user_stories/user_video_list)|<pre>As a user</br>I want to able to view sports news videos</pre>
-2 |[**Allow users to share video from the application**](/products/sports_hub_portal/mobile_application_features/video_page/user_stories/share_video)|<pre>As a user</br>I want to be able to share video on my social networks accounts and my messengers</pre>
+1 |[**Allow users to view videos in the application**](/sports_hub_portal/mobile_application_features/video_page/user_stories/user_video_list)|<pre>As a user</br>I want to able to view sports news videos</pre>
+2 |[**Allow users to share video from the application**](/sports_hub_portal/mobile_application_features/video_page/user_stories/share_video)|<pre>As a user</br>I want to be able to share video on my social networks accounts and my messengers</pre>

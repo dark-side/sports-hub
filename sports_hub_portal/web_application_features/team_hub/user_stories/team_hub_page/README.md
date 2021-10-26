@@ -45,11 +45,11 @@ And I see the message "You have unfollowed the team {team name}!"
 
 **1. Users see the Team hub page:**
 
-![Users see the Team hub page](/products/sports_hub_portal/web_application_features/team_hub/images/team_hub_page.png)
+![Users see the Team hub page](/sports_hub_portal/web_application_features/team_hub/images/team_hub_page.png)
 
 **2. Users see Unfollow team confirmation pop-up window:**
 
-![Users see Unfollow team confirmation pop-up window](/products/sports_hub_portal/web_application_features/team_hub/images/unfollow_team_confirmation_popup.png)
+![Users see Unfollow team confirmation pop-up window](/sports_hub_portal/web_application_features/team_hub/images/unfollow_team_confirmation_popup.png)
 
 </details>
 

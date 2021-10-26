@@ -50,7 +50,7 @@ Then I am taken to the article view page
 
 **1. Users see the Home page:**
 
-![Users see the Home page](/products/sports_hub_portal/web_application_features/home_page/images/home_page_user_side.png)
+![Users see the Home page](/sports_hub_portal/web_application_features/home_page/images/home_page_user_side.png)
 
 </details>
 

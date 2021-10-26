@@ -45,11 +45,11 @@ Then I see the confirmation dialog is closed
 
 **1. Admin user sees actions dropdown against active user:**
 
-![Admin user sees actions dropdown against active user](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
+![Admin user sees actions dropdown against active user](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
 **2. Admin user sees warning pop-up window on the user block:**
 
-![Admin user sees warning pop-up window on the user block](/products/sports_hub_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
+![Admin user sees warning pop-up window on the user block](/sports_hub_portal/web_application_features/user_management/images/before_user_block_warning_popup.png)
 
 </details>
 

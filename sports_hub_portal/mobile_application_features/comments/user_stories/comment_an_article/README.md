@@ -60,19 +60,19 @@ Then I see the edited comment is immediately posted in the right place
 
 **1. Not logged-in users see comments on the article page:**
 
-![Not logged-in users see comments on the article page](/products/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_not_logged_in_user.png)
+![Not logged-in users see comments on the article page](/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_not_logged_in_user.png)
 
 **2. Not logged-in users see "Please log in to leave a comment" pop-up window:**
 
-![Not logged-in users see "Please log in to leave a comment" pop-up window](/products/sports_hub_portal/mobile_application_features/comments/images/application_log_in_to_leave_comments_popup.png)
+![Not logged-in users see "Please log in to leave a comment" pop-up window](/sports_hub_portal/mobile_application_features/comments/images/application_log_in_to_leave_comments_popup.png)
 
 **3. Logged-in users see comments on the article page:**
 
-![Logged-in users see comments on the article page](/products/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_logged_in_user.png)
+![Logged-in users see comments on the article page](/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_logged_in_user.png)
 
 **4. Logged-in users see confirmation pop-up window to delete comments:**
 
-![Logged-in users see confirmation pop-up window to delete comments](/products/sports_hub_portal/mobile_application_features/comments/images/application_before_delete_popup.png)
+![Logged-in users see confirmation pop-up window to delete comments](/sports_hub_portal/mobile_application_features/comments/images/application_before_delete_popup.png)
 
 </details>
 

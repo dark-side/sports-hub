@@ -54,23 +54,23 @@ Then I see an error message "Use at least 8 characters that includes numbers and
 
 **1. Users see Change Password form:**
 
-![Users see Change Password form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_form.png)
+![Users see Change Password form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_form.png)
 
 **2. Users see filled out Change Password form:**
 
-![Users see filled out Change Password form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_filled_form.png)
+![Users see filled out Change Password form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_filled_form.png)
 
 **3. Users receive validation messages on Change Password form:**
 
-![Users receive validation messages on Change Password form](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_validation_messages.png)
+![Users receive validation messages on Change Password form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/change_password_validation_messages.png)
 
 **4. Users receive a successful update message:**
 
-![Users receive a successful update message](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/successful_password_update_message.png)
+![Users receive a successful update message](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/successful_password_update_message.png)
 
 **5. Users receive an error message:**
 
-![Users receive an error message](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
+![Users receive an error message](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
 
 </details>
 

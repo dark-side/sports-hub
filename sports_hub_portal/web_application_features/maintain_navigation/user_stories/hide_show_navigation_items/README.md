@@ -57,15 +57,15 @@ Then I see changes applied to the category, subcategory, or team are saved
 
 **1. Admin user sees actions for the subcategory and hidden label for the NFL category:**
 
-![Admin user sees actions for the subcategory and hidden label for the NFL category](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
+![Admin user sees actions for the subcategory and hidden label for the NFL category](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
 
 **2. Admin user sees actions for the team:**
 
-![Admin user sees actions for the team](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
+![Admin user sees actions for the team](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
 
 **3. Admin user clicks Save and sees a flash message:**
 
-![Admin user clicks Save and sees a flash message](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
+![Admin user clicks Save and sees a flash message](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
 
 </details>
 

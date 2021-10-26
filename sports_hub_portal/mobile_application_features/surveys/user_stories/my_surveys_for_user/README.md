@@ -57,27 +57,27 @@ Then I see the <b>Closed</b> list contains closed surveys and is sorted by close
 
 **1. Logged-in with email users see My surveys in the profile menu:**
 
-![Logged-in with email users see My surveys in the profile menu](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_profile_menu_logged_with_email.png)
+![Logged-in with email users see My surveys in the profile menu](/sports_hub_portal/mobile_application_features/surveys/images/application_user_profile_menu_logged_with_email.png)
 
 **2. Logged-in with a third party users see My surveys in the profile menu:**
 
-![Logged-in with a third party users see My surveys in the profile menu](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_profile_menu_logged_with_third_party.png)
+![Logged-in with a third party users see My surveys in the profile menu](/sports_hub_portal/mobile_application_features/surveys/images/application_user_profile_menu_logged_with_third_party.png)
 
 **3. Users see the Opened tab on the My surveys page:**
 
-![Users see the Opened tab on the My surveys page](/products/sports_hub_portal/mobile_application_features/surveys/images/application_opened_surveys.png)
+![Users see the Opened tab on the My surveys page](/sports_hub_portal/mobile_application_features/surveys/images/application_opened_surveys.png)
 
 **4. Users see the Closed tab on the My surveys page:**
 
-![Users see the Closed tab on the My surveys page](/products/sports_hub_portal/mobile_application_features/surveys/images/application_closed_surveys.png)
+![Users see the Closed tab on the My surveys page](/sports_hub_portal/mobile_application_features/surveys/images/application_closed_surveys.png)
 
 **5. Users see Sort by options on the Opened tab:**
 
-![Users see Sort by options on the Opened tab](/products/sports_hub_portal/mobile_application_features/surveys/images/application_sort_by_opened_surveys.png)
+![Users see Sort by options on the Opened tab](/sports_hub_portal/mobile_application_features/surveys/images/application_sort_by_opened_surveys.png)
 
 **6. Users see filter options on the Closed tab:**
 
-![Users see filter options on the Closed tab](/products/sports_hub_portal/mobile_application_features/surveys/images/application_filter_closed_surveys.png)
+![Users see filter options on the Closed tab](/sports_hub_portal/mobile_application_features/surveys/images/application_filter_closed_surveys.png)
 
 </details>
 

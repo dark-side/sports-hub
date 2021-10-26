@@ -41,7 +41,7 @@ Then advertisements are rotating every 3 seconds in the banner
 
 **1. Users see ad on the portal (Nike shoes):**
 
-![Users see ad on the portal (Nike shoes)](/products/sports_hub_portal/web_application_features/manage_ads/images/display_ads.png)
+![Users see ad on the portal (Nike shoes)](/sports_hub_portal/web_application_features/manage_ads/images/display_ads.png)
 
 </details>
 

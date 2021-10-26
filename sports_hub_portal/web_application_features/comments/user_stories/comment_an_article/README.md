@@ -69,23 +69,23 @@ Then I see the edited comment is immediately posted on the site in the right pla
 
 **1. Not logged-in users see comments on the article page:**
 
-![Not logged-in users see comments on the article page](/products/sports_hub_portal/web_application_features/comments/images/comments_for_no_logged_in_user.png)
+![Not logged-in users see comments on the article page](/sports_hub_portal/web_application_features/comments/images/comments_for_no_logged_in_user.png)
 
 **2. Logged-in users see comments on the article page:**
 
-![Logged-in users see comments on the article page](/products/sports_hub_portal/web_application_features/comments/images/comments_for_logged_in_user.png)
+![Logged-in users see comments on the article page](/sports_hub_portal/web_application_features/comments/images/comments_for_logged_in_user.png)
 
 **3. Users see comments block with sub-comments:**
 
-![Users see comments block with sub-comments](/products/sports_hub_portal/web_application_features/comments/images/sub_comments.png)
+![Users see comments block with sub-comments](/sports_hub_portal/web_application_features/comments/images/sub_comments.png)
 
 **4. Users enter a comment text to the input field:**
 
-![Users enter a comment text to the input field](/products/sports_hub_portal/web_application_features/comments/images/posting_comments_in_progress.png)
+![Users enter a comment text to the input field](/sports_hub_portal/web_application_features/comments/images/posting_comments_in_progress.png)
 
 **5. Users see "Log in to leave comments" pop-up window:**
 
-![Users see "Log in to leave comments" pop-up window](/products/sports_hub_portal/web_application_features/comments/images/log_in_to_leave_comments_popup.png)
+![Users see "Log in to leave comments" pop-up window](/sports_hub_portal/web_application_features/comments/images/log_in_to_leave_comments_popup.png)
 
 </details>
 

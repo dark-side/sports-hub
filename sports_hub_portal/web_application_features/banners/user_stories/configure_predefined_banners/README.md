@@ -40,7 +40,7 @@ Then the toggle changes to <b>Show</b>
 
 **1. Admin user sees Opened and Predefined banners tabs on the Banners configuration page:**
 
-![Admin user sees Opened and Predefined banners tabs on the Banners configuration page](/products/sports_hub_portal/web_application_features/banners/images/banners_open_tab.png)
+![Admin user sees Opened and Predefined banners tabs on the Banners configuration page](/sports_hub_portal/web_application_features/banners/images/banners_open_tab.png)
 
 </details>
 

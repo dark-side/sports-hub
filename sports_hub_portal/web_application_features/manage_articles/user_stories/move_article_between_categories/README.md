@@ -49,7 +49,7 @@ Then I see the article is present
 
 **1. Admin user sees Move among actions for the article:**
 
-![Admin user sees Move among actions for the article](/products/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
+![Admin user sees Move among actions for the article](/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
 </details>
 

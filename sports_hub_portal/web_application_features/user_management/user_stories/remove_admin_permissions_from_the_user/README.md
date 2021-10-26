@@ -40,7 +40,7 @@ Then I see the dialog is closed
 
 **1. Admin user sees the Remove from Admin button within actions dropdown against admin users:**
 
-![Admin user sees the Remove from Admin button within actions dropdown against admin users](/products/sports_hub_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
+![Admin user sees the Remove from Admin button within actions dropdown against admin users](/sports_hub_portal/web_application_features/user_management/images/admin_user_management_action_dropdown.png)
 
 </details>
 

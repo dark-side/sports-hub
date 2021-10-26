@@ -35,4 +35,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Page structure**](/products/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_side)|<pre>As a user<br>I want to view the same layout structure across all the pages</pre>
+1 |[**Page structure**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_side)|<pre>As a user<br>I want to view the same layout structure across all the pages</pre>

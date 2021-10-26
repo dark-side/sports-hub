@@ -67,19 +67,19 @@ Then I see only articles with biggest amount of comments for the period configur
 
 **1. Users see the Lifestyle and Dealbook in the navigation menu:**
 
-![Users see the Lifestyle and Dealbook in the navigation menu](/products/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_navigation_menu.png)
+![Users see the Lifestyle and Dealbook in the navigation menu](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_navigation_menu.png)
 
 **2. Users see the Lifestyle page:**
 
-![Users see the Lifestyle page](/products/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_lifestyle_page.png)
+![Users see the Lifestyle page](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_lifestyle_page.png)
 
 **3. Users see the Dealbook page:**
 
-![Users see the Dealbook page](/products/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_dealbook_page.png)
+![Users see the Dealbook page](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/application_dealbook_page.png)
 
 **4. Dealbook full page:**
 
-![Dealbook full page](/products/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/dealbook_news_list.png)
+![Dealbook full page](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/images/dealbook_news_list.png)
 
 </details>
 

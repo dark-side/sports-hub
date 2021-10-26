@@ -81,15 +81,15 @@ Then the <b>Home</b> page is in the published state
 
 **1. Admin user sees the Home configuration page:**
 
-![Admin user sees the Home configuration page](/products/sports_hub_portal/web_application_features/home_page/images/home_configuration.png)
+![Admin user sees the Home configuration page](/sports_hub_portal/web_application_features/home_page/images/home_configuration.png)
 
 **2. Admin user sees the Publish button after clicking the Save all changes button:**
 
-![Admin user sees the Publish button after clicking the Save all changes button](/products/sports_hub_portal/web_application_features/home_page/images/home_configuration_publish_button.png)
+![Admin user sees the Publish button after clicking the Save all changes button](/sports_hub_portal/web_application_features/home_page/images/home_configuration_publish_button.png)
 
 **3. Admin user sees a success flash message after clicking the Publish button:**
 
-![Admin user sees a success flash message after clicking the Publish button](/products/sports_hub_portal/web_application_features/home_page/images/success_publish.png)
+![Admin user sees a success flash message after clicking the Publish button](/sports_hub_portal/web_application_features/home_page/images/success_publish.png)
 </details>
 
 ## Test cases

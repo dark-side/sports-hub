@@ -71,23 +71,23 @@ Then I see they are highlighted with red and nothing happens with the form
 
 **1. Admin user sees the News Partners page with no partners:**
 
-![Admin user sees the News Partners page with no partners](/products/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_page_with_no_partners.png)
+![Admin user sees the News Partners page with no partners](/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_page_with_no_partners.png)
 
 **2. Admin user sees Add New News Partner pop-up window:**
 
-![Admin user sees Add New News Partner pop-up window](/products/sports_hub_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
+![Admin user sees Add New News Partner pop-up window](/sports_hub_portal/web_application_features/manage_news_partners/images/add_new_news_partners_popup.png)
 
 **3. Admin user sees new partner empty form:**
 
-![Admin user sees new partner empty form](/products/sports_hub_portal/web_application_features/manage_news_partners/images/add_new_news_partners_empty_form.png)
+![Admin user sees new partner empty form](/sports_hub_portal/web_application_features/manage_news_partners/images/add_new_news_partners_empty_form.png)
 
 **4. Admin user sees "Something went wrong" error message:**
 
-![Admin user sees "Something went wrong" error message](/products/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+![Admin user sees "Something went wrong" error message](/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
 
 **5. Admin user sees confirmation pop-up window with the cancelation form:**
 
-![Admin user sees confirmation pop-up window with the cancelation form](/products/sports_hub_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
+![Admin user sees confirmation pop-up window with the cancelation form](/sports_hub_portal/web_application_features/manage_news_partners/images/cancel_confirmation_popup.png)
 
 </details>
 

@@ -50,19 +50,19 @@ Then I see the team news disappears from the <b>Team hub</b> page
 
 **1. Users see Team hub in the navigation menu:**
 
-![Users see Team hub in the navigation menu](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_navigation_menu.png)
+![Users see Team hub in the navigation menu](/sports_hub_portal/mobile_application_features/team_hub/images/application_navigation_menu.png)
 
 **2. Users see news on the Team hub page:**
 
-![Users see news on the Team hub page](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_page.png)
+![Users see news on the Team hub page](/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_page.png)
 
 **3. Users see a confirmation popup:**
 
-![Users see a confirmation popup](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_team_unfollow_confirmation.png)
+![Users see a confirmation popup](/sports_hub_portal/mobile_application_features/team_hub/images/application_team_unfollow_confirmation.png)
 
 **4. Full Team hub page:**
 
-![Full Team hub page](/products/sports_hub_portal/mobile_application_features/team_hub/images/team_hub_full_page.png)
+![Full Team hub page](/sports_hub_portal/mobile_application_features/team_hub/images/team_hub_full_page.png)
 
 </details>
 

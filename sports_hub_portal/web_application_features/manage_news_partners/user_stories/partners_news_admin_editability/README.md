@@ -32,7 +32,7 @@ Then I don’t see the news from the configured news partner so I cannot edit, d
 
 **1. Admin user sees articles list:**
 
-![Admin user sees articles list](/products/sports_hub_portal/web_application_features/manage_news_partners/images/admin_side_articles_list.png)
+![Admin user sees articles list](/sports_hub_portal/web_application_features/manage_news_partners/images/admin_side_articles_list.png)
 
 </details>
 

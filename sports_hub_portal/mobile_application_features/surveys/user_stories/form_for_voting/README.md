@@ -53,19 +53,19 @@ Then I see progress bars of the answers
 
 **1. Users see a voting form in the Opened tab:**
 
-![Users see a voting form in the Opened tab](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_voting_form.png)
+![Users see a voting form in the Opened tab](/sports_hub_portal/mobile_application_features/surveys/images/application_user_voting_form.png)
 
 **2. Users selected an answer:**
 
-![Users selected an answer](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_voted.png)
+![Users selected an answer](/sports_hub_portal/mobile_application_features/surveys/images/application_user_voted.png)
 
 **3. Users see progress bars of the answers after Vote to see results button click:**
 
-![Users see progress bars of the answers after Vote to see results button click](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_voting_form_vote_to_see_results.png)
+![Users see progress bars of the answers after Vote to see results button click](/sports_hub_portal/mobile_application_features/surveys/images/application_user_voting_form_vote_to_see_results.png)
 
 **4. Users see closed survey in the Closed tab:**
 
-![Users see closed survey in the Closed tab](/products/sports_hub_portal/mobile_application_features/surveys/images/application_user_closed_survey.png)
+![Users see closed survey in the Closed tab](/sports_hub_portal/mobile_application_features/surveys/images/application_user_closed_survey.png)
 
 </details>
 

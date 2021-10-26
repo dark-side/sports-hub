@@ -61,11 +61,11 @@ Then I see a success message
 
 **1. Admin user sees actions for the published survey:**
 
-![Admin user sees actions for the published survey](/products/sports_hub_portal/web_application_features/surveys/images/admin_published_actions.png)
+![Admin user sees actions for the published survey](/sports_hub_portal/web_application_features/surveys/images/admin_published_actions.png)
 
 **2. Admin user sees the Closed tab:**
 
-![Admin user sees the Closed tab](/products/sports_hub_portal/web_application_features/surveys/images/admin_surveys_closed_tab.png)
+![Admin user sees the Closed tab](/sports_hub_portal/web_application_features/surveys/images/admin_surveys_closed_tab.png)
 
 </details>
 

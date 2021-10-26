@@ -83,27 +83,27 @@ Then I see surveys are sorted by the end day
 
 **1. Users see a link to the My surveys page:**
 
-![Users see a link to the My surveys page](/products/sports_hub_portal/web_application_features/surveys/images/user_link_to_surveys_page.png)
+![Users see a link to the My surveys page](/sports_hub_portal/web_application_features/surveys/images/user_link_to_surveys_page.png)
 
 **2. Users see the Opened tab on the My surveys page:**
 
-![Users see the Opened tab on the My surveys page](/products/sports_hub_portal/web_application_features/surveys/images/user_voting_form.png)
+![Users see the Opened tab on the My surveys page](/sports_hub_portal/web_application_features/surveys/images/user_voting_form.png)
 
 **3. Users see the Closed tab on the My surveys page:**
 
-![Users see the Closed tab on the My surveys page](/products/sports_hub_portal/web_application_features/surveys/images/user_closed_tab.png)
+![Users see the Closed tab on the My surveys page](/sports_hub_portal/web_application_features/surveys/images/user_closed_tab.png)
 
 **4. Users see Sort by options on the Opened tab:**
 
-![Users see Sort by options on the Opened tab](/products/sports_hub_portal/web_application_features/surveys/images/user_sort_by_options.png)
+![Users see Sort by options on the Opened tab](/sports_hub_portal/web_application_features/surveys/images/user_sort_by_options.png)
 
 **5. Users see filter options on the Closed tab:**
 
-![Users see filter options on the Closed tab](/products/sports_hub_portal/web_application_features/surveys/images/user_filter_options.png)
+![Users see filter options on the Closed tab](/sports_hub_portal/web_application_features/surveys/images/user_filter_options.png)
 
 **6. Users see a search input field after clicking the search icon:**
 
-![Users see a search input field after clicking the search icon](/products/sports_hub_portal/web_application_features/surveys/images/user_search_field.png)
+![Users see a search input field after clicking the search icon](/sports_hub_portal/web_application_features/surveys/images/user_search_field.png)
 
 </details>
 

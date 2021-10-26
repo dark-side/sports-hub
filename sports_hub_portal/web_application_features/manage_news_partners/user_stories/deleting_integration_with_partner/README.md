@@ -41,15 +41,15 @@ Then I see a notification message about success
 
 **1. Admin user sees News Partners list:**
 
-![Admin user sees News Partners list](/products/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
+![Admin user sees News Partners list](/sports_hub_portal/web_application_features/manage_news_partners/images/news_partners_list.png)
 
 **2. Admin user sees a confirmation pop-up window to delete partner integration:**
 
-![Admin user sees a confirmation pop-up window to delete partner integration](/products/sports_hub_portal/web_application_features/manage_news_partners/images/delete_news_partner_warning_popup.png)
+![Admin user sees a confirmation pop-up window to delete partner integration](/sports_hub_portal/web_application_features/manage_news_partners/images/delete_news_partner_warning_popup.png)
 
 **3. Admin user sees "Something went wrong" error message:**
 
-![Admin user sees "Something went wrong" error message](/products/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
+![Admin user sees "Something went wrong" error message](/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
 
 </details>
 

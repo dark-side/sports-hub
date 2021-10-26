@@ -58,15 +58,15 @@ Then I am taken to the right article page
 
 **1. Users see Home in the navigation menu:**
 
-![Users see Home in the navigation menu](/products/sports_hub_portal/mobile_application_features/home_page/images/application_navigation_menu.png)
+![Users see Home in the navigation menu](/sports_hub_portal/mobile_application_features/home_page/images/application_navigation_menu.png)
 
 **2. Full Home page:**
 
-![Full Home page](/products/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
+![Full Home page](/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
 
 **3. Users see Breakdown section**
 
-![Users see Breakdown section](/products/sports_hub_portal/mobile_application_features/home_page/images/application_breakdown_section.png)
+![Users see Breakdown section](/sports_hub_portal/mobile_application_features/home_page/images/application_breakdown_section.png)
 
 </details>
 

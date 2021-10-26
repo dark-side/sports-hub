@@ -39,11 +39,11 @@ Then I see the system translates the site to this language
 
 **1. Users see collapsed language drop-down list:**
 
-![Users see collapsed language drop-down list](/products/sports_hub_portal/web_application_features/site_languages/images/collapsed_language_dropdown.png)
+![Users see collapsed language drop-down list](/sports_hub_portal/web_application_features/site_languages/images/collapsed_language_dropdown.png)
 
 **2. Users see expanded language drop-down list:**
 
-![Users see expanded language drop-down list](/products/sports_hub_portal/web_application_features/site_languages/images/expanded_language_dropdown_user_side.png)
+![Users see expanded language drop-down list](/sports_hub_portal/web_application_features/site_languages/images/expanded_language_dropdown_user_side.png)
 
 </details>
 

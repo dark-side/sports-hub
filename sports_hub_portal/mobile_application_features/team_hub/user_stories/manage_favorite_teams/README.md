@@ -61,19 +61,19 @@ Then the team is removed from the list
 
 **1. Users see Team hub in the profile menu:**
 
-![Users see Team hub in the profile menu](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_profile_menu.png)
+![Users see Team hub in the profile menu](/sports_hub_portal/mobile_application_features/team_hub/images/application_profile_menu.png)
 
 **2. Users see a list of followed teams on the <b>Team hub</b> configuration page:**
 
-![Users see a list of followed teams on the <b>Team hub</b> configuration page](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_followed_teams_team_hub_configuration_page.png)
+![Users see a list of followed teams on the <b>Team hub</b> configuration page](/sports_hub_portal/mobile_application_features/team_hub/images/application_followed_teams_team_hub_configuration_page.png)
 
 **3. Users see the Team hub configuration page:**
 
-![Users see the Team hub configuration page](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_configuration_page.png)
+![Users see the Team hub configuration page](/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_configuration_page.png)
 
 **4. Users see suggestions according to the entered team name:**
 
-![Users see suggestions according to the entered team name](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_configuration_page_team_search.png)
+![Users see suggestions according to the entered team name](/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_configuration_page_team_search.png)
 
 </details>
 

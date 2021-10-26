@@ -40,11 +40,11 @@ Then I see the <b>Photo of the day</b> section
 
 **1. Full Home page:**
 
-![Full Home page](/products/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
+![Full Home page](/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
 
 **2. Users see Photo of the day section**
 
-![Users see Photo of the day section](/products/sports_hub_portal/mobile_application_features/home_page/images/application_photo_of_the_day_section.png)
+![Users see Photo of the day section](/sports_hub_portal/mobile_application_features/home_page/images/application_photo_of_the_day_section.png)
 
 </details>
 

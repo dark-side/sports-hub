@@ -48,7 +48,7 @@ Then I see the default form
 
 **1. Admin user sees the Edit button on hover over the table row and edit form:**
 
-![Admin user sees the Edit button on hover over the table row and edit form](/products/sports_hub_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
+![Admin user sees the Edit button on hover over the table row and edit form](/sports_hub_portal/web_application_features/manage_the_teams/images/edit_team_form.png)
 
 </details>
 

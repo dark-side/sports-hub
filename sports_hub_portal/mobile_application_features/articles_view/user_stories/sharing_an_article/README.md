@@ -39,11 +39,11 @@ Then I see that the article is shared
 
 **1. Users see an icon to share the article:**
 
-![Users see an icon to share the article](/products/sports_hub_portal/mobile_application_features/articles_view/images/application_article_page.png)
+![Users see an icon to share the article](/sports_hub_portal/mobile_application_features/articles_view/images/application_article_page.png)
 
 **2. Article full page:**
 
-![Article full page](/products/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
+![Article full page](/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
 
 </details>
 

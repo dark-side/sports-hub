@@ -29,4 +29,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to change a language in the application**](/products/sports_hub_portal/mobile_application_features/application_languages/user_stories/users_change_application_language)|<pre>As an application user<br>I want to be able to change an application language<br>So that I can view all application content translated to a preferred language</pre>
+1 |[**Allow users to change a language in the application**](/sports_hub_portal/mobile_application_features/application_languages/user_stories/users_change_application_language)|<pre>As an application user<br>I want to be able to change an application language<br>So that I can view all application content translated to a preferred language</pre>

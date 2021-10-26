@@ -42,11 +42,11 @@ Then I see the confirmation dialog is closed
 
 **1. Admin user sees the user management page with actions dropdown:**
 
-![Admin user sees the user management page with actions dropdown](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
+![Admin user sees the user management page with actions dropdown](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
 **2. Admin user sees delete confirmation pop-up window:**
 
-![Admin user sees delete confirmation pop-up window](/products/sports_hub_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
+![Admin user sees delete confirmation pop-up window](/sports_hub_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
 
 </details>
 

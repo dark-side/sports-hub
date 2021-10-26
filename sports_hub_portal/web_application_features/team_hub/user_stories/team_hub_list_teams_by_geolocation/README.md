@@ -32,7 +32,7 @@ Then I see a list of news that are sorted according to the teams that are select
 
 **1. Users see the Team hub page:**
 
-![Users see the Team hub page](/products/sports_hub_portal/web_application_features/team_hub/images/team_hub_geolocation_teams.png)
+![Users see the Team hub page](/sports_hub_portal/web_application_features/team_hub/images/team_hub_geolocation_teams.png)
 
 </details>
 

@@ -38,7 +38,7 @@ Then I see the video is shared on my social network account
 
 **1. User hovers over the Share button and sees social networks icons:**
 
-![User hovers over the Share button and sees social networks icons](/products/sports_hub_portal/web_application_features/video_page/images/user_video_share.png)
+![User hovers over the Share button and sees social networks icons](/sports_hub_portal/web_application_features/video_page/images/user_video_share.png)
 
 </details>
 

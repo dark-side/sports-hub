@@ -57,11 +57,11 @@ Then I see a corresponding navigation menu category item has an active state (hi
 
 **1. User hovers over the category in the navigation menu:**
 
-![User hovers over the category in the navigation menu](/products/sports_hub_portal/web_application_features/maintain_navigation/images/category_user_hover.png)
+![User hovers over the category in the navigation menu](/sports_hub_portal/web_application_features/maintain_navigation/images/category_user_hover.png)
 
 **2. User hovers over the subcategory in the navigation menu:**
 
-![User hovers over the subcategory in the navigation menu](/products/sports_hub_portal/web_application_features/maintain_navigation/images/subcategory_user_hover.png)
+![User hovers over the subcategory in the navigation menu](/sports_hub_portal/web_application_features/maintain_navigation/images/subcategory_user_hover.png)
 
 </details>
 

@@ -74,23 +74,23 @@ Then I see changes applied to the category, subcategory, or team are saved
 
 **1. Admin user sees actions for the subcategory:**
 
-![Admin user sees actions for the subcategory](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
+![Admin user sees actions for the subcategory](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
 
 **2. Admin user sees actions for the team:**
 
-![Admin user sees actions for the team](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
+![Admin user sees actions for the team](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
 
 **3. Admin user drag and drops the menu item to reorder:**
 
-![Admin user drag and drops the menu item to reorder](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_drag_and_drop_1.png)
+![Admin user drag and drops the menu item to reorder](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_drag_and_drop_1.png)
 
 **4. Admin user drag and drops the menu item to move:**
 
-![Admin user drag and drops the menu item to move](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_drag_and_drop_2.png)
+![Admin user drag and drops the menu item to move](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_drag_and_drop_2.png)
 
 **5. Admin user clicks Save and sees a flash message:**
 
-![Admin user clicks Save and sees a flash message](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
+![Admin user clicks Save and sees a flash message](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
 
 </details>
 

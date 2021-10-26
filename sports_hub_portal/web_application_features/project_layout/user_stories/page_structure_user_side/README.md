@@ -52,11 +52,11 @@ Then I see the site opens in a new browser tab
 
 **1. Users see Home page structure when they are signed in:**
 
-![Users see Home page structure when they are signed in](/products/sports_hub_portal/web_application_features/project_layout/images/home_page_logged_in_user.png)
+![Users see Home page structure when they are signed in](/sports_hub_portal/web_application_features/project_layout/images/home_page_logged_in_user.png)
 
 **2. Users see Home page structure when they are not signed in:**
 
-![Users see Home page structure when they are not signed in](/products/sports_hub_portal/web_application_features/project_layout/images/home_page_logged_out_user.png)
+![Users see Home page structure when they are not signed in](/sports_hub_portal/web_application_features/project_layout/images/home_page_logged_out_user.png)
 
 </details>
 

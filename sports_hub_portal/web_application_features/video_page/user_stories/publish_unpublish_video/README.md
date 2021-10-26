@@ -51,7 +51,7 @@ Then I see "The video is successfully unpublished" flash message
 
 **1. Admin user sees actions for the published video:**
 
-![Admin user sees actions for the published video](/products/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
+![Admin user sees actions for the published video](/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
 
 </details>
 

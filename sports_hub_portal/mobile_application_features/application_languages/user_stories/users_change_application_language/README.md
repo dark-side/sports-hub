@@ -42,7 +42,7 @@ Then I see the application content is translated into this language
 
 **1. Users see a list of avaliable languages:**
 
-![Users see a list of avaliable languages](/products/sports_hub_portal/mobile_application_features/application_languages/images/application_languages_list.png)
+![Users see a list of avaliable languages](/sports_hub_portal/mobile_application_features/application_languages/images/application_languages_list.png)
 
 </details>
 

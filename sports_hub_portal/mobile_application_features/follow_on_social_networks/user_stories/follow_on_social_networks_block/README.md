@@ -35,7 +35,7 @@ Then I go to the Sports Hub page on that social network
 
 **1. Users see Follow us icons in the footer:**
 
-![Users see Follow us icons in the footer](/products/sports_hub_portal/mobile_application_features/follow_on_social_networks/images/application_follow_us_icons.png)
+![Users see Follow us icons in the footer](/sports_hub_portal/mobile_application_features/follow_on_social_networks/images/application_follow_us_icons.png)
 
 </details>
 

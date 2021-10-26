@@ -44,7 +44,7 @@ Then I see the dialog is closed
 
 **1. Admin user sees actions dropdown against blocked users:**
 
-![Admin user sees actions dropdown against blocked users](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_blocked_user.png)
+![Admin user sees actions dropdown against blocked users](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_blocked_user.png)
 
 </details>
 

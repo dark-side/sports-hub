@@ -48,15 +48,15 @@ Then I see the pop-up window with notification about the subscribed news categor
 
 **1. Users see a newsletter section in the footer:**
 
-![Users see a newsletter section in the footer](/products/sports_hub_portal/mobile_application_features/newsletter_email/images/application_newsletter_footer.png)
+![Users see a newsletter section in the footer](/sports_hub_portal/mobile_application_features/newsletter_email/images/application_newsletter_footer.png)
 
 **2. Users see a successful subscription pop-up window with details:**
 
-![Users see a successful subscription pop-up window with details](/products/sports_hub_portal/mobile_application_features/newsletter_email/images/application_successful_subscription.png)
+![Users see a successful subscription pop-up window with details](/sports_hub_portal/mobile_application_features/newsletter_email/images/application_successful_subscription.png)
 
 **3. Users see an email after newsletter subscribe:**
 
-![Users see an email after newsletter subscribe](/products/sports_hub_portal/mobile_application_features/newsletter_email/images/newsletter_email.png)
+![Users see an email after newsletter subscribe](/sports_hub_portal/mobile_application_features/newsletter_email/images/newsletter_email.png)
 
 </details>
 

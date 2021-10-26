@@ -53,15 +53,15 @@ Then I see the default form
 
 **1. Admin user sees a new team form:**
 
-![Admin user sees a new team form](/products/sports_hub_portal/web_application_features/manage_the_teams/images/new_team_form.png)
+![Admin user sees a new team form](/sports_hub_portal/web_application_features/manage_the_teams/images/new_team_form.png)
 
 **2. Admin user selects a logo in the form:**
 
-![Admin user selects a logo in the form](/products/sports_hub_portal/web_application_features/manage_the_teams/images/new_team_form_with_logo.png)
+![Admin user selects a logo in the form](/sports_hub_portal/web_application_features/manage_the_teams/images/new_team_form_with_logo.png)
 
 **3. Admin user sees a success message:**
 
-![Admin user sees a success message](/products/sports_hub_portal/web_application_features/manage_the_teams/images/success_message.png)
+![Admin user sees a success message](/sports_hub_portal/web_application_features/manage_the_teams/images/success_message.png)
 
 </details>
 

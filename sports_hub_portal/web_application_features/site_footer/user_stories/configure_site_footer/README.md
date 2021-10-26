@@ -92,7 +92,7 @@ Then I see the configuration table with the following rows:
   And I can configure this tab in the same way as the <b>Company info</b> tab
 </pre>
 
-  <i>The <b>Newsletter</b> is described [in separate feature](/products/sports_hub_portal/web_application_features/newsletter_email)</i>
+  <i>The <b>Newsletter</b> is described [in separate feature](/sports_hub_portal/web_application_features/newsletter_email)</i>
 
 ## Mockups
 
@@ -106,19 +106,19 @@ Then I see the configuration table with the following rows:
 
 **1. Admin user clicks + New footer page and sees a pop-up window:**
 
-![Admin user clicks + New footer page and sees a pop-up window](/products/sports_hub_portal/web_application_features/site_footer/images/new_footer_item_popup.png)
+![Admin user clicks + New footer page and sees a pop-up window](/sports_hub_portal/web_application_features/site_footer/images/new_footer_item_popup.png)
 
 **2. Admin user sees an edit form for the menu item:**
 
-![Admin user sees an edit form for the menu item](/products/sports_hub_portal/web_application_features/site_footer/images/new_footer_item_form.png)
+![Admin user sees an edit form for the menu item](/sports_hub_portal/web_application_features/site_footer/images/new_footer_item_form.png)
 
 **3. Admin user sees an edit form for Contact us:**
 
-![Admin user sees an edit form for Contact us](/products/sports_hub_portal/web_application_features/site_footer/images/footer_contact_us_form.png)
+![Admin user sees an edit form for Contact us](/sports_hub_portal/web_application_features/site_footer/images/footer_contact_us_form.png)
 
 **4. Admin user sees Contributors tab:**
 
-![Admin user sees Contributors tab](/products/sports_hub_portal/web_application_features/site_footer/images/footer_contributors_tab.png)
+![Admin user sees Contributors tab](/sports_hub_portal/web_application_features/site_footer/images/footer_contributors_tab.png)
 
 </details>
 

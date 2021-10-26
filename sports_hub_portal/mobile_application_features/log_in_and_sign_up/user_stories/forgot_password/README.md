@@ -54,23 +54,23 @@ Then I am logged in and taken to the home page
 
 **1. Users see the log-in form:**
 
-![Users see the log-in form](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
+![Users see the log-in form](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_log_in_form.png)
 
 **2. Users see the Forgot Password form:**
 
-![Users see the Forgot Password form](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_forgot_password_form.png)
+![Users see the Forgot Password form](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_forgot_password_form.png)
 
 **3. Users see Check your email screen:**
 
-![Users see Check your email screen](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_check_your_email_to_reset_password.png)
+![Users see Check your email screen](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_check_your_email_to_reset_password.png)
 
 **4. Users receive an email with reset password link:**
 
-![Users receive an email with reset password link](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/email_reset_password.png)
+![Users receive an email with reset password link](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/email_reset_password.png)
 
 **5. Users see the Reset Password form:**
 
-![Users see the Reset Password form](/products/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_reset_password_form.png)
+![Users see the Reset Password form](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/images/application_reset_password_form.png)
 
 </details>
 

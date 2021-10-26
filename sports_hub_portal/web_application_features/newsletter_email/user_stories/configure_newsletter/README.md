@@ -47,7 +47,7 @@ Then I see the <b>Newsletter</b> section is visible to site users
 
 **1. Admin user sees the Newsletter tab on the footer configuration page:**
 
-![ Admin user sees the Newsletter tab on the footer configuration page](/products/sports_hub_portal/web_application_features/newsletter_email/images/newsletter_configuration.png)
+![ Admin user sees the Newsletter tab on the footer configuration page](/sports_hub_portal/web_application_features/newsletter_email/images/newsletter_configuration.png)
 
 </details>
 

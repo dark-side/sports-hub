@@ -36,7 +36,7 @@ Then I see banners are rotating every 3 seconds
 
 **1. Users see a banner at the bottom of the page:**
 
-![Users see a banner at the bottom of the page](/products/sports_hub_portal/mobile_application_features/banners/images/application_banner_user_side.png)
+![Users see a banner at the bottom of the page](/sports_hub_portal/mobile_application_features/banners/images/application_banner_user_side.png)
 
 </details>
 

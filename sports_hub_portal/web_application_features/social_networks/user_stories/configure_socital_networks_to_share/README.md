@@ -57,15 +57,15 @@ Then the toggle changes to <b>Show section</b>
 
 **1. Admin user sees Share configuration page with Show section on:**
 
-![Admin user sees Share configuration page with Show section on](/products/sports_hub_portal/web_application_features/social_networks/images/sharing_configuration_page.png)
+![Admin user sees Share configuration page with Show section on](/sports_hub_portal/web_application_features/social_networks/images/sharing_configuration_page.png)
 
 **2. Admin user sees Share configuration page with Show section off:**
 
-![Admin user sees Share configuration page with Show section off](/products/sports_hub_portal/web_application_features/social_networks/images/sharing_configuration_page_section_off.png)
+![Admin user sees Share configuration page with Show section off](/sports_hub_portal/web_application_features/social_networks/images/sharing_configuration_page_section_off.png)
 
 **3. Users see Share icons in the site header:**
 
-![Users see Share icons in the site header](/products/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
+![Users see Share icons in the site header](/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
 
 </details>
 

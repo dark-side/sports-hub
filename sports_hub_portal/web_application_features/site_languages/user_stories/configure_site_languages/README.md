@@ -66,27 +66,27 @@ Then I see the pop-up window is closed and no new languages appear in the langua
 
 **1. Admin user sees the Languages configuration page:**
 
-![Admin user sees the Languages configuration page](/products/sports_hub_portal/web_application_features/site_languages/images/configaration_site_languages.png)
+![Admin user sees the Languages configuration page](/sports_hub_portal/web_application_features/site_languages/images/configaration_site_languages.png)
 
 **2. Admin user sees pop-up window to add the language:**
 
-![Admin user sees pop-up window to add the language](/products/sports_hub_portal/web_application_features/site_languages/images/add_language_popup.png)
+![Admin user sees pop-up window to add the language](/sports_hub_portal/web_application_features/site_languages/images/add_language_popup.png)
 
 **3. Admin user receives the message that the language was successfully added:**
 
-![Admin user receives the message that the language was successfully added](/products/sports_hub_portal/web_application_features/site_languages/images/languages_saved_message.png)
+![Admin user receives the message that the language was successfully added](/sports_hub_portal/web_application_features/site_languages/images/languages_saved_message.png)
 
 **4. Admin user sees drop-down list to select the language:**
 
-![Admin user sees drop-down list to select the language](/products/sports_hub_portal/web_application_features/site_languages/images/admin_selects_language.png)
+![Admin user sees drop-down list to select the language](/sports_hub_portal/web_application_features/site_languages/images/admin_selects_language.png)
 
 **5. Admin user sees pop-up window to confirm deleting:**
 
-![Admin user sees pop-up window to confirm deleting](/products/sports_hub_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
+![Admin user sees pop-up window to confirm deleting](/sports_hub_portal/web_application_features/site_languages/images/admin_delete_confirmation.png)
 
 **5. A success delete flash message sample:**
 
-![A success delete flash message sample](/products/sports_hub_portal/web_application_features/site_languages/images/success_delete_message.png)
+![A success delete flash message sample](/sports_hub_portal/web_application_features/site_languages/images/success_delete_message.png)
 
 </details>
 

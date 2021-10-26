@@ -42,11 +42,11 @@ Then I am taken to the Sports Hub Home page
 
 **1. Users see the navigation menu:**
 
-![Users see Home in the navigation menu](/products/sports_hub_portal/mobile_application_features/project_layout/images/application_navigation_menu.png)
+![Users see Home in the navigation menu](/sports_hub_portal/mobile_application_features/project_layout/images/application_navigation_menu.png)
 
 **2. Full Home page:**
 
-![Full Home page](/products/sports_hub_portal/mobile_application_features/project_layout/images/home_page.png)
+![Full Home page](/sports_hub_portal/mobile_application_features/project_layout/images/home_page.png)
 
 </details>
 

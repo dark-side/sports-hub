@@ -57,7 +57,7 @@ Then I see the Facebook pop-up window where I can comment and like the post
 
 **1. Users see Facebook Video and Facebook Post banners in the sidebar section:**
 
-![Users see Facebook Video and Facebook Post banners in the sidebar section](/products/sports_hub_portal/web_application_features/banners/images/banners_user_side.png)
+![Users see Facebook Video and Facebook Post banners in the sidebar section](/sports_hub_portal/web_application_features/banners/images/banners_user_side.png)
 
 </details>
 

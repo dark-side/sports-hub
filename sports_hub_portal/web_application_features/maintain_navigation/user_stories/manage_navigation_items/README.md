@@ -113,35 +113,35 @@ Then I see changes applied to the category, subcategory, or team are saved
 
 **1. Admin user sees default Information architecture configuration page:**
 
-![Admin user sees default Information architecture configuration page](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_category_only.png)
+![Admin user sees default Information architecture configuration page](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_category_only.png)
 
 **2. Admin user selects the category and sees subcategories:**
 
-![Admin user selects the category and sees subcategories](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_only.png)
+![Admin user selects the category and sees subcategories](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_only.png)
 
 **3. Admin user selects the subcategory and sees teams:**
 
-![Admin user selects the subcategory and sees teams](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_with_team.png)
+![Admin user selects the subcategory and sees teams](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_with_team.png)
 
 **4. Admin user sees actions for the subcategory and hidden NFL category:**
 
-![Admin user sees actions for the subcategory and hidden NFL category](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
+![Admin user sees actions for the subcategory and hidden NFL category](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_subcategory_actions.png)
 
 **5. Admin user sees actions for the team:**
 
-![Admin user sees actions for the team](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
+![Admin user sees actions for the team](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_team_actions.png)
 
 **6. Admin user clicks to add the category and sees a pop-up window:**
 
-![Admin user clicks to add the category and sees a pop-up window](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_new_category_popup.png)
+![Admin user clicks to add the category and sees a pop-up window](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_new_category_popup.png)
 
 **7. Admin user clicks Save and sees a flash message:**
 
-![Admin user clicks Save and sees a flash message](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
+![Admin user clicks Save and sees a flash message](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_success_save.png)
 
 **8. Admin user clicks Delete the subcategory and sees a pop-up window:**
 
-![Admin user clicks Delete the subcategory and sees a pop-up window](/products/sports_hub_portal/web_application_features/maintain_navigation/images/ia_delete_popup.png)
+![Admin user clicks Delete the subcategory and sees a pop-up window](/sports_hub_portal/web_application_features/maintain_navigation/images/ia_delete_popup.png)
 
 </details>
 

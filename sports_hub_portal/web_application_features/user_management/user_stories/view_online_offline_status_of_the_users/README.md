@@ -34,7 +34,7 @@ Then I see a green status dot if users have an active session on the site
 
 **1. Admin user sees users being online/offline:**
 
-![Admin user sees users being online/offline](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page.png)
+![Admin user sees users being online/offline](/sports_hub_portal/web_application_features/user_management/images/user_management_page.png)
 
 </details>
 

@@ -77,31 +77,31 @@ Then the <b>Show more</b> button is not shown in <b>More video</b> section
 
 **1. Users see Video in the navigation menu:**
 
-![Users see Video in the navigation menu](/products/sports_hub_portal/mobile_application_features/video_page/images/application_navigation_menu.png)
+![Users see Video in the navigation menu](/sports_hub_portal/mobile_application_features/video_page/images/application_navigation_menu.png)
 
 **2. Users see Video list page:**
 
-![Users see Video list page](/products/sports_hub_portal/mobile_application_features/video_page/images/application_video_list_page.png)
+![Users see Video list page](/sports_hub_portal/mobile_application_features/video_page/images/application_video_list_page.png)
 
 **3. Users see Show more button on video list page:**
 
-![Users see Show more button on video list page](/products/sports_hub_portal/mobile_application_features/video_page/images/application_show_more_button.png)
+![Users see Show more button on video list page](/sports_hub_portal/mobile_application_features/video_page/images/application_show_more_button.png)
 
 **4. Users see Video page:**
 
-![Users see Video page](/products/sports_hub_portal/mobile_application_features/video_page/images/application_video_view_page.png)
+![Users see Video page](/sports_hub_portal/mobile_application_features/video_page/images/application_video_view_page.png)
 
 **5. Users see Show more button in More video section:**
 
-![Users see Show more button in More video section](/products/sports_hub_portal/mobile_application_features/video_page/images/application_show_more_more_video_section.png)
+![Users see Show more button in More video section](/sports_hub_portal/mobile_application_features/video_page/images/application_show_more_more_video_section.png)
 
 **6. Full video list page:**
 
-![Full video list page](/products/sports_hub_portal/mobile_application_features/video_page/images/video_list_page.png)
+![Full video list page](/sports_hub_portal/mobile_application_features/video_page/images/video_list_page.png)
 
 **7. Full video view page:**
 
-![Full video view page](/products/sports_hub_portal/mobile_application_features/video_page/images/video_view_page.png)
+![Full video view page](/sports_hub_portal/mobile_application_features/video_page/images/video_view_page.png)
 
 </details>
 

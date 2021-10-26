@@ -49,11 +49,11 @@ Then I see the "The video is successfully deleted" flash message
 
 **1. Admin user sees actions for the published video:**
 
-![Admin user sees actions for the published video](/products/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
+![Admin user sees actions for the published video](/sports_hub_portal/web_application_features/video_page/images/video_actions.png)
 
 **2. Admin user sees a delete confirmation dialog:**
 
-![Admin user sees a delete confirmation dialog](/products/sports_hub_portal/web_application_features/video_page/images/delete_confirmation_from_index.png)
+![Admin user sees a delete confirmation dialog](/sports_hub_portal/web_application_features/video_page/images/delete_confirmation_from_index.png)
 
 </details>
 

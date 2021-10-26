@@ -56,15 +56,15 @@ Then I am taken to a sports category, subcategory, or team page of the Sports Hu
 
 **1. Users see a newsletter section in the site footer:**
 
-![Users see a newsletter section in the site footer](/products/sports_hub_portal/web_application_features/newsletter_email/images/site_footer.png)
+![Users see a newsletter section in the site footer](/sports_hub_portal/web_application_features/newsletter_email/images/site_footer.png)
 
 **2. Users see a successful subscription pop-up window with details:**
 
-![Users see a successful subscription pop-up window with details](/products/sports_hub_portal/web_application_features/newsletter_email/images/successful_subscription.png)
+![Users see a successful subscription pop-up window with details](/sports_hub_portal/web_application_features/newsletter_email/images/successful_subscription.png)
 
 **3. Users see an email after newsletter subscribe:**
 
-![Users see an email after newsletter subscribe](/products/sports_hub_portal/web_application_features/newsletter_email/images/news_email.png)
+![Users see an email after newsletter subscribe](/sports_hub_portal/web_application_features/newsletter_email/images/news_email.png)
 
 </details>
 

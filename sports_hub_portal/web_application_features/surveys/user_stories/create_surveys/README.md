@@ -86,27 +86,27 @@ Then I see a success message
 
 **1. Admin user sees an Opened tab and published survey in the Reader Poll:**
 
-![Admin user sees an Opened tab and published survey in the Reader Poll](/products/sports_hub_portal/web_application_features/surveys/images/admin_surveys_open_tab.png)
+![Admin user sees an Opened tab and published survey in the Reader Poll](/sports_hub_portal/web_application_features/surveys/images/admin_surveys_open_tab.png)
 
 **2. Admin user clicks + New Survey and sees a new survey form:**
 
-![Admin user clicks + New Survey and sees a new survey form](/products/sports_hub_portal/web_application_features/surveys/images/admin_new_survey_form.png)
+![Admin user clicks + New Survey and sees a new survey form](/sports_hub_portal/web_application_features/surveys/images/admin_new_survey_form.png)
 
 **3. Admin user sees a calendar to select survey period:**
 
-![Admin user sees a calendar to select survey period](/products/sports_hub_portal/web_application_features/surveys/images/admin_new_survey_calendar.png)
+![Admin user sees a calendar to select survey period](/sports_hub_portal/web_application_features/surveys/images/admin_new_survey_calendar.png)
 
 **4. Admin user sees the unpublished survey in the Reader Poll:**
 
-![Admin user sees the unpublished survey in the Reader Poll](/products/sports_hub_portal/web_application_features/surveys/images/admin_non_published_survey.png)
+![Admin user sees the unpublished survey in the Reader Poll](/sports_hub_portal/web_application_features/surveys/images/admin_non_published_survey.png)
 
 **5. Admin user edits the unpublished survey in the Reader Poll:**
 
-![Admin user edits the unpublished survey in the Reader Poll](/products/sports_hub_portal/web_application_features/surveys/images/admin_edit_non_published_survey.png)
+![Admin user edits the unpublished survey in the Reader Poll](/sports_hub_portal/web_application_features/surveys/images/admin_edit_non_published_survey.png)
 
 **6. Admin user sees a delete confirmation pop-up window:**
 
-![Admin user sees a delete confirmation pop-up window](/products/sports_hub_portal/web_application_features/surveys/images/admin_delete_confirmation.png)
+![Admin user sees a delete confirmation pop-up window](/sports_hub_portal/web_application_features/surveys/images/admin_delete_confirmation.png)
 
 </details>
 

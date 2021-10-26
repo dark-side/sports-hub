@@ -26,4 +26,4 @@ Please click [here](https://www.figma.com/file/ZoxzwUAIg07UEnbYO0lljl/Global-Sit
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to use site search on the portal**](/products/sports_hub_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use site search<br>So that I can quickly find the information I am interested in</pre>
+1 |[**Allow users to use site search on the portal**](/sports_hub_portal/web_application_features/global_site_search/user_stories/site_search)|<pre>As a site user<br>I want to use site search<br>So that I can quickly find the information I am interested in</pre>

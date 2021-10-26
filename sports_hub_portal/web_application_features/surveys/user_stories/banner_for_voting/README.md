@@ -56,11 +56,11 @@ Then I see the pop-up window "Please log in to vote" with the log-in form
 
 **1. Users see a banner with Reader Poll and voting form:**
 
-![Users see a banner with Reader Poll and voting form](/products/sports_hub_portal/web_application_features/surveys/images/user_survey_banner.png)
+![Users see a banner with Reader Poll and voting form](/sports_hub_portal/web_application_features/surveys/images/user_survey_banner.png)
 
 **2. Unauthorized users click to vote and see a pop-up window to log in:**
 
-![Unauthorized users click to vote and see a pop-up window to log in](/products/sports_hub_portal/web_application_features/surveys/images/user_login_popup.png)
+![Unauthorized users click to vote and see a pop-up window to log in](/sports_hub_portal/web_application_features/surveys/images/user_login_popup.png)
 
 </details>
 

@@ -86,19 +86,19 @@ Then I see the picture is deleted and the box for image upload appears
 
 **1. Admin user hovers over uploaded article image and sees editor actions:**
 
-![Admin user hovers over uploaded article image and sees editor actions](/products/sports_hub_portal/web_application_features/manage_articles/images/article_image_hover_editor.png)
+![Admin user hovers over uploaded article image and sees editor actions](/sports_hub_portal/web_application_features/manage_articles/images/article_image_hover_editor.png)
 
 **2. Admin user clicks filter icon and sees filters under the article image:**
 
-![Admin user clicks filter icon and sees filters under the article image](/products/sports_hub_portal/web_application_features/manage_articles/images/article_image_filters.png)
+![Admin user clicks filter icon and sees filters under the article image](/sports_hub_portal/web_application_features/manage_articles/images/article_image_filters.png)
 
 **3. Admin user clicks resize icon and sees a size editor:**
 
-![Admin user clicks resize icon and sees a size editor](/products/sports_hub_portal/web_application_features/manage_articles/images/article_image_size_editor.png)
+![Admin user clicks resize icon and sees a size editor](/sports_hub_portal/web_application_features/manage_articles/images/article_image_size_editor.png)
 
 **4. Admin user clicks a crop icon and sees a crop editor:**
 
-![Admin user clicks a crop icon and sees a crop editor](/products/sports_hub_portal/web_application_features/manage_articles/images/article_image_crop_editor.png)
+![Admin user clicks a crop icon and sees a crop editor](/sports_hub_portal/web_application_features/manage_articles/images/article_image_crop_editor.png)
 
 </details>
 

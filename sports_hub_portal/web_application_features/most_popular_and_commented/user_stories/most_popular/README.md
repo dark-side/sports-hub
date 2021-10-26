@@ -49,7 +49,7 @@ Then I see the <b>Most popular</b> section on any page where it can be present
 
 **1. Users see the Most popular articles section:**
 
-![Users see the Most popular articles section](/products/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented.png)
+![Users see the Most popular articles section](/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented.png)
 
 </details>
 

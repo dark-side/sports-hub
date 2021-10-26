@@ -38,11 +38,11 @@ Then I see a confirmation to share window of the social network opens
 
 **1. Users see Share icons in the site header:**
 
-![Users see Share icons in the site header](/products/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
+![Users see Share icons in the site header](/sports_hub_portal/web_application_features/social_networks/images/share_and_follow_on_page.png)
 
 **2. Users see sharing in Facebook example:**
 
-![Users see sharing in Facebook example](/products/sports_hub_portal/web_application_features/social_networks/images/sharing_in_facebook_example.png)
+![Users see sharing in Facebook example](/sports_hub_portal/web_application_features/social_networks/images/sharing_in_facebook_example.png)
 
 </details>
 

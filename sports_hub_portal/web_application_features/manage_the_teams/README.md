@@ -36,7 +36,7 @@ Please click [here](https://www.figma.com/file/HB6RaAViOl1Iw5qCsEb2gj/Manage-tea
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to add a new team on the portal**](/products/sports_hub_portal/web_application_features/manage_the_teams/user_stories/add_new_team)|<pre>As an admin user<br>I want to add a new team</pre>
-2 |[**Allow admin users to edit the existing team**](/products/sports_hub_portal/web_application_features/manage_the_teams/user_stories/edit_existing_team)|<pre>As an admin user<br>I want to edit the existing team</pre>
-3 |[**Allow admin users to delete the existing team**](/products/sports_hub_portal/web_application_features/manage_the_teams/user_stories/delete_team)|<pre>As an admin user<br>I want to delete the existing team</pre>
-4 |[**Allow admin users to filter and search the teams**](/products/sports_hub_portal/web_application_features/manage_the_teams/user_stories/filter_teams)|<pre>As an admin user<br>I want to filter the Teams page</pre>
+1 |[**Allow admin users to add a new team on the portal**](/sports_hub_portal/web_application_features/manage_the_teams/user_stories/add_new_team)|<pre>As an admin user<br>I want to add a new team</pre>
+2 |[**Allow admin users to edit the existing team**](/sports_hub_portal/web_application_features/manage_the_teams/user_stories/edit_existing_team)|<pre>As an admin user<br>I want to edit the existing team</pre>
+3 |[**Allow admin users to delete the existing team**](/sports_hub_portal/web_application_features/manage_the_teams/user_stories/delete_team)|<pre>As an admin user<br>I want to delete the existing team</pre>
+4 |[**Allow admin users to filter and search the teams**](/sports_hub_portal/web_application_features/manage_the_teams/user_stories/filter_teams)|<pre>As an admin user<br>I want to filter the Teams page</pre>

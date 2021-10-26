@@ -46,11 +46,11 @@ Then I am taken to the page with the article
 
 **1. Full Home page:**
 
-![Full Home page](/products/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
+![Full Home page](/sports_hub_portal/mobile_application_features/home_page/images/home_page.png)
 
 **2. Users see Main articles**
 
-![Users see Main articles](/products/sports_hub_portal/mobile_application_features/home_page/images/application_main_articles_section.png)
+![Users see Main articles](/sports_hub_portal/mobile_application_features/home_page/images/application_main_articles_section.png)
 
 </details>
 

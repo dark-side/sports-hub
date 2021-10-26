@@ -59,23 +59,23 @@ Then the toggle changes to <b>Show section</b>
 
 **1. Admin user sees Log in/Sign up configuration page with Show section on:**
 
-![Admin user sees Log in/Sign up configuration page with Show section on](/products/sports_hub_portal/web_application_features/social_networks/images/login_signup_configuration_page.png)
+![Admin user sees Log in/Sign up configuration page with Show section on](/sports_hub_portal/web_application_features/social_networks/images/login_signup_configuration_page.png)
 
 **2. Admin user sees Log in/Sign up configuration page with Show section off:**
 
-![Admin user sees Log in/Sign up configuration page with Show section off](/products/sports_hub_portal/web_application_features/social_networks/images/login_signup_configuration_page_section_off.png)
+![Admin user sees Log in/Sign up configuration page with Show section off](/sports_hub_portal/web_application_features/social_networks/images/login_signup_configuration_page_section_off.png)
 
 **3. Users see Log in page with social network icons:**
 
-![Users see Log in page with social network icons](/products/sports_hub_portal/web_application_features/social_networks/images/login_page_with_social_network_icons.png)
+![Users see Log in page with social network icons](/sports_hub_portal/web_application_features/social_networks/images/login_page_with_social_network_icons.png)
 
 **4. Users see Sign up page with social network icons:**
 
-![Users see Sign up page with social network icons](/products/sports_hub_portal/web_application_features/social_networks/images/signup_page_with_social_network_icons.png)
+![Users see Sign up page with social network icons](/sports_hub_portal/web_application_features/social_networks/images/signup_page_with_social_network_icons.png)
 
 **5. Users see Log in with Facebook example:**
 
-![Users see Log in with Facebook example](/products/sports_hub_portal/web_application_features/social_networks/images/login_by_facebook_example.png)
+![Users see Log in with Facebook example](/sports_hub_portal/web_application_features/social_networks/images/login_by_facebook_example.png)
 
 </details>
 

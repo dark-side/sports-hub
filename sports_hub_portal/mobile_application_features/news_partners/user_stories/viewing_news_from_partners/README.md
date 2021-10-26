@@ -37,7 +37,7 @@ Then I see the news from the configured news partner
 
 **1. Full articles list page:**
 
-![Full articles list page](/products/sports_hub_portal/mobile_application_features/news_partners/images/league_articles_page.png)
+![Full articles list page](/sports_hub_portal/mobile_application_features/news_partners/images/league_articles_page.png)
 
 </details>
 

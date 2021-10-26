@@ -38,5 +38,5 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-Ads
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure advertisements**](/products/sports_hub_portal/web_application_features/manage_ads/user_stories/configure_ads)|<pre>As an admin user<br>I want to configure the list of advertisements<br>So that it is possible to promote them via the Sports Hub site</pre>
-2 |[**Allow users to see advertisements**](/products/sports_hub_portal/web_application_features/manage_ads/user_stories/view_ads)|<pre>As a site user<br>I want to view an advertisement on the top of the right sidebar of the site</pre>
+1 |[**Allow admin user to configure advertisements**](/sports_hub_portal/web_application_features/manage_ads/user_stories/configure_ads)|<pre>As an admin user<br>I want to configure the list of advertisements<br>So that it is possible to promote them via the Sports Hub site</pre>
+2 |[**Allow users to see advertisements**](/sports_hub_portal/web_application_features/manage_ads/user_stories/view_ads)|<pre>As a site user<br>I want to view an advertisement on the top of the right sidebar of the site</pre>

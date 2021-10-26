@@ -37,5 +37,5 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to comment an article in the application**](/products/sports_hub_portal/mobile_application_features/comments/user_stories/comment_an_article)|<pre>As a user <br>I want to leave a comment on the article page</pre>
-2 |[**Allow users to interact with existing article comments in the application**](/products/sports_hub_portal/mobile_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a user<br>I want to sort comments and like or dislike the comment</pre>
+1 |[**Allow users to comment an article in the application**](/sports_hub_portal/mobile_application_features/comments/user_stories/comment_an_article)|<pre>As a user <br>I want to leave a comment on the article page</pre>
+2 |[**Allow users to interact with existing article comments in the application**](/sports_hub_portal/mobile_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a user<br>I want to sort comments and like or dislike the comment</pre>

@@ -52,11 +52,11 @@ Then I see "The article is successfully unpublished" flash message
 
 **1. Admin user sees actions for a published article:**
 
-![Admin user sees actions for a published article](/products/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
+![Admin user sees actions for a published article](/sports_hub_portal/web_application_features/manage_articles/images/published_article_actions.png)
 
 **2. Admin user sees actions for an unpublished article:**
 
-![Admin user sees actions for an unpublished article](/products/sports_hub_portal/web_application_features/manage_articles/images/unpublished_article_actions.png)
+![Admin user sees actions for an unpublished article](/sports_hub_portal/web_application_features/manage_articles/images/unpublished_article_actions.png)
 
 </details>
 

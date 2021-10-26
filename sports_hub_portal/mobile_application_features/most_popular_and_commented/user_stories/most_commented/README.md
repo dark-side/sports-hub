@@ -51,11 +51,11 @@ Then I see the <b>Most commented</b> section on any page where it can be present
 
 **1. Users see the Most commented articles section:**
 
-![Users see the Most commented articles section](/products/sports_hub_portal/mobile_application_features/most_popular_and_commented/images/application_most_commented_section.png)
+![Users see the Most commented articles section](/sports_hub_portal/mobile_application_features/most_popular_and_commented/images/application_most_commented_section.png)
 
 **2. Full Home page:**
 
-![Full Home page](/products/sports_hub_portal/mobile_application_features/most_popular_and_commented/images/home_page.png)
+![Full Home page](/sports_hub_portal/mobile_application_features/most_popular_and_commented/images/home_page.png)
 
 </details>
 

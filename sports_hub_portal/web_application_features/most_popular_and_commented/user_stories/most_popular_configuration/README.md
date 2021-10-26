@@ -51,11 +51,11 @@ Then the toggle changes to <b>Show on the main page</b>
 
 **1. Admin sees the Most popular section configuration:**
 
-![Admin sees the Most popular section configuration](/products/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented_configuration.png)
+![Admin sees the Most popular section configuration](/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented_configuration.png)
 
 **2. Admin user sees period configuration drop-down list:**
 
-![Admin user sees period configuration drop-down list](/products/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented_configuration_period.png)
+![Admin user sees period configuration drop-down list](/sports_hub_portal/web_application_features/most_popular_and_commented/images/most_popular_commented_configuration_period.png)
 
 </details>
 

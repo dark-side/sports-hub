@@ -57,23 +57,23 @@ Then the team is removed from the list
 
 **1. Users see a link to the Team hub management page:**
 
-![Users see a link to the Team hub management page](/products/sports_hub_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
+![Users see a link to the Team hub management page](/sports_hub_portal/web_application_features/team_hub/images/link_to_my_teams_page.png)
 
 **2. Users see the Team hub management page:**
 
-![Users see the Team hub management page](/products/sports_hub_portal/web_application_features/team_hub/images/my_teams_management_page.png)
+![Users see the Team hub management page](/sports_hub_portal/web_application_features/team_hub/images/my_teams_management_page.png)
 
 **3. Users see the page after clicking Manage teams list:**
 
-![Users see the page after clicking Manage teams list](/products/sports_hub_portal/web_application_features/team_hub/images/manage_my_teams_form.png)
+![Users see the page after clicking Manage teams list](/sports_hub_portal/web_application_features/team_hub/images/manage_my_teams_form.png)
 
 **4. Users see the search team results:**
 
-![Users see the search team results](/products/sports_hub_portal/web_application_features/team_hub/images/search_team_result.png)
+![Users see the search team results](/sports_hub_portal/web_application_features/team_hub/images/search_team_result.png)
 
 **5. Users see the search field after selecting the team:**
 
-![Users see the search field after selecting the team](/products/sports_hub_portal/web_application_features/team_hub/images/search_team_selected_team.png)
+![Users see the search field after selecting the team](/sports_hub_portal/web_application_features/team_hub/images/search_team_selected_team.png)
 
 </details>
 

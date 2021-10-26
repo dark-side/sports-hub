@@ -51,11 +51,11 @@ Then I see the list of articles increases
 
 **1. Users see the league related to the article page:**
 
-![Users see the league related to the article page](/products/sports_hub_portal/web_application_features/articles_user_side/images/league_page.png)
+![Users see the league related to the article page](/sports_hub_portal/web_application_features/articles_user_side/images/league_page.png)
 
 **2. Users see the team related to the article page:**
 
-![Users see the team related to the article page](/products/sports_hub_portal/web_application_features/articles_user_side/images/team_page.png)
+![Users see the team related to the article page](/sports_hub_portal/web_application_features/articles_user_side/images/team_page.png)
 
 </details>
 

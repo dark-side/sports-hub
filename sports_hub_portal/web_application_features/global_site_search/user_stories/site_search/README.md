@@ -60,19 +60,19 @@ Then I am taken to the selected article page
 
 **1. Users see Search by input at the top of the page:**
 
-![Users see Search by input at the top of the page](/products/sports_hub_portal/web_application_features/global_site_search/images/site_search.png)
+![Users see Search by input at the top of the page](/sports_hub_portal/web_application_features/global_site_search/images/site_search.png)
 
 **2. Users see a search suggestions list:**
 
-![Users see a search suggestions list](/products/sports_hub_portal/web_application_features/global_site_search/images/site_search_suggestions.png)
+![Users see a search suggestions list](/sports_hub_portal/web_application_features/global_site_search/images/site_search_suggestions.png)
 
 **3. Users see search results:**
 
-![Users see search results](/products/sports_hub_portal/web_application_features/global_site_search/images/search_result_in_main_page.png)
+![Users see search results](/sports_hub_portal/web_application_features/global_site_search/images/search_result_in_main_page.png)
 
 **4. Admin user sees search results in CMS:**
 
-![Admin user sees search results in CMS](/products/sports_hub_portal/web_application_features/global_site_search/images/search_result_in_cms_page.png)
+![Admin user sees search results in CMS](/sports_hub_portal/web_application_features/global_site_search/images/search_result_in_cms_page.png)
 
 </details>
 

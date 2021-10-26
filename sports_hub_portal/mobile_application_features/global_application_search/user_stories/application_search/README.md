@@ -47,15 +47,15 @@ Then I see a list of my recent searches
 
 **1. Users see Search icon at the top of the page:**
 
-![Users see Search icon at the top of the page](/products/sports_hub_portal/mobile_application_features/global_application_search/images/application_search_icon.png)
+![Users see Search icon at the top of the page](/sports_hub_portal/mobile_application_features/global_application_search/images/application_search_icon.png)
 
 **2. Users see a search suggestions list:**
 
-![Users see a search suggestions list](/products/sports_hub_portal/mobile_application_features/global_application_search/images/application_search_suggestions.png)
+![Users see a search suggestions list](/sports_hub_portal/mobile_application_features/global_application_search/images/application_search_suggestions.png)
 
 **3. Users see recent search results:**
 
-![Users see recent search results](/products/sports_hub_portal/mobile_application_features/global_application_search/images/application_recent_search.png)
+![Users see recent search results](/sports_hub_portal/mobile_application_features/global_application_search/images/application_recent_search.png)
 
 </details>
 

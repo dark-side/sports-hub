@@ -54,11 +54,11 @@ Then I see the list of surveys is refreshed with matching results
 
 **1. Admin user sees Status filter options:**
 
-![Admin user sees Status filter options](/products/sports_hub_portal/web_application_features/surveys/images/admin_status_filter.png)
+![Admin user sees Status filter options](/sports_hub_portal/web_application_features/surveys/images/admin_status_filter.png)
 
 **2. Admin user sees a search input field after clicking the search icon:**
 
-![Admin user sees a search input field after clicking the search icon](/products/sports_hub_portal/web_application_features/surveys/images/admin_search.png)
+![Admin user sees a search input field after clicking the search icon](/sports_hub_portal/web_application_features/surveys/images/admin_search.png)
 
 </details>
 

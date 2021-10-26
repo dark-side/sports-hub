@@ -41,7 +41,7 @@ Then I see the dialog is closed
 
 **1. Admin user sees the Make as Admin button within actions dropdown against active user:**
 
-![Admin user sees the Make as Admin button within actions dropdown against active user](/products/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
+![Admin user sees the Make as Admin button within actions dropdown against active user](/sports_hub_portal/web_application_features/user_management/images/user_management_page_with_action_dropdown_for_active_user.png)
 
 </details>
 

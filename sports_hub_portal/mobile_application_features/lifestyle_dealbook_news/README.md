@@ -31,4 +31,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to visit and read Lifestyle and Dealbook news**](/products/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/user_stories/view_articles)|<pre>As a user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>
+1 |[**Allow users to visit and read Lifestyle and Dealbook news**](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/user_stories/view_articles)|<pre>As a user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>

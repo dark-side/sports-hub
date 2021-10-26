@@ -35,7 +35,7 @@ Then I see the news from the configured news partner
 <details>
   <summary>Click here to see mockups details</summary>
 
-![User user sees articles list](/products/sports_hub_portal/web_application_features/manage_news_partners/images/user_side_articles_list.png)
+![User user sees articles list](/sports_hub_portal/web_application_features/manage_news_partners/images/user_side_articles_list.png)
 
 </details>
 

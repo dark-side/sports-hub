@@ -101,35 +101,35 @@ Then I see the banner is deleted
 
 **1. Admin user sees the Opened tab on the Banners configuration page:**
 
-![Admin user sees the Opened tab on the Banners configuration page](/products/sports_hub_portal/web_application_features/banners/images/banners_open_tab.png)
+![Admin user sees the Opened tab on the Banners configuration page](/sports_hub_portal/web_application_features/banners/images/banners_open_tab.png)
 
 **2. Admin user sees the Closed tab on the Banners configuration page:**
 
-![Admin user sees the Closed tab on the Banners configuration page](/products/sports_hub_portal/web_application_features/banners/images/banners_closed_tab.png)
+![Admin user sees the Closed tab on the Banners configuration page](/sports_hub_portal/web_application_features/banners/images/banners_closed_tab.png)
 
 **3. Admin user clicked + New banner and sees a banner form:**
 
-![Admin user clicked + New banner and sees a banner form](/products/sports_hub_portal/web_application_features/banners/images/new_banner_form.png)
+![Admin user clicked + New banner and sees a banner form](/sports_hub_portal/web_application_features/banners/images/new_banner_form.png)
 
 **4. Admin user clicked to edit banner and sees a pre-populated banner form:**
 
-![Admin user clicked to edit banner and sees a pre-populated banner form](/products/sports_hub_portal/web_application_features/banners/images/edit_banner_form.png)
+![Admin user clicked to edit banner and sees a pre-populated banner form](/sports_hub_portal/web_application_features/banners/images/edit_banner_form.png)
 
 **5. Admin user sees a category drop-down options:**
 
-![Admin user sees a category drop-down options](/products/sports_hub_portal/web_application_features/banners/images/banner_category_options.png)
+![Admin user sees a category drop-down options](/sports_hub_portal/web_application_features/banners/images/banner_category_options.png)
 
 **6. Admin user sees actions drop-down options for an unpublished banner:**
 
-![Admin user sees actions drop-down options for an unpublished banner](/products/sports_hub_portal/web_application_features/banners/images/unpublished_banner_actions.png)
+![Admin user sees actions drop-down options for an unpublished banner](/sports_hub_portal/web_application_features/banners/images/unpublished_banner_actions.png)
 
 **7. Admin user sees actions drop-down options for a published banner:**
 
-![Admin user sees actions drop-down options for a published banner](/products/sports_hub_portal/web_application_features/banners/images/published_banner_actions.png)
+![Admin user sees actions drop-down options for a published banner](/sports_hub_portal/web_application_features/banners/images/published_banner_actions.png)
 
 **8. Admin user sees a delete confirmation pop-up window:**
 
-![Admin user sees a delete confirmation pop-up window](/products/sports_hub_portal/web_application_features/banners/images/delete_confirmation.png)
+![Admin user sees a delete confirmation pop-up window](/sports_hub_portal/web_application_features/banners/images/delete_confirmation.png)
 
 </details>
 

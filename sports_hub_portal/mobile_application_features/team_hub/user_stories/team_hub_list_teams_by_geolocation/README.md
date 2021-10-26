@@ -36,15 +36,15 @@ Then I see a list of news that are sorted according to the teams that are select
 
 **1. Users see Team hub in the navigation menu:**
 
-![Users see Team hub in the navigation menu](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_navigation_menu.png)
+![Users see Team hub in the navigation menu](/sports_hub_portal/mobile_application_features/team_hub/images/application_navigation_menu.png)
 
 **2. Users see news on the Team hub page:**
 
-![Users see news on the Team hub page](/products/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_page.png)
+![Users see news on the Team hub page](/sports_hub_portal/mobile_application_features/team_hub/images/application_team_hub_page.png)
 
 **3. Full Team hub page:**
 
-![Full Team hub page](/products/sports_hub_portal/mobile_application_features/team_hub/images/team_hub_full_page.png)
+![Full Team hub page](/sports_hub_portal/mobile_application_features/team_hub/images/team_hub_full_page.png)
 
 </details>
 

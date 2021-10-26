@@ -62,11 +62,11 @@ Then I am taken to the landing page for that team
 
 **1. Users see a navigation menu:**
 
-![Users see a navigation menu](/products/sports_hub_portal/mobile_application_features/navigation/images/application_main_navigation.png)
+![Users see a navigation menu](/sports_hub_portal/mobile_application_features/navigation/images/application_main_navigation.png)
 
 **2. Users see navigation submenus:**
 
-![Users see navigation submenus](/products/sports_hub_portal/mobile_application_features/navigation/images/application_subcategory_navigation.png)
+![Users see navigation submenus](/sports_hub_portal/mobile_application_features/navigation/images/application_subcategory_navigation.png)
 
 </details>
 

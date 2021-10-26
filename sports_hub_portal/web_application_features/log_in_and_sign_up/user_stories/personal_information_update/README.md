@@ -39,19 +39,19 @@ Then I see an error message
 
 **1. Users see a profile page:**
 
-![Users see a profile page](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
+![Users see a profile page](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/user_profile_page.png)
 
 **2. Users receive a successful update message:**
 
-![Users receive a successful update message](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/successful_personal_info_update_message.png)
+![Users receive a successful update message](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/successful_personal_info_update_message.png)
 
 **3. Users receive an error message:**
 
-![Users receive an error message](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
+![Users receive an error message](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/error_message.png)
 
 **4. Users see image format validation pop-up window:**
 
-![Users see image format validation pop-up window](/products/sports_hub_portal/web_application_features/log_in_and_sign_up/images/image_format_validation.png)
+![Users see image format validation pop-up window](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/image_format_validation.png)
 
 </details>
 

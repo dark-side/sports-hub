@@ -53,23 +53,23 @@ Then I see the list of articles increases
 
 **1. Users see a list of leagues on the menu:**
 
-![Users see a list of leagues on the menu](/products/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_league_list.png)
+![Users see a list of leagues on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_league_list.png)
 
 **2. The league related (NBA) articles list:**
 
-![The league related (NBA) articles list](/products/sports_hub_portal/mobile_application_features/articles_view/images/league_articles_page.png)
+![The league related (NBA) articles list](/sports_hub_portal/mobile_application_features/articles_view/images/league_articles_page.png)
 
 **3. Users see a list of leagues, confereces, and teams on the menu:**
 
-![Users see a list of leagues, confereces, and teams on the menu](/products/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_full_list.png)
+![Users see a list of leagues, confereces, and teams on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_full_list.png)
 
 **4. Users see the article page:**
 
-![Users see the article page](/products/sports_hub_portal/mobile_application_features/articles_view/images/application_article_page.png)
+![Users see the article page](/sports_hub_portal/mobile_application_features/articles_view/images/application_article_page.png)
 
 **5. Article full page:**
 
-![Article full page](/products/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
+![Article full page](/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
 
 </details>
 

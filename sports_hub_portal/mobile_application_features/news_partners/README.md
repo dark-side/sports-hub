@@ -26,4 +26,4 @@ Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-adv
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view news from configured partners**](/products/sports_hub_portal/mobile_application_features/news_partners/user_stories/viewing_news_from_partners)|<pre>As a user<br>I want to be able to see news from the configured partners in the appropriate categories</pre>
+1 |[**Allow users to view news from configured partners**](/sports_hub_portal/mobile_application_features/news_partners/user_stories/viewing_news_from_partners)|<pre>As a user<br>I want to be able to see news from the configured partners in the appropriate categories</pre>

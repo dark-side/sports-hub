@@ -58,15 +58,15 @@ Then I see the message "Please log in to like or dislike comments" with the link
 
 **1. Not logged-in users see comments on the article page:**
 
-![Not logged-in users see comments on the article page](/products/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_not_logged_in_user.png)
+![Not logged-in users see comments on the article page](/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_not_logged_in_user.png)
 
 **2. Logged-in users see comments on the article page:**
 
-![Logged-in users see comments on the article page](/products/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_logged_in_user.png)
+![Logged-in users see comments on the article page](/sports_hub_portal/mobile_application_features/comments/images/application_comments_for_logged_in_user.png)
 
 **3. Not logged-in users see "Please log in to like or dislike comments" pop-up window:**
 
-![Not logged-in users see "Please log in to like or dislike comments" pop-up window](/products/sports_hub_portal/mobile_application_features/comments/images/application_log_in_to_like_dislike_popup.png)
+![Not logged-in users see "Please log in to like or dislike comments" pop-up window](/sports_hub_portal/mobile_application_features/comments/images/application_log_in_to_like_dislike_popup.png)
 
 </details>
 
