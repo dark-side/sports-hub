@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -29,17 +30,17 @@ Then I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right co
 When I click <b>Add one more breakdown</b>
 Then I see the form is added in the <b>Breakdown</b> section:
   - <b>Category</b> contains a list of all sports categories, first category from the list is selected by default, is required
-  - <b>Conference</b> contains a list of all conferences, nothing is selected by default
+  - <b>Subcategory</b> contains a list of all subcategories, nothing is selected by default
   - <b>Team</b> contains a list of all teams, nothing is selected by default
   - The <b>Delete</b> button
   - The <b>Add one more breakdown</b> button
 
 When I change the default category
-Then I see the <b>Conference</b> drop-down list is updated with conferences according to the selected category
+Then I see the <b>Subcategory</b> drop-down list is updated with subcategories according to the selected category
   And I see the <b>Team</b> drop-down list is updated with teams according to the selected category
 
-When I select <b>Conference</b>
-Then I see the <b>Team</b> drop-down list is updated with teams according to the selected conference 
+When I select <b>Subcategory</b>
+Then I see the <b>Team</b> drop-down list is updated with teams according to the selected subcategory
 
 When I click <b>Delete</b>
 Then the confirmation pop-up window appears
@@ -69,6 +70,10 @@ Then the <b>Home</b> page is in the published state
   And I see a success flash message
   And I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right corner
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 
@@ -100,7 +105,7 @@ Then the <b>Home</b> page is in the published state
 4. Verify that admin is able to publish changes on the <b>Home</b> page
 5. Verify that admin is able to add breakdown in the <b>Breakdown</b> section
 6. Verify that admin is able to change <b>Category</b> in the <b>Breakdown</b> section
-7. Verify that admin is able to select a <b>Conference</b> in the <b>Breakdown</b> section
+7. Verify that admin is able to select a <b>Subcategory</b> in the <b>Breakdown</b> section
 8. Verify that admin is able to select a <b>Team</b> in the <b>Breakdown</b> section
 9. Verify that it is possible to delete a breakdown from the <b>Breakdown</b> section
 10. Verify that it is possible to delete the last breakdown from the <b>Breakdown</b> section
@@ -138,25 +143,25 @@ Then the <b>Home</b> page is in the published state
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section|1) Click <b>Add one more breakdown</b> in the <b>Breakdown</b> section|1) The <b>Breakdown</b> form is added with:</br> - <b>Category</b> (required, with first category from the list selected by default)</br>- <b>Conference</b> (empty)</br>- <b>Team</b> (empty) drop-down lists</br>- The <b>Delete</b> button|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section|1) Click <b>Add one more breakdown</b> in the <b>Breakdown</b> section|1) The <b>Breakdown</b> form is added with:</br> - <b>Category</b> (required, with first category from the list selected by default)</br>- <b>Subcategory</b> (empty)</br>- <b>Team</b> (empty) drop-down lists</br>- The <b>Delete</b> button|
 
 ### **#6. Verify that admin is able to change Category in the Breakdown section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added|1) Change the sports category in the <b>Breakdown</b> section</br>2) Check if the <b>Conference</b> and <b>Team</b> drop-down lists are updated|2) The <b>Conference</b> and <b>Team</b> drop-down lists are updated according to the selected category|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added|1) Change the sports category in the <b>Breakdown</b> section</br>2) Check if the <b>Subcategory</b> and <b>Team</b> drop-down lists are updated|2) The <b>Subcategory</b> and <b>Team</b> drop-down lists are updated according to the selected category|
 
-### **#7. Verify that admin is able to select a Conference in the Breakdown section**
+### **#7. Verify that admin is able to select a Subcategory in the Breakdown section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Conference</b></br>2) Check if the <b>Team</b> drop-down list is updated|2) The <b>Team</b> drop-down list is updated according to the selected conference|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Subcategory</b></br>2) Check if the <b>Team</b> drop-down list is updated|2) The <b>Team</b> drop-down list is updated according to the selected subcategory|
 
 ### **#8. Verify that admin is able to select a Team in the Breakdown section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected</br>- <b>Conference</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Team</b>|1) The <b>Team</b> is selected|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Breakdown</b> section</br>- <b>Breakdown</b> is added</br>- <b>Category</b> is selected</br>- <b>Subcategory</b> is selected|1) In the <b>Breakdown</b> section, select a <b>Team</b>|1) The <b>Team</b> is selected|
 
 ### **#9. Verify that it is possible to delete a breakdown from the Breakdown section**
 

@@ -11,7 +11,7 @@
 
 If a user selects some news, they should be redirected to the corresponding article page.
 
-Users of the Sports Hub should be able to view articles that are related to a specific league or team. Users can select the league that interests them in the main menu. After selecting the menu item, the submenu with sports categories opens. Some of the categories are divided into subcategories. The subcategory contains a list of the teams related to the subcategory.
+Users of the Sports Hub should be able to view articles that are related to a specific category or team. Users can select the category that interests them in the main menu. After selecting the menu item, the submenu with sports categories opens. Some of the categories are divided into subcategories. The subcategory contains a list of the teams related to the subcategory.
 
 Users should be able to interact with articles according to their role in the application. Regular users should be able to view and share articles. Logged-in users should be able to comment on the articles.
 
@@ -21,8 +21,8 @@ Users should be able to interact with articles according to their role in the ap
   - Users should be able to view an article page
   - Users should be able to share articles
   - Logged-in users should be able to comment on the articles
-  - Users should be able to view articles that are related to a specific league or team
-  - Users should be able to select a league that interests them from the main menu
+  - Users should be able to view articles that are related to a specific category or team
+  - Users should be able to select a category that interests them from the main menu
   - After the main menu item is selected, users should be able to select the sports category from the submenu
   - Subcategories should contain a list of the teams related to the subcategory
 
@@ -39,4 +39,4 @@ No           |      Name     |   Details
 1 |[**Allow users to view an article in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/view_an_article)|<pre>As a user<br>I want to be able to view the article page<br>So that I can read an article content</pre>
 2 |[**Allow users to share an article from the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/sharing_an_article)|<pre>As a user<br>I want to be able to share the article on my social networks accounts and my messengers</pre>
 3 |[**Allow users to view More Articles block in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/more_articles_block)|<pre>As a user<br>I want to be able to see a section with more articles from the same category as the article I view</pre>
-4 |[**Allow users to view league/team page in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/league_and_team_page)|<pre>As a user<br>I want to be able to open the league or team page<br>So that I can view articles that are related to selected league or team</pre>
+4 |[**Allow users to view category/team page in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/league_and_team_page)|<pre>As a user<br>I want to be able to open the category or team page<br>So that I can view articles that are related to selected category or team</pre>

@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -24,11 +25,13 @@ When I view the article page
 Then I see the following:
   1. Article photo
   2. Photo, article headline, and metadata (including author and source) in the upper-right corner of the photo (see mockup)
-  3. Social network share buttons: <b>Facebook</b>, <b>Twitter</b>, <b>Google +</b>, next to the <b>Share</b> button in the headline above the article photo
-  4. Article content under the photo
-  5. The comments section under the article content
-  6. More articles section under the comment section
+  3. Article content under the photo
+  4. More articles section under the comment section
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -33,7 +34,7 @@ Then I see the following:
   - Path to the article
   - Preview link button above the photo
   - Drag-and-drop field for image upload with <b>+ Add picture</b> link (required field)
-  - Three drop-down fields, where I can select <b>Conference</b>, <b>Team</b>, and <b>Location</b>
+  - Three drop-down fields, where I can select <b>Subcategory</b>, <b>Team</b>, and <b>Location</b>
   - Three required fields, where I can add details of the article: <b>Alt.</b>, <b>Article headline</b>, and <b>Caption</b>
   - HTML editor for content where I can format text (create a header, paragraph or list, manage font style and text aligning) (required field)
   - <b>Comments: Show/Hide</b> toggle
@@ -68,6 +69,10 @@ Then the toggle changed to <b>Hide</b>
   And comments section is not shown for users
 </pre>
 
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
 ## Mockups
 
 1. Admin user sees an edit article form
@@ -98,7 +103,7 @@ Then the toggle changed to <b>Hide</b>
 3. Verify that admin is not able to save empty required fields to the edited article
 4. Verify that admin is able to preview the edited article
 5. Verify that admin is able to save the edited article with all valid data updated
-6. Verify that admin is able to save changed the conference, team, and location for the edited article
+6. Verify that admin is able to save changed the subcategory, team, and location for the edited article
 7. Verify that the comments section can be hidden for the edited article
 8. Verify that the comments section can be shown for the edited article
 
@@ -127,7 +132,7 @@ Then the toggle changed to <b>Hide</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Make some changes</br>4) Change the conference, team, and location</br>5) Select the <b>Preview</b> link</br>6) Select <b>Back to edit page</b> link|5) The article is shown as it will look for users</br>6) The article is back to edit mode|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Make some changes</br>4) Change the subcategory, team, and location</br>5) Select the <b>Preview</b> link</br>6) Select <b>Back to edit page</b> link|5) The article is shown as it will look for users</br>6) The article is back to edit mode|
 
 ### **#5. Verify that admin is able to save the edited article with all valid data updated**
 
@@ -135,11 +140,11 @@ Then the toggle changed to <b>Hide</b>
 --------------|-----|----------
 |- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Update all required fields</br>4) Click <b>Save</b>|4) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
 
-### **#6. Verify that admin is able to save changed the conference, team, and location for the edited article**
+### **#6. Verify that admin is able to save changed the subcategory, team, and location for the edited article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Change a conference, team, and location</br>4) Click <b>Save</b>|4) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Edit</b> menu item</br>3) Change a subcategory, team, and location</br>4) Click <b>Save</b>|4) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in unpublished state|
 
 ### **#7. Verify that the comments section can be hidden for the edited article**
 

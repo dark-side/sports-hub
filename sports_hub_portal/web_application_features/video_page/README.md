@@ -59,8 +59,8 @@ No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow admin users to add new videos**](/sports_hub_portal/web_application_features/video_page/user_stories/add_new_video)|<pre>As an admin user<br>I want to be able to add new videos</pre>
 2 |[**Allow admin users to view the list of existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/admin_videos_list)|<pre>As an admin user<br>I want to view the list of existing videos</pre>
-3 |[**Allow admin users to edit existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/edit_existing_video)|<pre>As an admin user<br>I want to edit existing unpublished videos</pre>
-4 |[**Allow admin users to delete existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/delete_existing_video)|<pre>As an admin user<br>I want to be able to delete existing videos</pre>
-5 |[**Allow admin users to publish/unpublish existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/publish_unpublish_video)|<pre>As an admin user<br>I want to publish/unpublish existing videos</pre>
+3 |[**Allow admin users to publish/unpublish existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/publish_unpublish_video)|<pre>As an admin user<br>I want to publish/unpublish existing videos</pre>
+4 |[**Allow admin users to edit existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/edit_existing_video)|<pre>As an admin user<br>I want to edit existing unpublished videos</pre>
+5 |[**Allow admin users to delete existing videos**](/sports_hub_portal/web_application_features/video_page/user_stories/delete_existing_video)|<pre>As an admin user<br>I want to be able to delete existing videos</pre>
 6 |[**Allow site users to view videos on the portal**](/sports_hub_portal/web_application_features/video_page/user_stories/user_video_list)|<pre>As a site user<br>I want to be able to view sports videos</pre>
 7 |[**Allow site users to share videos on social networks**](/sports_hub_portal/web_application_features/video_page/user_stories/share_video)|<pre>As a site user<br>I want to be able to share sports videos on my social network account</pre>

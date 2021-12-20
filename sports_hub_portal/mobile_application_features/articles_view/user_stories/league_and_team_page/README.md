@@ -1,6 +1,6 @@
 ### Back to [View articles in the application](../../) feature
 
-# Allow users to view league/team page in the application
+# Allow users to view category/team page in the application
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -10,19 +10,19 @@
 ## Description
 
     As a user
-    I want to be able to open the league or team page
-    So that I can view articles that are related to selected league or team
+    I want to be able to open the category or team page
+    So that I can view articles that are related to selected category or team
 
 ## Acceptance criteria
 <pre>
-<b><i>Scenario: A user views the league or team page</i></b>
+<b><i>Scenario: A user views the category or team page</i></b>
 
 Given I am a user
 
-When I view the league or team page
+When I view the category or team page
 Then I see:
   - Heading at the top of the page that contains the path to the page (example: NBA\AFC South\Tennessee)
-  - Big photo from the most recent article in the selected team or league
+  - Big photo from the most recent article in the selected team or category
   - Article headline
   - Article metadata (including author and source)
   - The <b>More</b> button
@@ -37,31 +37,31 @@ Then I am taken to the page containing the article
 
 When I scroll the list of the articles
 Then I see the list of articles increases
-  And I see the list of articles should be relevant to the selected team or league topics
+  And I see the list of articles should be relevant to the selected team or category topics
 </pre>
 
 ## Mockups
 
-1. Users see a list of leagues on the menu
-2. The league related (NBA) articles list
-3. Users see a list of leagues, confereces, and teams on the menu
+1. Users see a list of categories on the menu
+2. The category related (NBA) articles list
+3. Users see a list of categories, confereces, and teams on the menu
 4. Users see the article page
 5. Article full page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see a list of leagues on the menu:**
+**1. Users see a list of categories on the menu:**
 
-![Users see a list of leagues on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_league_list.png)
+![Users see a list of categories on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_league_list.png)
 
-**2. The league related (NBA) articles list:**
+**2. The category related (NBA) articles list:**
 
-![The league related (NBA) articles list](/sports_hub_portal/mobile_application_features/articles_view/images/league_articles_page.png)
+![The category related (NBA) articles list](/sports_hub_portal/mobile_application_features/articles_view/images/league_articles_page.png)
 
-**3. Users see a list of leagues, confereces, and teams on the menu:**
+**3. Users see a list of categories, confereces, and teams on the menu:**
 
-![Users see a list of leagues, confereces, and teams on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_full_list.png)
+![Users see a list of categories, confereces, and teams on the menu](/sports_hub_portal/mobile_application_features/articles_view/images/application_menu_full_list.png)
 
 **4. Users see the article page:**
 
@@ -75,20 +75,20 @@ Then I see the list of articles increases
 
 ## Test cases
 
-1. Verify navigating to the team and league page from the main menu
-2. Verify the list of articles on the team/league page
+1. Verify navigating to the team and category page from the main menu
+2. Verify the list of articles on the team/category page
 3. Verify redirection to the article page by tapping the <b>More</b> button
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify navigating to the team and league page from the main menu**
+### **#1. Verify navigating to the team and category page from the main menu**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
 ||1) Examine the main menu</br>2) Tap the sports category (NBA)</br>3) Tap the subcategory (AFC South)</br>4) Tap a team (Tennessee)|2) Submenu with subcategories opens</br>3) Submenu with teams opens</br>4) The user is redirected to the Tennessee team page|
 
-### **#2. Verify the list of articles on the team/league page**
+### **#2. Verify the list of articles on the team/category page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

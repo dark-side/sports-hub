@@ -11,7 +11,7 @@
 
 When users are viewing pages that contain the <b>Most popular</b> and <b>Most commented</b> sections, they should be able to see articles that have the highest number of views (<b>Most popular</b>) or the highest number of comments (<b>Most commented</b>) during the period configured by admin. The <b>Most popular</b> and <b>Most commented</b> sections should be context-sensitive:
   - Home page contains the most popular and most commented articles from the whole articles list
-  - Any other page contains the most popular and the most commented articles that belong to the same category, conference, or team as the current page
+  - Any other page contains the most popular and the most commented articles that belong to the same category, subcategory, or team as the current page
 
 ## Check list:
 

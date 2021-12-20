@@ -31,7 +31,7 @@ When I select an article
 Then I am taken to the article page
   And the <b>Most popular</b> section is context-sensitive which means:
     - Home page contains the most popular articles from the whole articles list
-    - Any other page contains the most popular articles that belong to a category, conference, or team of the current page
+    - Any other page contains the most popular articles that belong to a category, subcategory, or team of the current page
 
 When the <b>Most popular</b> section is hidden by admin
 Then I don’t see the <b>Most popular</b> section on any page where it can be present

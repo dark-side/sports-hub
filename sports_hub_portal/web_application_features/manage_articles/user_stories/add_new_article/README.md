@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -29,7 +30,7 @@ When I view the new article page
 Then I see the next elements:
   - The preview icon in the upper-right corner of the page
   - Drag-and-drop field for image upload with <b>+ Add picture</b> link (required field)
-  - Three drop-down fields, where I can select <b>Conference</b>, <b>Team</b>, and <b>Location</b>
+  - Three drop-down fields, where I can select <b>Subcategory</b>, <b>Team</b>, and <b>Location</b>
   - Three required fields, where I can add details of the article: <b>Alt.</b>, <b>Article headline</b>, and <b>Caption</b>
   - HTML editor for content where I can format text (create a header, paragraph or list, manage font style and text aligning) (required field)
   - <b>Comments: Show/Hide</b> toggle
@@ -63,6 +64,10 @@ When I click <b>Comments: Show</b> toggle
 Then the toggle changed to <b>Hide</b>
   And comments section is not shown for users
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 
@@ -100,7 +105,7 @@ Then the toggle changed to <b>Hide</b>
 4. Verify that admin is not able to save a new article without uploading a picture
 5. Verify that admin is able to preview a new article
 6. Verify that admin is able to save the new article with all required fields filled in
-7. Verify that admin is able to select a conference, team, and location for a new article
+7. Verify that admin is able to select a subcategory, team, and location for a new article
 8. Verify that the comments section can be hidden for a new article
 9. Verify that the comments section can be shown for a new article
 
@@ -135,7 +140,7 @@ Then the toggle changed to <b>Hide</b>
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page |1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the conference, team, and location</br>4) Click the preview icon</br>5) Click the <b>Back to edit page</b> button|4) The article is shown as it will look for users</br>5) The article is back to edit mode|
+|- Log in with admin account</br>- Go to the category configuration page |1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the subcategory, team, and location</br>4) Click the preview icon</br>5) Click the <b>Back to edit page</b> button|4) The article is shown as it will look for users</br>5) The article is back to edit mode|
 
 ### **#6. Verify that admin is able to save the new article with all required fields filled in**
 
@@ -143,11 +148,11 @@ Then the toggle changed to <b>Hide</b>
 --------------|-----|----------
 |- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Click <b>Save</b>|3) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in <b>Unpublished</b> state|
 
-### **#7. Verify that admin is able to select a conference, team, and location for a new article**
+### **#7. Verify that admin is able to select a subcategory, team, and location for a new article**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the conference, team, and location</br>4) Click <b>Save</b>|3) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in <b>Unpublished</b> state|
+|- Log in with admin account</br>- Go to the category configuration page|1) Click <b>+ New Article</b></br>2) Fill in all required fields</br>3) Change the subcategory, team, and location</br>4) Click <b>Save</b>|3) Admin user is redirected to the list of articles. The article is saved with all information and appears at the top of the list in <b>Unpublished</b> state|
 
 ### **#8. Verify that the comments section can be hidden for a new article**
 

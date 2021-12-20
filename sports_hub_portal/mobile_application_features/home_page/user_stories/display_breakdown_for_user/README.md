@@ -28,8 +28,8 @@ Then I see a <b>Breakdown</b> section after the <b>Main articles</b> section
     - Headline
     - Caption - for 3 secondary articles
 
-When the <b>Conference</b> is selected by admin
-Then I see only news from this conference
+When the <b>Subcategory</b> is selected by admin
+Then I see only news from this subcategory
 
 When the <b>Team</b> is selected by admin
 Then I see only news from this team
@@ -73,7 +73,7 @@ Then I am taken to the right article page
 ## Test cases
 
 1. Verify that 4 newest articles from category for the configured breakdown are visible to users
-2. Verify that 4 newest articles from conference for the configured breakdown are visible to users
+2. Verify that 4 newest articles from subcategory for the configured breakdown are visible to users
 3. Verify that 4 newest articles from team for the configured breakdown are visible to users
 4. Verify that the user is redirected to the right page by selecting the article photo, headline, or caption in the <b>Breakdown</b> section
 5. Verify that the deleted breakdown is not shown
@@ -87,13 +87,13 @@ Then I am taken to the right article page
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Go to the <b>Home</b> page > <b>Breakdown</b> section</br>- There is a breakdown for category configured by admin (Conference and Team are not selected) |1) Examine the <b>Breakdown</b> section|1) There is a breakdown of 4 newest articles according to the selected category|
+|- Go to the <b>Home</b> page > <b>Breakdown</b> section</br>- There is a breakdown for category configured by admin (Subcategory and Team are not selected) |1) Examine the <b>Breakdown</b> section|1) There is a breakdown of 4 newest articles according to the selected category|
 
-### **#2. Verify that 4 newest articles from conference for the configured breakdown are visible to users**
+### **#2. Verify that 4 newest articles from subcategory for the configured breakdown are visible to users**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Go to the <b>Home</b> page > <b>Breakdown</b> section</br>- There is breakdown for conference configured by admin (Team is not selected)|1) Examine the <b>Breakdown</b> section|1) There is a breakdown of 4 newest articles according to the selected conference|
+|- Go to the <b>Home</b> page > <b>Breakdown</b> section</br>- There is breakdown for subcategory configured by admin (Team is not selected)|1) Examine the <b>Breakdown</b> section|1) There is a breakdown of 4 newest articles according to the selected subcategory|
 
 ### **#3. Verify that 4 newest articles from team for the configured breakdown are visible to users**
 

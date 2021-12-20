@@ -78,6 +78,6 @@ Then I see the pop-up window with notification about the subscribed news categor
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- On the <b>NBA</b> league page/<b>Los Angeles Lakers</b> team page</br>- On the application footer > <b>Newsletter</b>|1) In the <b>Your email address</b> field, enter the user email address</br>2) Tap <b>Subscribe</b></br>3) Verify that the user is subscribed to <b>NBA</b> league/<b>Los Angeles Lakers</b> team news|2) The pop-up window appears with a notification that the user is subscribed to <b>NBA</b> league/<b>Los Angeles Lakers</b> team news</br>3) The user receives an email with the latest news from the appropriate category/team page on a daily basis|
+|- On the <b>NBA</b> category page/<b>Los Angeles Lakers</b> team page</br>- On the application footer > <b>Newsletter</b>|1) In the <b>Your email address</b> field, enter the user email address</br>2) Tap <b>Subscribe</b></br>3) Verify that the user is subscribed to <b>NBA</b> category/<b>Los Angeles Lakers</b> team news|2) The pop-up window appears with a notification that the user is subscribed to <b>NBA</b> category/<b>Los Angeles Lakers</b> team news</br>3) The user receives an email with the latest news from the appropriate category/team page on a daily basis|
 
 </details>
