@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -55,10 +56,14 @@ When I view the <b>Most commented</b> section
 Then I see only articles with the biggest amount of comments for configured by admin period from the <b>Lifestyle</b>
 </pre>
 
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
 ## Mockups
 
 1. Users see the <b>Lifestyle</b> page
-1. Users see the <b>Dealbook</b> page
+2. Users see the <b>Dealbook</b> page
 
 <details>
   <summary>Click here to see mockups details</summary>

@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -22,6 +23,11 @@ Given I am logged in as a site user
 When I am on the <b>Team hub</b> page and I haven’t configured my favorite teams in the personal cabinet
 Then I see a list of news that are sorted according to the teams that are selected automatically based on my geolocation
 </pre>
+
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

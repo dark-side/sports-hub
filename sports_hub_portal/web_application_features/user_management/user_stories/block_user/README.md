@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -34,6 +35,10 @@ Then I see the confirmation dialog is closed
   And the blocked user cannot comment
   And notification about blocking is sent to the user’s email
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

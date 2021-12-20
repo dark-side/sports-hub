@@ -1,28 +1,29 @@
 ### Back to [Articles - user side on the portal](../../) feature
 
-# Allow users to view league/team page of the portal
+# Allow users to view category/team page of the portal
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
 ## Description
 
     As a site user
-    I want to able be to open the league or team page
-    So that I can view articles that are related to the selected league or team
+    I want to able be to open the category or team page
+    So that I can view articles that are related to the selected category or team
 
 ## Acceptance criteria
 <pre>
-<b><i>Scenario: A site user views the league or team page</i></b>
+<b><i>Scenario: A site user views the category or team page</i></b>
 
 Given I am a site user
 
-When I view the league or team page
+When I view the category or team page
 Then I see:
   - Heading at the top of the page that contains the path to the page (example: NBA\AFC South\Tennessee)
-  - Big photo from the most recent article in the selected league or team with the square on the right side of the photo that contains:
+  - Big photo from the most recent article in the selected category or team with the square on the right side of the photo that contains:
     1. Article headline
     2. Article metadata (including author and source)
     3. The <b>More</b> button in the lower-left corner
@@ -37,21 +38,25 @@ Then I am taken to the page containing the article
 
 When I scroll the list of the articles
 Then I see the list of articles increases
-  And I see the list of articles should be relevant to the selected league or team topics
+  And I see the list of articles should be relevant to the selected category or team topics
   And I see the number of articles that appear in the list should be defined in the CMS
 </pre>
 
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
 ## Mockups
 
-1. Users see the league related to the article page
+1. Users see the category related to the article page
 2. Users see the team related to the article page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see the league related to the article page:**
+**1. Users see the category related to the article page:**
 
-![Users see the league related to the article page](/sports_hub_portal/web_application_features/articles_user_side/images/league_page.png)
+![Users see the category related to the article page](/sports_hub_portal/web_application_features/articles_user_side/images/league_page.png)
 
 **2. Users see the team related to the article page:**
 
@@ -61,20 +66,20 @@ Then I see the list of articles increases
 
 ## Test cases
 
-1. Verify navigating to the team and league pages from the sidebar menu
-2. Verify the list of articles on the team/league page
+1. Verify navigating to the team and category pages from the sidebar menu
+2. Verify the list of articles on the team/category page
 3. Verify redirection to the article page by clicking the <b>More</b> button
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify navigating to the team and league pages from the sidebar menu**
+### **#1. Verify navigating to the team and category pages from the sidebar menu**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
 ||1) Examine the main menu</br>2) Select the sports category (NBA)</br>3) Select the subcategory (AFC South)</br>4) Select a team (Tennessee)|2) Submenu with subcategories opens</br>3) Submenu with teams opens</br>4) The user is redirected to the Tennessee team page|
 
-### **#2. Verify the list of articles on the team/league page**
+### **#2. Verify the list of articles on the team/category page**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------

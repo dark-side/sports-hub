@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -33,6 +34,9 @@ Then I see the error message "Please enter valid email"
 When on the sign-up page I entered an invalid password, and click <b>Sign up</b>
 Then I see the error message "Password must contain at least 8 characters (letters and numbers)"
 
+When I enter an email of the user that is already registered
+Then I see the error message "The user with this email already exists in the system"
+
 When I complete the sign-up form with valid data and then click <b>Sign up</b>
 Then I am taken to the <b>Log in</b> page
 
@@ -42,6 +46,10 @@ Then I see a registration confirmation letter and the <b>Go to website</b> butto
 When I click <b>Go to website</b>
 Then I am taken to the <b>Log in</b> page
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

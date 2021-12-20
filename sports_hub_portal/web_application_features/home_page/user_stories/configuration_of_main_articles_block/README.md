@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -25,7 +26,7 @@ Then I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right co
   And I see the <b>Main articles</b> section on the top of the page
   And I see the <b>Main articles</b> section contains a form with the following fields:
     - <b>Category</b> contains a list of all sports categories, first category from the list is selected by default, is required
-    - <b>Conference</b> contains a list of all conferences, nothing is selected by default
+    - <b>Subcategory</b> contains a list of all subcategories, nothing is selected by default
     - <b>Team</b> contains a list of all teams, nothing is selected by default
     - <b>Article</b> contains a list of all articles from the category, is required
     - The <b>Add one more article</b> button
@@ -48,13 +49,13 @@ When I click the <b>Show on the main page</b> toggle on any article form
 Then the <b>Show on the main page</b> toggle changes to <b>Hide on the main page</b>
 
 When I change the category in the drop-down list
-Then I see the <b>Conference</b> drop-down list is updated with conferences according to the selected category
+Then I see the <b>Subcategory</b> drop-down list is updated with subcategories according to the selected category
   And I see the <b>Team</b> drop-down list is updated with teams according to the selected category
   And I see the <b>Article</b> drop-down list is updated with articles according to the selected category
 
-When I select <b>Conference</b>
-Then I see the <b>Team</b> drop-down list is updated with teams according to the selected conference 
-  And I see the <b>Article</b> drop-down list is updated with articles according to the selected conference
+When I select <b>Subcategory</b>
+Then I see the <b>Team</b> drop-down list is updated with teams according to the selected subcategory 
+  And I see the <b>Article</b> drop-down list is updated with articles according to the selected subcategory
 
 When I select <b>Team</b>
   Then I see the <b>Article</b> drop-down list is updated with articles according to the selected team
@@ -73,6 +74,10 @@ Then the <b>Home</b> page is in the published state
   And I see a success flash message
   And I see <b>Cancel</b> and <b>Save all changes</b> buttons on the top right corner
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 
@@ -104,7 +109,7 @@ Then the <b>Home</b> page is in the published state
 3. Verify that admin is able to save changes on the <b>Home</b> page when there are no validation errors
 4. Verify that admin is able to publish changes on the <b>Home</b> page
 5. Verify that admin is able to change <b>Category</b> in the <b>Main articles</b> section
-6. Verify that admin is able to select a <b>Conference</b> in the <b>Main articles</b> section
+6. Verify that admin is able to select a <b>Subcategory</b> in the <b>Main articles</b> section
 7. Verify that admin is able to select a <b>Team</b> in the <b>Main articles</b> section
 8. Verify that it is possible to add a new article in the <b>Main articles</b> section
 9. Verify that maximum 5 articles can be added in the <b>Main articles</b> section
@@ -143,25 +148,25 @@ Then the <b>Home</b> page is in the published state
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page|1) Change the sports category in the <b>Main articles</b> section</br>2) Check if the <b>Conference</b>, <b>Team</b>, and <b>Article</b> drop-down lists are updated|2) The <b>Conference</b>, <b>Team</b>, and <b>Article</b> drop-down lists are updated according to the selected category|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page|1) Change the sports category in the <b>Main articles</b> section</br>2) Check if the <b>Subcategory</b>, <b>Team</b>, and <b>Article</b> drop-down lists are updated|2) The <b>Subcategory</b>, <b>Team</b>, and <b>Article</b> drop-down lists are updated according to the selected category|
 
-### **#6. Verify that admin is able to select a Conference in the Main articles section**
+### **#6. Verify that admin is able to select a Subcategory in the Main articles section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page</br>- <b>Category</b> is selected|1) In the <b>Main articles</b> section, select a <b>Conference</b></br>2) Check if <b>Team</b> and <b>Article</b> drop-down lists are updated|2) The <b>Team</b> and <b>Article</b> drop-down lists are updated according to the selected conference|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page</br>- <b>Category</b> is selected|1) In the <b>Main articles</b> section, select a <b>Subcategory</b></br>2) Check if <b>Team</b> and <b>Article</b> drop-down lists are updated|2) The <b>Team</b> and <b>Article</b> drop-down lists are updated according to the selected subcategory|
 
 ### **#7. Verify that admin is able to select a Team in the Main articles section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page</br>- <b>Category</b> is selected</br>- <b>Conference</b> is selected|1) In the <b>Main articles</b> section, select a <b>Team</b></br>2) Check if <b>Article</b> drop-down list is updated|2) The <b>Article</b> drop-down list is updated according to the selected team|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page</br>- <b>Category</b> is selected</br>- <b>Subcategory</b> is selected|1) In the <b>Main articles</b> section, select a <b>Team</b></br>2) Check if <b>Article</b> drop-down list is updated|2) The <b>Article</b> drop-down list is updated according to the selected team|
 
 ### **#8. Verify that it is possible to add a new article in the Main articles section**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Main articles</b> section|1) In the <b>Main articles</b> section, click <b>Add one more article </b>|1) Drop-down lists to save a new article appear (<b>Category</b> (required), <b>Conference</b>, <b>Team</b>, <b>Article</b> (required))|
+|- Log in with admin account</br>- Go to the <b>Home</b> configuration page > <b>Main articles</b> section|1) In the <b>Main articles</b> section, click <b>Add one more article </b>|1) Drop-down lists to save a new article appear (<b>Category</b> (required), <b>Subcategory</b>, <b>Team</b>, <b>Article</b> (required))|
 
 ### **#9. Verify that maximum 5 articles can be added in the Main articles section**
 

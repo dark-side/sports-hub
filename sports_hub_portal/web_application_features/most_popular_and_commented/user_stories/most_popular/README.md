@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -18,7 +19,7 @@
 <pre>
 <b><i>Scenario: A site user views the Most popular section</i></b>
 
-Given I am logged in as a site user
+Given I a site user
 
 When I view a page with the <b>Most popular</b> section
 Then I see this section has a list with 3 most popular articles (based on page views in the configured period)
@@ -31,7 +32,7 @@ When I select an article
 Then I am taken to the article page
   And the <b>Most popular section</b> is context-sensitive which means:
   - The <b>Home</b> page contains the most popular articles from the whole articles list
-  - Any other page contains the most popular articles that belong to a category, conference, or team of the current page
+  - Any other page contains the most popular articles that belong to a category, subcategory, or team of the current page
 
 When the <b>Most popular</b> section is hidden by the admin
 Then I don’t see the <b>Most popular</b> section on any page where it can be present
@@ -39,6 +40,10 @@ Then I don’t see the <b>Most popular</b> section on any page where it can be p
 When the <b>Most popular</b> section is shown by admin
 Then I see the <b>Most popular</b> section on any page where it can be present
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

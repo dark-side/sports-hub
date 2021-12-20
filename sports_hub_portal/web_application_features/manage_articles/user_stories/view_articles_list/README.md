@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -24,7 +25,7 @@ Then I see the following:
   - The <b>+ New Article</b> button in the upper-right corner of the page
   - The preview icon
   - A drop-down list filtered by statuses (<b>All, Published, Unpublished</b>) with default value <b>All</b>
-  - A drop-down list filtered by conferences with default value <b>All conferences</b>
+  - A drop-down list filtered by subcategories with default value <b>All subcategories</b>
   - A drop-down list filtered by teams with default value <b>All teams</b>
   - The search icon
   - The list of blocks – one block per one existing article from the selected category where each block has:
@@ -38,10 +39,10 @@ Then I see the following:
 When I scroll the list of the articles
 Then I see the list of articles is appended with a new portion of articles
 
-When I select a conference in the conference drop-down filter
+When I select a subcategory in the subcategory drop-down filter
 Then I see available items in the team drop-down filter is refreshed
   And I see the list of articles is refreshed
-  And I see only articles that are related to selected conference
+  And I see only articles that are related to selected subcategory
 
 When I select <b>Published</b> option in the status filter
 Then I see only published articles
@@ -80,10 +81,14 @@ Then I see the following options:
   - <b>Move</b>
 </pre>
 
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
 ## Mockups
 
 1. Admin user sees a list of articles
-2. Admin user clicks conference filter and sees the options
+2. Admin user clicks subcategory filter and sees the options
 3. Admin user clicks status filter and sees the options
 4. Admin user clicks the search icon and sees an input field
 5. Admin user sees actions for a published article
@@ -97,9 +102,9 @@ Then I see the following options:
 
 ![Admin user sees a list of articles](/sports_hub_portal/web_application_features/manage_articles/images/articles_list.png)
 
-**2. Admin user clicks conference filter and sees the options:**
+**2. Admin user clicks subcategory filter and sees the options:**
 
-![Admin user clicks conference filter and sees the options](/sports_hub_portal/web_application_features/manage_articles/images/conferences_filter.png)
+![Admin user clicks subcategory filter and sees the options](/sports_hub_portal/web_application_features/manage_articles/images/conferences_filter.png)
 
 **3. Admin user clicks status filter and sees the options:**
 
@@ -126,7 +131,7 @@ Then I see the following options:
 ## Test cases
 
 1. Verify the content of the category articles page
-2. Verify that list of articles is updated according to the selected conference in the article conference box
+2. Verify that list of articles is updated according to the selected subcategory in the article subcategory box
 3. Verify that list of articles is updated according to the selected team in the article team drop-down filter
 4. Verify that list of articles is updated according to the selected status filter
 5. Verify that list of articles is populated with new elements when it is scrolled down
@@ -141,11 +146,11 @@ Then I see the following options:
 --------------|-----|----------
 |- Log in with admin account</br>- Go to any sports category|1) Examine the category articles page|1) There are blocks of articles where each block has:</br>- Article thumbnail photo on the left side</br>- Article headline on the right from the photo</br>- First few sentences of the article</br>- Category/Team below the article text</br>- Status of the article (Published/Unpublished)|
 
-### **#2. Verify that list of articles is updated according to the selected conference in the article conference box**
+### **#2. Verify that list of articles is updated according to the selected subcategory in the article subcategory box**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to any sports category|1) Select a conference in the conference drop-down filter</br>2) Check if the list with articles is updated</br>3) Check if the team drop-down filter is updated|2) Articles in the list are updated according to the selected conference</br>3) The team drop-down filter is updated according to the selected conference|
+|- Log in with admin account</br>- Go to any sports category|1) Select a subcategory in the subcategory drop-down filter</br>2) Check if the list with articles is updated</br>3) Check if the team drop-down filter is updated|2) Articles in the list are updated according to the selected subcategory</br>3) The team drop-down filter is updated according to the selected subcategory|
 
 ### **#3. Verify that list of articles is updated according to the selected team in the article team drop-down filter**
 

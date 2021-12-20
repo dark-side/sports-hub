@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -37,8 +38,12 @@ Then I see the "The article is successfully moved" flash message
 
 When I go to the category where the article is moved
 Then I see the article is present
-  And the <b>Conference</b> and <b>Team</b> are reset for the article
+  And the <b>Subcategory</b> and <b>Team</b> are reset for the article
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 
@@ -65,12 +70,12 @@ Then I see the article is present
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Move</b> menu item</br>3) Select any category</br>4) Examine the list of articles in the current category</br>5) Go to the category selected in step 3</br>6) Examine the list of articles|3) "The article is successfully moved" flash message appears</br>4) Article is not present in the current list</br>6) Article is present in the list in the <b>Unpublished</b> state. <b>Conference</b> and <b>Team</b> are reset for the article in case of any|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is an unpublished article|1) Hover over an unpublished article</br>2) Click "<b>...</b>" button > <b>Move</b> menu item</br>3) Select any category</br>4) Examine the list of articles in the current category</br>5) Go to the category selected in step 3</br>6) Examine the list of articles|3) "The article is successfully moved" flash message appears</br>4) Article is not present in the current list</br>6) Article is present in the list in the <b>Unpublished</b> state. <b>Subcategory</b> and <b>Team</b> are reset for the article in case of any|
 
 ### **#2. Verify that admin is able to move a published article to another category**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Move</b> menu item</br>3) Select any category</br>4) Examine the list of articles in the current category</br>5) Go to the category selected in step 3</br>6) Examine the list of articles|3) "The article is successfully moved" flash message appears</br>4) Article is not present in the current list</br>6) Article is present in the list in the <b>Published</b> state. <b>Conference</b> and <b>Team</b> are reset for the article in case of any|
+|- Log in with admin account</br>- Go to the category configuration page</br>- There is a published article|1) Hover over a published article</br>2) Click "<b>...</b>" button > <b>Move</b> menu item</br>3) Select any category</br>4) Examine the list of articles in the current category</br>5) Go to the category selected in step 3</br>6) Examine the list of articles|3) "The article is successfully moved" flash message appears</br>4) Article is not present in the current list</br>6) Article is present in the list in the <b>Published</b> state. <b>Subcategory</b> and <b>Team</b> are reset for the article in case of any|
 
 </details>

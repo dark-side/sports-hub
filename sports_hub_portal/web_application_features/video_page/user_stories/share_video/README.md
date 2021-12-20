@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -19,7 +20,7 @@
 
 Given I am a site user
 
-When I view a specific video page and video sharing is enabled
+When I view a specific video page, video sharing is enabled and at least one social network is configured for sharing
 Then I see the <b>Share</b> button on the video in the upper right corner
 
 When I hover over the <b>Share</b> button
@@ -28,6 +29,10 @@ Then I see social networks icons
 When I click any of social networks icon
 Then I see the video is shared on my social network account
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 

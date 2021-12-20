@@ -4,6 +4,7 @@
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
+- [Style guides](#style-guides)
 - [Mockups](#mockups)
 - [Test cases](#test-cases)
 
@@ -44,6 +45,10 @@ Then I am taken to a sports category, subcategory, or team page of the Sports Hu
   - NBA sport category page – subscription to NBA news
   - Los Angeles Lakers team page – subscription to Los Angeles Lakers team news</i>
 </pre>
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## Mockups
 
@@ -87,7 +92,7 @@ Then I am taken to a sports category, subcategory, or team page of the Sports Hu
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- On the <b>NBA</b> league page/<b>Los Angeles Lakers</b> team page</br>- On the site footer > <b>Newsletter</b>|1) In the <b>Your email address</b> field, enter the user email address</br>2) Click <b>Subscribe</b></br>3) Verify that the user is subscribed to <b>NBA</b> league/<b>Los Angeles Lakers</b> team news|2) The pop-up window appears with a notification that the user is subscribed to <b>NBA</b> league/<b>Los Angeles Lakers</b> team news</br>3) The user receives an email with the latest news from the appropriate category/team page on a daily basis|
+|- On the <b>NBA</b> category page/<b>Los Angeles Lakers</b> team page</br>- On the site footer > <b>Newsletter</b>|1) In the <b>Your email address</b> field, enter the user email address</br>2) Click <b>Subscribe</b></br>3) Verify that the user is subscribed to <b>NBA</b> category/<b>Los Angeles Lakers</b> team news|2) The pop-up window appears with a notification that the user is subscribed to <b>NBA</b> category/<b>Los Angeles Lakers</b> team news</br>3) The user receives an email with the latest news from the appropriate category/team page on a daily basis|
 
 ### **#3. Verify that the user is redirected to the appropriate page by clicking the Go To Read button in the email**
 
