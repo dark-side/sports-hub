@@ -111,7 +111,7 @@ Specific goals are:
 2. [Page layout on the portal](/sports_hub_portal/web_application_features/project_layout/)
 3. [Site footer of the portal](/sports_hub_portal/web_application_features/site_footer/)
 4. [Maintain navigation on the portal](/sports_hub_portal/web_application_features/maintain_navigation/)
-5. [Manage teams on the portal](/sports_hub_portal/web_application_features/manage_the_teams/)
+5. [User personal cabinet](/sports_hub_portal/web_application_features/user_profile_update/)
 6. [Social networks on the portal](/sports_hub_portal/web_application_features/social_networks/)
 7. [Site languages on the portal](/sports_hub_portal/web_application_features/site_languages/)
 8. [Manage articles on the portal](/sports_hub_portal/web_application_features/manage_articles/)
