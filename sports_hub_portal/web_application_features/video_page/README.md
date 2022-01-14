@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -52,6 +53,10 @@ _User side_
 Please click [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1184&viewport=-938%2C496%2C0.25463470816612244&scaling=min-zoom) to see a clickable prototype.
 
 Please click [here](https://www.figma.com/file/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

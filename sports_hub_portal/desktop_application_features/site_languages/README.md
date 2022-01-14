@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Site languages on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -15,16 +16,27 @@ Admin also can use the language selector to change the site content. English lan
 
 ## Check list:
 
-- A drop-down list with available site languages should be present in the right section of the site header for admin
+- A drop-down list with available site languages should be present in the right section of the site header
+- Admin should be able to change the site language
 - Site content should be translated into the chosen language
 - Admin should be able to add, delete, enable, and disable a language in the drop-down list
 - English language is default and cannot be deleted or disabled for any user type
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/r4rCFsgZLTI77lroZSQynb/Site-Languages?node-id=0%3A1075&viewport=406%2C-1586%2C0.2511744797229767&scaling=min-zoom) to see a clickable prototype.
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/qsCKnaZoZ385SIZbV1O1pf/Site-Languages?page-id=8142%3A653&node-id=8142%3A825&viewport=266%2C48%2C0.21&scaling=min-zoom&starting-point-node-id=8142%3A825)
+  - [MacOS](https://www.figma.com/proto/qsCKnaZoZ385SIZbV1O1pf/Site-Languages?page-id=0%3A1&node-id=8142%3A1796&viewport=266%2C48%2C0.21&scaling=min-zoom&starting-point-node-id=8142%3A1796)
 
-Please click [here](https://www.figma.com/file/r4rCFsgZLTI77lroZSQynb/Site-Languages?node-id=0%3A1) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/qsCKnaZoZ385SIZbV1O1pf/Site-Languages?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Social networks on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -19,9 +20,19 @@ The site admin should configure which social networks should be integrated into 
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/lVmiGA96ZPah8B8cADNZrb/Social-Networks?node-id=7214%3A523&viewport=278%2C5%2C0.10142996907234192&scaling=min-zoom) to see a clickable prototype.
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/rz5peySEMkKKh6mT3Snc3P/Social-networks-on-the-portal?page-id=8092%3A460&node-id=8092%3A820&viewport=266%2C48%2C0.2&scaling=min-zoom&starting-point-node-id=8092%3A820)
+  - [MacOS](https://www.figma.com/proto/rz5peySEMkKKh6mT3Snc3P/Social-networks-on-the-portal?page-id=0%3A36&node-id=7214%3A9&viewport=266%2C48%2C0.2&scaling=min-zoom&starting-point-node-id=7214%3A9)
 
-Please click [here](https://www.figma.com/file/lVmiGA96ZPah8B8cADNZrb/Social-Networks?node-id=0%3A36) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/rz5peySEMkKKh6mT3Snc3P/Social-networks-on-the-portal?node-id=0%3A36) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

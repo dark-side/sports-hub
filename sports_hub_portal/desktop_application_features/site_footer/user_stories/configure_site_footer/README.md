@@ -93,7 +93,7 @@ Then I see the configuration table with the following rows:
   And I can configure this tab in the same way as the <b>Company info</b> tab
 </pre>
 
-  <i>The <b>Newsletter</b> is described [in separate feature](/sports_hub_portal/web_application_features/newsletter_email)</i>
+  <i>The <b>Newsletter</b> is described [in separate feature](/sports_hub_portal/desktop_application_features/newsletter_email)</i>
 
 ## Style guides
 

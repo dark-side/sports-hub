@@ -48,15 +48,15 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Users see the Sign Up button:**
 
-![Users see the Sign Up button](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
+![Users see the Sign Up button](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/images/home_page_logged_out_user.png)
 
 **2. Users see the log-in form:**
 
-![Users see the log-in form](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
+![Users see the log-in form](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/images/log_in_empty_form.png)
 
 **3. Admin user sees home configuration page and Administrator label under their name after successful logging in :**
 
-![Admin user sees home configuration page and Administrator label under their name after successful logging in](/sports_hub_portal/web_application_features/log_in_and_sign_up/images/home_page_logged_in_admin.png)
+![Admin user sees home configuration page and Administrator label under their name after successful logging in](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/images/home_page_logged_in_admin.png)
 
 </details>
 

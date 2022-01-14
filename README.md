@@ -6,7 +6,7 @@ There is a time when you want to
 - learn about software development processes and what they consist of
 - find a project idea when you start to learn new technology and want to practice new skills. 
 
-Here we created the requirements of the sample product which contains: 
+Here we created the requirements of the sample product [Sports Hub portal](/sports_hub_portal/) which contains:
 - product requirements
 - test cases
 - UI/UX

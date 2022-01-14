@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Home page of the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -32,11 +33,19 @@ The <b>Most popular</b> and <b>Most commented</b> functionalities are described 
 
 ## Prototype of the feature
 
-_Admin side_
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/2Y3Fnwfb10K3k6XBpWj3zK/Home-Page?page-id=8384%3A2148&node-id=8384%3A2387&viewport=266%2C48%2C0.1&scaling=min-zoom&starting-point-node-id=8384%3A2387)
+  - [MacOS](https://www.figma.com/proto/2Y3Fnwfb10K3k6XBpWj3zK/Home-Page?page-id=0%3A1073&node-id=0%3A1074&viewport=266%2C48%2C0.1&scaling=min-zoom&starting-point-node-id=0%3A1074)
 
-Please click [here](https://www.figma.com/proto/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1074&viewport=-716%2C546%2C0.10301588475704193&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/file/2Y3Fnwfb10K3k6XBpWj3zK/Home-Page?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
-Please click [here](https://www.figma.com/file/BpGy9tY0mE6hfw0hUN2Qeb/Home-Page?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

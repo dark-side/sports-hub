@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Sports videos on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -32,11 +33,19 @@ Admin user should be able to manage videos:
 
 ## Prototype of the feature
 
-_Admin side_
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/sj5B0S3PKcVWlggJ2Kn6ef/Video-Page?page-id=0%3A1073&node-id=8616%3A2300&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=8616%3A2300&show-proto-sidebar=1)
+  - [MacOS](https://www.figma.com/proto/sj5B0S3PKcVWlggJ2Kn6ef/Video-Page?page-id=0%3A1&node-id=8614%3A1735&viewport=266%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=8614%3A1735&show-proto-sidebar=1)
 
-Please click [here](https://www.figma.com/proto/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=7325%3A519&viewport=-601%2C1284%2C0.14238496124744415&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/file/sj5B0S3PKcVWlggJ2Kn6ef/Video-Page?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 
-Please click [here](https://www.figma.com/file/J5XiOLd3XPLYkr6jb3rkaC/Video-Page?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

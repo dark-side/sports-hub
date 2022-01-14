@@ -65,29 +65,10 @@ Specific goals are:
       - Comment on an article
       - Actions available for an unauthorized user
 
-**Website Admin**
+**Admin**
 
     Available actions:
-    Can configure the following parts of the site via the CMS:
-      - Site footer
-      - Site menu (including nested menu dropdowns)
-      - Site users
-      - Structure of the pages
-      - Articles
-      - Sports Categories (Leagues)
-      - Sports Subcategories
-      - Teams
-      - Relations between Categories, Subcategories, Teams
-      - Site Languages
-      - Social Networks support
-      - Surveys
-      - Banners
-      - Advertisements
-
-**Desktop Admin**
-
-    Available actions:
-    Can configure the following parts of the site via the Application:
+    Can configure the following parts of the site via the CMS on the website and desktop application:
       - Site footer
       - Site menu (including nested menu dropdowns)
       - Site users
@@ -213,6 +194,11 @@ Please follow (the style guides)[https://www.figma.com/proto/0zkkf5WC77OSpvyD6YX
 Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A2&viewport=592%2C442%2C1&scaling=min-zoom) to see a general clickable prototype.
 
 Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sports-Hub-General-Prototype?page-id=0%3A5852&node-id=0%3A5853&viewport=284%2C263%2C0.04008595272898674&scaling=scale-down) to see a mobile application clickable prototype.
+
+Please click [here](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=19%3A5368&show-proto-sidebar=1) to see style guides.
+
+Please click [here](https://www.figma.com/file/0zkkf5WC77OSpvyD6YXpFE/Style-guides?node-id=0%3A1
+) to see style guides mockups.
 
 ## Future work
 

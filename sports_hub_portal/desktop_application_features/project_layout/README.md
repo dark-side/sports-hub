@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Page layout on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
-- [Prototype of the Feature](#prototype-of-the-feature)
+- [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -22,17 +23,30 @@ Please note, page content sections are configured by admin.
 ## Check list:
 
   - Verify if UI corresponds to the prototype
+  - Admin should should go to the home page by clicking the logo
   - The layout structure should be the same for all pages
   - Pages should be built from content sections that are configured by admin
   - Admin should have the ability to act as a regular user and go back to the admin view
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1586&viewport=-381%2C678%2C0.1179991066455841&scaling=min-zoom) and [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A2&viewport=454%2C441%2C0.038604091852903366&scaling=min-zoom) to see clickable prototypes.
+Application start icon
 
-Please click [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1) and [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+Please click [here](https://www.figma.com/file/Af10pm4LKvLpBUDvenPAWZ/Start-icon?node-id=0%3A1) to see icons for MacOS, Windows, and Linux
+
+Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/%231---Sports-Hub-General-Prototype?page-id=0%3A1073&node-id=0%3A1586&viewport=266%2C48%2C0.02&scaling=min-zoom&starting-point-node-id=0%3A1586) to see clickable prototype.
+
+Please click [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/%231---Sports-Hub-General-Prototype?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
 Please click [here](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=54%3A6358&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to see style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

@@ -5,6 +5,7 @@
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -30,6 +31,10 @@ Users should be able to interact with articles according to their role on the si
 Please click [here](https://www.figma.com/proto/ZzrUgMKcDZQ724xuUlTv60/Articles-User-Side?node-id=6555%3A1605&viewport=340%2C419%2C0.08522418141365051&scaling=min-zoom) and [here](https://www.figma.com/proto/YtKIh0i79C3og2Jvrc4BHI/League-and-Team-Page?node-id=0%3A2&viewport=360%2C481%2C0.0646771639585495&scaling=min-zoom) to see clickable prototypes.
 
 Please click [here](https://www.figma.com/file/ZzrUgMKcDZQ724xuUlTv60/Articles-User-Side?node-id=0%3A1) and [here](https://www.figma.com/file/YtKIh0i79C3og2Jvrc4BHI/League-and-Team-Page?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

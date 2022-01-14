@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Banners on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -17,7 +18,6 @@ The admin user should be able to show/hide the predefined banners. The admin use
   - The banners should be related to the category, for example, the banner(s) related to the NBA category only should be displayed at the right sidebar
   - Admin user should be able to configure the banners visible per category
   - Admin user should be able to configure the banner content
-  - In case of more than one banner in the category banners will be rotating each 3 seconds
   - Admin user should be able to publish banners
   - Admin user should be able to delete closed banners
   - Admin user should be able to show predefined banners (Facebook Video, Facebook Post, Lifestyle, Dealbook)
@@ -25,9 +25,19 @@ The admin user should be able to show/hide the predefined banners. The admin use
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A2335&viewport=-3340%2C642%2C0.12847007811069489&scaling=min-zoom) to see a clickable prototype.
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?page-id=7654%3A1052&node-id=7654%3A5031&viewport=266%2C48%2C0.1&scaling=min-zoom&starting-point-node-id=7654%3A5031)
+  - [MacOS](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?page-id=0%3A1073&node-id=7654%3A8449&viewport=266%2C48%2C0.13&scaling=min-zoom&starting-point-node-id=7654%3A8449)
 
-Please click [here](https://www.figma.com/file/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

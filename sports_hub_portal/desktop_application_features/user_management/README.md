@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # User management on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -31,12 +32,23 @@ We want to do the following actions to the user accounts:
   - Admin should be able to activate users that were blocked
   - Admin should be able to give admin permissions to users
   - Admin should be able to remove admin permission from users
+  - Users should be able to receive emails that inform them about admin’s actions
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1075&viewport=-111%2C560%2C0.05949114263057709&scaling=min-zoom) to see a clickable prototype.
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/Hnolb5jv0yOOhMl64QM2ZH/User-Management?page-id=8500%3A1255&node-id=8500%3A1388&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=8500%3A1388)
+  - [MacOS](https://www.figma.com/proto/Hnolb5jv0yOOhMl64QM2ZH/User-Management?page-id=0%3A1073&node-id=8500%3A4067&viewport=266%2C48%2C0.05&scaling=min-zoom&starting-point-node-id=8500%3A4067)
 
-Please click [here](https://www.figma.com/file/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/Hnolb5jv0yOOhMl64QM2ZH/User-Management?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 
@@ -51,3 +63,4 @@ No           |      Name     |   Details
 7 |[**Allow admin user to view online/offline status of users on the portal**](/sports_hub_portal/desktop_application_features/user_management/user_stories/view_online_offline_status_of_the_users)|<pre>As an admin user<br>I want to see if users are online/offline</pre>
 8 |[**Allow admin user to search users on the portal**](/sports_hub_portal/desktop_application_features/user_management/user_stories/search_users)|<pre>As an admin user<br>I want to be able to search users by name</pre>
 9 |[**Allow admin user to filter users on the portal**](/sports_hub_portal/desktop_application_features/user_management/user_stories/filter_users)|<pre>As an admin user<br>I want to be able to filter users based on criteria<br>So that I can perform the needed action</pre>
+10 |[**Send notification emails to users on the portal**](/sports_hub_portal/desktop_application_features/user_management/user_stories/send_notification_emails_to_the_user)|<pre>As a site user<br>I want to receive notification in my email<br>So that I know if I was blocked, activated, got/lost admin permissions</pre>

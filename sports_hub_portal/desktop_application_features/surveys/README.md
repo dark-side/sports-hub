@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Surveys on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -22,11 +23,19 @@ An admin user should be able to create, edit, delete, and close surveys with pre
 
 ## Prototype of the feature
 
-_Admin side_
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/Ksj2OpoHAg5lU963RHBPcO/Surveys?page-id=0%3A1073&node-id=7822%3A3127&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=7822%3A3127)
+  - [MacOS](https://www.figma.com/proto/Ksj2OpoHAg5lU963RHBPcO/Surveys?page-id=0%3A1&node-id=8321%3A5222&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=8321%3A5222)
 
-Please click [here](https://www.figma.com/proto/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1075&viewport=-74%2C435%2C0.06860820204019547&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/file/Ksj2OpoHAg5lU963RHBPcO/Surveys?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 
-Please click [here](https://www.figma.com/file/xtzyZ1sFmeSaKMpHDu0WfH/Surveys?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

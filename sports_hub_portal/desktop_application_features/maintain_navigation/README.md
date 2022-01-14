@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Maintain navigation on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -22,7 +23,6 @@ Site admins can add as many sports categories as they prefer. If there are lots 
 
 Some of the sports categories have subcategories. Subcategories contain a list of the teams related to them. For example, the NFL sports category consists of the following subcategories: AFC East, AFC North, AFC South. The AFC South contains the following teams: Houston, Indianapolis, Jacksonville, Tennessee.
 
-The Lifestyle, Dealbook, Video, and Team hub menu categories do not have subcategories, so when users hover over one of these categories, only this category is highlighted. When users select one of these categories, they are redirected to the appropriate category news page.
 Admin user configures a list of categories, subcategories, and teams visible in the navigation menu.
 
 The user with admin permissions should be able to manage teams, namely:
@@ -46,15 +46,27 @@ The user with admin permissions should be able to manage teams, namely:
 
 ## Prototype of the feature
 
-_Admin side_
+Please click to see the clickable prototypes:
 
-Please click [here](https://www.figma.com/proto/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A1075&viewport=-177%2C284%2C0.04348461702466011&scaling=min-zoom) to see a clickable prototype.
+_Team management:_
+  - [Windows/Linux](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=8379%3A5174&node-id=8379%3A6069&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=8379%3A6069)
+  - [MacOS](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=0%3A1073&node-id=0%3A8215&viewport=266%2C48%2C0.02&scaling=scale-down&starting-point-node-id=0%3A2221)
 
-Please click [here](https://www.figma.com/file/MejavVSuDAMfSDu27O108g/Maintain-Navigation?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
-Please click [here](https://www.figma.com/proto/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A1075&viewport=-627%2C353%2C0.028726190328598022&scaling=scale-down) to see a clickable prototype.
+_Navigation management:_
+  - [Windows/Linux](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=8523%3A4559&node-id=8523%3A6568&viewport=266%2C48%2C0.05&scaling=min-zoom&starting-point-node-id=8523%3A7029)
+  - [MacOS](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=0%3A1073&node-id=7230%3A316&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=0%3A2035)
 
-Please click [here](https://www.figma.com/file/HB6RaAViOl1Iw5qCsEb2gj/Manage-teams?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

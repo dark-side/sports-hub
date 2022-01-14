@@ -4,7 +4,8 @@
 
 - [Description](#description)
 - [Check list](#check-list)
-- [Prototype of the Feature](#prototype-of-the-feature)
+- [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -35,6 +36,10 @@ Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-N
 Please click [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1) and [here](https://www.figma.com/file/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
 Please click [here](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=54%3A6358&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to see style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 

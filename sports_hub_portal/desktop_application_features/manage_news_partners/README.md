@@ -1,10 +1,11 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Desktop application](../../#desktop-application) functional requirements
 
 # Manage news partners on the portal
 
 - [Description](#description)
 - [Check list](#check-list)
 - [Prototype of the feature](#prototype-of-the-feature)
+- [Style guides](#style-guides)
 - [User stories](#user-stories)
 
 ## Description
@@ -30,9 +31,19 @@ Admin cannot add new partners to the list. It is possible to add only one integr
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?node-id=6615%3A14257&viewport=-223%2C371%2C0.02814709022641182&scaling=scale-down) to see a clickable prototype.
+Please click to see the clickable prototypes:
+  - [Windows/Linux](https://www.figma.com/proto/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?page-id=7915%3A851&node-id=7915%3A2024&viewport=266%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=7915%3A2024)
+  - [MacOS](https://www.figma.com/proto/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?page-id=0%3A1073&node-id=0%3A2221&viewport=266%2C48%2C0.03&scaling=scale-down&starting-point-node-id=0%3A2221)
 
-Please click [here](https://www.figma.com/file/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
+
+## Style guides
+
+Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides
 
 ## User stories
 
