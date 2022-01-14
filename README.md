@@ -7,7 +7,7 @@ There is a time when you want to
 - find a project idea when you start to learn new technology and want to practice new skills. 
 
 Here we created the requirements of the sample product [Sports Hub portal](/sports_hub_portal/) which contains:
-- product requirements
+- product requirements for Web, Mobile, and Desktop applications
 - test cases
 - UI/UX
 - architecture
