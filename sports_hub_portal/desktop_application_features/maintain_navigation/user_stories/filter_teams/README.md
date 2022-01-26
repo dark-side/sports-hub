@@ -74,11 +74,11 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Admin user sees filter on the Teams page and the Apply and Cancel buttons being disabled:**
 
-![AAdmin user sees filter on the Teams page and the Apply and Cancel buttons being disabled](/sports_hub_portal/desktop_application_features/manage_the_teams/images/manage_teams_page.png)
+![AAdmin user sees filter on the Teams page and the Apply and Cancel buttons being disabled](/sports_hub_portal/desktop_application_features/maintain_navigation/images/manage_teams_page.png)
 
 **2. Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled:**
 
-![Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled](/sports_hub_portal/desktop_application_features/manage_the_teams/images/teams_page_active_filter_buttons.png)
+![Admin user sees filter on the Teams page and the Apply and Cancel buttons being enabled](/sports_hub_portal/desktop_application_features/maintain_navigation/images/teams_page_active_filter_buttons.png)
 
 </details>
 

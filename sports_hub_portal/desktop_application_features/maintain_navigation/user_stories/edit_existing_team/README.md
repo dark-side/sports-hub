@@ -53,7 +53,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Admin user sees the Edit button on hover over the table row and edit form:**
 
-![Admin user sees the Edit button on hover over the table row and edit form](/sports_hub_portal/desktop_application_features/manage_the_teams/images/edit_team_form.png)
+![Admin user sees the Edit button on hover over the table row and edit form](/sports_hub_portal/desktop_application_features/maintain_navigation/images/edit_team_form.png)
 
 </details>
 

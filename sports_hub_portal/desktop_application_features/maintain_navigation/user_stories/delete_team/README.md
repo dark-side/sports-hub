@@ -47,11 +47,11 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Admin user sees the trash icon on hovering over the table row:**
 
-![Admin user sees the trash icon on hovering over the table row](/sports_hub_portal/desktop_application_features/manage_the_teams/images/edit_team_form.png)
+![Admin user sees the trash icon on hovering over the table row](/sports_hub_portal/desktop_application_features/maintain_navigation/images/edit_team_form.png)
 
 **2. Admin user sees the delete team confirmation pop-up window:**
 
-![Admin user sees the delete team confirmation pop-up window](/sports_hub_portal/desktop_application_features/manage_the_teams/images/delete_popup.png)
+![Admin user sees the delete team confirmation pop-up window](/sports_hub_portal/desktop_application_features/maintain_navigation/images/delete_popup.png)
 
 </details>
 
