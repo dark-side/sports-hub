@@ -15,9 +15,6 @@ Here we created the requirements of the sample product [Sports Hub portal](/spor
 
 
  Do not forget to put a star <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138927161-8ca50ae4-11cb-4091-bd3d-c50845d07e78.png"> if you like this product and find it useful <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138928380-2d5fe11a-662a-4132-89b7-bfbacdb0cf0c.png">
- 
-
-**Should you have any suggestions please create an Issue for this repository or send an email to** darkside.lanthanum@gmail.com **or** oksana.kohuch@gmail.com
 
 
 ## License
@@ -39,3 +36,4 @@ Unless you explicitly state otherwise, any contribution intentionally submitted
 for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
 dual licensed as above, without any additional terms or conditions.
 
+**Should you have any suggestions please create an Issue for this repository or send an email to** darkside.lanthanum@gmail.com **or** oksana.kohuch@gmail.com

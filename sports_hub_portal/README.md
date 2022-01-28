@@ -6,7 +6,7 @@
 - [User personas](#user-personas)
 - [Requirements](#requirements)
   - [Functional requirements](#functional-requirements)
-    - [Web site](#web-site)
+    - [Website](#website)
     - [Desktop application](#desktop-application)
     - [Mobile application](#mobile-application)
   - [Non-Functional requirements](#non-functional-requirements)
@@ -106,72 +106,17 @@ Specific goals are:
 
 ### Functional requirements
 
-#### Web site:
+#### Website:
 
-1. [Log in and sign up to the portal](/sports_hub_portal/web_application_features/log_in_and_sign_up/)
-2. [Page layout on the portal](/sports_hub_portal/web_application_features/project_layout/)
-3. [Site footer of the portal](/sports_hub_portal/web_application_features/site_footer/)
-4. [Maintain navigation on the portal](/sports_hub_portal/web_application_features/maintain_navigation/)
-5. [User personal cabinet](/sports_hub_portal/web_application_features/user_profile_update/)
-6. [Social networks on the portal](/sports_hub_portal/web_application_features/social_networks/)
-7. [Site languages on the portal](/sports_hub_portal/web_application_features/site_languages/)
-8. [Manage articles on the portal](/sports_hub_portal/web_application_features/manage_articles/)
-9. [Articles - user side on the portal](/sports_hub_portal/web_application_features/articles_user_side/)
-10. [Home page of the portal](/sports_hub_portal/web_application_features/home_page/)
-11. [Lifestyle and Dealbook news](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/)
-12. [Sports videos on the portal](/sports_hub_portal/web_application_features/video_page/)
-13. [The most popular and commented articles on the portal](/sports_hub_portal/web_application_features/most_popular_and_commented/)
-14. [Manage news partners on the portal](/sports_hub_portal/web_application_features/manage_news_partners/)
-15. [Comments block on the portal](/sports_hub_portal/web_application_features/comments/)
-16. [Global site search on the portal](/sports_hub_portal/web_application_features/global_site_search/)
-17. [Newsletter subscription](/sports_hub_portal/web_application_features/newsletter_email/)
-18. [Team hub: news about favorite teams](/sports_hub_portal/web_application_features/team_hub/)
-19. [User management on the portal](/sports_hub_portal/web_application_features/user_management/)
-20. [Banners on the portal](/sports_hub_portal/web_application_features/banners/)
-21. [Manage advertisements on the portal](/sports_hub_portal/web_application_features/manage_ads/)
-22. [Surveys on the portal](/sports_hub_portal/web_application_features/surveys/)
+Please [click here](/sports_hub_portal/web_application_features/web_application_features_list/) to see Website features requirements and development roadmap
 
 #### Desktop application:
 
-1. [Log in and sign up to the portal](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/)
-2. [Page layout on the portal](/sports_hub_portal/desktop_application_features/project_layout/)
-3. [Site footer of the portal](/sports_hub_portal/desktop_application_features/site_footer/)
-4. [Maintain navigation on the portal](/sports_hub_portal/desktop_application_features/maintain_navigation/)
-5. [Social networks on the portal](/sports_hub_portal/desktop_application_features/social_networks/)
-6. [Site languages on the portal](/sports_hub_portal/desktop_application_features/site_languages/)
-7. [Manage articles on the portal](/sports_hub_portal/desktop_application_features/manage_articles/)
-8. [Home page of the portal](/sports_hub_portal/desktop_application_features/home_page/)
-9. [Lifestyle and Dealbook news](/sports_hub_portal/desktop_application_features/lifestyle_dealbook_news/)
-10. [Sports videos on the portal](/sports_hub_portal/desktop_application_features/video_page/)
-11. [The most popular and commented articles on the portal](/sports_hub_portal/desktop_application_features/most_popular_and_commented/)
-12. [Manage news partners on the portal](/sports_hub_portal/desktop_application_features/manage_news_partners/)
-13. [Newsletter subscription](/sports_hub_portal/desktop_application_features/newsletter_email/)
-14. [User management on the portal](/sports_hub_portal/desktop_application_features/user_management/)
-15. [Banners on the portal](/sports_hub_portal/desktop_application_features/banners/)
-16. [Manage advertisements on the portal](/sports_hub_portal/desktop_application_features/manage_ads/)
-17. [Surveys on the portal](/sports_hub_portal/desktop_application_features/surveys/)
+Please [click here](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) to see Desktop application features requirements and development roadmap
 
 #### Mobile application:
 
-1. [Log in and sign up in the application](/sports_hub_portal/mobile_application_features/log_in_and_sign_up/)
-2. [Page layout](/sports_hub_portal/mobile_application_features/project_layout/)
-3. [Application footer](/sports_hub_portal/mobile_application_features/application_footer/)
-4. [Navigation in the application](/sports_hub_portal/mobile_application_features/navigation/)
-5. [Follow us on social networks](/sports_hub_portal/mobile_application_features/follow_on_social_networks/)
-6. [Application languages](/sports_hub_portal/mobile_application_features/application_languages/)
-7. [View articles in the application](/sports_hub_portal/mobile_application_features/articles_view/)
-8. [Home page in the application](/sports_hub_portal/mobile_application_features/home_page/)
-9. [Lifestyle and Dealbook news](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/)
-10. [Sports videos](/sports_hub_portal/mobile_application_features/video_page/)
-11. [The most popular and commented articles](/sports_hub_portal/mobile_application_features/most_popular_and_commented/)
-12. [News from Sports Hub partners](/sports_hub_portal/mobile_application_features/news_partners/)
-13. [Comments block](/sports_hub_portal/mobile_application_features/comments/)
-14. [Global application search](/sports_hub_portal/mobile_application_features/global_application_search/)
-15. [Newsletter subscription](/sports_hub_portal/mobile_application_features/newsletter_email/)
-16. [Team hub: news about favorite teams](/sports_hub_portal/mobile_application_features/team_hub/)
-17. [Banners in the application](/sports_hub_portal/mobile_application_features/banners/)
-18. [Advertisements](/sports_hub_portal/mobile_application_features/advertisements/)
-19. [Surveys](/sports_hub_portal/mobile_application_features/surveys/)
+Please [click here](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) to see Mobile application features requirements and development roadmap
 
 ### Non-functional requirements
 
