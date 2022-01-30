@@ -1,4 +1,4 @@
-### Back to [Desktop application](../../#desktop-application) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
 
 # Log in and sign up to the portal
 

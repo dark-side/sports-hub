@@ -1,4 +1,4 @@
-### Back to [Mobile application](../../#mobile-application) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
 
 # View articles in the application
 

@@ -1,4 +1,4 @@
-### Back to [Web site](../../#web-site) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
 
 # Log in and sign up to the portal
 
