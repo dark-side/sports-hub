@@ -127,7 +127,7 @@ Please [click here](/sports_hub_portal/mobile_application_features/mobile_applic
 
 ### Layout requirements
 
-Please follow (the style guides)[https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368] of this product for each feature.
+Please follow [the style guides](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) of this product for each feature.
 
 - The site inputs should have validation on the server side as well as on a client side (consider limiting input length, checking the input value format and type)
 - The site links should be opened in a new tab
