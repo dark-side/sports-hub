@@ -20,13 +20,10 @@
 
 Given I am logged in as an admin user
 
-When I click the Edit icon or the Plus icon for the needed partner on the <b>News Partners</b> page
+When I click the Plus icon for the needed partner on the <b>News Partners</b> page
 Then I see the edit form with pre-filled configurations below the row for the needed partner in the list
 
 When I click <b>Cancel</b>
-Then I see a confirmation popover, where I should confirm that I want to leave the form without saving changes
-
-When I click <b>Yes</b>
 Then I see that form is closed and no changes were saved
 
 When I click <b>Save</b>
