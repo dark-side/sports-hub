@@ -26,8 +26,6 @@ Then I see the list with one item per one partner
     - Plus and Minus icons on the left side to open/close the form
     - Partner's name right after Plus and Minus icons
     - The toggle to activate or deactivate the integration
-    - The Edit icon
-    - The Delete icon
 
 When I switch toggle and deactivate integration
 Then I see a confirmation popover, where I should confirm that I want to deactivate the partner
@@ -40,6 +38,16 @@ Then I see that partner is activated
 
 When I switch the toggle to activate the integration and mandatory boxes are not filled
 Then I see the form is opened and the required boxes are highlighted with red
+
+When I the integration has at least one empty setting (<b>API key</b> and/or <b>Default sources</b>)
+  And I hover over the toggle
+Then I see <b>Inactive</b> toggle is disabled and a hover popup displays a message: "You can not activate the partner. Please fill in the settings."
+
+When the partner is activated
+Then there is a background job that pulls the news every hour
+  And saves the raw articles to a separate database for further review
+
+<i>NOTE: Admin should not have ability to delete the partner through the UI. They should only deactivate it.</i>
 </pre>
 
 ## Style guides
@@ -50,7 +58,8 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 1. Admin user sees <b>News Partners</b> list
 2. Admin user sees new/edit news partner form
-3. Admin user sees "Something went wrong" error message
+3. Admin user sees a message on hover over partner with empty settings
+4. Admin user sees "Something went wrong" error message
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -63,16 +72,20 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 ![Admin user sees new/edit news partner form](/sports_hub_portal/web_application_features/manage_news_partners/images/new_news_partners_edit_state.png)
 
-**3. Admin user sees "Something went wrong" error message:**
+**3. Admin user sees a message on hover over partner with empty settings:**
+
+![Admin user sees a message on hover over partner with empty settings](/sports_hub_portal/web_application_features/manage_news_partners/images/inactive_empty_partner_hover.png)
+
+**4. Admin user sees "Something went wrong" error message:**
 
 ![Admin user sees "Something went wrong" error message](/sports_hub_portal/web_application_features/manage_news_partners/images/something_went_wrong_popup.png)
-
 </details>
 
 ## Test cases
 
 1. Verify the possibility to deactivate integration with news partner
 2. Verify the possibility to activate integration with news partner
+3. Verify that the raw articles are pulled from the news partner to a separate database for further review
 
 <details>
   <summary>Click here to see test cases details</summary>
@@ -88,4 +101,10 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 |Preconditions|Steps|Expected result
 --------------|-----|----------
 |- Log in with admin account</br>- Go to the <b>News Partners</b> configuration page</br>- There is some partner added in the inactive state|1) Switch the inactive toggle</br>2) Click <b>Yes</b>|1) The confirmation message about activation appears</br>2) Partner is in the active state. New news is loaded from the partner to the site|
+
+### **#3. Verify that the raw articles are pulled from the news partner to a separate database for further review**
+
+|Preconditions|Steps|Expected result
+--------------|-----|----------
+|- Log in with admin account</br>- Go to the <b>News Partners</b> configuration page</br>- There is some partner added in the active state|1) Wait for 1 hour after activating the partner</br>2) Check the database|1) The background job runs every hour</br>2) The raw articles from the news partner are saved into separate database|
 </details>
