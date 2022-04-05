@@ -1,6 +1,6 @@
 ### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
 
-# Follow us on social networks
+# User personal cabinet
 
 - [Description](#description)
 - [Check list](#check-list)
@@ -10,12 +10,19 @@
 
 ## Description
 
-Application users should be able to follow Sports Hub on social networks through the application. Social networks are configured by the admin who can enable or disable social network for users to follow.
+Registered users should have a personal cabinet where they can view and update personal information:
+  - First name
+  - Last name
+  - Profile picture
+  - Password
 
 ## Check list:
 
   - Verify if UI corresponds to the prototype
-  - Users should be able to follow Sports Hub on social networks
+  - Logged-in users should be able to view personal information on the profile page (_do not allow if logged-in via social network_)
+  - Logged-in users should be able to update the personal information on the profile page (_do not allow if logged-in via social network_)
+  - Logged-in users should be able to change the password (_do not allow if logged-in via social network_)
+  - Logged-in users should be able to upload a photo as a profile picture (_do not allow if logged-in via social network_)
 
 ## Prototype of the feature
 
@@ -31,4 +38,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to follow Sports Hub on social networks**](/sports_hub_portal/mobile_application_features/follow_on_social_networks/user_stories/follow_on_social_networks_block)|<pre>As a user<br>I want to be able to follow Sports Hub on the social networks</pre>
+1 |[**Allow users to update their personal information**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/personal_information_update)|<pre>As a site user<br>I want to be able to update my personal information</pre>
+2 |[**Allow users to change their password via profile**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/password_update)|<pre>As a site user<br>I want to be able to update my password</pre>

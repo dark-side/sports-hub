@@ -1,4 +1,4 @@
-### Back to [Log in and sign up in the application](../../) feature
+### Back to [User personal cabinet](../../) feature
 
 # Allow users to update their personal information
 

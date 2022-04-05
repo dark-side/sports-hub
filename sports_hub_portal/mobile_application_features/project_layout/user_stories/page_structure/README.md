@@ -1,4 +1,4 @@
-### Back to [Page layout](../../) feature
+### Back to [Page layout in the application](../../) feature
 
 # Page structure
 

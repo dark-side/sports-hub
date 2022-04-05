@@ -31,8 +31,8 @@
 ## Development roadmap:
 
 We propose the next release roadmap where:
-    1 release = 2 sprints
-    1 sprint = 2 weeks
+    1 release = 4 sprints
+    1 sprint = 1 - 4 weeks
 
 
 Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details

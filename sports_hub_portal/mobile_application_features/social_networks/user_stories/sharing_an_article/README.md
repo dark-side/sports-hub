@@ -1,4 +1,4 @@
-### Back to [View articles in the application](../../) feature
+### Back to [Social networks on the application](../../) feature
 
 # Allow users to share an article from the application
 
@@ -44,11 +44,11 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Users see an icon to share the article:**
 
-![Users see an icon to share the article](/sports_hub_portal/mobile_application_features/articles_view/images/application_article_page.png)
+![Users see an icon to share the article](/sports_hub_portal/mobile_application_features/social_networks/images/application_article_page.png)
 
 **2. Article full page:**
 
-![Article full page](/sports_hub_portal/mobile_application_features/articles_view/images/article_page.png)
+![Article full page](/sports_hub_portal/mobile_application_features/social_networks/images/article_page.png)
 
 </details>
 
