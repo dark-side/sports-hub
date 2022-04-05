@@ -1,4 +1,4 @@
-### Back to [Follow us on social networks](../../) feature
+### Back to [Social networks on the application](../../) feature
 
 # Allow users to follow Sports Hub on social networks
 
@@ -40,7 +40,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Users see Follow us icons in the footer:**
 
-![Users see Follow us icons in the footer](/sports_hub_portal/mobile_application_features/follow_on_social_networks/images/application_follow_us_icons.png)
+![Users see Follow us icons in the footer](/sports_hub_portal/mobile_application_features/social_networks/images/application_follow_us_icons.png)
 
 </details>
 

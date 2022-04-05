@@ -1,6 +1,6 @@
 ### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
 
-# Page layout
+# Page layout in the application
 
 - [Description](#description)
 - [Check list](#check-list)

@@ -5,17 +5,17 @@
 
 ## Functional requirements for Desktop application:
 
-1. [Log in and sign up to the portal](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/)
-2. [Page layout on the portal](/sports_hub_portal/desktop_application_features/project_layout/)
-3. [Site footer of the portal](/sports_hub_portal/desktop_application_features/site_footer/)
-4. [Maintain navigation on the portal](/sports_hub_portal/desktop_application_features/maintain_navigation/)
-5. [Social networks on the portal](/sports_hub_portal/desktop_application_features/social_networks/)
-6. [Site languages on the portal](/sports_hub_portal/desktop_application_features/site_languages/)
-7. [Manage articles on the portal](/sports_hub_portal/desktop_application_features/manage_articles/)
-8. [Home page of the portal](/sports_hub_portal/desktop_application_features/home_page/)
-9. [Lifestyle and Dealbook news](/sports_hub_portal/desktop_application_features/lifestyle_dealbook_news/)
-10. [Sports videos on the portal](/sports_hub_portal/desktop_application_features/video_page/)
-11. [The most popular and commented articles on the portal](/sports_hub_portal/desktop_application_features/most_popular_and_commented/)
+1. [Page layout on the portal](/sports_hub_portal/desktop_application_features/project_layout/)
+2. [Maintain navigation on the portal](/sports_hub_portal/desktop_application_features/maintain_navigation/)
+3. [Log in and sign up to the portal](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/)
+4. [Site languages on the portal](/sports_hub_portal/desktop_application_features/site_languages/)
+5. [Manage articles on the portal](/sports_hub_portal/desktop_application_features/manage_articles/)
+6. [Home page of the portal](/sports_hub_portal/desktop_application_features/home_page/)
+7. [Social networks on the portal](/sports_hub_portal/desktop_application_features/social_networks/)
+8. [Site footer of the portal](/sports_hub_portal/desktop_application_features/site_footer/)
+9. [The most popular and commented articles on the portal](/sports_hub_portal/desktop_application_features/most_popular_and_commented/)
+10. [Lifestyle and Dealbook news](/sports_hub_portal/desktop_application_features/lifestyle_dealbook_news/)
+11. [Sports videos on the portal](/sports_hub_portal/desktop_application_features/video_page/)
 12. [Manage news partners on the portal](/sports_hub_portal/desktop_application_features/manage_news_partners/)
 13. [Newsletter subscription](/sports_hub_portal/desktop_application_features/newsletter_email/)
 14. [User management on the portal](/sports_hub_portal/desktop_application_features/user_management/)
@@ -24,4 +24,11 @@
 17. [Surveys on the portal](/sports_hub_portal/desktop_application_features/surveys/)
 
 ## Development roadmap:
+
+We propose the next release roadmap where:
+    1 release = 4 sprints
+    1 sprint = 1 - 4 weeks
+
+
+Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
 
