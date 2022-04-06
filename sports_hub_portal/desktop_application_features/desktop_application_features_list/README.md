@@ -1,7 +1,16 @@
 ### Back to [Sports Hub portal product map](../../)
 
-- [Functional requirements for Desktop application](#functional-requirements-for-desktop-application)
 - [Development roadmap](#development-roadmap)
+- [Functional requirements for Desktop application](#functional-requirements-for-desktop-application)
+
+## Development roadmap:
+
+We propose the next release roadmap where:
+
+    1 release = 4 sprints
+    1 sprint = 1 - 4 weeks
+
+Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
 
 ## Functional requirements for Desktop application:
 
@@ -22,13 +31,3 @@
 15. [Banners on the portal](/sports_hub_portal/desktop_application_features/banners/)
 16. [Manage advertisements on the portal](/sports_hub_portal/desktop_application_features/manage_ads/)
 17. [Surveys on the portal](/sports_hub_portal/desktop_application_features/surveys/)
-
-## Development roadmap:
-
-We propose the next release roadmap where:
-    1 release = 4 sprints
-    1 sprint = 1 - 4 weeks
-
-
-Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
-

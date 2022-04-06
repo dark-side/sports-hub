@@ -1,7 +1,16 @@
 ### Back to [Sports Hub portal product map](../../)
 
-- [Functional requirements for Mobile application](#functional-requirements-for-mobile-application)
 - [Development roadmap](#development-roadmap)
+- [Functional requirements for Mobile application](#functional-requirements-for-mobile-application)
+
+## Development roadmap:
+
+We propose the next release roadmap where:
+
+    1 release = 4 sprints
+    1 sprint = 1 - 4 weeks
+
+Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
 
 ## Functional requirements for Mobile application:
 
@@ -25,13 +34,3 @@
 18. [Banners in the application](/sports_hub_portal/mobile_application_features/banners/)
 19. [Advertisements](/sports_hub_portal/mobile_application_features/advertisements/)
 20. [Surveys](/sports_hub_portal/mobile_application_features/surveys/)
-
-## Development roadmap:
-
-We propose the next release roadmap where:
-    1 release = 4 sprints
-    1 sprint = 1 - 4 weeks
-
-
-Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
-
