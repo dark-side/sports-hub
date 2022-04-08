@@ -1,6 +1,6 @@
 ### Back to [Page layout in the application](../../) feature
 
-# Page structure
+# Page structure: general sections
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -21,11 +21,12 @@
 Given I am a user
 
 When I view any page
-Then I see the page consisting of:
-  - Header section that is common for all pages includes:
-    1. Main menu
-    2. Sports Hub logo
-    3. Profile menu
+Then I see the page layout has the following EMPTY sections for:
+  - Header section with the empty blocks for:
+    - Main menu icon
+    - Sports Hub logo
+    - Profile icon
+    - Search
   - The main content area with content blocks, configured by admin
   - Footer section that is common to all pages, configured the admin
 
@@ -39,17 +40,12 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 ## Mockups
 
-1. Users see the navigation menu
-2. Full Home page
+1. Full Home page
 
 <details>
   <summary>Click here to see mockups details</summary>
 
-**1. Users see the navigation menu:**
-
-![Users see Home in the navigation menu](/sports_hub_portal/mobile_application_features/project_layout/images/application_navigation_menu.png)
-
-**2. Full Home page:**
+**1. Full Home page:**
 
 ![Full Home page](/sports_hub_portal/mobile_application_features/project_layout/images/home_page.png)
 

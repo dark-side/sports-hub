@@ -25,7 +25,6 @@ Then I see the page layout has the following EMPTY sections for:
   - Header section with the empty blocks for:
     - Search
     - Social media
-    - Switch
     - Profile
     - Languages
   - The main content area

@@ -79,9 +79,11 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 1. Admin user sees the status drop-down on the <b>Edit</b> partner article tab
 2. Admin user clicks the status drop-down on the <b>Edit</b> partner article tab
 3. Admin user sees the <b>Ready for processing</b> in the drop-down after selecting it and disabled <b>Save</b> and <b>Cancel</b> buttons
-4. Admin user sees the article in <b>Ready for processing</b> status on the <b>News Partners</b> page
-5. Admin user hovers over the article and sees the ellipsis (<b>...</b>) button
-6. Admin user hovers over the article, clicks the ellipsis (<b>...</b>) button, and sees action list
+4. Admin user sees the <b>Processing</b> intead of the drop-down after the background job started process and disabled <b>Save</b> and <b>Cancel</b> buttons
+5. Admin user sees the <b>Processed</b> intead of the drop-down after the background job finished process it and disabled <b>Save</b> and <b>Cancel</b> buttons
+6. Admin user sees the article in <b>Ready for processing</b> status on the <b>News Partners</b> page
+7. Admin user hovers over the article and sees the ellipsis (<b>...</b>) button
+8. Admin user hovers over the article, clicks the ellipsis (<b>...</b>) button, and sees action list
 
 <details>
   <summary>Click here to see mockups details</summary>
@@ -98,15 +100,23 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 ![Admin user sees the Ready for processing in the drop-down after selecting it and disabled Save and Cancel buttons](/sports_hub_portal/desktop_application_features/manage_news_partners/images/click_status_dropdown_on_edit_page_ready_for_processing.png)
 
-**4. Admin user sees the article in Ready for processing status on the News Partners page:**
+**4. Admin user sees the Processing intead of the drop-down after the background job started process and disabled Save and Cancel buttons:**
+
+![Admin user sees the Processing intead of the drop-down after the background job started process and disabled Save and Cancel buttons](/sports_hub_portal/web_application_features/manage_news_partners/images/processing_status_on_edit_page.png)
+
+**5. Admin user sees the Processed intead of the drop-down after the background job finished process it and disabled Save and Cancel buttons:**
+
+![Admin user sees the Processed intead of the drop-down after the background job finished process it and disabled Save and Cancel buttons](/sports_hub_portal/web_application_features/manage_news_partners/images/processed_status_on_edit_page.png)
+
+**6. Admin user sees the article in Ready for processing status on the News Partners page:**
 
 ![Admin user sees the article in Ready for processing status on the News Partners page](/sports_hub_portal/desktop_application_features/manage_news_partners/images/news_partner_list_page_ready_for_processing.png)
 
-**5. Admin user hovers over the article and sees the ellipsis (...) button:**
+**7. Admin user hovers over the article and sees the ellipsis (...) button:**
 
 ![Admin user hovers over the article and sees the ellipsis (...) button](/sports_hub_portal/desktop_application_features/manage_news_partners/images/admin_hovers_over_article.png)
 
-**6. Admin user hovers over the article, clicks the ellipsis (...) button, and sees action list:**
+**8. Admin user hovers over the article, clicks the ellipsis (...) button, and sees action list:**
 
 ![Admin user hovers over the article, clicks the ellipsis (...) button, and sees action list](/sports_hub_portal/desktop_application_features/manage_news_partners/images/admin_clicks_ellipsis_button.png)
 
