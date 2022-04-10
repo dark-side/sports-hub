@@ -1,22 +1,22 @@
 ### Back to [Sports Hub portal product map](../../)
 
 - [1 Introduction](#1-introduction)
-  - [1.1 Purpose](#1-1-purpose)
-  - [1.2 Scope](#1-2-scope)
+  - [1.1 Purpose](#11-purpose)
+  - [1.2 Scope](#12-scope)
 - [2 Executive Summary](#2-executive-summary)
-  - [2.1 Key Decisions](#2-1-key-decisions)
-  - [2.2 Key Risks and Open Issues](#2-2-key-risks-and-open-issues)
+  - [2.1 Key Decisions](#21-key-decisions)
+  - [2.2 Key Risks and Open Issues](#22-key-risks-and-open-issues)
 - [3 Architectural Drivers](#3-architectural-drivers)
-  - [3.1 Business Case](#3-1-business-case)
-    - [3.1.1 Business Goals](#3-1-1-business-goals)
-    - [3.1.2 Major Features](#3-1-2-major-features)
-  - [3.2 Design Constraints](#3-2-design-constraints)
-  - [3.3 Quality Attribute Scenarios](#3-3-quality-attribute-scenarios)
+  - [3.1 Business Case](#31-business-case)
+    - [3.1.1 Business Goals](#311-business-goals)
+    - [3.1.2 Major Features](#312-major-features)
+  - [3.2 Design Constraints](#32-design-constraints)
+  - [3.3 Quality Attribute Scenarios](#33-quality-attribute-scenarios)
 - [4 Solution Architecture](#4-solution-architecture)
-  - [4.1 Big Picture](#4-1-big-picture)
-    - [4.1.1 Solution Context](#4-1-1-solution-context)
-    - [4.1.2 Solution Decomposition](#4-1-2-solution-decomposition)
-  - [4.2 Development Technology Stack](#4-2-development-technology-stack)
+  - [4.1 Big Picture](#41-big-picture)
+    - [4.1.1 Solution Context](#411-solution-context)
+    - [4.1.2 Solution Decomposition](#412-solution-decomposition)
+  - [4.2 Development Technology Stack](#42-development-technology-stack)
 - [5 Operation Plan](#5-operation-plan)
 
 # 1 Introduction
@@ -36,7 +36,7 @@ The document describes the proposed Single Entry architecture towards developmen
 
 # 2 Executive Summary
 
-The section Executive Summary highlights key architectural decisions made for the solution described in Business Case. These decisions are defined and discussed in depth in Solution Architecture while Implementation Roadmap lays out the proposed milestones, estimates, and team to implement the provided architecture vision.
+The section Executive Summary highlights key architectural decisions made for the solution described in [3.1 Business Case](#31-business-case). These decisions are defined and discussed in depth in [4 Solution Architecture](#4-solution-architecture) while Implementation Roadmap lays out the proposed milestones, estimates, and team to implement the provided architecture vision.
 This section also summarizes the key business and technical risks related to the solution implementation. These risks are uncovered in depth in the rest of the document.
 
 ## 2.1 Key decisions
@@ -61,7 +61,8 @@ The section captures significant requirements driving the solution architecture 
 
 The section lays out the business case for the solution Sports Hub Poral.
 
-Business level view of Sports Hub Poral:
+<p align="center"><i>Figure 1. Business level view of Sports Hub Poral:</i></p>
+
 ![Business level view of Sports Hub Poral](/sports_hub_portal/architecture_vision/images/figure_1_business_level_view.png)
 
 The solution will enable the users to review all news using web/mobile devices, manage news preferencese, subsribe to interested topics & receive the newsletters on regular bases. The solution will be deployed on the GPC/AWS/Azure cloud as web application.
@@ -113,20 +114,23 @@ QA-6|Compatibility|Solution co-exists and interoperates with the existing news p
 QA-7|Security|Audit events & logs: should always provide info about what has happened, who did it and when & retention policy for that data should be 365days|M|
 QA-8|Availability|Solution should be available 95% of total hours|H|
 
+
 # 4 Solution Architecture
 
-The section Solution Architecture is primary for the Architecture Vision document. It defines and reasons about the solution architecture design based on the architecturally significant requirements and constraints identified in the section Architectural Drivers.
+The section Solution Architecture is primary for the Architecture Vision document. It defines and reasons about the solution architecture design based on the architecturally significant requirements and constraints identified in the section [3 Architectural Drivers](#3-architectural-drivers).
 
 ## 4.1 Big Picture
 
 The section includes a list of architectural views covering the designed solution along with the context it runs in on the high level.
-The view defines the primary solution components collaborating with the external systems and services. It is driven by the Business Case.
+The view defines the primary solution components collaborating with the external systems and services. It is driven by the [3.1 Business Case](#31-business-case).
 
-Solution Context:
+<p align="center"><i>Figure 2. Solution Context:</i></p>
+
 ![Solution Context](/sports_hub_portal/architecture_vision/images/figure_2_solution_context.png)
 
 
-Table of annotated elements
+Table of annotated elements:
+
 Name|Description|
 --------------- | ----------------- |
 Sports News Solution|Responsible for implementation of all business logic|
@@ -138,9 +142,10 @@ News Aggregator|Responsible for providing content to portal|
 
 ## 4.2 Solution Decomposition – Basic Complexity
 
-The view defines the runtime decomposition of the server-side part of the solution. It is driven by the Business Case and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view Solution Context where this section represents decomposition of  Cloud Based Solution component.
+The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component.
 
-Basic Cloud Solution Decomposition:
+<p align="center"><i>Figure 3. Basic Cloud Solution Decomposition:</i></p>
+
 ![Basic Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_3_basic_cloud_solution.png)
 
 The solution is decomposed into several parts documented below combining several standard architectural patterns.
@@ -162,10 +167,11 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 ## 4.3 Solution Decomposition – Medium Complexity
 
-The view defines the runtime decomposition of the server-side part of the solution. It is driven by the Business Case and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view Solution Context where this section represents decomposition of Cloud Based Solution component.
+The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component.
 
-Basic Cloud Solution Decomposition:
-![Basic Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_4_basic_cloud_solution.png)
+<p align="center"><i>Figure 4. Medium Cloud Solution Decomposition:</i></p>
+
+![Medium Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_4_basic_cloud_solution.png)
 
 The cloud based part of the solution is decomposed into several parts documented below combining several standard architectural patterns.
 
@@ -191,10 +197,11 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 ## 4.4 Solution Decomposition – Hard Complexity
 
-The view defines the runtime decomposition of the server-side part of the solution. It is driven by the Business Case and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view Solution Context where this section represents decomposition of  Cloud Based Solution component
+The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component
 
-Basic Cloud Solution Decomposition:
-![Basic Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.png)
+<p align="center"><i>Figure 5. Hard Cloud Solution Decomposition:</i></p>
+
+![Hard Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.png)
 
 The cloud based part of the solution is decomposed into several parts documented below combining several standard architectural patterns.
 
@@ -225,6 +232,8 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 ## 4.5 Development Technology Stack
 
+Technology stack may vary on your choice:
+
 Name|Version|Description
 --------------- | ----------------- | -----|
 Framework1|x.x|Responsible for a, b, c|
@@ -232,24 +241,29 @@ Library2|3.0-RC1|Responsible for a, b, c|
 Library3|x.x.x.x|Responsible for a, b, c|
 <name>|<version>|<description and responsibilities>|
 
+
 # 5 Operation Plan
 
-Infrastructure GCP: GCP is used as main and single cloud provider. Services that is used by solution are App Engine, Cloud Storage, Cloud Functions, Cloud SQL for MySQL, Memorystore, Cloud BigQuery, Stackdrive, Cloud Pub/Sub, Cloud Scheduler, Cloud CDN.
+<ins><b>Infrastructure GCP:</b></ins> GCP is used as main and single cloud provider. Services that is used by solution are App Engine, Cloud Storage, Cloud Functions, Cloud SQL for MySQL, Memorystore, Cloud BigQuery, Stackdrive, Cloud Pub/Sub, Cloud Scheduler, Cloud CDN.
 
-Dedployment Diagram GCP:
+<p align="center"><i>Figure 6. Dedployment Diagram GCP:</i></p>
+
 ![Dedployment Diagram GCP](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.png)
 
 
-Infrastructure Azure: Azure is used as main and single cloud provider. Services that is used by solution are WebApps, Azure CDN, Azure Storage, Azure Functions, Azure SQL, Azure Cognitive Search, Azure Redis, Azure Scheduler. Azure Service Bus.
+<ins><b>Infrastructure Azure:</b></ins> Azure is used as main and single cloud provider. Services that is used by solution are WebApps, Azure CDN, Azure Storage, Azure Functions, Azure SQL, Azure Cognitive Search, Azure Redis, Azure Scheduler. Azure Service Bus.
 
-Dedployment Diagram Azure:
+<p align="center"><i>Figure 7. Dedployment Diagram Azure:</i></p>
+
 ![Dedployment Diagram Azure](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.png)
 
 
-Infrastructure AWS: AWS is used as main and single cloud provider. Services that is used by solution are Elastic Beanstalk, AWS Lambdas, AWS S3, Elasticsearch, Amazon SQS, AWS Batch Scheduler, AWS ElastiCache, Amazon RDS, Amazon CloudFront, AWS API Gateway.
+<ins><b>Infrastructure AWS:</b></ins> AWS is used as main and single cloud provider. Services that is used by solution are Elastic Beanstalk, AWS Lambdas, AWS S3, Elasticsearch, Amazon SQS, AWS Batch Scheduler, AWS ElastiCache, Amazon RDS, Amazon CloudFront, AWS API Gateway.
 
-Dedployment Diagram AWS:
+<p align="center"><i>Figure 8. Dedployment Diagram AWS:</i></p>
+
 ![Dedployment Diagram AWS](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.png)
 
 
-<b>Environments</b>: For transitional phase there will be four environments: development, testing, staging and production. Development environment use minimal cloud resources but similar architecture. Testing environment use intermediate resource allocation for full QA testing. Staging environment is a copy of production environment and is used for load, performance and user acceptance testing. Production environment is scalable and fault tolerant.
+
+<ins><b>Environments:</b></ins> For transitional phase there will be four environments: development, testing, staging and production. Development environment use minimal cloud resources but similar architecture. Testing environment use intermediate resource allocation for full QA testing. Staging environment is a copy of production environment and is used for load, performance and user acceptance testing. Production environment is scalable and fault tolerant.
