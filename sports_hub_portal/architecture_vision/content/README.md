@@ -59,11 +59,11 @@ The section captures significant requirements driving the solution architecture 
 
 ## 3.1 Business Case
 
-The section lays out the business case for the solution Sports Hub Poral.
+The section lays out the business case for the solution Sports Hub Portal.
 
-<p align="center"><i>Figure 1. Business level view of Sports Hub Poral:</i></p>
+![Business level view of Sports Hub Portal](/sports_hub_portal/architecture_vision/images/figure_1_business_level_view.png)
 
-![Business level view of Sports Hub Poral](/sports_hub_portal/architecture_vision/images/figure_1_business_level_view.png)
+<p align="center"><i>Figure 1. Business level view of Sports Hub Portal</i></p>
 
 The solution will enable the users to review all news using web/mobile devices, manage news preferencese, subsribe to interested topics & receive the newsletters on regular bases. The solution will be deployed on the GPC/AWS/Azure cloud as web application.
 
@@ -124,10 +124,9 @@ The section Solution Architecture is primary for the Architecture Vision documen
 The section includes a list of architectural views covering the designed solution along with the context it runs in on the high level.
 The view defines the primary solution components collaborating with the external systems and services. It is driven by the [3.1 Business Case](#31-business-case).
 
-<p align="center"><i>Figure 2. Solution Context:</i></p>
-
 ![Solution Context](/sports_hub_portal/architecture_vision/images/figure_2_solution_context.png)
 
+<p align="center"><i>Figure 2. Solution Context</i></p>
 
 Table of annotated elements:
 
@@ -144,9 +143,9 @@ News Aggregator|Responsible for providing content to portal|
 
 The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component.
 
-<p align="center"><i>Figure 3. Basic Cloud Solution Decomposition:</i></p>
+![Basic Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_3_basic_cloud_solution.jpg)
 
-![Basic Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_3_basic_cloud_solution.png)
+<p align="center"><i>Figure 3. Basic Cloud Solution Decomposition</i></p>
 
 The solution is decomposed into several parts documented below combining several standard architectural patterns.
 
@@ -169,9 +168,9 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component.
 
-<p align="center"><i>Figure 4. Medium Cloud Solution Decomposition:</i></p>
+![Medium Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_4_basic_cloud_solution.jpg)
 
-![Medium Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_4_basic_cloud_solution.png)
+<p align="center"><i>Figure 4. Medium Cloud Solution Decomposition</i></p>
 
 The cloud based part of the solution is decomposed into several parts documented below combining several standard architectural patterns.
 
@@ -199,9 +198,9 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component
 
-<p align="center"><i>Figure 5. Hard Cloud Solution Decomposition:</i></p>
+![Hard Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.jpg)
 
-![Hard Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.png)
+<p align="center"><i>Figure 5. Hard Cloud Solution Decomposition</i></p>
 
 The cloud based part of the solution is decomposed into several parts documented below combining several standard architectural patterns.
 
@@ -246,24 +245,21 @@ Library3|x.x.x.x|Responsible for a, b, c|
 
 <ins><b>Infrastructure GCP:</b></ins> GCP is used as main and single cloud provider. Services that is used by solution are App Engine, Cloud Storage, Cloud Functions, Cloud SQL for MySQL, Memorystore, Cloud BigQuery, Stackdrive, Cloud Pub/Sub, Cloud Scheduler, Cloud CDN.
 
-<p align="center"><i>Figure 6. Dedployment Diagram GCP:</i></p>
+![Dedployment Diagram GCP](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.jpg)
 
-![Dedployment Diagram GCP](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.png)
-
+<p align="center"><i>Figure 6. Dedployment Diagram GCP</i></p>
 
 <ins><b>Infrastructure Azure:</b></ins> Azure is used as main and single cloud provider. Services that is used by solution are WebApps, Azure CDN, Azure Storage, Azure Functions, Azure SQL, Azure Cognitive Search, Azure Redis, Azure Scheduler. Azure Service Bus.
 
-<p align="center"><i>Figure 7. Dedployment Diagram Azure:</i></p>
+![Dedployment Diagram Azure](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.jpg)
 
-![Dedployment Diagram Azure](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.png)
-
+<p align="center"><i>Figure 7. Dedployment Diagram Azure</i></p>
 
 <ins><b>Infrastructure AWS:</b></ins> AWS is used as main and single cloud provider. Services that is used by solution are Elastic Beanstalk, AWS Lambdas, AWS S3, Elasticsearch, Amazon SQS, AWS Batch Scheduler, AWS ElastiCache, Amazon RDS, Amazon CloudFront, AWS API Gateway.
 
-<p align="center"><i>Figure 8. Dedployment Diagram AWS:</i></p>
+![Dedployment Diagram AWS](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.jpg)
 
-![Dedployment Diagram AWS](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.png)
-
+<p align="center"><i>Figure 8. Dedployment Diagram AWS</i></p>
 
 
 <ins><b>Environments:</b></ins> For transitional phase there will be four environments: development, testing, staging and production. Development environment use minimal cloud resources but similar architecture. Testing environment use intermediate resource allocation for full QA testing. Staging environment is a copy of production environment and is used for load, performance and user acceptance testing. Production environment is scalable and fault tolerant.
