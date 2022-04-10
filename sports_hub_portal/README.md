@@ -11,6 +11,7 @@
     - [Mobile application](#mobile-application)
   - [Non-Functional requirements](#non-functional-requirements)
   - [Layout requirements](#layout-requirements)
+- [Architecture vision](#architecture-vision)
 - [User interface](#user-interface)
 - [Audience](#audience)
 - [Future work](#future-work)
@@ -134,7 +135,13 @@ Please follow [the style guides](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YX
 - The site links should be highlighted on hover
 - The menu item that is currently active (meaning user is viewing it in the moment) should be highlighted
 
-### User interface
+## Architecture vision
+
+This Architecture Vision elicits the significant architecture drivers such as business, functional, nonfunctional requirements and constraints, defines architecture, and develops a roadmap for Single Entry implementation. The document is intended as a primary technical guidance into solution implementation for the development team.
+
+Please [click here](/sports_hub_portal/architecture_vision/content/) to review the Architecture Vision.
+
+## User interface
 
 Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A2&viewport=592%2C442%2C1&scaling=min-zoom) to see a general clickable prototype.
 
