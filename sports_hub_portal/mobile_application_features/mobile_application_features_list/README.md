@@ -14,7 +14,7 @@ We propose the release roadmap as:
 <details>
   <summary>Expand to see details:</summary>
 
-![Web development roadmap](/sports_hub_portal/web_application_features/images_files/mobile_releases.jpg)
+![Mobile development roadmap](/sports_hub_portal/mobile_application_features/images_files/mobile_releases.jpg)
 
 </details>
 
