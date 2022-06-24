@@ -5,12 +5,24 @@
 
 ## Development roadmap:
 
-We propose the next release roadmap where:
+We propose the release roadmap as:
 
-    1 release = 4 sprints
-    1 sprint = 1 - 4 weeks
+    2 main releases
+    1 release = 4 sub-releases
+    1 sub-release = 1 - 4 weeks
 
-Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see roadmap details
+<details>
+  <summary>Expand to see details:</summary>
+
+![Web development roadmap](/sports_hub_portal/web_application_features/images_files/mobile_releases.jpg)
+
+</details>
+
+Please [click here](https://docs.google.com/presentation/d/1a2WLbLiwcDXZJoMR6pjrTWYA0fsODkBm/edit#slide=id.p20) to see detailed product roadmap (Mobile section through 20 - 27 slides)
+
+
+Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see detailed project roadmap (Mobile Roadmap tab)
+
 
 ## Functional requirements for Mobile application:
 
