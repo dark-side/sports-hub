@@ -28,6 +28,7 @@ This Architecture Vision elicits the significant architecture drivers such as bu
 ## 1.2 Scope
 
 The document describes the proposed Single Entry architecture towards development of the solution that will satisfy business, functional, non-functional requirements and constraints provided by the Client. This Architecture Vision covers the following information:
+
 • Significant architectural drivers for the Solution
 • Proposed software architecture of the solution based on these drivers
 • Technology stack and environment definitions
