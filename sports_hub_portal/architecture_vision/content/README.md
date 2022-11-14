@@ -29,11 +29,11 @@ This Architecture Vision elicits the significant architecture drivers such as bu
 
 The document describes the proposed Single Entry architecture towards development of the solution that will satisfy business, functional, non-functional requirements and constraints provided by the Client. This Architecture Vision covers the following information:
 
-• Significant architectural drivers for the Solution
-• Proposed software architecture of the solution based on these drivers
-• Technology stack and environment definitions
-• Operations specific perspectives
-• Development road map and high level estimates for effort, team size and skill sets.
+- Significant architectural drivers for the Solution
+- Proposed software architecture of the solution based on these drivers
+- Technology stack and environment definitions
+- Operations specific perspectives
+- Development road map and high level estimates for effort, team size and skill sets.
 
 # 2 Executive Summary
 
@@ -246,21 +246,48 @@ Library3|x.x.x.x|Responsible for a, b, c|
 
 <ins><b>Infrastructure GCP:</b></ins> GCP is used as main and single cloud provider. Services that is used by solution are App Engine, Cloud Storage, Cloud Functions, Cloud SQL for MySQL, Memorystore, Cloud BigQuery, Stackdrive, Cloud Pub/Sub, Cloud Scheduler, Cloud CDN.
 
-![Dedployment Diagram GCP](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.jpg)
+![Dedployment Diagram GCP - basic complexity](/sports_hub_portal/architecture_vision/images/gcp_basic.png)
 
-<p align="center"><i>Figure 6. Dedployment Diagram GCP</i></p>
+<p align="center"><i>Figure 6. Dedployment Diagram GCP - basic complexity</i></p>
+
+![Dedployment Diagram GCP - medium complexity](/sports_hub_portal/architecture_vision/images/gcp_medium.png)
+
+<p align="center"><i>Figure 7. Dedployment Diagram GCP - medium complexity</i></p>
+
+![Dedployment Diagram GCP - hard complexity](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.jpg)
+
+<p align="center"><i>Figure 8. Dedployment Diagram GCP - hard complexity</i></p>
+
 
 <ins><b>Infrastructure Azure:</b></ins> Azure is used as main and single cloud provider. Services that is used by solution are WebApps, Azure CDN, Azure Storage, Azure Functions, Azure SQL, Azure Cognitive Search, Azure Redis, Azure Scheduler. Azure Service Bus.
 
-![Dedployment Diagram Azure](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.jpg)
+![Dedployment Diagram Azure - basic complexity](/sports_hub_portal/architecture_vision/images/azure_basic.png)
 
-<p align="center"><i>Figure 7. Dedployment Diagram Azure</i></p>
+<p align="center"><i>Figure 9. Dedployment Diagram Azure - basic complexity</i></p>
+
+![Dedployment Diagram Azure - medium complexity](/sports_hub_portal/architecture_vision/images/azure_medium.png)
+
+<p align="center"><i>Figure 10. Dedployment Diagram Azure - medium complexity</i></p>
+
+![Dedployment Diagram Azure - hard complexity](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.jpg)
+
+<p align="center"><i>Figure 11. Dedployment Diagram Azure - hard complexity</i></p>
+
 
 <ins><b>Infrastructure AWS:</b></ins> AWS is used as main and single cloud provider. Services that is used by solution are Elastic Beanstalk, AWS Lambdas, AWS S3, Elasticsearch, Amazon SQS, AWS Batch Scheduler, AWS ElastiCache, Amazon RDS, Amazon CloudFront, AWS API Gateway.
 
-![Dedployment Diagram AWS](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.jpg)
+![Dedployment Diagram AWS - basic complexity](/sports_hub_portal/architecture_vision/images/aws_basic.png)
 
-<p align="center"><i>Figure 8. Dedployment Diagram AWS</i></p>
+<p align="center"><i>Figure 8. Dedployment Diagram AWS - basic complexity</i></p>
+
+![Dedployment Diagram AWS - medium complexity](/sports_hub_portal/architecture_vision/images/aws_medium.png)
+
+<p align="center"><i>Figure 8. Dedployment Diagram AWS - medium complexity</i></p>
+
+![Dedployment Diagram AWS - hard complexity](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.jpg)
+
+<p align="center"><i>Figure 8. Dedployment Diagram AWS - hard complexity</i></p>
+
 
 
 <ins><b>Environments:</b></ins> For transitional phase there will be four environments: development, testing, staging and production. Development environment use minimal cloud resources but similar architecture. Testing environment use intermediate resource allocation for full QA testing. Staging environment is a copy of production environment and is used for load, performance and user acceptance testing. Production environment is scalable and fault tolerant.
