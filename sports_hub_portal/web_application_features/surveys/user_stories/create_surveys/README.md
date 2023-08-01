@@ -71,6 +71,9 @@ Then I see a confirmation dialog
 When I confirm deletion on the confirmation dialog
 Then I see a success message
   And I see the survey is removed from the list
+
+<i>You have two options to render a big list: use pagination or infinite scroll</i>
+
 </pre>
 
 ## Style guides

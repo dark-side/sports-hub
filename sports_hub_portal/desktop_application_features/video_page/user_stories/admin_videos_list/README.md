@@ -49,6 +49,7 @@ Then I see a search field
 
 When I type some text in the field
 Then I see the list of videos is refreshed with matching results
+(<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>)
 
 When I hover over a video
 Then I see the ellipsis (...) menu icon in the upper-right corner
@@ -71,6 +72,9 @@ Then the toggle changed to <b>No</b>
 When I click the <b>Allow to share videos: No</b> toggle
 Then the toggle changed to <b>Yes</b>
   And users can see and use the share button on videos
+
+<i>You have two options to render a big list: use pagination or infinite scroll</i>
+
 </pre>
 
 ## Style guides

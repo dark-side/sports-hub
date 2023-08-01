@@ -30,6 +30,9 @@ Then I see two tabs: Users and Admins
     - Active: block, make as admin, delete
     - Blocked: activate, delete
     - Admin users: remove from admin, delete
+
+<i>You have two options to render a big list: use pagination or infinite scroll</i>
+
 </pre>
 
 ## Style guides

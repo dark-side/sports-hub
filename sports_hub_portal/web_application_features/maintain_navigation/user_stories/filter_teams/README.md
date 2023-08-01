@@ -58,6 +58,7 @@ Then I see the grid is refreshed according to the number
 
 When I type a team name in the search field
 Then I see the table is refreshed with the matching results
+(<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>)
 </pre>
 
 ## Style guides

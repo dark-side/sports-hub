@@ -38,6 +38,14 @@ Then I see the box for uploading a team logo with the <b>Add logo</b> button
 
 When I complete the form and click the <b>Add to list</b> button
 Then I see a success message
+  And I see a new team is rendered in the top of the table with the following columns:
+    - Teams
+    - Location
+    - Added At
+    - Category
+    - Subcategory
+    - Edit link button
+    - Delete icon
 
 When I click <b>Cancel</b>
 Then I see the default form

@@ -36,6 +36,14 @@ Then I see the box for uploading the team logo with the <b>Add logo</b> link
 When I make the changes and click <b>Save</b>
 Then I see a success message "The team is successfully updated"
 
+When I make the changes and click to edit another row
+Then I see a confirmation pop-up window to discard changes
+
+When I click to confirm
+Then I see the changes are discarded
+  And I see the edit form next to the map is filled with the selected team details
+  And I see the <b>Save</b> button that is disabled by default and the <b>Cancel</b> button
+
 When I click <b>Cancel</b>
 Then I see the default form
 </pre>

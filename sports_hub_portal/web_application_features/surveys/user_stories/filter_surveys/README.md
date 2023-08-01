@@ -43,6 +43,7 @@ Then I see a search field
 
 When I type some text in the field
 Then I see the list of surveys is refreshed with matching results
+(<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>)
 </pre>
 
 ## Style guides

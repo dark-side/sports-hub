@@ -27,6 +27,9 @@ Then I see the news from the configured news partner
 When I view any category page
 Then I see the news from the configured news partner
   And this news is shown among the articles created by admin according to the creation date
+
+<i>You have two options to render a big list: use pagination or infinite scroll</i>
+
 </pre>
 
 ## Style guides

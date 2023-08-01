@@ -62,6 +62,7 @@ Then I see the search field
 
 When I type some text in the field
 Then I see the list of articles is refreshed with matching results
+(<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>)
 
 When I click the preview icon
 Then I see how this category is shown for the users
@@ -79,6 +80,9 @@ Then I see the following options:
   - <b>Edit</b> (available only for unpublished articles)
   - <b>Delete</b>
   - <b>Move</b>
+
+<i>You have two options to render a big list: use pagination or infinite scroll</i>
+
 </pre>
 
 ## Style guides
