@@ -199,7 +199,7 @@ News Processor|Responsible for moving ready news to Operational DB|
 
 The view defines the runtime decomposition of the server-side part of the solution. It is driven by the [3.1 Business Case](#31-business-case) and the architecture best practices applicable to the cloud-based applications. The view context is defined by the view [4.1.1 Solution Context](#411-solution-context) where this section represents decomposition of Cloud Based Solution component
 
-![Hard Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.jpg)
+![Hard Cloud Solution Decomposition](/sports_hub_portal/architecture_vision/images/figure_5_basic_cloud_solution.png)
 
 <p align="center"><i>Figure 5. Hard Cloud Solution Decomposition</i></p>
 
@@ -254,7 +254,7 @@ Library3|x.x.x.x|Responsible for a, b, c|
 
 <p align="center"><i>Figure 7. Dedployment Diagram GCP - medium complexity</i></p>
 
-![Dedployment Diagram GCP - hard complexity](/sports_hub_portal/architecture_vision/images/figure_6_dedployment_diagram_gcp.jpg)
+![Dedployment Diagram GCP - hard complexity](/sports_hub_portal/architecture_vision/images/gcp_hard.png)
 
 <p align="center"><i>Figure 8. Dedployment Diagram GCP - hard complexity</i></p>
 
@@ -269,7 +269,7 @@ Library3|x.x.x.x|Responsible for a, b, c|
 
 <p align="center"><i>Figure 10. Dedployment Diagram Azure - medium complexity</i></p>
 
-![Dedployment Diagram Azure - hard complexity](/sports_hub_portal/architecture_vision/images/figure_7_dedployment_diagram_azure.jpg)
+![Dedployment Diagram Azure - hard complexity](/sports_hub_portal/architecture_vision/images/azure_hard.png)
 
 <p align="center"><i>Figure 11. Dedployment Diagram Azure - hard complexity</i></p>
 
@@ -278,15 +278,15 @@ Library3|x.x.x.x|Responsible for a, b, c|
 
 ![Dedployment Diagram AWS - basic complexity](/sports_hub_portal/architecture_vision/images/aws_basic.png)
 
-<p align="center"><i>Figure 8. Dedployment Diagram AWS - basic complexity</i></p>
+<p align="center"><i>Figure 12. Dedployment Diagram AWS - basic complexity</i></p>
 
 ![Dedployment Diagram AWS - medium complexity](/sports_hub_portal/architecture_vision/images/aws_medium.png)
 
-<p align="center"><i>Figure 8. Dedployment Diagram AWS - medium complexity</i></p>
+<p align="center"><i>Figure 13. Dedployment Diagram AWS - medium complexity</i></p>
 
-![Dedployment Diagram AWS - hard complexity](/sports_hub_portal/architecture_vision/images/figure_8_dedployment_diagram_aws.jpg)
+![Dedployment Diagram AWS - hard complexity](/sports_hub_portal/architecture_vision/images/aws_hard.png)
 
-<p align="center"><i>Figure 8. Dedployment Diagram AWS - hard complexity</i></p>
+<p align="center"><i>Figure 14. Dedployment Diagram AWS - hard complexity</i></p>
 
 
 

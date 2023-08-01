@@ -28,6 +28,8 @@ When I enter the user’s name
 Then I see the user that match the search
 </pre>
 
+<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>
+
 ## Style guides
 
 Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?page-id=0%3A1&node-id=19%3A5368&viewport=266%2C48%2C0.54&scaling=min-zoom&starting-point-node-id=19%3A5368) to the style guides

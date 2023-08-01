@@ -26,6 +26,9 @@ Then I see the search icon with the placeholder "Type a user name here"
 
 When I enter the user’s name
 Then I see the user that match the search
+
+<i>Search can start when the first symbol is entered or when at least 3 symbols are entered</i>
+
 </pre>
 
 ## Style guides

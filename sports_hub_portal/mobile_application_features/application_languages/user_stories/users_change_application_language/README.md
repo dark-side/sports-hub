@@ -1,6 +1,6 @@
 ### Back to [Application languages](../../) feature
 
-# Allow users to change a language in the application
+# Allow users to view the application in supported languages
 
 - [Description](#description)
 - [Acceptance criteria](#acceptance-criteria)
@@ -11,8 +11,7 @@
 ## Description
 
     As an application user
-    I want to be able to change an application language
-    So that I can view all application content translated to a preferred language
+    I want to be able to view the application in supported languages
 
 ## Acceptance criteria
 
@@ -22,16 +21,12 @@
 Given I am logged in as a user
 
 When I view any page of the application
-Then I see the Main menu
+Then I see the application content is translated into the language that is selected on my phone
 
-When I tap Main menu icon
-Then I see the languages list in the right bottom corner
-<i>Note: English (EN) language should be selected by default</i>
+When the application does not support the language of my phone
+Then I see the application in English
 
-When I tap any preferred language icon
-Then I see the application content is translated into this language
-
-<i>Note: A list of available languages is configured and managed by admin via the CMS</i>
+<i>Note: A list of supported languages is configured and managed by admin via the CMS</i>
 </pre>
 
 ## Style guides
@@ -53,21 +48,21 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 ## Test cases
 
-1. Verify the list of available languages in the Main menu
-2. Verify selecting the preferred language by users
+1. Verify the content gets translated
+2. Verify selecting the phone language that is supported in the application
 
 <details>
   <summary>Click here to see test cases details</summary>
 
-### **#1. Verify the list of available languages in the Main menu**
+### **#1. Verify the content gets translated**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- Go to any page</br>- There are configured EN, UA, DE, FR languages to be shown</br>- The user has never changed the language|1) Tap the Main menu icon</br>2) Examine the list of available languages|1) The languages list is placed in the right bottom corner</br>2) The following languages are available: EN, UA, DE, FR. English language is selected by default|
+|- Log in with user account</br>- Go to any page</br>- The application supports EN, UA, DE, FR languages|1) Select phone lagnuage as one of the supported list</br>2) Examine the app content|1) The application content is translated into the language that is selected on my phone|
 
-### **#2. Verify selecting the preferred language by users**
+### **#2. Verify selecting the phone language that is supported in the application**
 
 |Preconditions|Steps|Expected result
 --------------|-----|----------
-|- Log in with user account</br>- There are configured EN, UA, DE, FR languages to be shown|1) Tap the Main menu icon</br>2) Examine the list of available languages</br>3) Tap the preferred language icon|1) The languages list is placed in the right bottom corner</br>2) The following languages are available: EN, UA, DE, FR</br>3) The application content is translated into a preferred language|
+|- Log in with user account</br>- The application supports EN, UA, DE, FR languages|1) Select phone lagnuage that is NOT present in the supported list</br>2) Examine the app content</br>3) Tap the preferred language icon|The application content is translated into English|
 </details>
