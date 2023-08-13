@@ -1,4 +1,4 @@
-### Back to [Sports Hub portal product map](../../README.md)
+### Back to [Sports Hub portal product map](../../README.md#sports-hub-portal)
 
 - [Development roadmap](#development-roadmap)
 - [Functional requirements for Desktop application](#functional-requirements-for-desktop-application)
