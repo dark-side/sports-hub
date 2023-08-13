@@ -1,3 +1,35 @@
+## Sports Hub - Programming and Development Tasks Assistant 
+
+To become proficient in professional programming, it's crucial to engage with technical tasks linked to a product's development. This product should serve a distinct business goal and meet user requirements. Programming is just one aspect of the broader field known as software development.
+
+Software development involves various steps such as conceptualization, specification, design, programming, documentation, testing, and resolving errors. This encompasses the creation and maintenance of applications and software components. Initially, as you embark on your programming journey, there might be limitations on dedicating ample time to curate an effective set of technical tasks. These tasks are essential for honing programming skills by working on intricate software applications. During the early stages of programming education, allocating time to formulate and define a robust idea for your practice project can be exceptionally challenging.
+
+Therefore, we created the sample product *Sports Hub* portal which includes:
+
+- Product details overview
+- Product functional/non-functional requirements
+- Test cases for functional requirements
+- UI/UX design for functional requirements
+- Detailed UI/UX design demo workflows
+- Technical Architecture diagrams and specifics
+- API specification documentation
+- Infrastructure and cloud design
+- Deployment details for cloud infrastructure
+- Data design including flows and pipelines
+- Requirements for web, mobile, and desktop applications
+- Product roadmap with estimation templates
+- Technical task examples for Web, Mobile, and Desktop
+- Technical task examples for Data and Infrastructure
+- Effort estimation templates for Web, Mobile, and Desktop
+- Effort estimation templates for Data and Infrastructure
+
+The information provided in the documentation is sufficient to undertake various technical tasks, allowing you to enhance your skills across development processes within a chosen technological stack or domain. This enables you to dedicate more time to actual programming as opposed to preparing task specifications.
+
+Through *Sports Hub*, you have the chance to devote additional time to learning and practicing programming, rather than being occupied with ideation, documentation, and architectural design aspects of a product.
+
+ Please put a star <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138927161-8ca50ae4-11cb-4091-bd3d-c50845d07e78.png"> if you like an idea or find this space useful <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138928380-2d5fe11a-662a-4132-89b7-bfbacdb0cf0c.png">
+
+
 # Sports Hub portal
 
 - [Problem](#problem)
@@ -156,3 +188,25 @@ Please click [here](https://www.figma.com/file/0zkkf5WC77OSpvyD6YXpFE/Style-guid
 
 1. Page templates list. Build support for admins to choose the page template when creating a new page for the Sports Hub application.
 2. Admins with different sets of permissions. Build a possibility for admin users to define permissions for other admins in order to make it possible to create admins with limited access to CMS.
+
+
+# License
+
+Copyright (c) 2019 Dark Side
+
+Licensed under either of
+
+ * Apache License, Version 2.0
+   [LICENSE-APACHE](http://www.apache.org/licenses/LICENSE-2.0)
+ * MIT license
+   [LICENSE-MIT](http://opensource.org/licenses/MIT)
+
+at your option.
+
+# Contribution
+
+Unless you explicitly state otherwise, any contribution intentionally submitted
+for inclusion in the work by you, as defined in the Apache-2.0 license, shall be
+dual licensed as above, without any additional terms or conditions.
+
+**Should you have any suggestions please create an Issue for this repository** 
