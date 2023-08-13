@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Advertisements
 
@@ -36,4 +36,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to see advertisements**](/sports_hub_portal/mobile_application_features/advertisements/user_stories/view_ads)|<pre>As a user<br>I want to view an advertisement on the top of banners after the main content of the page</pre>
+1 |[**Allow users to see advertisements**](/sports_hub_portal/mobile_application_features/advertisements/user_stories/view_ads/README.md)|<pre>As a user<br>I want to view an advertisement on the top of banners after the main content of the page</pre>

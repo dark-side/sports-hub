@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # User personal cabinet
 
@@ -38,5 +38,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to update their personal information**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/personal_information_update)|<pre>As a site user<br>I want to be able to update my personal information</pre>
-2 |[**Allow users to change their password via profile**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/password_update)|<pre>As a site user<br>I want to be able to update my password</pre>
+1 |[**Allow users to update their personal information**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/personal_information_update/README.md)|<pre>As a site user<br>I want to be able to update my personal information</pre>
+2 |[**Allow users to change their password via profile**](/sports_hub_portal/mobile_application_features/user_profile_update/user_stories/password_update/README.md)|<pre>As a site user<br>I want to be able to update my password</pre>

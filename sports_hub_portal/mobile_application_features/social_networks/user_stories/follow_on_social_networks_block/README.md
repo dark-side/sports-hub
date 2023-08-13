@@ -1,4 +1,4 @@
-### Back to [Social networks on the application](../../) feature
+### Back to [Social networks on the application](../../README.md) feature
 
 # Allow users to follow Sports Hub on social networks
 

@@ -1,4 +1,4 @@
-### Back to [Manage news partners on the portal](../../) feature
+### Back to [Manage news partners on the portal](../../README.md) feature
 
 # Allow admin user to see a list of news from partners
 

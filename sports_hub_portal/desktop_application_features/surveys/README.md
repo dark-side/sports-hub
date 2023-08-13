@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Surveys on the portal
 
@@ -37,7 +37,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin to create surveys on the portal**](/sports_hub_portal/desktop_application_features/surveys/user_stories/create_surveys)|<pre>As an admin user<br>I want to create surveys on the portal</pre>
-2 |[**Allow admin to publish surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/publish_survey)|<pre>As an admin user<br>I want to be able to publish surveys<br>So that users can see them and vote</pre>
-3 |[**Allow admin to close surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/close_survey)|<pre>As an admin user<br>I want to be able to close surveys</pre>
-4 |[**Allow admin to filter surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/filter_surveys)|<pre>As an admin user<br>I want to be able to filter opened surveys</pre>
+1 |[**Allow admin to create surveys on the portal**](/sports_hub_portal/desktop_application_features/surveys/user_stories/create_surveys/README.md)|<pre>As an admin user<br>I want to create surveys on the portal</pre>
+2 |[**Allow admin to publish surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/publish_survey/README.md)|<pre>As an admin user<br>I want to be able to publish surveys<br>So that users can see them and vote</pre>
+3 |[**Allow admin to close surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/close_survey/README.md)|<pre>As an admin user<br>I want to be able to close surveys</pre>
+4 |[**Allow admin to filter surveys**](/sports_hub_portal/desktop_application_features/surveys/user_stories/filter_surveys/README.md)|<pre>As an admin user<br>I want to be able to filter opened surveys</pre>

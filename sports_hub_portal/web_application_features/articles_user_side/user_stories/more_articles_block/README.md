@@ -1,4 +1,4 @@
-### Back to [Articles - user side on the portal](../../) feature
+### Back to [Articles - user side on the portal](../../README.md) feature
 
 # Allow users to view More Articles block on the portal
 

@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Page layout in the application
 
@@ -40,7 +40,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Page structure: general sections**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_general_sections)|<pre>As a user<br>I want to view the same layout structure across all the pages</pre>
-2 |[**Page structure: user profile section in the header (user logged out)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_section_user_logged_out)|<pre>As a user<br>I want to see Sign up and Log in links when I am logged out</pre>
-3 |[**Page structure: user profile section in the header (user logged-in)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_section_user_logged_in)|<pre>As a user<br>I want to see profile icon</pre>
-4 |[**Page structure: user profile pages (user logged-in)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_pages_user_logged_in)|<pre>As a user<br>I want to view personal profile pages when I am logged-in</pre>
+1 |[**Page structure: general sections**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_general_sections/README.md)|<pre>As a user<br>I want to view the same layout structure across all the pages</pre>
+2 |[**Page structure: user profile section in the header (user logged out)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_section_user_logged_out/README.md)|<pre>As a user<br>I want to see Sign up and Log in links when I am logged out</pre>
+3 |[**Page structure: user profile section in the header (user logged-in)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_section_user_logged_in/README.md)|<pre>As a user<br>I want to see profile icon</pre>
+4 |[**Page structure: user profile pages (user logged-in)**](/sports_hub_portal/mobile_application_features/project_layout/user_stories/page_structure_user_profile_pages_user_logged_in/README.md)|<pre>As a user<br>I want to view personal profile pages when I am logged-in</pre>

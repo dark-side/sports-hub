@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # News from Sports Hub partners
 
@@ -31,4 +31,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view news from configured partners**](/sports_hub_portal/mobile_application_features/news_partners/user_stories/viewing_news_from_partners)|<pre>As a user<br>I want to be able to see news from the configured partners in the appropriate categories</pre>
+1 |[**Allow users to view news from configured partners**](/sports_hub_portal/mobile_application_features/news_partners/user_stories/viewing_news_from_partners/README.md)|<pre>As a user<br>I want to be able to see news from the configured partners in the appropriate categories</pre>

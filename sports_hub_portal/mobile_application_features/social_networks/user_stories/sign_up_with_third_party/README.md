@@ -1,4 +1,4 @@
-### Back to [Social networks on the application](../../) feature
+### Back to [Social networks on the application](../../README.md) feature
 
 # Allow users to sign up using a third-party authentication provider
 

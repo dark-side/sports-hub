@@ -1,4 +1,4 @@
-### Back to [Page layout on the portal](../../) feature
+### Back to [Page layout on the portal](../../README.md) feature
 
 # Page structure (user side): user profile section in the header (user logged-in)
 

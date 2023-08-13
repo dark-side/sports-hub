@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Manage advertisements on the portal
 
@@ -40,4 +40,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure advertisements**](/sports_hub_portal/desktop_application_features/manage_ads/user_stories/configure_ads)|<pre>As an admin user<br>I want to configure the list of advertisements<br>So that it is possible to promote them via the Sports Hub site</pre>
+1 |[**Allow admin user to configure advertisements**](/sports_hub_portal/desktop_application_features/manage_ads/user_stories/configure_ads/README.md)|<pre>As an admin user<br>I want to configure the list of advertisements<br>So that it is possible to promote them via the Sports Hub site</pre>

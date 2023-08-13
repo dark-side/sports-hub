@@ -1,4 +1,4 @@
-### Back to [Maintain navigation on the portal](../../) feature
+### Back to [Maintain navigation on the portal](../../README.md) feature
 
 # Allow site users to navigate to the sports categories, subcategories, and teams page on the portal
 

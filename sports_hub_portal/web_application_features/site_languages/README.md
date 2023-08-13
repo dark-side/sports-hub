@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Site languages on the portal
 
@@ -36,7 +36,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure site languages on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/configure_site_languages)|<pre>As an admin user<br>I want to be able to configure a list of available site languages<br>So users can select the preferred language for the Sports Hub site</pre>
-2 |[**Allow admin to configure content in multiple languages**](/sports_hub_portal/web_application_features/site_languages/user_stories/content_internationalization)|<pre>As an admin user<br>I want to be able to configure content in multiple languages<br>So that users can translate the site to valaiable languages</pre>
-3 |[**Allow users to change a site language on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/site_language_dropdown)|<pre>As a site user<br>I want to be able to change a site language<br>So that I can view site pages translated to the preferred language</pre>
-4 |[**Allow admin user to change a site language on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/admin_side_site_language_dropdown)|<pre>As an admin user<br>I want to be able to change a site language<br>So that I can view site pages translated to the preferred language</pre>
+1 |[**Allow admin user to configure site languages on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/configure_site_languages/README.md)|<pre>As an admin user<br>I want to be able to configure a list of available site languages<br>So users can select the preferred language for the Sports Hub site</pre>
+2 |[**Allow admin to configure content in multiple languages**](/sports_hub_portal/web_application_features/site_languages/user_stories/content_internationalization/README.md)|<pre>As an admin user<br>I want to be able to configure content in multiple languages<br>So that users can translate the site to valaiable languages</pre>
+3 |[**Allow users to change a site language on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/site_language_dropdown/README.md)|<pre>As a site user<br>I want to be able to change a site language<br>So that I can view site pages translated to the preferred language</pre>
+4 |[**Allow admin user to change a site language on the portal**](/sports_hub_portal/web_application_features/site_languages/user_stories/admin_side_site_language_dropdown/README.md)|<pre>As an admin user<br>I want to be able to change a site language<br>So that I can view site pages translated to the preferred language</pre>

@@ -1,4 +1,4 @@
-### Back to [View articles in the application](../../) feature
+### Back to [View articles in the application](../../README.md) feature
 
 # Allow users to view category/team page in the application
 

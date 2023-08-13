@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Page layout on the portal
 
@@ -48,8 +48,8 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Page structure (admin side): general sections**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_general_page_structure)|<pre>As an admin user<br>I want to view the same layout structure across all the pages</pre>
-2 |[**Page structure (admin side): header section**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_page_structure_header)|<pre>As an admin user<br>I want to view the header section</pre>
-3 |[**Page structure (admin side): left vertical menu**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_left_vertical_menu)|<pre>As an admin user<br>I want to view the left vertical menu (local navigation)</pre>
-4 |[**Page structure (admin side): user profile section in the header**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_user_profile_header_section)|<pre>As an admin user<br>I want to see my name when I am logged-in</pre>
-5 |[**Page structure (admin side): switch to user view**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_switch_to_user_view)|<pre>As an admin user<br>I want to be able to swith to a user view</pre>
+1 |[**Page structure (admin side): general sections**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_general_page_structure/README.md)|<pre>As an admin user<br>I want to view the same layout structure across all the pages</pre>
+2 |[**Page structure (admin side): header section**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_page_structure_header/README.md)|<pre>As an admin user<br>I want to view the header section</pre>
+3 |[**Page structure (admin side): left vertical menu**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_left_vertical_menu/README.md)|<pre>As an admin user<br>I want to view the left vertical menu (local navigation)</pre>
+4 |[**Page structure (admin side): user profile section in the header**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_user_profile_header_section/README.md)|<pre>As an admin user<br>I want to see my name when I am logged-in</pre>
+5 |[**Page structure (admin side): switch to user view**](/sports_hub_portal/desktop_application_features/project_layout/user_stories/admin_side_switch_to_user_view/README.md)|<pre>As an admin user<br>I want to be able to swith to a user view</pre>

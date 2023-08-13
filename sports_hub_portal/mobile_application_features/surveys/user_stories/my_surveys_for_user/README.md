@@ -1,4 +1,4 @@
-### Back to [Surveys](../../) feature
+### Back to [Surveys](../../README.md) feature
 
 # Allow users to see a list of all surveys
 

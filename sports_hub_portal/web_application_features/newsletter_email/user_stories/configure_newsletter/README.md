@@ -1,4 +1,4 @@
-### Back to [Newsletter subscription](../../) feature
+### Back to [Newsletter subscription](../../README.md) feature
 
 # Allow admin user to configure Newsletter footer section
 

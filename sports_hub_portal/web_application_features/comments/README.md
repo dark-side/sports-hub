@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Comments block on the portal
 
@@ -44,6 +44,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to comment an article on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/comment_an_article)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
-2 |[**Allow users to interact with existing article comments on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments)|<pre>As a site user<br>I want to sort comments and like or dislike the comment</pre>
+1 |[**Allow users to comment an article on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/comment_an_article/README.md)|<pre>As a site user <br>I want to leave a comment on the article page</pre>
+2 |[**Allow users to interact with existing article comments on the portal**](/sports_hub_portal/web_application_features/comments/user_stories/interacting_with_existing_article_comments/README.md)|<pre>As a site user<br>I want to sort comments and like or dislike the comment</pre>
 

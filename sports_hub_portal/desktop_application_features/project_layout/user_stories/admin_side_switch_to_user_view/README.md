@@ -1,4 +1,4 @@
-### Back to [Page layout on the portal](../../) feature
+### Back to [Page layout on the portal](../../README.md) feature
 
 # Page structure (admin side): switch to user view
 

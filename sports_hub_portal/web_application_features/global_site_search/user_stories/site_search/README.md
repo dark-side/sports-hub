@@ -1,4 +1,4 @@
-### Back to [Global site search on the portal](../../) feature
+### Back to [Global site search on the portal](../../README.md) feature
 
 # Allow users to use site search on the portal
 

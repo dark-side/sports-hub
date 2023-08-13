@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Newsletter subscription
 
@@ -33,4 +33,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure Newsletter footer section**](/sports_hub_portal/desktop_application_features/newsletter_email/user_stories/configure_newsletter)|<pre>As an admin user<br>I want to be able to configure Newsletter footer section</pre>
+1 |[**Allow admin user to configure Newsletter footer section**](/sports_hub_portal/desktop_application_features/newsletter_email/user_stories/configure_newsletter/README.md)|<pre>As an admin user<br>I want to be able to configure Newsletter footer section</pre>

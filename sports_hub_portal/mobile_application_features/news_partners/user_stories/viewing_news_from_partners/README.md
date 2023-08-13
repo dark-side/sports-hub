@@ -1,4 +1,4 @@
-### Back to [News from Sports Hub partners](../../) feature
+### Back to [News from Sports Hub partners](../../README.md) feature
 
 # Allow users to view news from configured partners
 

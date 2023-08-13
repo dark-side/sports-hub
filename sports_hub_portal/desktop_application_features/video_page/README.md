@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Sports videos on the portal
 
@@ -48,7 +48,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow admin users to add new videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/add_new_video)|<pre>As an admin user<br>I want to be able to add new videos</pre>
-2 |[**Allow admin users to view the list of existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/admin_videos_list)|<pre>As an admin user<br>I want to view the list of existing videos</pre>
-3 |[**Allow admin users to publish/unpublish existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/publish_unpublish_video)|<pre>As an admin user<br>I want to publish/unpublish existing videos</pre>
-4 |[**Allow admin users to edit existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/edit_existing_video)|<pre>As an admin user<br>I want to edit existing unpublished videos</pre>
-5 |[**Allow admin users to delete existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/delete_existing_video)|<pre>As an admin user<br>I want to be able to delete existing videos</pre>
+2 |[**Allow admin users to view the list of existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/admin_videos_list/README.md)|<pre>As an admin user<br>I want to view the list of existing videos</pre>
+3 |[**Allow admin users to publish/unpublish existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/publish_unpublish_video/README.md)|<pre>As an admin user<br>I want to publish/unpublish existing videos</pre>
+4 |[**Allow admin users to edit existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/edit_existing_video/README.md)|<pre>As an admin user<br>I want to edit existing unpublished videos</pre>
+5 |[**Allow admin users to delete existing videos**](/sports_hub_portal/desktop_application_features/video_page/user_stories/delete_existing_video/README.md)|<pre>As an admin user<br>I want to be able to delete existing videos</pre>

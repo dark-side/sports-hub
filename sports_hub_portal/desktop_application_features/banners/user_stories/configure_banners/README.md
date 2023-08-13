@@ -1,4 +1,4 @@
-### Back to [Banners on the portal](../../) feature
+### Back to [Banners on the portal](../../README.md) feature
 
 # Allow admin users to configure banners on the portal
 

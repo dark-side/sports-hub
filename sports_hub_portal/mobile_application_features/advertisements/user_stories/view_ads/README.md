@@ -1,4 +1,4 @@
-### Back to [Advertisements](../../) feature
+### Back to [Advertisements](../../README.md) feature
 
 # Allow users to see advertisements
 

@@ -1,4 +1,4 @@
-### Back to [Manage advertisements on the portal](../../) feature
+### Back to [Manage advertisements on the portal](../../README.md) feature
 
 # Allow admin user to configure advertisements
 

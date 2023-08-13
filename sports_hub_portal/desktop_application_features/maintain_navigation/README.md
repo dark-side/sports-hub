@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Maintain navigation on the portal
 
@@ -68,10 +68,10 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to create navigation menu items on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/manage_navigation_items)|<pre>As an admin user<br>I want to create the navigation menu categories, subcategories, and teams visible to the site users</pre>
-2 |[**Allow admin user to show and hide navigation menu items on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/hide_show_navigation_items)|<pre>As an admin user<br>I want to show and hide the navigation menu categories, subcategories, and teams on the portal</pre>
-3 |[**Allow admin user to change order of the navigation menu items and move them between the categories and subcategories**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/move_and_order_navigation_items)|<pre>As an admin user<br>I want to change order of the navigation menu items and move them between the categories and subcategories</pre>
-4 |[**Allow admin users to add a new team on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/add_new_team)|<pre>As an admin user<br>I want to add a new team</pre>
-5 |[**Allow admin users to edit the existing team**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/edit_existing_team)|<pre>As an admin user<br>I want to edit the existing team</pre>
-6 |[**Allow admin users to filter and search the teams**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/filter_teams)|<pre>As an admin user<br>I want to filter the Teams page</pre>
-7 |[**Allow admin users to delete the existing team**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/delete_team)|<pre>As an admin user<br>I want to delete the existing team</pre>
+1 |[**Allow admin user to create navigation menu items on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/manage_navigation_items/README.md)|<pre>As an admin user<br>I want to create the navigation menu categories, subcategories, and teams visible to the site users</pre>
+2 |[**Allow admin user to show and hide navigation menu items on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/hide_show_navigation_items/README.md)|<pre>As an admin user<br>I want to show and hide the navigation menu categories, subcategories, and teams on the portal</pre>
+3 |[**Allow admin user to change order of the navigation menu items and move them between the categories and subcategories**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/move_and_order_navigation_items/README.md)|<pre>As an admin user<br>I want to change order of the navigation menu items and move them between the categories and subcategories</pre>
+4 |[**Allow admin users to add a new team on the portal**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/add_new_team/README.md)|<pre>As an admin user<br>I want to add a new team</pre>
+5 |[**Allow admin users to edit the existing team**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/edit_existing_team/README.md)|<pre>As an admin user<br>I want to edit the existing team</pre>
+6 |[**Allow admin users to filter and search the teams**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/filter_teams/README.md)|<pre>As an admin user<br>I want to filter the Teams page</pre>
+7 |[**Allow admin users to delete the existing team**](/sports_hub_portal/desktop_application_features/maintain_navigation/user_stories/delete_team/README.md)|<pre>As an admin user<br>I want to delete the existing team</pre>

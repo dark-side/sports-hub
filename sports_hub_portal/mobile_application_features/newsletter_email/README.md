@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Newsletter subscription
 
@@ -33,5 +33,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to subscribe to newsletter**](/sports_hub_portal/mobile_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a user<br>I want to subscribe to the Sports Hub<br>So that I can receive an email with the latest sports news</pre>
-2 |[**Allow users to navigate from the email to the application**](/sports_hub_portal/mobile_application_features/newsletter_email/user_stories/newsletter_subscription)|<pre>As a user<br>I want to receive a newsletter email and navigate to the appropriate page<br>So that I can read the latest sports news in the application</pre>
+1 |[**Allow users to subscribe to newsletter**](/sports_hub_portal/mobile_application_features/newsletter_email/user_stories/newsletter_subscription/README.md)|<pre>As a user<br>I want to subscribe to the Sports Hub<br>So that I can receive an email with the latest sports news</pre>
+2 |[**Allow users to navigate from the email to the application**](/sports_hub_portal/mobile_application_features/newsletter_email/user_stories/newsletter_subscription/README.md)|<pre>As a user<br>I want to receive a newsletter email and navigate to the appropriate page<br>So that I can read the latest sports news in the application</pre>

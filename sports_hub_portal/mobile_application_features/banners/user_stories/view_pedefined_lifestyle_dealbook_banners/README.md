@@ -1,4 +1,4 @@
-### Back to [Banners in the application](../../) feature
+### Back to [Banners in the application](../../README.md) feature
 
 # Allow users to view predefined Lifestyle and Dealbook banners in the application
 

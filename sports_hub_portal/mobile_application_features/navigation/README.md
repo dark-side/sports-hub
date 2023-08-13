@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Navigation in the application
 
@@ -53,4 +53,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to navigate to the sports categories, subcategories, and teams page in the application**](/sports_hub_portal/mobile_application_features/navigation/user_stories/navigation_user_side)|<pre>As a user<br>I want to view the navigation menu on every page of the Sports Hub application<br>So that I can navigate between sports categories, subcategories, and teams news pages</pre>
+1 |[**Allow users to navigate to the sports categories, subcategories, and teams page in the application**](/sports_hub_portal/mobile_application_features/navigation/user_stories/navigation_user_side/README.md)|<pre>As a user<br>I want to view the navigation menu on every page of the Sports Hub application<br>So that I can navigate between sports categories, subcategories, and teams news pages</pre>

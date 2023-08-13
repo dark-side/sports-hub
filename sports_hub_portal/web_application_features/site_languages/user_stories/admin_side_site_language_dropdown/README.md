@@ -1,4 +1,4 @@
-### Back to [Site languages on the portal](../../) feature
+### Back to [Site languages on the portal](../../README.md) feature
 
 # Allow admin user to change a site language on the portal
 

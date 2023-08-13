@@ -1,4 +1,4 @@
-### Back to [Banners in the application](../../) feature
+### Back to [Banners in the application](../../README.md) feature
 
 # Allow users to view predefined Facebook banners in the application
 

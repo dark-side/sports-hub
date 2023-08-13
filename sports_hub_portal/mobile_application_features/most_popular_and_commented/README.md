@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # The most popular and commented articles
 
@@ -34,5 +34,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view the most popular articles**](/sports_hub_portal/mobile_application_features/most_popular_and_commented/user_stories/most_popular)|<pre>As a user<br>I want to view the <b>Most popular</b> section<br>So that I can read articles that have the highest number of views during the period configured by admin (day, week, month, year)</pre>
-2 |[**Allow users to view the most commented articles**](/sports_hub_portal/mobile_application_features/most_popular_and_commented/user_stories/most_commented)|<pre>As a user<br>I want to view the <b>Most commented</b> section<br>So that I can read articles that have the highest number of comments during the period configured by admin (day, week, month, year)</pre>
+1 |[**Allow users to view the most popular articles**](/sports_hub_portal/mobile_application_features/most_popular_and_commented/user_stories/most_popular/README.md)|<pre>As a user<br>I want to view the <b>Most popular</b> section<br>So that I can read articles that have the highest number of views during the period configured by admin (day, week, month, year)</pre>
+2 |[**Allow users to view the most commented articles**](/sports_hub_portal/mobile_application_features/most_popular_and_commented/user_stories/most_commented/README.md)|<pre>As a user<br>I want to view the <b>Most commented</b> section<br>So that I can read articles that have the highest number of comments during the period configured by admin (day, week, month, year)</pre>

@@ -1,4 +1,4 @@
-### Back to [Home page of the portal](../../) feature
+### Back to [Home page of the portal](../../README.md) feature
 
 # Display Photo of the day for site users on the Home page
 

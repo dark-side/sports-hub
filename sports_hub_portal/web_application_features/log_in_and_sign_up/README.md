@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Log in and sign up to the portal
 
@@ -37,8 +37,8 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to sign up on the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_to_the_portal)|<pre>As a new user<br>I want to be able to sign up using my email<br>So that I will be on the site member list</pre>
-2 |[**Allow users to log in to the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_to_the_portal)|<pre>As a site user<br>I want to be able to log in with an email and password</pre>
-3 |[**Allow users to reset their password**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/forgot_password)|<pre>As a site user<br>I want to be able to reset my password</pre>
-4 |[**Add admin account to the portal**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/admin_account_registration)|<pre>I want to have an admin account created on the portal</pre>
-5 |[**Allow admin user to log in to the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/admin_account_log_in)|<pre>As an admin user<br>I want to be able to log in with an email and password</pre>
+1 |[**Allow users to sign up on the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/sign_up_to_the_portal/README.md)|<pre>As a new user<br>I want to be able to sign up using my email<br>So that I will be on the site member list</pre>
+2 |[**Allow users to log in to the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/log_in_to_the_portal/README.md)|<pre>As a site user<br>I want to be able to log in with an email and password</pre>
+3 |[**Allow users to reset their password**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/forgot_password/README.md)|<pre>As a site user<br>I want to be able to reset my password</pre>
+4 |[**Add admin account to the portal**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/admin_account_registration/README.md)|<pre>I want to have an admin account created on the portal</pre>
+5 |[**Allow admin user to log in to the portal using an email**](/sports_hub_portal/web_application_features/log_in_and_sign_up/user_stories/admin_account_log_in/README.md)|<pre>As an admin user<br>I want to be able to log in with an email and password</pre>

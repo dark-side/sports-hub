@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Global application search
 
@@ -31,4 +31,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to use application search**](/sports_hub_portal/mobile_application_features/global_application_search/user_stories/application_search)|<pre>As a user</br>I want to be able to use search</br>So that I can quickly find the information I am interested in</pre>
+1 |[**Allow users to use application search**](/sports_hub_portal/mobile_application_features/global_application_search/user_stories/application_search/README.md)|<pre>As a user</br>I want to be able to use search</br>So that I can quickly find the information I am interested in</pre>

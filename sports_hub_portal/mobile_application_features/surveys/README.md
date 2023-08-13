@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Surveys
 
@@ -36,5 +36,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to see a list of all surveys**](/sports_hub_portal/mobile_application_features/surveys/user_stories/my_surveys_for_user)|<pre>As a user<br>I want to see a list of all surveys<br>So that I can vote</pre>
-2 |[**Allow users to participate in surveys on the My surveys page**](/sports_hub_portal/mobile_application_features/surveys/user_stories/form_for_voting)|<pre>As a user</br>I want to vote on the My surveys page in my personal cabinet</pre>
+1 |[**Allow users to see a list of all surveys**](/sports_hub_portal/mobile_application_features/surveys/user_stories/my_surveys_for_user/README.md)|<pre>As a user<br>I want to see a list of all surveys<br>So that I can vote</pre>
+2 |[**Allow users to participate in surveys on the My surveys page**](/sports_hub_portal/mobile_application_features/surveys/user_stories/form_for_voting/README.md)|<pre>As a user</br>I want to vote on the My surveys page in my personal cabinet</pre>

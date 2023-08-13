@@ -1,4 +1,4 @@
-### Back to [User management on the portal](../../) feature
+### Back to [User management on the portal](../../README.md) feature
 
 # Send notification emails to users on the portal
 

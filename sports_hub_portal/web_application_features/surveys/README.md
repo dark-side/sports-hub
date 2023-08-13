@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Surveys on the portal
 
@@ -51,10 +51,10 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin to create surveys on the portal**](/sports_hub_portal/web_application_features/surveys/user_stories/create_surveys)|<pre>As an admin user<br>I want to create surveys on the portal</pre>
-2 |[**Allow admin to publish surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/publish_survey)|<pre>As an admin user<br>I want to be able to publish surveys<br>So that users can see them and vote</pre>
-3 |[**Allow admin to close surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/close_survey)|<pre>As an admin user<br>I want to be able to close surveys</pre>
-4 |[**Allow admin to filter surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/filter_surveys)|<pre>As an admin user<br>I want to be able to filter opened surveys</pre>
-5 |[**Allow users to see a list of all surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/my_surveys_for_user)|<pre>As a site user<br>I want to see a list of all surveys<br>So that I can vote</pre>
-6 |[**Allow users to participate in surveys on the My surveys page**](/sports_hub_portal/web_application_features/surveys/user_stories/form_for_voting)|<pre>As a site user<br>I want to vote on the My surveys page in my personal cabinet</pre>
-7 |[**Allow users to participate in surveys on news pages**](/sports_hub_portal/web_application_features/surveys/user_stories/banner_for_voting)|<pre>As a site user<br>I want to see a survey banner on news pages<br>So that I can vote</pre>
+1 |[**Allow admin to create surveys on the portal**](/sports_hub_portal/web_application_features/surveys/user_stories/create_surveys/README.md)|<pre>As an admin user<br>I want to create surveys on the portal</pre>
+2 |[**Allow admin to publish surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/publish_survey/README.md)|<pre>As an admin user<br>I want to be able to publish surveys<br>So that users can see them and vote</pre>
+3 |[**Allow admin to close surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/close_survey/README.md)|<pre>As an admin user<br>I want to be able to close surveys</pre>
+4 |[**Allow admin to filter surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/filter_surveys/README.md)|<pre>As an admin user<br>I want to be able to filter opened surveys</pre>
+5 |[**Allow users to see a list of all surveys**](/sports_hub_portal/web_application_features/surveys/user_stories/my_surveys_for_user/README.md)|<pre>As a site user<br>I want to see a list of all surveys<br>So that I can vote</pre>
+6 |[**Allow users to participate in surveys on the My surveys page**](/sports_hub_portal/web_application_features/surveys/user_stories/form_for_voting/README.md)|<pre>As a site user<br>I want to vote on the My surveys page in my personal cabinet</pre>
+7 |[**Allow users to participate in surveys on news pages**](/sports_hub_portal/web_application_features/surveys/user_stories/banner_for_voting/README.md)|<pre>As a site user<br>I want to see a survey banner on news pages<br>So that I can vote</pre>

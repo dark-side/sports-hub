@@ -1,4 +1,4 @@
-### Back to [Navigation in the application](../../) feature
+### Back to [Navigation in the application](../../README.md) feature
 
 # Allow users to navigate to the sports categories, subcategories, and teams page in the application
 

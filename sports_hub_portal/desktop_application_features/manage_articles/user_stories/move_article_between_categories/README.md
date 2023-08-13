@@ -1,4 +1,4 @@
-### Back to [Manage articles on the portal](../../) feature
+### Back to [Manage articles on the portal](../../README.md) feature
 
 # Allow admin users to move an existing article between categories
 

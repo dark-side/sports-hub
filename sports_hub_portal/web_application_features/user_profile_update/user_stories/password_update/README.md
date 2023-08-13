@@ -1,4 +1,4 @@
-### Back to [User personal cabinet](../../) feature
+### Back to [User personal cabinet](../../README.md) feature
 
 # Allow users to change their password via profile
 

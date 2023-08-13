@@ -1,4 +1,4 @@
-### Back to [Comments block](../../) feature
+### Back to [Comments block](../../README.md) feature
 
 # Allow users to interact with existing article comments in the application
 

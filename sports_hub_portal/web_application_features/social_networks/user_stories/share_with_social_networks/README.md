@@ -1,4 +1,4 @@
-### Back to [Social networks on the portal](../../) feature
+### Back to [Social networks on the portal](../../README.md) feature
 
 # Allow users to share Sports Hub portal on social networks
 

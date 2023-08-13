@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Application footer
 
@@ -49,4 +49,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users view footer in the application**](/sports_hub_portal/mobile_application_features/application_footer/user_stories/view_application_footer)|<pre>As a user</br>I want to be able to see the footer on every page of the application</br>So that I can see the links to pages to read more about the company, contributors, and subscribe to receive the latest news</pre>
+1 |[**Allow users view footer in the application**](/sports_hub_portal/mobile_application_features/application_footer/user_stories/view_application_footer/README.md)|<pre>As a user</br>I want to be able to see the footer on every page of the application</br>So that I can see the links to pages to read more about the company, contributors, and subscribe to receive the latest news</pre>

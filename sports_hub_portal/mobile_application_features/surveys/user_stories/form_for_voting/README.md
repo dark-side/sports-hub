@@ -1,4 +1,4 @@
-### Back to [Surveys](../../) feature
+### Back to [Surveys](../../README.md) feature
 
 # Allow users to participate in surveys on the My surveys page
 

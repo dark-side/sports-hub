@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Log in and sign up to the portal
 
@@ -35,6 +35,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Add admin account to the portal**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/admin_account_registration)|<pre>I want to have an admin account created on the portal</pre>
-2 |[**Allow admin user to log in to the portal using an email**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/admin_account_log_in)|<pre>As an admin user<br>I want to be able to log in with an email and password</pre>
-3 |[**Allow admin user to reset their password**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/forgot_password)|<pre>As an admin user<br>I want to be able to reset my password</pre>
+1 |[**Add admin account to the portal**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/admin_account_registration/README.md)|<pre>I want to have an admin account created on the portal</pre>
+2 |[**Allow admin user to log in to the portal using an email**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/admin_account_log_in/README.md)|<pre>As an admin user<br>I want to be able to log in with an email and password</pre>
+3 |[**Allow admin user to reset their password**](/sports_hub_portal/desktop_application_features/log_in_and_sign_up/user_stories/forgot_password/README.md)|<pre>As an admin user<br>I want to be able to reset my password</pre>

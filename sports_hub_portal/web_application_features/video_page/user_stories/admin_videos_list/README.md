@@ -1,4 +1,4 @@
-### Back to [Sports videos on the portal](../../) feature
+### Back to [Sports videos on the portal](../../README.md) feature
 
 # Allow admin users to view the list of existing videos
 

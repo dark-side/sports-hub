@@ -1,4 +1,4 @@
-### Back to [Sports videos](../../) feature
+### Back to [Sports videos](../../README.md) feature
 
 # Allow users to view videos in the application
 

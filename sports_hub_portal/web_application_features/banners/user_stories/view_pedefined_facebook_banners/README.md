@@ -1,4 +1,4 @@
-### Back to [Banners on the portal](../../) feature
+### Back to [Banners on the portal](../../README.md) feature
 
 # Allow site users to view predefined Facebook banners on the portal
 

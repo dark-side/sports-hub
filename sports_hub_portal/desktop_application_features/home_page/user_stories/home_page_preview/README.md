@@ -1,4 +1,4 @@
-### Back to [Home page of the portal](../../) feature
+### Back to [Home page of the portal](../../README.md) feature
 
 # Allow admin user to preview the Home page
 

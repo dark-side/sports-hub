@@ -1,4 +1,4 @@
-### Back to [User management on the portal](../../) feature
+### Back to [User management on the portal](../../README.md) feature
 
 # Allow admin user to view online/offline status of users on the portal
 

@@ -1,4 +1,4 @@
-### Back to [Application footer](../../) feature
+### Back to [Application footer](../../README.md) feature
 
 # Allow users view footer in the application
 

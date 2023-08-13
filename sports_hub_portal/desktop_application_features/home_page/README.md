@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Home page of the portal
 
@@ -20,7 +20,7 @@ Admin user can show and hide the following sections:
   - <b>Most commented</b>
 
 We want to allow the admin user to configure this page, post articles, photos, and make some parts of the page visible or hidden.
-The <b>Most popular</b> and <b>Most commented</b> functionalities are described in [the separate feature](/sports_hub_portal/desktop_application_features/home_page/user_stories/most_popular_and_commented).
+The <b>Most popular</b> and <b>Most commented</b> functionalities are described in [the separate feature](/sports_hub_portal/desktop_application_features/home_page/user_stories/most_popular_and_commented/README.md).
 
 ## Check list:
 
@@ -47,7 +47,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure the Main articles section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_main_articles_block)|<pre>As an admin user<br>I want to set up up to 5 main articles<br>So that site users can see them on the <b>Home</b> page</pre>
-2 |[**Allow admin user to configure the Breakdown section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_breakdown_block)|<pre>As an admin user<br>I want to set up the <b>Breakdown</b> section news for a specific category<br>So that site users can see them on the <b>Home</b> page</pre>
-3 |[**Allow admin user to configure the Photo of the day section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_photo_of_the_day_block)|<pre>As an admin user<br>I want to be able to set up <b>Photo of the day</b><br>So that site users can see it on the <b>Home</b> page</pre>
-4 |[**Allow admin user to preview the Home page**](/sports_hub_portal/desktop_application_features/home_page/user_stories/home_page_preview)|<pre>As an admin user<br>I want to be able to preview the <b>Home</b> page while configuration<br>So that I could review the page as a site user</pre>
+1 |[**Allow admin user to configure the Main articles section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_main_articles_block/README.md)|<pre>As an admin user<br>I want to set up up to 5 main articles<br>So that site users can see them on the <b>Home</b> page</pre>
+2 |[**Allow admin user to configure the Breakdown section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_breakdown_block/README.md)|<pre>As an admin user<br>I want to set up the <b>Breakdown</b> section news for a specific category<br>So that site users can see them on the <b>Home</b> page</pre>
+3 |[**Allow admin user to configure the Photo of the day section**](/sports_hub_portal/desktop_application_features/home_page/user_stories/configuration_of_photo_of_the_day_block/README.md)|<pre>As an admin user<br>I want to be able to set up <b>Photo of the day</b><br>So that site users can see it on the <b>Home</b> page</pre>
+4 |[**Allow admin user to preview the Home page**](/sports_hub_portal/desktop_application_features/home_page/user_stories/home_page_preview/README.md)|<pre>As an admin user<br>I want to be able to preview the <b>Home</b> page while configuration<br>So that I could review the page as a site user</pre>

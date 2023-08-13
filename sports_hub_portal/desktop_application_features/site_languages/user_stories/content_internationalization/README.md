@@ -1,4 +1,4 @@
-### Back to [Site languages on the portal](../../) feature
+### Back to [Site languages on the portal](../../README.md) feature
 
 # Allow admin to configure content in multiple languages
 

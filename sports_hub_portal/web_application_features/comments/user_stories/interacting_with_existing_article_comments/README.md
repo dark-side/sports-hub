@@ -1,4 +1,4 @@
-### Back to [Comments block on the portal](../../) feature
+### Back to [Comments block on the portal](../../README.md) feature
 
 # Allow users to interact with existing article comments on the portal
 

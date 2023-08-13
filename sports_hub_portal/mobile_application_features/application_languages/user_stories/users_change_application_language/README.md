@@ -1,4 +1,4 @@
-### Back to [Application languages](../../) feature
+### Back to [Application languages](../../README.md) feature
 
 # Allow users to view the application in supported languages
 

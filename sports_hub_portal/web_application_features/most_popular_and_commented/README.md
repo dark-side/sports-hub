@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # The most popular and commented articles on the portal
 
@@ -41,7 +41,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure the Most popular section**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_popular_configuration)|<pre>As an admin user<br>I want to configure the <b>Most popular</b> section</pre>
-2 |[**Allow admin user to configure the Most commented section**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_commented_configuration)|<pre>As an admin user<br>I want to configure the <b>Most commented</b> section</pre>
-3 |[**Allow site users to view the most popular articles**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_popular)|<pre>As a site user<br>I want to view the <b>Most popular</b> section<br>So that I can read articles that have the highest number of views during the period configured by admin (day, week, month, year)</pre>
-4 |[**Allow site users to view the most commented articles**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_commented)|<pre>As a site user<br>I want to view the <b>Most commented</b> section<br>So that I can read articles that have the highest number of comments during the period configured by admin (day, week, month, year)</pre>
+1 |[**Allow admin user to configure the Most popular section**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_popular_configuration/README.md/README.md)|<pre>As an admin user<br>I want to configure the <b>Most popular</b> section</pre>
+2 |[**Allow admin user to configure the Most commented section**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_commented_configuration/README.md/README.md)|<pre>As an admin user<br>I want to configure the <b>Most commented</b> section</pre>
+3 |[**Allow site users to view the most popular articles**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_popular/README.md/README.md)|<pre>As a site user<br>I want to view the <b>Most popular</b> section<br>So that I can read articles that have the highest number of views during the period configured by admin (day, week, month, year)</pre>
+4 |[**Allow site users to view the most commented articles**](/sports_hub_portal/web_application_features/most_popular_and_commented/user_stories/most_commented/README.md/README.md)|<pre>As a site user<br>I want to view the <b>Most commented</b> section<br>So that I can read articles that have the highest number of comments during the period configured by admin (day, week, month, year)</pre>

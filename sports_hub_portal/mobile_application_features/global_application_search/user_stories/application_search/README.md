@@ -1,4 +1,4 @@
-### Back to [Global application search](../../) feature
+### Back to [Global application search](../../README.md) feature
 
 # Allow users to use application search
 

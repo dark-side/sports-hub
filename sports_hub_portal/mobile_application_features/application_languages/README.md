@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Application languages
 
@@ -34,4 +34,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view the application in supported languages**](/sports_hub_portal/mobile_application_features/application_languages/user_stories/users_change_application_language)|<pre>As an application user<br>I want to be able to view the application in supported languages</pre>
+1 |[**Allow users to view the application in supported languages**](/sports_hub_portal/mobile_application_features/application_languages/user_stories/users_change_application_language/README.md)|<pre>As an application user<br>I want to be able to view the application in supported languages</pre>

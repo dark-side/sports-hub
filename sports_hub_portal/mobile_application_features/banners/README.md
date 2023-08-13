@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Banners in the application
 
@@ -40,6 +40,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view configured banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_banner)|<pre>As a user<br>I want to be able to view banners after the main page content<br>So that I can see reminders about upcoming sport events, important updates, etc.</pre>
-2 |[**Allow users to view predefined Lifestyle and Dealbook banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_pedefined_lifestyle_dealbook_banners)|<pre>As a user<br>I want to view predefined Lifestyle and Dealbook banners in the application<br>So that I can quickly view the most recent lifestyle and dealbook articles</pre>
-3 |[**Allow users to view predefined Facebook banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_pedefined_facebook_banners)|<pre>As a user<br>I want to view predefined Facebook Video and Post banners after the main page content<br>So that I can quickly view the most recent sports video or post added on Facebook</pre>
+1 |[**Allow users to view configured banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_banner/README.md)|<pre>As a user<br>I want to be able to view banners after the main page content<br>So that I can see reminders about upcoming sport events, important updates, etc.</pre>
+2 |[**Allow users to view predefined Lifestyle and Dealbook banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_pedefined_lifestyle_dealbook_banners/README.md)|<pre>As a user<br>I want to view predefined Lifestyle and Dealbook banners in the application<br>So that I can quickly view the most recent lifestyle and dealbook articles</pre>
+3 |[**Allow users to view predefined Facebook banners in the application**](/sports_hub_portal/mobile_application_features/banners/user_stories/view_pedefined_facebook_banners/README.md)|<pre>As a user<br>I want to view predefined Facebook Video and Post banners after the main page content<br>So that I can quickly view the most recent sports video or post added on Facebook</pre>

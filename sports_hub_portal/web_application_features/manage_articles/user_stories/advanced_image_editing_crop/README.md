@@ -1,4 +1,4 @@
-### Back to [Manage articles on the portal](../../) feature
+### Back to [Manage articles on the portal](../../README.md) feature
 
 # Allow admin users to have advanced editor of the article image - image crop
 

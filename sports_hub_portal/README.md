@@ -109,15 +109,15 @@ Specific goals are:
 
 #### Website:
 
-Please [click here](/sports_hub_portal/web_application_features/web_application_features_list/) to see Website features requirements and development roadmap
+Please [click here](/sports_hub_portal/web_application_features/web_application_features_list/README.md) to see Website features requirements and development roadmap
 
 #### Desktop application:
 
-Please [click here](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) to see Desktop application features requirements and development roadmap
+Please [click here](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) to see Desktop application features requirements and development roadmap
 
 #### Mobile application:
 
-Please [click here](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) to see Mobile application features requirements and development roadmap
+Please [click here](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) to see Mobile application features requirements and development roadmap
 
 ### Non-functional requirements
 
@@ -139,7 +139,7 @@ Please follow [the style guides](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YX
 
 This Architecture Vision elicits the significant architecture drivers such as business, functional, nonfunctional requirements and constraints, defines architecture, and develops a roadmap for Single Entry implementation. The document is intended as a primary technical guidance into solution implementation for the development team.
 
-Please [click here](/sports_hub_portal/architecture_vision/content/) to review the Architecture Vision.
+Please [click here](/sports_hub_portal/architecture_vision/content/README.md) to review the Architecture Vision.
 
 ## User interface
 

@@ -1,4 +1,4 @@
-### Back to [Team hub: news about favorite teams](../../) feature
+### Back to [Team hub: news about favorite teams](../../README.md) feature
 
 # Allow users to see teams news on Team hub based on their geolocation
 

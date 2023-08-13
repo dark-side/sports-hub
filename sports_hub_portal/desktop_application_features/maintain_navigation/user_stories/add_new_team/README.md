@@ -1,4 +1,4 @@
-### Back to [Manage teams on the portal](../../) feature
+### Back to [Manage teams on the portal](../../README.md) feature
 
 # Allow admin users to add a new team on the portal
 

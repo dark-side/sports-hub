@@ -1,4 +1,4 @@
-### Back to [Page layout in the application](../../) feature
+### Back to [Page layout in the application](../../README.md) feature
 
 # Page structure: general sections
 

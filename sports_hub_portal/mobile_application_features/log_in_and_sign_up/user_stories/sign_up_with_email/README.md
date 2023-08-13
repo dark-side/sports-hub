@@ -1,4 +1,4 @@
-### Back to [Log in and sign up in the application](../../) feature
+### Back to [Log in and sign up in the application](../../README.md) feature
 
 # Allow users to sign up in the application using an email
 

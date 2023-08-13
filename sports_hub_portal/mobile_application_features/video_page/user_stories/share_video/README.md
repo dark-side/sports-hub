@@ -1,4 +1,4 @@
-### Back to [Sports videos](../../) feature
+### Back to [Sports videos](../../README.md) feature
 
 # Allow users to share video from the application
 

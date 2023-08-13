@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Articles - user side on the portal
 
@@ -40,6 +40,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view an article on the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/view_an_article)|<pre>As a site user <br>I want to be able to view an article page<br>So that I can read an article content</pre>
-2 |[**Allow users to view More Articles block on the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/more_articles_block)|<pre>As a site user<br>I want to be able to see block with articles that are from the same category as the article I view</pre>
-3 |[**Allow users to view category/team page of the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/league_and_team_page_of_the_portal)|<pre>As a site user<br>I want to able be to open the category or team page<br>So that I can view articles that are related to the selected category or team</pre>
+1 |[**Allow users to view an article on the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/view_an_article/README.md)|<pre>As a site user <br>I want to be able to view an article page<br>So that I can read an article content</pre>
+2 |[**Allow users to view More Articles block on the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/more_articles_block/README.md)|<pre>As a site user<br>I want to be able to see block with articles that are from the same category as the article I view</pre>
+3 |[**Allow users to view category/team page of the portal**](/sports_hub_portal/web_application_features/articles_user_side/user_stories/league_and_team_page_of_the_portal/README.md)|<pre>As a site user<br>I want to able be to open the category or team page<br>So that I can view articles that are related to the selected category or team</pre>

@@ -1,4 +1,4 @@
-### Back to [Lifestyle and Dealbook news](../../) feature
+### Back to [Lifestyle and Dealbook news](../../README.md) feature
 
 # Allow users to visit and read Lifestyle and Dealbook news
 

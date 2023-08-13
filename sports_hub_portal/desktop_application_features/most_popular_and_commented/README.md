@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # The most popular and commented articles on the portal
 
@@ -37,5 +37,5 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure the Most popular section**](/sports_hub_portal/desktop_application_features/most_popular_and_commented/user_stories/most_popular_configuration)|<pre>As an admin user<br>I want to configure the <b>Most popular</b> section</pre>
-2 |[**Allow admin user to configure the Most commented section**](/sports_hub_portal/desktop_application_features/most_popular_and_commented/user_stories/most_commented_configuration)|<pre>As an admin user<br>I want to configure the <b>Most commented</b> section</pre>
+1 |[**Allow admin user to configure the Most popular section**](/sports_hub_portal/desktop_application_features/most_popular_and_commented/user_stories/most_popular_configuration/README.md)|<pre>As an admin user<br>I want to configure the <b>Most popular</b> section</pre>
+2 |[**Allow admin user to configure the Most commented section**](/sports_hub_portal/desktop_application_features/most_popular_and_commented/user_stories/most_commented_configuration/README.md)|<pre>As an admin user<br>I want to configure the <b>Most commented</b> section</pre>

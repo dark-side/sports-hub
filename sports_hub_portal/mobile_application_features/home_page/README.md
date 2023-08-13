@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Home page in the application
 
@@ -43,6 +43,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Display the Main articles section for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_main_articles_for_user)|<pre>As a user<br>I want to be able to see the Main articles section on the page</pre>
-2 |[**Display the Breakdown section for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_breakdown_for_user)|<pre>As a user</br>I want to be able to see the Breakdown section on the page</pre>
-3 |[**Display Photo of the day for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_photo_of_the_day_for_user)|<pre>As a user<br>I want to see <b>Photo of the day</b> on the <b>Home</b> page</pre>
+1 |[**Display the Main articles section for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_main_articles_for_user/README.md)|<pre>As a user<br>I want to be able to see the Main articles section on the page</pre>
+2 |[**Display the Breakdown section for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_breakdown_for_user/README.md)|<pre>As a user</br>I want to be able to see the Breakdown section on the page</pre>
+3 |[**Display Photo of the day for users on the Home page**](/sports_hub_portal/mobile_application_features/home_page/user_stories/display_photo_of_the_day_for_user/README.md)|<pre>As a user<br>I want to see <b>Photo of the day</b> on the <b>Home</b> page</pre>

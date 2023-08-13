@@ -1,4 +1,4 @@
-### Back to [Site footer of the portal](../../) feature
+### Back to [Site footer of the portal](../../README.md) feature
 
 # Allow users view site footer on the portal
 

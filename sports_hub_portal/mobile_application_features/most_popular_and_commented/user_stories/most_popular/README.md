@@ -1,4 +1,4 @@
-### Back to [The most popular/commented articles](../../) feature
+### Back to [The most popular/commented articles](../../README.md) feature
 
 # Allow user to view the most popular articles
 

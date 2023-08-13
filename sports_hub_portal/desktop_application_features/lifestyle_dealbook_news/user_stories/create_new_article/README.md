@@ -1,4 +1,4 @@
-### Back to [Lifestyle and Dealbook news](../../) feature
+### Back to [Lifestyle and Dealbook news](../../README.md) feature
 
 # Allow admin users to add new articles to Lifestyle and Dealbook
 

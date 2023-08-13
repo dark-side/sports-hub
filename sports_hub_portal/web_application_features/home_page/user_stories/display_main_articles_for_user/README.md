@@ -1,4 +1,4 @@
-### Back to [Home page of the portal](../../) feature
+### Back to [Home page of the portal](../../README.md) feature
 
 # Display the Main articles section for site users on the Home page
 

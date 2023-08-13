@@ -1,4 +1,4 @@
-### Back to [Home page in the application](../../) feature
+### Back to [Home page in the application](../../README.md) feature
 
 # Display the Main articles section for users on the Home page
 

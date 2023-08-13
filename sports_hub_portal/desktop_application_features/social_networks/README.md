@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Social networks on the portal
 
@@ -34,6 +34,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure social networks for sharing**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_socital_networks_to_share)|<pre>As an admin user<br>I want to configure which social networks users can use to share the Sports Hub site</pre>
-2 |[**Allow admin user to configure social networks for following**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_social_networks_to_follow)|<pre>As an admin user<br>I want to configure on which social networks users can follow Sports Hub</pre>
-3 |[**Allow admin user to configure social networks for sign up and log in**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_social_networks_to_login_signup)|<pre>As an admin user<br>I want to configure which social networks users can use to sign up and log in</pre>
+1 |[**Allow admin user to configure social networks for sharing**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_socital_networks_to_share/README.md)|<pre>As an admin user<br>I want to configure which social networks users can use to share the Sports Hub site</pre>
+2 |[**Allow admin user to configure social networks for following**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_social_networks_to_follow/README.md)|<pre>As an admin user<br>I want to configure on which social networks users can follow Sports Hub</pre>
+3 |[**Allow admin user to configure social networks for sign up and log in**](/sports_hub_portal/desktop_application_features/social_networks/user_stories/configure_social_networks_to_login_signup/README.md)|<pre>As an admin user<br>I want to configure which social networks users can use to sign up and log in</pre>

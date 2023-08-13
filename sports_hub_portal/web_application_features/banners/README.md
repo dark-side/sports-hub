@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Banners on the portal
 
@@ -40,8 +40,8 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to configure banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/configure_banners)|<pre>As an admin user<br>I want to configure a list of banners<br>So that users can see them while viewing the Sports Hub site</pre>
-2 |[**Allow admin users to configure predefined banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/configure_predefined_banners)|<pre>As an admin user<br>I want to configure predefined banners on the portal</pre>
-3 |[**Allow users to view configured banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_banner)|<pre>As a site user<br>I want to view banners in the right sidebar of the site<br>So that I can see reminders about upcoming sports events, important updates, etc.</pre>
-4 |[**Allow site users to view predefined Lifestyle and Dealbook banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_pedefined_lifestyle_dealbook_banners)|<pre>As a site user<br>I want to view predefined Lifestyle and Dealbook banners on the portal</pre>
-5 |[**Allow site users to view predefined Facebook banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_pedefined_facebook_banners)|<pre>As a site user<br>I want to view predefined Facebook banners on the portal</pre>
+1 |[**Allow admin users to configure banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/configure_banners/README.md)|<pre>As an admin user<br>I want to configure a list of banners<br>So that users can see them while viewing the Sports Hub site</pre>
+2 |[**Allow admin users to configure predefined banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/configure_predefined_banners/README.md)|<pre>As an admin user<br>I want to configure predefined banners on the portal</pre>
+3 |[**Allow users to view configured banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_banner/README.md)|<pre>As a site user<br>I want to view banners in the right sidebar of the site<br>So that I can see reminders about upcoming sports events, important updates, etc.</pre>
+4 |[**Allow site users to view predefined Lifestyle and Dealbook banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_pedefined_lifestyle_dealbook_banners/README.md)|<pre>As a site user<br>I want to view predefined Lifestyle and Dealbook banners on the portal</pre>
+5 |[**Allow site users to view predefined Facebook banners on the portal**](/sports_hub_portal/web_application_features/banners/user_stories/view_pedefined_facebook_banners/README.md)|<pre>As a site user<br>I want to view predefined Facebook banners on the portal</pre>

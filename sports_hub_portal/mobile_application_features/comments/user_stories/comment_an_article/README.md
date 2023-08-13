@@ -1,4 +1,4 @@
-### Back to [Comments block](../../) feature
+### Back to [Comments block](../../README.md) feature
 
 # Allow users to comment an article in the application
 

@@ -1,4 +1,4 @@
-### Back to [Maintain navigation on the portal](../../) feature
+### Back to [Maintain navigation on the portal](../../README.md) feature
 
 # Allow admin user to change order of the navigation menu items and move them between the categories and subcategories
 

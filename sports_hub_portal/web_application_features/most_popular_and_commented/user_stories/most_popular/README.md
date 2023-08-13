@@ -1,4 +1,4 @@
-### Back to [The most popular/commented articles on the portal](../../) feature
+### Back to [The most popular/commented articles on the portal](../../README.md) feature
 
 # Allow site user to view the most popular articles
 

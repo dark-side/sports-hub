@@ -1,4 +1,4 @@
-### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/) functional requirements
+### Back to [Website](/sports_hub_portal/web_application_features/web_application_features_list/README.md) functional requirements
 
 # Lifestyle and Dealbook news
 
@@ -55,9 +55,9 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin users to add new articles to Lifestyle and Dealbook**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/create_new_article)|<pre>As an admin user<br>I want to be able to add new articles to <b>Lifestyle</b> and <b>Dealbook</b></pre>
-2 |[**Allow admin users to view the list of existing articles in Lifestyle and Dealbook**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/admin_articles_list)|<pre>As an admin user<br>I want to view the list of existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
-3 |[**Allow admin users to edit Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/edit_article)|<pre>As an admin user<br>I want to edit existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
-4 |[**Allow admin users to publish/unpublish Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/publish_unpublish_article)|<pre>As an admin user<br>I want to publish/unpublish existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
-5 |[**Allow admin users to delete Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/delete_article)|<pre>As an admin user<br>I want to delete existing articles in <b>Lifestyle</b> and Dealbook</pre>
-6 |[**Allow site users to visit and read Lifestyle and Dealbook news**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/view_articles)|<pre>As a site user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>
+1 |[**Allow admin users to add new articles to Lifestyle and Dealbook**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/create_new_article/README.md)|<pre>As an admin user<br>I want to be able to add new articles to <b>Lifestyle</b> and <b>Dealbook</b></pre>
+2 |[**Allow admin users to view the list of existing articles in Lifestyle and Dealbook**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/admin_articles_list/README.md)|<pre>As an admin user<br>I want to view the list of existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
+3 |[**Allow admin users to edit Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/edit_article/README.md)|<pre>As an admin user<br>I want to edit existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
+4 |[**Allow admin users to publish/unpublish Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/publish_unpublish_article/README.md)|<pre>As an admin user<br>I want to publish/unpublish existing articles in <b>Lifestyle</b> and <b>Dealbook</b></pre>
+5 |[**Allow admin users to delete Lifestyle and Dealbook's articles**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/delete_article/README.md)|<pre>As an admin user<br>I want to delete existing articles in <b>Lifestyle</b> and Dealbook</pre>
+6 |[**Allow site users to visit and read Lifestyle and Dealbook news**](/sports_hub_portal/web_application_features/lifestyle_dealbook_news/user_stories/view_articles/README.md)|<pre>As a site user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>

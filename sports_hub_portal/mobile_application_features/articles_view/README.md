@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # View articles in the application
 
@@ -41,6 +41,6 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to view an article in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/view_an_article)|<pre>As a user<br>I want to be able to view the article page<br>So that I can read an article content</pre>
-2 |[**Allow users to view More Articles block in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/more_articles_block)|<pre>As a user<br>I want to be able to see a section with more articles from the same category as the article I view</pre>
-3 |[**Allow users to view category/team page in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/league_and_team_page)|<pre>As a user<br>I want to be able to open the category or team page<br>So that I can view articles that are related to selected category or team</pre>
+1 |[**Allow users to view an article in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/view_an_article/README.md)|<pre>As a user<br>I want to be able to view the article page<br>So that I can read an article content</pre>
+2 |[**Allow users to view More Articles block in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/more_articles_block/README.md)|<pre>As a user<br>I want to be able to see a section with more articles from the same category as the article I view</pre>
+3 |[**Allow users to view category/team page in the application**](/sports_hub_portal/mobile_application_features/articles_view/user_stories/league_and_team_page/README.md)|<pre>As a user<br>I want to be able to open the category or team page<br>So that I can view articles that are related to selected category or team</pre>

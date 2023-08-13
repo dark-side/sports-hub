@@ -1,4 +1,4 @@
-### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/) functional requirements
+### Back to [Mobile application](/sports_hub_portal/mobile_application_features/mobile_application_features_list/README.md) functional requirements
 
 # Lifestyle and Dealbook news
 
@@ -36,4 +36,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow users to visit and read Lifestyle and Dealbook news**](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/user_stories/view_articles)|<pre>As a user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>
+1 |[**Allow users to visit and read Lifestyle and Dealbook news**](/sports_hub_portal/mobile_application_features/lifestyle_dealbook_news/user_stories/view_articles/README.md)|<pre>As a user<br>I want to be able to open the <b>Lifestyle</b> and <b>Dealbook</b> pages to read news</pre>

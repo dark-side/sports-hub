@@ -1,4 +1,4 @@
-### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/) functional requirements
+### Back to [Desktop application](/sports_hub_portal/desktop_application_features/desktop_application_features_list/README.md) functional requirements
 
 # Site footer of the portal
 
@@ -61,4 +61,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 No           |      Name     |   Details
 ------------ | ------------- | -------------
-1 |[**Allow admin user to configure site footer**](/sports_hub_portal/desktop_application_features/site_footer/user_stories/configure_site_footer)|<pre>As an admin user<br>I want to be able to configure site footer sections, links, and content</pre>
+1 |[**Allow admin user to configure site footer**](/sports_hub_portal/desktop_application_features/site_footer/user_stories/configure_site_footer/README.md)|<pre>As an admin user<br>I want to be able to configure site footer sections, links, and content</pre>

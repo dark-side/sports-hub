@@ -1,4 +1,4 @@
-### Back to [Team hub: news about favorite teams](../../) feature
+### Back to [Team hub: news about favorite teams](../../README.md) feature
 
 # Allow users to see the Team hub page
 

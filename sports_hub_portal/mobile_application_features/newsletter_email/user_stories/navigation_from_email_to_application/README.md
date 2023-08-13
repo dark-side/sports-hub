@@ -1,4 +1,4 @@
-### Back to [Newsletter subscription](../../) feature
+### Back to [Newsletter subscription](../../README.md) feature
 
 # Allow users to navigate from the email to the application
 

@@ -1,4 +1,4 @@
-### Back to [Log in and sign up to the portal](../../) feature
+### Back to [Log in and sign up to the portal](../../README.md) feature
 
 # Allow users to sign up on the portal using an email
 
