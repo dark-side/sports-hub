@@ -14,9 +14,10 @@
   - [3.3 Quality Attribute Scenarios](#33-quality-attribute-scenarios)
 - [4 Solution Architecture](#4-solution-architecture)
   - [4.1 Big Picture](#41-big-picture)
-    - [4.1.1 Solution Context](#411-solution-context)
-    - [4.1.2 Solution Decomposition](#412-solution-decomposition)
-  - [4.2 Development Technology Stack](#42-development-technology-stack)
+  - [4.2 Solution Decomposition – Basic Complexity](#42-solution-decomposition–-basic-complexity)
+  - [4.3 Solution Decomposition – Medium Complexity](#43-solution-decomposition–-medium-complexity)
+  - [4.4 Solution Decomposition – Hard Complexity](#44-solution-decomposition–-hard-complexity)
+  - [4.5 Development Technology Stack](#45-development-technology-stack)
 - [5 Operation Plan](#5-operation-plan)
 
 # 1 Introduction
