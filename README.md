@@ -44,6 +44,7 @@ Through *Sports Hub*, you have the chance to devote additional time to learning 
   - [Non-Functional requirements](#non-functional-requirements)
   - [Layout requirements](#layout-requirements)
 - [Architecture vision](#architecture-vision)
+- [Database Requirements](#database-requirements)
 - [User interface](#user-interface)
 - [Audience](#audience)
 - [Future work](#future-work)
@@ -172,6 +173,12 @@ Please follow [the style guides](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YX
 This Architecture Vision elicits the significant architecture drivers such as business, functional, nonfunctional requirements and constraints, defines architecture, and develops a roadmap for Single Entry implementation. The document is intended as a primary technical guidance into solution implementation for the development team.
 
 Please [click here](/architecture_vision/content/README.md) to review the Architecture Vision.
+
+## Database Requirements
+
+The purpose of this document is to define the requirements for the database that will be used to support a sports web portal. 
+
+Please [click here](/db_requirements/content/README.md) to review the Database Requirements.
 
 ## User interface
 
