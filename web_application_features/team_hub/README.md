@@ -37,4 +37,4 @@ No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to manage favorite teams in the personal cabinet**](/web_application_features/team_hub/user_stories/manage_favorite_teams/README.md)|<pre>As a logged-in user<br>I want to select my favorite teams</pre>
 2 |[**Allow users to see the Team hub page**](/web_application_features/team_hub/user_stories/team_hub_page/README.md)|<pre>As a logged-in user<br>I want to go to the Team hub page</br>So that I can read news about my favorite teams</pre>
-3 |[**Allow users to see teams news on Team hub based on their geolocation**](/web_application_features/team_hub/user_stories/team_hub_page/README.md)|<pre>As a logged-in user<br>I want to read news about teams from my geolocation on the Team hub page when I haven’t configured favorite teams</pre>
+3 |[**Allow users to see teams news on Team hub based on their geolocation**](/web_application_features/team_hub/user_stories/team_hub_list_teams_by_geolocation/README.md)|<pre>As a logged-in user<br>I want to read news about teams from my geolocation on the Team hub page when I haven’t configured favorite teams</pre>

@@ -31,9 +31,9 @@ The site admin should configure which social networks should be integrated into 
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/lVmiGA96ZPah8B8cADNZrb/Social-Networks?node-id=7214%3A523&viewport=278%2C5%2C0.10142996907234192&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/proto/iT9cqx0bbNHRjObukQqZhc/Social-networks-on-the-portal-(Copy)?page-id=0%3A36&type=design&node-id=7214-523&viewport=434%2C143%2C0.05&t=vQbtz680ZBlXxyrr-1&scaling=min-zoom&mode=design) to see a clickable prototype.
 
-Please click [here](https://www.figma.com/file/lVmiGA96ZPah8B8cADNZrb/Social-Networks?node-id=0%3A36) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/iT9cqx0bbNHRjObukQqZhc/Social-networks-on-the-portal-(Copy)?type=design&node-id=0%3A36&mode=design&t=Je8yP7mKcoI9AksW-1) to see mockups that were included in the prototype and additional style guides.
 
 ## Style guides
 
