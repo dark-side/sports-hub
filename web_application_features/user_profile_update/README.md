@@ -26,9 +26,9 @@ Registered users should have a personal cabinet where they can view and update p
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1075&viewport=-111%2C560%2C0.05949114263057709&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/proto/bcp6rKNxQoYrYArsPFJS40/Personal-Cabinet?page-id=0%3A1&type=design&node-id=0-2321&viewport=101%2C214%2C0.05&t=Bw3tliNPnN7AbUp5-1&scaling=min-zoom&mode=design) to see a clickable prototype.
 
-Please click [here](https://www.figma.com/file/8nNZGVmkZ2ukXV7NhmawgO/User-Management?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/file/bcp6rKNxQoYrYArsPFJS40/Personal-Cabinet?type=design&node-id=0%3A1&mode=design&t=gZnQnP7afz9Md0SG-1) to see mockups that were included in the prototype and additional style guides.
 
 ## Style guides
 
