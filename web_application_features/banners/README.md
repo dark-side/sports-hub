@@ -28,7 +28,7 @@ Site users should be able to see banners on the right sidebar to see reminders a
 
 ## Prototype of the feature
 
-Please click [here](https://www.figma.com/proto/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A2335&viewport=-3340%2C642%2C0.12847007811069489&scaling=min-zoom) to see a clickable prototype.
+Please click [here](https://www.figma.com/proto/kiGhI4KKR5n5VufZtTxXR5/Banners?page-id=0%3A1073&type=design&node-id=7413-2&viewport=-1664%2C638%2C0.08&t=KBEgTWUVH5L1oXWq-1&scaling=min-zoom&starting-point-node-id=7413%3A0&mode=design) to see a clickable prototype.
 
 Please click [here](https://www.figma.com/file/RbCgwAjOZqzLJhyEpxG5Ez/Banners?node-id=0%3A1073) to see mockups that were included in the prototype and additional style guides.
 
