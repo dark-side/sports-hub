@@ -57,15 +57,15 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **1. Users see Change Password form:**
 
-![Users see Change Password form](/mobile_application_features/log_in_and_sign_up/images/application_change_password_form.png)
+![Users see Change Password form](/mobile_application_features/user_profile_update/images/application_change_password_form.png)
 
 **2. Users receive validation messages on Change Password form:**
 
-![Users receive validation messages on Change Password form](/mobile_application_features/log_in_and_sign_up/images/application_change_password_validation_messages.png)
+![Users receive validation messages on Change Password form](/mobile_application_features/user_profile_update/images/application_change_password_validation_messages.png)
 
 **3. Users receive a successful update message:**
 
-![Users receive a successful update message](/mobile_application_features/log_in_and_sign_up/images/application_successful_password_update_message.png)
+![Users receive a successful update message](/mobile_application_features/user_profile_update/images/application_successful_password_update_message.png)
 
 </details>
 
