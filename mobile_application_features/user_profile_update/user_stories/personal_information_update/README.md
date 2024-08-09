@@ -46,7 +46,7 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 
 **2. Users receive a successful update message:**
 
-![Users receive a successful update message](/mobile_application_features/log_in_and_sign_up/images/application_successful_personal_info_update_message.png)
+![Users receive a successful update message](/mobile_application_features/user_profile_update/images/application_successful_personal_info_update_message.png)
 
 </details>
 
