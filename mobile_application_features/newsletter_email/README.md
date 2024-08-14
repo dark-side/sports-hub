@@ -34,4 +34,4 @@ Follow [a link](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YXpFE/Style-guides?
 No           |      Name     |   Details
 ------------ | ------------- | -------------
 1 |[**Allow users to subscribe to newsletter**](/mobile_application_features/newsletter_email/user_stories/newsletter_subscription/README.md)|<pre>As a user<br>I want to subscribe to the Sports Hub<br>So that I can receive an email with the latest sports news</pre>
-2 |[**Allow users to navigate from the email to the application**](/mobile_application_features/newsletter_email/user_stories/newsletter_subscription/README.md)|<pre>As a user<br>I want to receive a newsletter email and navigate to the appropriate page<br>So that I can read the latest sports news in the application</pre>
+2 |[**Allow users to navigate from the email to the application**](/mobile_application_features/newsletter_email/user_stories/navigation_from_email_to_application/README.md)|<pre>As a user<br>I want to receive a newsletter email and navigate to the appropriate page<br>So that I can read the latest sports news in the application</pre>
