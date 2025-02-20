@@ -1,4 +1,4 @@
-### Back to [Sports Hub portal product map](../../README.md#sports-hub-portal)
+### Back to [Sports Hub portal product map](../../README.md#sports-hub-platform-details)
 
 - [1 Introduction](#1-introduction)
   - [1.1 Purpose](#11-purpose)
