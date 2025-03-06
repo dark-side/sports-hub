@@ -26,7 +26,7 @@ There should be separate menu items in the application that redirect users to <b
 
 Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sports-Hub-General-Prototype?page-id=0%3A5852&node-id=0%3A7481&viewport=-1637%2C-969%2C0.37520089745521545&scaling=scale-down) to see a clickable prototype.
 
-Please click [here](https://www.figma.com/file/egXgh8BYD7Xaa0JeMNhv9R/Manage-advertisements?node-id=0%3A1075) to see mockups that were included in the prototype and additional style guides.
+Please click [here](https://www.figma.com/design/JVDTph8VY9Ye7kz8BTDxhJ/%231---Sports-Hub-General-Prototype?node-id=0-5852&t=QqYNpKrPFqpmBfIT-1) to see mockups that were included in the prototype and additional style guides.
 
 ## Style guides
 
