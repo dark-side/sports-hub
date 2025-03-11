@@ -39,7 +39,9 @@ Then the toggle changes to <b>Show on the main page</b>
   And the whole <b>Most popular</b> section is shown for users
   And <b>From the period</b> is visible in this section
 
-<i>Note: The most popular articles are the most visited ones during a selected period of time in the whole news scope for the active page. This section is configured for the whole site and is context-sensitive.</i>
+<i>Note: The most popular articles are the most visited ones during a selected period of time
+      in the whole news scope for the active page.
+      This section is configured for the whole site and is context-sensitive.</i>
 </pre>
 
 ## Style guides
