@@ -34,10 +34,9 @@ When the partner is configured and activated, the raw articles should be saved t
 ## Prototype of the feature
 
 Please click to see the clickable prototypes:
-  - [Windows/Linux](https://www.figma.com/proto/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?page-id=7915%3A851&node-id=7915%3A2024&viewport=266%2C48%2C0.11&scaling=min-zoom&starting-point-node-id=7915%3A2024)
-  - [MacOS](https://www.figma.com/proto/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?page-id=0%3A1073&node-id=0%3A2221&viewport=266%2C48%2C0.03&scaling=scale-down&starting-point-node-id=0%3A2221)
+  - [MacOS](https://www.figma.com/proto/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?page-id=7917%3A851&node-id=7934-2313&p=f&viewport=0%2C1117%2C0.09&t=RgfWcfUQQggtbpBV-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7934%3A2313&show-proto-sidebar=1)
 
-Please click [here](https://www.figma.com/file/1qLqtsJe4qveOaGHay8syy/Manage-News-Partners?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
+Please click [here](https://www.figma.com/design/U7MdkpMsV1yimaWduSnzZP/Manage-News-Partners?node-id=7917-851&t=tE9MiVFyhd9XsSjq-1) to see mockups that were included in the prototypes and additional style guides.
 
 ## Style guides
 

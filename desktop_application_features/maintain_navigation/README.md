@@ -49,14 +49,14 @@ The user with admin permissions should be able to manage teams, namely:
 Please click to see the clickable prototypes:
 
 _Team management:_
-  - [Windows/Linux](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=8379%3A5174&node-id=8379%3A6069&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=8379%3A6069)
-  - [MacOS](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=0%3A1073&node-id=0%3A8215&viewport=266%2C48%2C0.02&scaling=scale-down&starting-point-node-id=0%3A2221)
+  - [Windows/Linux](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=8379%3A5174&node-id=8379-6405&viewport=-1980%2C86%2C0.1&t=yVXvXCYm18oH7BdS-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=8379%3A6069&show-proto-sidebar=1)
+  - [MacOS](https://www.figma.com/proto/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?page-id=0%3A1073&node-id=0-8215&viewport=-5579%2C694%2C0.13&t=UysAsQntYUWyELtJ-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=0%3A2221)
 
 Please click [here](https://www.figma.com/file/yx1QZQ0875ov0mdIE9gPOc/Manage-teams-on-the-portal?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 
 _Navigation management:_
-  - [Windows/Linux](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=8523%3A4559&node-id=8523%3A6568&viewport=266%2C48%2C0.05&scaling=min-zoom&starting-point-node-id=8523%3A7029)
-  - [MacOS](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=0%3A1073&node-id=7230%3A316&viewport=266%2C48%2C0.04&scaling=min-zoom&starting-point-node-id=0%3A2035)
+  - [Windows/Linux](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=8523%3A4559&node-id=8523-5712&viewport=701%2C484%2C0.07&t=n1hfmJS5MhGmeZLh-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=8523%3A7029&show-proto-sidebar=1)
+  - [MacOS](https://www.figma.com/proto/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?page-id=0%3A1073&node-id=0-5335&viewport=-1309%2C107%2C0.1&t=m4VlFATEn8HiqwAa-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A2035)
 
 Please click [here](https://www.figma.com/file/ztWbHG0AZNkitxLplEB6dv/Maintain-navigation-on-the-portal%5C?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 

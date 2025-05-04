@@ -22,8 +22,8 @@ Admin user data should be seeded to the database and the admin user should succe
 ## Prototype of the feature
 
 Please click to see the clickable prototypes:
-  - [Windows/Linux](https://www.figma.com/proto/QCIqFV0yxhumAMtf5HWvGo/Log-in_admin?page-id=14%3A968&node-id=14%3A1097&viewport=266%2C48%2C0.14&scaling=min-zoom)
-  - [MacOS](https://www.figma.com/proto/QCIqFV0yxhumAMtf5HWvGo/Log-in_admin?page-id=0%3A1&node-id=5%3A890&viewport=266%2C48%2C0.14&scaling=min-zoom)
+  - [Windows/Linux](https://www.figma.com/proto/QCIqFV0yxhumAMtf5HWvGo/Log-in_admin?page-id=14%3A968&node-id=14-969&viewport=1459%2C603%2C0.34&t=L58eQbws0KnhW4hI-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=14%3A969)
+  - [MacOS](https://www.figma.com/proto/QCIqFV0yxhumAMtf5HWvGo/Log-in_admin?page-id=0%3A1&node-id=3-512&viewport=890%2C3047%2C0.45&t=1xz2yosmVdQ5xYcH-1&scaling=min-zoom&content-scaling=fixed)
 
 Please click [here](https://www.figma.com/file/QCIqFV0yxhumAMtf5HWvGo/Log-in_admin?node-id=0%3A1) to see mockups that were included in the prototypes and additional style guides.
 

@@ -27,8 +27,8 @@ When there is more than one ad that should be shown in the category, ads will be
 ## Prototype of the feature
 
 Please click to see the clickable prototypes:
-  - [Windows/Linux](https://www.figma.com/proto/vmcb5e0R1a220Fb7LdvNrS/Manage-advertisements?page-id=0%3A1073&node-id=0%3A2335&viewport=266%2C48%2C0.03&scaling=min-zoom&starting-point-node-id=0%3A2335)
-  - [MacOS](https://www.figma.com/proto/vmcb5e0R1a220Fb7LdvNrS/Manage-advertisements?page-id=7603%3A1165&node-id=7603%3A1187&viewport=266%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=7603%3A1187)
+  - [Windows/Linux](https://www.figma.com/proto/vmcb5e0R1a220Fb7LdvNrS/Manage-advertisements?page-id=0%3A1073&node-id=6422-284&viewport=-4754%2C1012%2C0.17&t=a7DaUckjk0Pdxyla-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=0%3A2335)
+  - [MacOS](https://www.figma.com/proto/vmcb5e0R1a220Fb7LdvNrS/Manage-advertisements?page-id=7603%3A1165&node-id=7603-2249&viewport=-6029%2C991%2C0.48&t=UYZeGGgbh55J24xQ-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=7603%3A1187)
 
 Please click [here](https://www.figma.com/file/vmcb5e0R1a220Fb7LdvNrS/Manage-advertisements?node-id=7603%3A1165) to see mockups that were included in the prototypes and additional style guides.
 
