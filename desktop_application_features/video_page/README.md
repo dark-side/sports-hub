@@ -29,7 +29,7 @@ Admin user should be able to manage videos:
   - Admin user should be able to turn on/off sharing videos
   - Admin user should be able to unpublish/publish videos
   - Admin user should be able to turn on/off comments
-  - The <b>Video</b> page should contain: recently added videos, scrollable section with all videos, <b>Most popular</b>, and <b>Most commented</b> video sections
+  - The <b>Video</b> page should contain: recently added videos, scrollable section with all videos
 
 ## Prototype of the feature
 

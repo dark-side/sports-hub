@@ -32,8 +32,8 @@ Admin user should be able to manage articles for <b>Lifestyle</b> and <b>Dealboo
 ## Prototype of the feature
 
 Please click to see the clickable prototypes:
-  - [Windows/Linux](https://www.figma.com/proto/gZBCqPcG3DbVNWLFnvJPq9/Manage-Articles?page-id=8843%3A2192&node-id=8843%3A5831&viewport=266%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=8843%3A5831)
-  - [MacOS](https://www.figma.com/proto/gZBCqPcG3DbVNWLFnvJPq9/Manage-Articles?page-id=0%3A1073&node-id=0%3A1104&viewport=266%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=0%3A1104)
+  - [Windows/Linux](https://www.figma.com/proto/gZBCqPcG3DbVNWLFnvJPq9/Manage-Articles?page-id=8843%3A2192&node-id=8843-6133&viewport=266%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=8843%3A5831)
+  - [MacOS](https://www.figma.com/proto/gZBCqPcG3DbVNWLFnvJPq9/Manage-Articles?page-id=0%3A1073&node-id=6740-270&viewport=266%2C48%2C0.07&scaling=min-zoom&starting-point-node-id=0%3A1104)
 
 Please click [here](https://www.figma.com/file/gZBCqPcG3DbVNWLFnvJPq9/Manage-Articles?node-id=0%3A1073) to see mockups that were included in the prototypes and additional style guides.
 

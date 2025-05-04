@@ -21,9 +21,10 @@
 Given I am logged in as an admin user
 
 When I am on the <b>Footer</b> configuration page
-Then I see two tabs:
+Then I see three tabs:
   - Company info
   - Contributors
+  - Newsletter
   And I see the <b>Company info</b> tab is active by default
   And I see the active tab name is highlighted
 
