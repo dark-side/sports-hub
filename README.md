@@ -1,10 +1,20 @@
-## Sports Hub - Programming and Development Tasks Assistant 
+## Hands-on learning with real-world tasks with Sports Hub
 
-To become proficient in professional programming, it's crucial to engage with technical tasks linked to a product's development. This product should serve a distinct business goal and meet user requirements. Programming is just one aspect of the broader field known as software development.
+Your professional development journey with the Sports Hub space can help you to carve out and dedicate more time to learning and practicing software programming, data development, testing, test automation, and software configuration, freeing yourself from tasks like product ideation, platform solution design documentation, and feature requirements documentation.
 
-Software development involves various steps such as conceptualization, specification, design, programming, documentation, testing, and resolving errors. This encompasses the creation and maintenance of applications and software components. Initially, as you embark on your programming journey, there might be limitations on dedicating ample time to curate an effective set of technical tasks. These tasks are essential for honing programming skills by working on intricate software applications. During the early stages of programming education, allocating time to formulate and define a robust idea for your practice project can be exceptionally challenging.
+To become proficient in professional software development, it's crucial to engage associates in accomplishing practical technical tasks focused on reaching a product's development goals and requirements, which are part of real-world projects professionals do regularly.
 
-Therefore, we created the sample product *Sports Hub* portal which includes:
+Software development involves various steps such as conceptualization, specification, design, programming, testing, documentation, release, and maintenance. This covers the creation and maintenance of applications and software components.
+
+During professional growth on real-world projects or preparation to work on real-world projects, there is a lack of practical tasks on which associates can grow. This leads to the need to define a learning project with product requirements to practice specific technical aspects of the role that professionals do according to functional and non-functional requirements based on clearly described product features, with the use cases, mock-ups, demo flows, test cases, and architecture diagrams.
+
+The development process of creating such types of requirements and documentation requires a large amount of time. Usually, such activities take a significant part of the time dedicated to the skill-ups of software engineers, data engineers, infrastructure engineers, or quality engineers. Sometimes the creation of such documents may take 40%-60% of the time you dedicate to learning.
+
+We believe that during learning and professional development, activities will be extremely useful to have pre-defined requirements suitable for practicing task accomplishment. In such cases, the learning process of 80%-90% will be focused on learning activities and practical work activities that the professionals do according to their role on project assignments. It is useful when you are involved in such events as rump-up, skill-up, simulation training, executive coaching, mentorship programs, workshops, boot camps, micro learnings, etc.
+
+This Sports Hub space is aimed at describing a product with distinct business goals and requirements to meet user and customer expectations for the development of a custom platform that covers front-end, mobile, desktop, back-end, API, and data domains for representing the sports news and events related to different types of sports. It allows you to use all the documentation to cover a huge variety of product features' requirements that can be used as development tasks during your practice over your learning journey.
+
+The Sports Hub space documentation includes:
 
 - Product details overview
 - Product functional/non-functional requirements
@@ -15,7 +25,7 @@ Therefore, we created the sample product *Sports Hub* portal which includes:
 - API specification documentation
 - Infrastructure and cloud design
 - Deployment details for cloud infrastructure
-- Data design including flows and pipelines
+- Data design, including flows and pipelines
 - Requirements for web, mobile, and desktop applications
 - Product roadmap with estimation templates
 - Technical task examples for Web, Mobile, and Desktop
@@ -23,20 +33,21 @@ Therefore, we created the sample product *Sports Hub* portal which includes:
 - Effort estimation templates for Web, Mobile, and Desktop
 - Effort estimation templates for Data and Infrastructure
 
-The information provided in the documentation is sufficient to undertake various technical tasks, allowing you to enhance your skills across development processes within a chosen technological stack or domain. This enables you to dedicate more time to actual programming as opposed to preparing task specifications.
+For sure, when you start learning and a professional development journey, it might be difficult to define a point from which you can start working with a bunch of those documents. Therefore, we create GitHub pages and video guides from which you can start your work on familiarization with the Sports Hub portal requirements for your growth.
 
-Through *Sports Hub*, you have the chance to devote additional time to learning and practicing programming, rather than being occupied with ideation, documentation, and architectural design aspects of a product.
+The information provided in the documentation is sufficient to undertake various technical tasks, allowing you to enhance your skills across development processes within a chosen role, technological stack, or domain. This enables you to dedicate more time to actual programming than to preparing task specifications.
 
- Please put a star <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138927161-8ca50ae4-11cb-4091-bd3d-c50845d07e78.png"> if you like an idea or find this space useful <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138928380-2d5fe11a-662a-4132-89b7-bfbacdb0cf0c.png">
+We hope that the space will be useful for software engineers (front-end, back-end, full-stack, API, mobile, and desktop directions), data engineers (databases and data visualization directions), infrastructure engineers (DevOps and Clouds directions), and quality engineers (quality control and test automation directions).
 
+If you find it useful, please encourage us with your stars <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138927161-8ca50ae4-11cb-4091-bd3d-c50845d07e78.png">, forks, PRs with new suggestions, and comments with propositions. It a valuable and important for us as contributors to this and related spaces. <img width="55" alt="Screenshot 2021-10-26 at 20 07 09" src="https://user-images.githubusercontent.com/6854044/138928380-2d5fe11a-662a-4132-89b7-bfbacdb0cf0c.png">
 
-# Sports Hub portal
+# Sports Hub - Platform details
 
-- [Problem](#problem)
-- [Solution](#solution)
+- [Problem definition](#problem-definition)
+- [Solution details](#solution-details)
 - [Goals and objectives](#goals-and-objectives)
 - [User personas](#user-personas)
-- [Requirements](#requirements)
+- [User requirements](#user-requirements)
   - [Functional requirements](#functional-requirements)
     - [Website](#website)
     - [Desktop application](#desktop-application)
@@ -45,26 +56,26 @@ Through *Sports Hub*, you have the chance to devote additional time to learning 
   - [Layout requirements](#layout-requirements)
 - [Architecture vision](#architecture-vision)
 - [Database Requirements](#database-requirements)
-- [User interface](#user-interface)
+- [User interface and experience](#user-interface-and-experience)
 - [Audience](#audience)
 - [Future work](#future-work)
 
-## Problem
+## Problem definition
 
-These days in the world filled with different kinds of news presented on various websites it’s rather hard and time consuming to find the information we need. When it comes to sports, fans spend a fair amount of time browsing the web in order to find hot news relevant to their best-loved kind of sports or their favorite league or team.
+These days, in a world filled with different kinds of news presented on various websites, it’s rather hard and time-consuming to find the information we need. When it comes to sports, fans spend a fair amount of time browsing the web in order to find hot news relevant to their best-loved kind of sports or their favorite league or team.
 
-## Solution
+## Solution details
 
-Creating a sports news site and mobile application focused exclusively on the sports activities will allow users to effectively manage the news they want to see thus helping fans and people interested in sports to address the issue of information overdose on the web and save time when looking for the news consistent with their interests.
+Creating a sports news site and mobile application focused exclusively on sports activities will allow users to effectively manage the news they want to see, thus helping fans and people interested in sports to address the issue of information overload on the web and save time when looking for the news consistent with their interests.
 
 ## Goals and objectives
 
 Specific goals are:
-1. To create a web-application allowing users:
+1. To create a web application allowing users:
   - to read news related to different kinds of sports
   - to subscribe to the sports news of their choice
   - to receive the newsletters via email
-  - to manage the kind of news they want to see (e.g. news related to the specific kind of sports,league or team)
+  - to manage the kind of news they want to see (e.g., news related to the specific kind of sports, league, or team)
 
 2. To create the Content Management System (CMS) allowing users with proper permission to define the structure and content of the web-application
 
@@ -136,7 +147,7 @@ Specific goals are:
       - Comment on an article
       - Actions available for an unauthorized user
 
-## Requirements
+## User requirements
 
 ### Functional requirements
 
@@ -170,7 +181,7 @@ Please follow [the style guides](https://www.figma.com/proto/0zkkf5WC77OSpvyD6YX
 
 ## Architecture vision
 
-This Architecture Vision elicits the significant architecture drivers such as business, functional, nonfunctional requirements and constraints, defines architecture, and develops a roadmap for Single Entry implementation. The document is intended as a primary technical guidance into solution implementation for the development team.
+This Architecture Vision elicits the significant architecture drivers such as business, functional, nonfunctional requirements and constraints, defines architecture, and develops a roadmap for Single Entry implementation. The document is intended as a primary technical guidance for solution implementation for the development team.
 
 Please [click here](/architecture_vision/content/README.md) to review the Architecture Vision.
 
@@ -180,7 +191,7 @@ The purpose of this document is to define the requirements for the database that
 
 Please [click here](/db_requirements/content/README.md) to review the Database Requirements.
 
-## User interface
+## User interface and experience
 
 Please click [here](https://www.figma.com/proto/JVDTph8VY9Ye7kz8BTDxhJ/1-Sport-News-General-Prototype?node-id=0%3A2&viewport=592%2C442%2C1&scaling=min-zoom) to see a general clickable prototype.
 
