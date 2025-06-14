@@ -23,6 +23,10 @@ Please [click here](https://docs.google.com/presentation/d/1a2WLbLiwcDXZJoMR6pjr
 
 Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see detailed project roadmap (Desktop Roadmap tab)
 
+## Estimations
+
+You can find estimations for all the features here:
+- [desktop development estimations](/desktop_application_features/desktop_application_features_list/desktop_estimations.xlsx)
 
 ## Functional requirements for Desktop application:
 

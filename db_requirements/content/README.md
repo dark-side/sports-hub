@@ -3,6 +3,7 @@
 - [1 Introduction](#1-introduction)
   - [1.1 Purpose](#11-purpose)
   - [1.2 Scope](#12-scope)
+  - [1.3 Estimations](#12-estimations)
 - [2 Database Design and Data Modeling](#2-database-design-and-data-modeling)
 - [3 Database Implementation](#3-database-implementation)
 - [4 Data Integration](#4-data-integration)
@@ -17,6 +18,11 @@ The purpose of this document is to define the requirements for the database, whi
 ## 1.2 Scope 
 
 The database will be responsible for storing and managing data related to sports, including articles, videos, surveys, advertisements, etc. 
+
+## 1.3 Estimations
+
+You can find estimations for all the tasks here:
+- [database development estimations](/db_requirements/content/database_estimations.xlsx)
 
 # 2 Database Design and Data Modeling
 
