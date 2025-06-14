@@ -23,6 +23,11 @@ Please [click here](https://docs.google.com/presentation/d/1a2WLbLiwcDXZJoMR6pjr
 
 Please [click here](https://docs.google.com/spreadsheets/d/1FGr5xKmmvYVBvGZDizURiUfLX6oDd3LUTettR0hlZ_k/edit?usp=sharing) to see detailed project roadmap (Web Roadmap tab)
 
+## Estimations
+
+You can find estimations for all the features here:
+- [front-end development estimations](/web_application_features/web_application_features_list/front_end_estimations.xlsx)
+- [back-end development estimations](/web_application_features/web_application_features_list/back_end_estimations.xlsx)
 
 ## Functional requirements for Website:
 
